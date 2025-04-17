@@ -2,24 +2,26 @@
 
 A collection of custom libraries for KiCad 9+, including schematic blocks, footprint libraries, and matching 3D models.
 
-### Design blocks
-Reusable schematic blocks located in [`design_blocks/power.kicad_blocks/`](design_blocks/power.kicad_blocks/):
+## Design blocks
+Custom reusable schematic blocks grouped by function, located in [`design_blocks/`](design_blocks):
+
+### Power supply
 - **5V → 3.3V** using LM1117 with filtering
 - **AC → 5V** using HLK-5M05 with fuse and varistor
 
-### Footprints
+## Footprints
 Custom component footprints grouped into `.pretty` folders under [`footprints/`](footprints):
 
-#### Capacitors
+### Capacitors
 - Radial electrolytic capacitor — 5mm diameter, 1.5mm pitch (`CP_Radial_D5.0mm_P1.50mm.kicad_mod`)
 
-#### Fuse holders
+### Fuse holders
 - 5x20mm fuse holder — PTF76, 15mm lead spacing (`Fuse_PTF76_5x20mm_RM15mm.kicad_mod`)
 
-#### Relays
+### Relays
 - Relpol RM51 — SPDT, 10A mechanical relay (`Relay_SPDT_Relpol-RM51.kicad_mod`, with matching 3D model)
 
-### 3D models
+## 3D models
 Located in [`3dmodels/`](3dmodels):
 - STEP models for fuse holder and relay footprints
 
@@ -29,8 +31,14 @@ Located in [`3dmodels/`](3dmodels):
    ```bash
    git clone git@github.com:sivakov512/kicadx-libs.git
    ```
-2. In KiCad, go to **Preferences** → **Manage Footprint Libraries** or **Manage Design Block Libraries**
-3. Add the relevant subdirectories from the cloned repo to your global or project library list
+
+2. In KiCad, open **Preferences → Configure Paths** and add a new environment variable:
+   - **Name:** `KICADX_LIBS`
+   - **Path:** absolute path to the cloned repository
+
+3. Add the needed libraries through **Preferences → Manage Footprint Libraries** or **Manage Design Block Libraries**, using paths like:
+   - `${KICADX_LIBS}/footprints/KiCadX_FuseHolders_THT.pretty`
+   - `${KICADX_LIBS}/design_blocks/power.kicad_blocks/`
 
 ## Contribution
 
