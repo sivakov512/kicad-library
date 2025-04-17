@@ -1,0 +1,12 @@
+# Treat 3D models as binary
+*.step binary
+
+# Prevent diffing and merging on binary files
+*.step -diff
+*.stp binary
+
+# Ensure text-based KiCad files use consistent line endings
+*.kicad_mod text eol=lf
+*.kicad_sch text eol=lf
+*.json text eol=lf
+.stp -diff
