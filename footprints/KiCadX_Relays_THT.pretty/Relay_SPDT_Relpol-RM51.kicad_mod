@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.relpol.pl/en/content/download/56022/949635/file/e_RM51.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
