@@ -6,8 +6,9 @@ A collection of custom libraries for KiCad 9+, including schematic blocks, footp
 Custom reusable schematic blocks grouped by function, located in [`design_blocks/`](design_blocks):
 
 ### Power supply
+- **AC → 5V (HLK-5M05)** — quick prototyping solution
+- **AC → 5V (LNK306P)** — standalone switching power supply for production-grade designsy
 - **5V → 3.3V** using LM1117 with filtering
-- **AC → 5V** using HLK-5M05 with fuse and varistor
 
 ## Footprints
 Custom component footprints grouped into `.pretty` folders under [`footprints/`](footprints):
