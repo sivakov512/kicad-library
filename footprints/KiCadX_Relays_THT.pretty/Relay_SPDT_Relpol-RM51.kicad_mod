@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Relpol Relay SPDT RM51, https://www.relpol.pl/en/content/download/56022/949635/file/e_RM51.pdf")
+	(descr "Relpol Relay SPDT RM51")
 	(tags "Relpol Relay SPDT RM51")
 	(property "Reference" "REF**"
 		(at 0 -3.8 0)
@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://www.relpol.pl/en/content/download/56022/949635/file/e_RM51.pdf"
+	(property "Datasheet" "${KICADX_LIBS}/datasheets/relpol_rm51.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
