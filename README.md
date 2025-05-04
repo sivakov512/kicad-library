@@ -18,6 +18,10 @@ Custom schematic symbols grouped into `.kicad_sym` libraries under [`symbols/`](
   - **VIPER06** — high-voltage converter for offline power supplies
   - Additional AC-DC converters can be added in the future
 
+### Microcontrollers
+- **KiCadX_MCU_Espressif.kicad_sym** — contains symbols for Espressif microcontrollers:
+  - **ESP32-H2** — low-power wireless microcontroller with Zigbee and Thread support
+
 ## Footprints
 Custom component footprints grouped into `.pretty` folders under [`footprints/`](footprints):
 
@@ -33,16 +37,25 @@ Custom component footprints grouped into `.pretty` folders under [`footprints/`]
 ### Relays (THT)
 - Relpol RM51 — SPDT, 10A mechanical relay (`Relay_SPDT_Relpol-RM51.kicad_mod`, with assigned 3D model `Relay_SPDT_Relpol-RM51.stp`)
 
+### Microcontroller Packages (SMD)
+- **Espressif TQFN-32** — TQFN-32 package with multiple variants, suitable for Espressif microcontrollers (e.g., ESP32-H2, ESP32-C6, etc.):
+  - Compact: `TQFN_32_1EP_4x4mm_P0.4mm_EP2.4x2.4mm_Compact.kicad_mod`
+  - Standard: `TQFN_32_1EP_4x4mm_P0.4mm_EP2.6x2.6mm_Standard.kicad_mod`
+  - Extended: `TQFN_32_1EP_4x4mm_P0.4mm_EP2.8x2.8mm_Extended.kicad_mod`
+
 ## 3D models
 Located in [`3dmodels/`](3dmodels):
 - **VIPER06** — SSO10 package (`VIPER06_SSO10.step`)
 - **Fuse holder** — PTF76, 5x20mm, 15mm lead spacing (`FuseHolder_THT_5x20mm_PTF76_RM15mm.step`)
 - **Relay** — Relpol RM51, SPDT (`Relay_SPDT_Relpol-RM51.stp`)
+- **Espressif TQFN-32** — TQFN-32 package (`TQFN_32_1EP_4x4mm_P0.4mm.step`)
 
 ## Datasheets
 Datasheets for components are stored in [`datasheets/`](datasheets):
 - **VIPER06** — [`viper06.pdf`](datasheets/viper06.pdf)
 - **Relpol RM51** — [`relpol_rm51.pdf`](datasheets/relpol_rm51.pdf)
+- **Espressif Microcontrollers**:
+  - **ESP32-H2** — [`esp32-h2.pdf`](datasheets/esp32-h2.pdf)
 
 ## Installation
 
