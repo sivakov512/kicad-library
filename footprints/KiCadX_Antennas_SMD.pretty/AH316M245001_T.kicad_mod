@@ -1,0 +1,207 @@
+(footprint "AH316M245001_T"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Taiyo Yuden AH316M245001-T chip antenna, 2.4 GHz, 3.2×1.6 mm, SMT")
+	(tags "antenna chip 2.4GHz taiyo yuden AH316M245001-T")
+	(property "Reference" "REF**"
+		(at 0 -2.3 0)
+		(layer "F.SilkS")
+		(uuid "1960e0dd-81a2-4832-8423-d135b4c66032")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AH316M245001_T"
+		(at 0 2.4 0)
+		(layer "F.Fab")
+		(uuid "74dbb369-3118-4d8f-b67d-d6f35d883470")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "${KICADX_LIBS}/datasheets/taiyo_yuden_antennas.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93371e23-794d-4033-a340-bd16d9649d14")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "201604cf-c833-4cdf-94cb-6a79a788f13e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6 0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "53bd53c1-4662-4f82-99e3-6169be7e0e81")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e8b05e4-1454-4545-b854-115e78eadc56")
+	)
+	(fp_circle
+		(center -2.3 -0.8)
+		(end -2.2 -0.8)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e470de41-714c-4254-ba2f-6bebd5abfef3")
+	)
+	(fp_line
+		(start -2.5 -1)
+		(end 2.5 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8cecf7f9-d588-4fcc-9d83-e9a5f6c77035")
+	)
+	(fp_line
+		(start -2.5 1)
+		(end -2.5 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "52456ff1-86cb-43fa-8b03-bb9e4d8d6c47")
+	)
+	(fp_line
+		(start 2.5 -1)
+		(end 2.5 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e168409e-c320-4a40-b962-3ecae3f3f165")
+	)
+	(fp_line
+		(start 2.5 1)
+		(end -2.5 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0377bf92-af1d-447a-adfc-7eaac86ce2a9")
+	)
+	(fp_line
+		(start -1.6 -0.8)
+		(end -1.6 0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9268bc93-b176-4f5a-ba71-11dcde72999b")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "20687ff0-337d-4672-8322-970d2557bd5e")
+	)
+	(fp_circle
+		(center -0.6 0)
+		(end -0.239447 0)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "eed31ef4-0dff-4348-ac0a-5a823ce64240")
+	)
+	(fp_poly
+		(pts
+			(xy -1.60147 -0.6) (xy -1.1 -0.6) (xy -1.1 0.60055) (xy -1.60147 0.60055)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "43d591e8-fd7f-4eec-a882-2127063c9e49")
+	)
+	(fp_poly
+		(pts
+			(xy 1.10108 -0.6) (xy 1.6 -0.6) (xy 1.6 0.600587) (xy 1.10108 0.600587)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "6671b75f-e44f-4474-b851-63ba358ec446")
+	)
+	(pad "1" smd rect
+		(at -1.6 0)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "e8531d2c-eb84-4a89-9724-e63e84d03b9f")
+	)
+	(pad "2" smd rect
+		(at 1.6 0)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "be6f3306-5521-4410-8e2c-441567956a15")
+	)
+	(embedded_fonts no)
+	(model "${KICADX_LIBS}/3dmodels/AH316M245001_T.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
