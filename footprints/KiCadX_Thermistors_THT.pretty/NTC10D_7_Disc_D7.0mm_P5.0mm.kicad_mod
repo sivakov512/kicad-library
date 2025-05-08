@@ -1,0 +1,243 @@
+(footprint "NTC10D_7_Disc_D7.0mm_P5.0mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "THT NTC thermistor, 10 Ω, 7 mm disc, 5.0 mm lead spacing (RM) ")
+	(tags "ntc thermistor inrush disc 10d-7 10ohm 7mm 5mm tht ")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8c460f48-1f2b-4205-a64c-636a3e3c353b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NTC10D_7_Disc_D7.0mm_P5.0mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b1d5e8e6-4abd-4b8d-b86f-daa142c61401")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6840fc44-4807-4225-97ee-797b89089aef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e985fe1-cd96-46c1-9e4e-9833ee41e68b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.9939 -2.6289)
+		(end 1.9939 -2.6289)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a653506-ce82-444d-98a2-3440b473c5bd")
+	)
+	(fp_line
+		(start -1.9939 2.6289)
+		(end 1.9939 2.6289)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "02b36f29-e509-405f-b550-b870572049ce")
+	)
+	(fp_arc
+		(start -3.241617 -2.31394)
+		(mid -2.637328 -2.548944)
+		(end -1.9939 -2.6289)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93b7dd97-794b-41d6-9ada-f93350f89500")
+	)
+	(fp_arc
+		(start -1.993905 2.6289)
+		(mid -4.490857 0.822387)
+		(end -3.556128 -2.11437)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d22a704-055a-425c-896e-3fd065d6da3a")
+	)
+	(fp_arc
+		(start 1.9939 -2.6289)
+		(mid 3.852813 -1.858913)
+		(end 4.6228 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4db398b2-28fe-4689-bcf4-b820def44b4b")
+	)
+	(fp_arc
+		(start 4.6228 0)
+		(mid 3.852813 1.858913)
+		(end 1.9939 2.6289)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c472f92-ff6a-4930-8702-00eb032c9e69")
+	)
+	(fp_line
+		(start -4.7498 -2.7559)
+		(end 4.7498 -2.7559)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "168cb5f6-0162-44a6-8b0d-c9128c8cd122")
+	)
+	(fp_line
+		(start -4.7498 2.7559)
+		(end -4.7498 -2.7559)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bcdf4ced-fe1e-4698-8800-cb0cc0da4c8e")
+	)
+	(fp_line
+		(start 4.7498 -2.7559)
+		(end 4.7498 2.7559)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "869057b7-9b66-4285-9c76-925c8c649005")
+	)
+	(fp_line
+		(start 4.7498 2.7559)
+		(end -4.7498 2.7559)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "15c1e93b-456a-4c22-babc-cdea94ec39f5")
+	)
+	(fp_line
+		(start -1.9939 -2.5019)
+		(end 1.9939 -2.5019)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "00d30674-5b9f-4ab1-83a5-d632465e33ba")
+	)
+	(fp_line
+		(start -1.9939 2.5019)
+		(end 1.9939 2.5019)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "02b4384c-57e1-4b84-af36-a9ee72f7bc10")
+	)
+	(fp_arc
+		(start -1.9939 2.5019)
+		(mid -4.4958 0)
+		(end -1.9939 -2.5019)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bea349c5-a1e0-44f2-9c0e-f18b1a8d0f6b")
+	)
+	(fp_arc
+		(start 1.9939 -2.5019)
+		(mid 4.4958 0)
+		(end 1.9939 2.5019)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "28a10f39-d5ea-400f-aa35-3e55bc429005")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ae6acbf8-5223-46ed-9aba-ba37ba9b8045")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.54 -1.27)
+		(size 1.4224 1.4224)
+		(drill 0.9144)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "272f6b83-989a-4de2-99b3-824951d3d488")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 1.27)
+		(size 1.4224 1.4224)
+		(drill 0.9144)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e9133897-af56-4e29-864a-1c3b166be14e")
+	)
+	(embedded_fonts no)
+	(model "${KICADX_LIBS}/3dmodels/NTC10D_7_Disc_D7.0mm_P5.0mm"
+		(offset
+			(xyz -2.5 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
