@@ -29,7 +29,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "${KICADX_LIBS}/datasheets/b82720k2102n040.pdf"
+	(property "Datasheet" "${KICADX_LIBS}/datasheets/Inductors/Epcos_b82720k2102n040.pdf"
 		(at 3.02 -18.95 0)
 		(unlocked yes)
 		(layer "F.Fab")

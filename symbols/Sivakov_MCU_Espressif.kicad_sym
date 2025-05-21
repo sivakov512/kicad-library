@@ -27,7 +27,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KiCadX_MCU_Espressif:TQFN_32_1EP_4x4mm_P0.4mm_EP2.6x2.6mm_Standard"
+		(property "Footprint" "Sivakov_MCU_Espressif:TQFN_32_1EP_4x4mm_P0.4mm_EP2.6x2.6mm_Standard"
 			(at -25.4 30.48 0)
 			(effects
 				(font
@@ -37,7 +37,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KICADX_LIBS}/datasheets/esp32-h2.pdf"
+		(property "Datasheet" "${KICADX_LIBS}/datasheets/MCU/Espressif/Espressif_ESP32-H2.pdf"
 			(at -25.4 30.48 0)
 			(effects
 				(font
@@ -65,7 +65,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "KiCadX_MCU_Espressif:TQFN_32_1EP*"
+		(property "ki_fp_filters" "Sivakov_MCU_Espressif:TQFN_32*"
 			(at 0 0 0)
 			(effects
 				(font

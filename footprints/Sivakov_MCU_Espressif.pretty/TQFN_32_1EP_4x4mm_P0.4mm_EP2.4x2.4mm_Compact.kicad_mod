@@ -29,7 +29,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "${KICADX_LIBS}/datasheets/esp32-h2-pdf"
+	(property "Datasheet" ""
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -2045,7 +2045,7 @@
 		(uuid "c62c6acd-7a2c-497b-ae44-94ce1b95035f")
 	)
 	(embedded_fonts no)
-	(model "${KICADX_LIBS}/3dmodels/TQFN_32_1EP_4x4mm_P0.4mm.step"
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-components/Sivakov_MCU_Espressif.3dshapes/TQFN_32_1EP_4x4mm_P0.4mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

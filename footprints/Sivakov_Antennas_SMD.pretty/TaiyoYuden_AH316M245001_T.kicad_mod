@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "${KICADX_LIBS}/datasheets/taiyo_yuden_antennas.pdf"
+	(property "Datasheet" "${KICADX_LIBS}/datasheets/Antennas/TaiyoYuden_Antennas.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -193,7 +193,7 @@
 		(uuid "be6f3306-5521-4410-8e2c-441567956a15")
 	)
 	(embedded_fonts no)
-	(model "${KICADX_LIBS}/3dmodels/AH316M245001_T.step"
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-components/Sivakov_Antennas_SMD.3dshapes/TaiyoYuden_AH316M245001_T.step"
 		(offset
 			(xyz 0 0 0)
 		)
