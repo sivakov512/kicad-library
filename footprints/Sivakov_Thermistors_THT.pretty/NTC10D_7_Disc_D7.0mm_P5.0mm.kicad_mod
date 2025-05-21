@@ -229,7 +229,7 @@
 		(uuid "e9133897-af56-4e29-864a-1c3b166be14e")
 	)
 	(embedded_fonts no)
-	(model "${KICADX_LIBS}/3dmodels/NTC10D_7_Disc_D7.0mm_P5.0mm"
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-components/Sivakov_Thermistors_THT.3dshapes/NTC10D_7_Disc_D7.0mm_P5.0mm.step"
 		(offset
 			(xyz -2.5 0 2.5)
 		)

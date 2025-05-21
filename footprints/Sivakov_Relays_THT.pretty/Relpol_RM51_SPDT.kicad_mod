@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "${KICADX_LIBS}/datasheets/relpol_rm51.pdf"
+	(property "Datasheet" "${KICADX_LIBS}/datasheets/Relays/Relpol_RM51.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -398,7 +398,7 @@
 		(uuid "e421eec4-1ace-49b2-9ddd-e7de6a793a9a")
 	)
 	(embedded_fonts no)
-	(model "${KICADX_LIBS}/3dmodels/Relay_SPDT_Relpol-RM51.stp"
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-components/Sivakov_Relays_THT.3dshapes/Relpol_RM51_SPDT.step"
 		(offset
 			(xyz -2 -8.5 8.5)
 		)
