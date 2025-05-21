@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "${KICADX_LIBS}/datasheets/750370423.pdf"
+	(property "Datasheet" "${KICADX_LIBS}/datasheets/Transformers/Wurth_750370423.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -251,7 +251,7 @@
 		(uuid "98b9f8f9-e649-4551-ac0b-8ef2a5593f2e")
 	)
 	(embedded_fonts no)
-	(model "${KICADX_LIBS}/3dmodels/Wurth_750370423_THT_E13.step"
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-components/Sivakov_Transformers_THT.3dshapes/Wurth_750370423_THT_E13.step"
 		(offset
 			(xyz 0 0 0)
 		)

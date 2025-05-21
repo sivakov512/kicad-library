@@ -29,7 +29,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "${KICADX_LIBS}/datasheets/j-sh-105hm000.pdf"
+	(property "Datasheet" ""
 		(at -7.75 4.03 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -342,7 +342,7 @@
 		(uuid "7a2f8602-6185-4e93-b0d5-d09fe892343e")
 	)
 	(embedded_fonts no)
-	(model "${KICADX_LIBS}/3dmodels/Relay_SPST_OJ_SH_105HM_000 .step"
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-components/Sivakov_Relays_THT.3dshapes/OJ_SH_105HM_SPST.step"
 		(offset
 			(xyz -8.1 -4.05 0)
 		)

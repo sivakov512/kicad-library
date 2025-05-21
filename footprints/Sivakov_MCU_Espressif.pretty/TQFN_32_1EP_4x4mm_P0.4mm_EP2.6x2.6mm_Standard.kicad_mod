@@ -15469,7 +15469,7 @@
 			(checksum "C978F5458638DCE00B9DD148EA51709C")
 		)
 	)
-	(model "${KICADX_LIBS}/3dmodels/TQFN_32_1EP_4x4mm_P0.4mm.step"
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-components/Sivakov_MCU_Espressif.3dshapes/TQFN_32_1EP_4x4mm_P0.4mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

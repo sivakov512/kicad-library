@@ -9,73 +9,106 @@ The repository is organized as follows:
 
 ```
 .
-├── 3dmodels/          # STEP files for 3D models
-├── datasheets/        # Datasheets for components
-├── design_blocks/     # Reusable schematic blocks
-├── footprints/        # Footprint libraries (.pretty folders)
-├── symbols/           # Schematic symbol libraries (.kicad_sym files)
-└── README.md          # Documentation
+├── 3dmodels/                  # 3D model files organized by category
+│   ├── ACDC_Converters/       # Organized by component category
+│   │   ├── SMD/               # Further organized by mounting type
+│   │   └── THT/
+│   ├── Antennas/
+│   └── ...
+├── datasheets/                # Datasheets organized by category
+│   ├── ACDC_Converters/
+│   ├── MCU/
+│   │   └── Espressif/         # Manufacturer-specific subcategories
+│   └── ...
+├── design_blocks/             # Reusable schematic blocks
+├── footprints/                # Footprint libraries (.pretty folders)
+│   ├── Sivakov_ACDC_Converters_SMD.pretty/
+│   ├── Sivakov_MCU_Espressif.pretty/
+│   └── ...
+├── symbols/                   # Symbol libraries (.kicad_sym files)
+│   ├── Sivakov_ACDC_Converters.kicad_sym
+│   ├── Sivakov_MCU_Espressif.kicad_sym
+│   └── ...
+└── README.md                  # Documentation
 ```
 
 When adding new components or blocks, ensure they are placed in the correct directory and follow the naming conventions described below.
 
 ### Naming Convention
 
-All items must start with the `KiCadX_` prefix.  
-Use clear, structured names in `PascalCase_With_Underscores`.
+All items must start with the `Sivakov_` prefix.  
+Use clear, structured names with underscores to separate sections.
 
-**Example:**
-
+#### Symbol Libraries:
 ```
-KiCadX_CP_Radial_D5.0mm_P1.50mm
-│       │   │      │         │
-│       │   │      │         └ Pin pitch (P)
-│       │   │      └ Diameter (D)
-│       │   └ Mounting style / type
-│       └ Component class (CP = polarized capacitor)
-└ Repository prefix
+Sivakov_[CategoryName].kicad_sym
+Sivakov_[CategoryName]_[Manufacturer].kicad_sym
 ```
 
-#### Recommended Component Prefixes:
-- `CP_` – Polarized capacitors
-- `Fuse_` – Fuses and holders
-- `Relay_` – Mechanical relays
-- `LDO_`, `MCU_`, `Connector_`, etc. – As needed
+#### Footprint Libraries:
+```
+Sivakov_[CategoryName]_[MountingType].pretty
+Sivakov_[CategoryName]_[Manufacturer].pretty
+```
+
+#### Example Footprint Name:
+```
+Capacitor_THT_Radial_D5.0mm_P1.50mm
+│         │   │      │         │
+│         │   │      │         └ Pin pitch (P)
+│         │   │      └ Diameter (D)
+│         │   └ Mounting style / type
+│         └ Mounting technology (THT/SMD)
+└ Component category
+```
+
+For manufacturer-specific components:
+```
+[Manufacturer]_[PartNumber]_[PackageInfo].kicad_mod
+```
+Example: `STMicroelectronics_VIPER06_SSO10.kicad_mod`
+
+#### 3D Models and Datasheets:
+Organized in category and mounting type folders:
+```
+3dmodels/[CategoryName]/[MountingType]/[ModelName].step
+datasheets/[CategoryName]/[Manufacturer]_[PartNumber].pdf
+```
 
 ### Footprints
 
 - Place footprints in the appropriate `.pretty` folder under `footprints/`.
-- Include a matching STEP model in the `3dmodels/` directory, if possible. The 3D model should have the same base name as the footprint.
+- Include a matching STEP model in the `3dmodels/` directory, following the category structure.
 - Ensure the following layers are properly defined:
   - **Silkscreen**: For component outlines and labels.
   - **Courtyard**: For placement and clearance checks.
   - **Fab**: For assembly and manufacturing details.
 - Use correct pin numbering as specified in the component's datasheet.
-- Assign the 3D model to the footprint in the `.kicad_mod` file.
+- Assign the 3D model to the footprint using `${KISYS3DMOD}/[Category]/[MountingType]/[ModelName].step`.
 
 ### Schematic Symbols
 
 - Place schematic symbols in `.kicad_sym` libraries under `symbols/`.
-- Group related symbols into a single library (e.g., `KiCadX_ACDC_Converters.kicad_sym` for all AC-DC converters).
+- Group related symbols into a single library (e.g., `Sivakov_ACDC_Converters.kicad_sym` for all AC-DC converters).
 - Use clear and descriptive names for symbols.
 - Include the following metadata fields:
   - **Description**: Short, searchable phrases describing the component.
   - **Keywords**: Relevant keywords for searchability.
-  - **Datasheet**: Path to the datasheet file using the `${KICADX_LIBS}` environment variable (e.g., `${KICADX_LIBS}/datasheets/viper06.pdf`).
+  - **Datasheet**: Path to the datasheet file using the `${KICADX_LIBS}` environment variable (e.g., `${KICADX_LIBS}/datasheets/ACDC_Converters/STMicroelectronics_VIPER06.pdf`).
 
 ### 3D Models
 
-- Place 3D models in the `3dmodels/` directory.
+- Place 3D models in the appropriate subdirectory under `3dmodels/` following the category structure.
 - Use the STEP format (`.step` or `.stp`) for compatibility.
 - Ensure the 3D model matches the footprint dimensions and orientation.
-- Name the 3D model file to match the associated footprint (e.g., `VIPER06_SSO10.step` for `VIPER06_SSO10.kicad_mod`).
+- Name the 3D model file to match the associated footprint.
 
 ### Datasheets
 
-- Place datasheets in the `datasheets/` directory.
-- Use descriptive filenames that match the component name (e.g., `viper06.pdf` for the VIPER06 component).
-- Reference the datasheet in the `datasheet` field of the schematic symbol or footprint using the `${KICADX_LIBS}` environment variable.  
-  **Example:** `${KICADX_LIBS}/datasheets/viper06.pdf`
+- Place datasheets in the appropriate subdirectory under `datasheets/` following the category structure.
+- Use descriptive filenames that include the manufacturer and part number (e.g., `STMicroelectronics_VIPER06.pdf`).
+- Reference the datasheet in the `datasheet` field of symbols or footprints using the `${KICADX_LIBS}` environment variable.  
+  **Example:** `${KICADX_LIBS}/datasheets/ACDC_Converters/STMicroelectronics_VIPER06.pdf`
 
 ### Design Blocks
 
@@ -84,6 +117,39 @@ KiCadX_CP_Radial_D5.0mm_P1.50mm
 - Use named inputs and outputs for clarity.
 - Avoid mixing unrelated functionality in a single block.
 - Use descriptive names for blocks and their files.
+
+### Component Categories
+
+Use the following categories for organizing components:
+
+- `ACDC_Converters` - AC to DC converter ICs and modules
+- `Amplifiers` - Operational amplifiers, instrumentation amplifiers, etc.
+- `Antennas` - RF and wireless antennas
+- `Capacitors` - All types of capacitors
+- `Connectors` - Electrical connectors of all types
+- `Converters_DCDC` - DC to DC converter ICs and modules
+- `Diodes` - Diodes, TVS, rectifiers
+- `Fuses` - Fuses and related components
+- `FuseHolders` - Holders for fuses
+- `Inductors` - Inductors and chokes
+- `MCU` - Microcontrollers (with subcategories by manufacturer)
+- `NetTies` - PCB network tie components
+- `Power_Management` - Power management ICs
+- `Relays` - Electromechanical relays
+- `Resistors` - All types of resistors
+- `Sensors` - Various sensor components
+- `Switches` - Mechanical and electronic switches
+- `Thermistors` - Temperature-dependent resistors
+- `Transformers` - Electrical transformers
+- `Transistors` - BJTs, MOSFETs, and other transistors
+
+### Mounting Types
+
+Use the following suffixes to indicate mounting type:
+
+- `SMD` - Surface-mount devices
+- `THT` - Through-hole technology components
+- `Hybrid` - Components with both SMD and THT elements
 
 ### Metadata
 
@@ -97,4 +163,4 @@ KiCadX_CP_Radial_D5.0mm_P1.50mm
 - Test your contributions in KiCad to ensure compatibility and correctness.
 - If you're unsure about something, open an issue or start a discussion — we're happy to help!
 
-Thank you for contributing to the KiCadX Libraries!
+Thank you for contributing to the Sivakov Component Library!
