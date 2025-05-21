@@ -1,0 +1,214 @@
+(footprint "PCB_antenna_Espressif_2.4GHz_right"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PCB trace antenna for 2.4 GHz, as used on Espressif DevKitC and ESP32-MINI modules, right direction")
+	(tags "antenna pcb 2.4GHz esp32 esp8266 wroom wrover devkit esp-mc right")
+	(property "Reference" "J1"
+		(at 0 1.79 0)
+		(layer "F.SilkS")
+		(uuid "796f64bc-c5a5-4c6d-9800-57c781c75aaa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PCB_antenna_Espressif_2.4GHz_right"
+		(at 0 4.06 0)
+		(layer "F.Fab")
+		(uuid "839afa9c-5b65-4e75-9ff2-9174e325eb62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -4.55 2.85 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5506c163-d62a-4169-8e69-366e851d5e79")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -4.55 2.85 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3cc32f4-5f76-43f2-b857-d86d46f5463a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(net_tie_pad_groups "1, 2")
+	(fp_poly
+		(pts
+			(xy -2.25 0.4) (xy -0.25 0.4) (xy -0.25 -2.3) (xy 2.55 -2.3) (xy 2.55 0.4) (xy 4.55 0.4) (xy 4.55 -2.3)
+			(xy 7.25 -2.3) (xy 7.25 2.37) (xy 6.75 2.37) (xy 6.75 -1.8) (xy 5.05 -1.8) (xy 5.05 0.9) (xy 2.05 0.9)
+			(xy 2.05 -1.8) (xy 0.25 -1.8) (xy 0.25 0.9) (xy -2.75 0.9) (xy -2.75 -1.8) (xy -4.45 -1.8) (xy -4.45 3.11)
+			(xy -4.95 3.11) (xy -4.95 -1.8) (xy -6.62 -1.8) (xy -6.62 3.11) (xy -7.25 3.11) (xy -7.25 2.856785)
+			(xy -6.947583 2.856785) (xy -6.937742 2.904395) (xy -6.913674 2.946797) (xy -6.875731 2.979581) (xy -6.867819 2.983935)
+			(xy -6.825156 2.996043) (xy -6.776637 2.9953) (xy -6.731122 2.9824) (xy -6.712511 2.971787) (xy -6.678868 2.936553)
+			(xy -6.658309 2.891368) (xy -6.651778 2.841842) (xy -6.660218 2.793583) (xy -6.677112 2.761357) (xy -6.712372 2.728687)
+			(xy -6.757682 2.708592) (xy -6.807267 2.702018) (xy -6.855353 2.709908) (xy -6.888245 2.726814) (xy -6.923185 2.763584)
+			(xy -6.942847 2.808378) (xy -6.947583 2.856785) (xy -7.25 2.878392) (xy -7.25 -2.3) (xy -2.25 -2.3)
+			(xy -2.25 0.34)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "efbfc4ea-e138-41ad-944d-b893b3a55fe3")
+	)
+	(fp_line
+		(start -7.75 -2.75)
+		(end 7.75 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6d61d5f5-815f-46e7-b647-7912b9a10852")
+	)
+	(fp_line
+		(start -7.75 3.2)
+		(end -7.75 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "16e84cf6-fc94-4d76-8797-2dbad8dc6c2c")
+	)
+	(fp_line
+		(start 7.75 -2.75)
+		(end 7.75 3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2a276723-690b-4229-913b-27d83cae4697")
+	)
+	(fp_line
+		(start 7.75 3.2)
+		(end -7.75 3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c547382c-0048-414d-ba02-a0187af590c5")
+	)
+	(fp_line
+		(start -7.75 -2.75)
+		(end 7.75 -2.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "16aa3b34-201b-429f-8250-a1ed4b623798")
+	)
+	(fp_line
+		(start -7.75 3.2)
+		(end -7.75 -2.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1a08c568-4123-4c59-8636-ed836b27c7d1")
+	)
+	(fp_line
+		(start 7.75 -2.75)
+		(end 7.75 3.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ceb54f50-29ba-4ad3-aa1f-d2fce4f01b6f")
+	)
+	(fp_line
+		(start 7.75 3.2)
+		(end -7.75 3.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "52079d10-dfa8-4e61-9418-dc018cc15820")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.79 0)
+		(layer "F.Fab")
+		(uuid "01db8d69-3ce6-42f7-8623-ce7300decab4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" connect rect
+		(at -4.7 2.86)
+		(size 0.5 0.5)
+		(layers "F.Cu")
+		(uuid "e01f4251-2b4d-4b51-9d59-3d20b270644d")
+	)
+	(pad "2" smd rect
+		(at -6.935 2.86)
+		(size 0.63 0.5)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(uuid "dcaa8680-f539-4dd8-be40-0204efcec4c4")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.SilkS")
+		(uuid "38d0a201-206e-4635-ab2a-dc3007798e22")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 7.68 -2.68) (xy 7.68 2.68) (xy -7.68 2.68) (xy -7.68 -2.68)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
