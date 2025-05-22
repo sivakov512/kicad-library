@@ -167,7 +167,7 @@
 		(uuid "fb5001ea-5375-4d40-8d62-b07e3ca90215")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-components/Sivakov_Fuse_SMD.3dshapes/Fuse_2410_6125Metric_6.1x2.5mm.step"
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Fuse_SMD.3dshapes/Fuse_2410_6125Metric_6.1x2.5mm.step"
 		(offset
 			(xyz 0 -1.38 1.25)
 		)

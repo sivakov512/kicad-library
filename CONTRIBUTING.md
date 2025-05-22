@@ -1,6 +1,6 @@
 ## Contribution Guidelines
 
-Contributions are welcome and appreciated.  
+Contributions are welcome and appreciated.
 To maintain consistency, please follow the naming and structure conventions outlined below.
 
 ### Repository Structure
@@ -10,20 +10,20 @@ The repository is organized as follows:
 ```
 .
 ├── 3dmodels/                  # 3D model files organized by category
-│   ├── Sivakov_ACDC_Converters_SMD.3dshapes/
-│   ├── Sivakov_Antennas_SMD.3dshapes/
+│   ├── SKC_ACDC_Converters_SMD.3dshapes/
+│   ├── SKC_Antennas_SMD.3dshapes/
 │   └── ...
 ├── datasheets/                # Datasheets organized by category
 │   ├── ACDC_Converters/
 │   ├── MCU/
 │   └── ...
 ├── footprints/                # Footprint libraries (.pretty folders)
-│   ├── Sivakov_ACDC_Converters_SMD.pretty/
-│   ├── Sivakov_MCU_Espressif.pretty/
+│   ├── SKC_ACDC_Converters_SMD.pretty/
+│   ├── SKC_MCU_Espressif.pretty/
 │   └── ...
 ├── symbols/                   # Symbol libraries (.kicad_sym files)
-│   ├── Sivakov_ACDC_Converters.kicad_sym
-│   ├── Sivakov_MCU_Espressif.kicad_sym
+│   ├── SKC_ACDC_Converters.kicad_sym
+│   ├── SKC_MCU_Espressif.kicad_sym
 │   └── ...
 ├── metadata.json              # Library metadata
 └── README.md                  # Documentation
@@ -33,25 +33,25 @@ When adding new components, ensure they are placed in the correct directory and 
 
 ### Naming Convention
 
-All library items must start with the `Sivakov_` prefix.  
+All library items must start with the `SKC_` prefix.
 Use clear, structured names with underscores to separate sections.
 
 #### Symbol Libraries:
 ```
-Sivakov_[CategoryName].kicad_sym
-Sivakov_[CategoryName]_[Manufacturer].kicad_sym
+SKC_[CategoryName].kicad_sym
+SKC_[CategoryName]_[Manufacturer].kicad_sym
 ```
 
 #### Footprint Libraries:
 ```
-Sivakov_[CategoryName]_[MountingType].pretty
-Sivakov_[CategoryName]_[Manufacturer].pretty
+SKC_[CategoryName]_[MountingType].pretty
+SKC_[CategoryName]_[Manufacturer].pretty
 ```
 
 #### 3D Models Libraries:
 ```
-Sivakov_[CategoryName]_[MountingType].3dshapes
-Sivakov_[CategoryName]_[Manufacturer].3dshapes
+SKC_[CategoryName]_[MountingType].3dshapes
+SKC_[CategoryName]_[Manufacturer].3dshapes
 ```
 
 #### Example Footprint Name:
@@ -91,7 +91,7 @@ datasheets/[CategoryName]/[Manufacturer]_[PartNumber].pdf
 ### Schematic Symbols
 
 - Place schematic symbols in `.kicad_sym` libraries under `symbols/`.
-- Group related symbols into a single library (e.g., `Sivakov_ACDC_Converters.kicad_sym` for all AC-DC converters).
+- Group related symbols into a single library (e.g., `SKC_ACDC_Converters.kicad_sym` for all AC-DC converters).
 - Use clear and descriptive names for symbols.
 - Include the following metadata fields:
   - **Description**: Short, searchable phrases describing the component.
@@ -111,11 +111,11 @@ datasheets/[CategoryName]/[Manufacturer]_[PartNumber].pdf
 - Use descriptive filenames that include the manufacturer and part number (e.g., `STMicroelectronics_VIPER06.pdf`).
 - When referencing datasheets in symbols or footprints, use jsDelivr CDN links with the following format:
   ```
-  https://cdn.jsdelivr.net/gh/sivakov512/kicad-components@master/<relative_path_to_datasheet>
+  https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@master/<relative_path_to_datasheet>
   ```
   For example:
   ```
-  https://cdn.jsdelivr.net/gh/sivakov512/kicad-components@master/datasheets/ACDC_Converters/STMicroelectronics_VIPER06.pdf
+  https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@master/datasheets/ACDC_Converters/STMicroelectronics_VIPER06.pdf
   ```
 - Always use the `@master` branch specifier in the URL to ensure links remain stable.
 - Set this URL in the `datasheet` field of symbols and footprints to enable direct access from KiCad.
@@ -141,4 +141,4 @@ Use the following suffixes to indicate mounting type:
 - Test your contributions in KiCad to ensure compatibility and correctness.
 - If you're unsure about something, open an issue or start a discussion — we're happy to help!
 
-Thank you for contributing to the Sivakov Component Library!
+Thank you for contributing!
