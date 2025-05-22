@@ -1,4 +1,4 @@
-# KiCad Library
+# KiCad Component Library
 
 A comprehensive collection of custom libraries for KiCad, including schematic symbols, footprints, 3D models, and datasheets. Organized by component categories and mounting types for easy navigation.
 
