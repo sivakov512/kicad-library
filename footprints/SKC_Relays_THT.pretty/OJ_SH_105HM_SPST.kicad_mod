@@ -342,7 +342,7 @@
 		(uuid "7a2f8602-6185-4e93-b0d5-d09fe892343e")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-components/Sivakov_Relays_THT.3dshapes/OJ_SH_105HM_SPST.step"
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Relays_THT.3dshapes/OJ_SH_105HM_SPST.step"
 		(offset
 			(xyz -8.1 -4.05 0)
 		)

@@ -26,9 +26,10 @@ jobs:
       - name: Create ZIP archive
         id: create_archive
         run: |
-          echo "archive_name=${{ github.ref_name }}.zip" >> $GITHUB_OUTPUT
-          
-          zip -r "${{ github.ref_name }}.zip" \
+          ARCHIVE_NAME=skc-${{ github.ref_name }}.zip
+          echo "archive_name=$ARCHIVE_NAME" >> $GITHUB_OUTPUT
+
+          zip -r "$ARCHIVE_NAME" \
             3dmodels/ \
             footprints/ \
             symbols/ \

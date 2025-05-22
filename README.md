@@ -1,6 +1,8 @@
-# Sivakov Component Library
+# KiCad Library
 
 A comprehensive collection of custom libraries for KiCad, including schematic symbols, footprints, 3D models, and datasheets. Organized by component categories and mounting types for easy navigation.
+
+All library components are prefixed with **SKC** (Sivakov KiCad Components) to make them easily searchable in KiCad. When looking for symbols, footprints, or 3D models from this library, simply type "SKC" in the KiCad search field to quickly filter all components from this collection.
 
 ## Component List
 

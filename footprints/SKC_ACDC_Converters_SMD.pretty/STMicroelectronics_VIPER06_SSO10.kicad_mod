@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-components@master/datasheets/ACDC_Converters/STMicroelectronics_VIPER06.pdf"
+	(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@master/datasheets/ACDC_Converters/STMicroelectronics_VIPER06.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -435,7 +435,7 @@
 		(uuid "154d58d5-0f2c-4023-af9d-7bbf70b1afcd")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-components/Sivakov_ACDC_Converters_SMD.3dshapes/STMicroelectronics_VIPER06_SSO10.step"
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_ACDC_Converters_SMD.3dshapes/STMicroelectronics_VIPER06_SSO10.step"
 		(offset
 			(xyz 0 0 0)
 		)
