@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "${KICADX_LIBS}/datasheets/Antennas/TaiyoYuden_Antennas.pdf"
+	(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-components@master/datasheets/Antennas/TaiyoYuden_Antennas.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)

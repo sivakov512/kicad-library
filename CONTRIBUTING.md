@@ -109,7 +109,16 @@ datasheets/[CategoryName]/[Manufacturer]_[PartNumber].pdf
 
 - Place datasheets in the appropriate subdirectory under `datasheets/` following the category structure.
 - Use descriptive filenames that include the manufacturer and part number (e.g., `STMicroelectronics_VIPER06.pdf`).
-- Reference the datasheet in the `datasheet` field of symbols.
+- When referencing datasheets in symbols or footprints, use jsDelivr CDN links with the following format:
+  ```
+  https://cdn.jsdelivr.net/gh/sivakov512/kicad-components@master/<relative_path_to_datasheet>
+  ```
+  For example:
+  ```
+  https://cdn.jsdelivr.net/gh/sivakov512/kicad-components@master/datasheets/ACDC_Converters/STMicroelectronics_VIPER06.pdf
+  ```
+- Always use the `@master` branch specifier in the URL to ensure links remain stable.
+- Set this URL in the `datasheet` field of symbols and footprints to enable direct access from KiCad.
 
 
 

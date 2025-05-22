@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://www.st.com/resource/en/datasheet/viper06.pdf"
+	(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-components@master/datasheets/ACDC_Converters/STMicroelectronics_VIPER06.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)

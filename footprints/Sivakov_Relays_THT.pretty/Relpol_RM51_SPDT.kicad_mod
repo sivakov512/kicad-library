@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "${KICADX_LIBS}/datasheets/Relays/Relpol_RM51.pdf"
+	(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-components@master/datasheets/Relays/Relpol_RM51.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
