@@ -37,7 +37,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KICADX_LIBS}/datasheets/Transformers/Wurth_750370423.pdf"
+		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-components@master/datasheets/Transformers/Wurth_750370423.pdf"
 			(at 0 0 0)
 			(effects
 				(font
