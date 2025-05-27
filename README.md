@@ -55,6 +55,8 @@ The table below shows the available components in the library and indicates whic
 | Wurth 750370423 (E13 core) | ✅ | ✅ | ✅ | ✅ |
 | **PCB Design Elements** |
 | Net Ties (Various sizes) | 〰️ | ✅ | 〰️ | 〰️ |
+| **Test Points** |
+| TestPoint_2Pads_RM2.54mm_D1.4 | 〰️ | ✅ | 〰️ | ❌ |
 
 
 ## Contribution
