@@ -53,6 +53,8 @@ The table below shows the available components in the library and indicates whic
 | NTC10D-7 (10Ω NTC, 7mm disc) | 〰️ | ✅ | ✅ | ❌ |
 | **Transformers** |
 | Wurth 750370423 (E13 core) | ✅ | ✅ | ✅ | ✅ |
+| **Connectors** |
+| Pin Headers 1x04, 1x06 (2.54mm, NoSilk) | 〰️ | ✅ | 〰️ | 〰️ |
 | **PCB Design Elements** |
 | Net Ties (Various sizes) | 〰️ | ✅ | 〰️ | 〰️ |
 | **Test Points** |
