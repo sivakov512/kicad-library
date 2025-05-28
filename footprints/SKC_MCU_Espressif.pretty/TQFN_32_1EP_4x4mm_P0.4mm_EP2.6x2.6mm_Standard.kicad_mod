@@ -62,7 +62,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d248e013-cde6-4ea3-8283-6a13be7028ce")
+		(uuid "b46cfc0d-c236-450d-9b4b-582724e68752")
 	)
 	(fp_line
 		(start -2.1463 1.83434)
@@ -134,41 +134,16 @@
 		(layer "F.SilkS")
 		(uuid "0f976db5-de52-4bae-9356-9bf2f117b45a")
 	)
-	(fp_poly
-		(pts
-			(xy -1.190501 2.5781) (xy -1.190501 2.8321) (xy -0.809501 2.8321) (xy -0.809501 2.5781)
-		)
+	(fp_circle
+		(center -2.41 -1.86)
+		(end -2.31 -1.86)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "6d1ef34c-78f6-45ed-b008-b2a45698b4a3")
-	)
-	(fp_poly
-		(pts
-			(xy -0.790499 -2.5781) (xy -0.790499 -2.8321) (xy -0.409499 -2.8321) (xy -0.409499 -2.5781)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "3e4626b8-31ab-4cca-972b-d9dfe2f596d8")
-	)
-	(fp_poly
-		(pts
-			(xy 2.8321 0.0095) (xy 2.8321 0.3905) (xy 2.5781 0.3905) (xy 2.5781 0.0095)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "ad678089-0a43-46f7-af77-705fd33f54e2")
+		(uuid "be032529-d4c6-4fcb-8941-97bf59f96d20")
 	)
 	(fp_poly
 		(pts
@@ -1788,51 +1763,16 @@
 		(layer "F.Fab")
 		(uuid "00a46d86-7f6e-40dc-a634-cc096eab8f10")
 	)
-	(fp_text user "*"
-		(at -2.9591 -1.6 0)
-		(layer "F.SilkS")
-		(uuid "a553f696-fe3a-48a7-a3dc-1468a2dc9b25")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
+	(fp_circle
+		(center -1.86 -1.13)
+		(end -1.76 -1.13)
+		(stroke
+			(width 0)
+			(type solid)
 		)
-	)
-	(fp_text user "*"
-		(at -2.9591 -1.6 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "d3dfa4ac-d08d-4563-ba6a-8f6b32605240")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -1.6637 -1.6 0)
-		(unlocked yes)
+		(fill yes)
 		(layer "F.Fab")
-		(uuid "8007a0d3-c215-4dc0-9313-24a332aa59fa")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -1.6637 -1.6 0)
-		(layer "F.Fab")
-		(uuid "9bf06c75-6478-4665-a025-e8c35655a4e9")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
+		(uuid "1833fadf-5fa8-4619-b0fd-fca99127dafd")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
