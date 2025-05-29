@@ -1,0 +1,149 @@
+(footprint "Crystal_SMD_1612-4Pin_1.6x1.2mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD1612/4, Crystal, 1.6x1.2mm package, SMD")
+	(tags "smd1612 1612 crystal")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "e579c910-5ee5-433d-a2e2-a830090ea6e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Crystal_SMD_1612-4Pin_1.6x1.2mm"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "09720ad1-baf9-4225-923c-0a225954a5a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.19 0.12 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3fd1b2f-8a22-4b2e-94e6-b1c69e9c6e65")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.19 0.12 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "714c00de-eb8f-43d0-aa39-43793335b7d6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.11 -0.86)
+		(end -1.11 0.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8250839e-725c-4c8a-a865-016fd174b6fa")
+	)
+	(fp_line
+		(start -1.11 0.96)
+		(end 1.01 0.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b4101b69-3e23-4de4-b8f1-7fab7ce9bc05")
+	)
+	(fp_rect
+		(start -1.19 -1.04)
+		(end 1.19 1.04)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1f70c952-8660-4ab0-85ab-70cc8dd0b82f")
+	)
+	(fp_poly
+		(pts
+			(xy -0.8 -0.6) (xy -0.8 0.45) (xy -0.65 0.6) (xy 0.8 0.6) (xy 0.8 -0.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b7392db7-cae3-4db9-8525-2d45a7cab7e5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "fc0368f7-ad48-42ee-9c80-a5ce0527ede7")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.525 0.425)
+		(size 0.65 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2545454545)
+		(uuid "0baeaa0f-8ec7-49ba-a3e8-9d9a19daf6ba")
+	)
+	(pad "2" smd roundrect
+		(at 0.525 0.425)
+		(size 0.65 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2545454545)
+		(uuid "27e74fca-a190-45f4-980f-5a39c0c38ea3")
+	)
+	(pad "3" smd roundrect
+		(at 0.525 -0.425)
+		(size 0.65 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2545454545)
+		(uuid "931bbb44-3cd0-4182-bae7-1697c9b52765")
+	)
+	(pad "4" smd roundrect
+		(at -0.525 -0.425)
+		(size 0.65 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2545454545)
+		(uuid "fd629230-59f9-443a-883e-6e0b74639170")
+	)
+	(embedded_fonts no)
+	(model " ${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Crystals.3dshapes/Crystal_SMD_1612-4Pin_1.6x1.2mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
