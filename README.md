@@ -46,6 +46,7 @@ The table below shows the available components in the library and indicates whic
 | TDK B82720K (THT, 13x9.5mm) | 〰️ | ✅ | ❌ | ✅ |
 | **Microcontrollers** |
 | ESP32-H2 (QFN-32) | ✅ | ✅ | ✅ | ✅ |
+| ESP32-C3 (QFN-32) | ✅ | ✅ | ✅ | ✅ |
 | **Relays** |
 | Relpol RM51 (SPDT, 10A) | 〰️ | ✅ | ✅ | ✅ |
 | OJ SH-105HM (SPST, 5V coil) | 〰️ | ✅ | ✅ | ✅ |
@@ -57,6 +58,8 @@ The table below shows the available components in the library and indicates whic
 | Pin Headers 1x04, 1x06 (2.54mm, NoSilk) | 〰️ | ✅ | 〰️ | 〰️ |
 | **PCB Design Elements** |
 | Net Ties (Various sizes) | 〰️ | ✅ | 〰️ | 〰️ |
+| **Crystals** |
+| Crystal SMD 1612 (4-Pin, 1.6x1.2mm) | 〰️ | ✅ | ✅ | 〰️ |
 | **Test Points** |
 | TestPoint_2Pads_RM2.54mm_D1.4 | 〰️ | ✅ | 〰️ | 〰️ |
 
