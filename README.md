@@ -55,7 +55,7 @@ The table below shows the available components in the library and indicates whic
 | **Transformers** |
 | Wurth 750370423 (E13 core) | ✅ | ✅ | ✅ | ✅ |
 | **Connectors** |
-| Pin Headers 1x04, 1x06 (2.54mm, NoSilk) | 〰️ | ✅ | 〰️ | 〰️ |
+| Pin Headers 1x02, 1x04, 1x06 (2.54mm, NoSilk) | 〰️ | ✅ | 〰️ | 〰️ |
 | **PCB Design Elements** |
 | Net Ties (Various sizes) | 〰️ | ✅ | 〰️ | 〰️ |
 | **Crystals** |
