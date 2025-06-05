@@ -45,8 +45,13 @@ The table below shows the available components in the library and indicates whic
 | **Inductors** |
 | TDK B82720K (THT, 13x9.5mm) | 〰️ | ✅ | ❌ | ✅ |
 | **Microcontrollers** |
-| ESP32-H2 (QFN-32) | ✅ | ✅ | ✅ | ✅ |
-| ESP32-C3 (QFN-32) | ✅ | ✅ | ✅ | ✅ |
+| ESP32-H2 | ✅ | 〰️ | 〰️ | ✅ |
+| ESP32-C3 | ✅ | 〰️ | ✅ | ✅ |
+| **Packages (Корпуса)** |
+| QFN-32 (4x4mm, P0.4mm, Compact EP) | 〰️ | ✅ | ✅ | 〰️ |
+| QFN-32 (4x4mm, P0.4mm, Standard EP) | 〰️ | ✅ | ✅ | 〰️ |
+| QFN-32 (4x4mm, P0.4mm, Extended EP) | 〰️ | ✅ | ✅ | 〰️ |
+| VFQFN-32 (5x5mm, P0.5mm, Compact EP) | 〰️ | ✅ | ✅ | 〰️ |
 | **Relays** |
 | Relpol RM51 (SPDT, 10A) | 〰️ | ✅ | ✅ | ✅ |
 | OJ SH-105HM (SPST, 5V coil) | 〰️ | ✅ | ✅ | ✅ |
