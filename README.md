@@ -65,6 +65,8 @@ The table below shows the available components in the library and indicates whic
 | Net Ties (Various sizes) | 〰️ | ✅ | 〰️ | 〰️ |
 | **Crystals** |
 | Crystal SMD 1612 (4-Pin, 1.6x1.2mm) | 〰️ | ✅ | ✅ | 〰️ |
+| **Buttons** |
+| SW_Push_SPST_6mm (Tactile button) | 〰️ | ✅ | ❌ | 〰️ |
 | **Test Points** |
 | TestPoint_2Pads_RM2.54mm_D1.4 | 〰️ | ✅ | 〰️ | 〰️ |
 
