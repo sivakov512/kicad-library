@@ -47,7 +47,9 @@ The table below shows the available components in the library and indicates whic
 | **Microcontrollers** |
 | ESP32-H2 | ✅ | 〰️ | 〰️ | ✅ |
 | ESP32-C3 | ✅ | 〰️ | ✅ | ✅ |
-| **Packages (Корпуса)** |
+| **Development Boards** |
+| ESP32-C6-Zero Waveshare | ✅ | ✅ | ✅ | ✅ |
+| **Packages** |
 | QFN-32 (4x4mm, P0.4mm, Compact EP) | 〰️ | ✅ | ✅ | 〰️ |
 | QFN-32 (4x4mm, P0.4mm, Standard EP) | 〰️ | ✅ | ✅ | 〰️ |
 | QFN-32 (4x4mm, P0.4mm, Extended EP) | 〰️ | ✅ | ✅ | 〰️ |
