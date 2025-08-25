@@ -215,20 +215,16 @@
 		(layer "F.CrtYd")
 		(uuid "089bba85-cbeb-4600-a7ff-7bad20fd517a")
 	)
-	(pad "1" thru_hole custom
+	(pad "1" thru_hole roundrect
 		(at -8.98 -10.16)
-		(size 0.8 1.6)
-		(drill 0.8
-			(offset 0.4 0)
-		)
+		(size 1.6 1.6)
+		(drill 0.8)
 		(property pad_prop_castellated)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives)
+		(roundrect_rratio 0.5)
+		(chamfer_ratio 0)
+		(chamfer top_right bottom_right)
 		(uuid "142f6863-25c2-45cb-9674-6d017cdfff4d")
 	)
 	(pad "1" thru_hole roundrect
@@ -242,21 +238,17 @@
 		(chamfer top_left bottom_left)
 		(uuid "9805eced-8d44-4629-8fa9-5b3203ac35a5")
 	)
-	(pad "2" thru_hole custom
+	(pad "2" thru_hole roundrect
 		(at -8.98 -7.62)
-		(size 0.8 1.6)
-		(drill 0.8
-			(offset 0.4 0)
-		)
+		(size 1.6 1.6)
+		(drill 0.8)
 		(property pad_prop_castellated)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives)
-		(uuid "03444332-eace-4d7f-9ca3-8ecee215aeec")
+		(roundrect_rratio 0.5)
+		(chamfer_ratio 0)
+		(chamfer top_right bottom_right)
+		(uuid "aca144d4-2de4-45ec-89d3-a4439482d426")
 	)
 	(pad "2" thru_hole roundrect
 		(at -7.62 -7.62)
@@ -269,21 +261,17 @@
 		(chamfer top_left bottom_left)
 		(uuid "b60ed835-d366-4d88-801d-11be74289527")
 	)
-	(pad "3" thru_hole custom
+	(pad "3" thru_hole roundrect
 		(at -8.98 -5.08)
-		(size 0.8 1.6)
-		(drill 0.8
-			(offset 0.4 0)
-		)
+		(size 1.6 1.6)
+		(drill 0.8)
 		(property pad_prop_castellated)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives)
-		(uuid "cd009ae8-38ff-4263-adde-1fc2007f9bd2")
+		(roundrect_rratio 0.5)
+		(chamfer_ratio 0)
+		(chamfer top_right bottom_right)
+		(uuid "825c1f00-aed9-43a6-9b81-ae4078fc9983")
 	)
 	(pad "3" thru_hole roundrect
 		(at -7.62 -5.08)
@@ -296,21 +284,17 @@
 		(chamfer top_left bottom_left)
 		(uuid "056db50f-e82a-47aa-af71-9a6bd2536957")
 	)
-	(pad "4" thru_hole custom
+	(pad "4" thru_hole roundrect
 		(at -8.98 -2.54)
-		(size 0.8 1.6)
-		(drill 0.8
-			(offset 0.4 0)
-		)
+		(size 1.6 1.6)
+		(drill 0.8)
 		(property pad_prop_castellated)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives)
-		(uuid "b11d5078-b10c-40ea-8840-1ce309d838e2")
+		(roundrect_rratio 0.5)
+		(chamfer_ratio 0)
+		(chamfer top_right bottom_right)
+		(uuid "719f132f-47a6-47d6-82c4-11bfe7121dfa")
 	)
 	(pad "4" thru_hole roundrect
 		(at -7.62 -2.54)
@@ -323,21 +307,17 @@
 		(chamfer top_left bottom_left)
 		(uuid "fe82f269-49db-4583-a5c7-5e670c5b7b6b")
 	)
-	(pad "5" thru_hole custom
+	(pad "5" thru_hole roundrect
 		(at -8.98 0)
-		(size 0.8 1.6)
-		(drill 0.8
-			(offset 0.4 0)
-		)
+		(size 1.6 1.6)
+		(drill 0.8)
 		(property pad_prop_castellated)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives)
-		(uuid "1b2b2056-e184-4132-b484-bf1f35d4c62c")
+		(roundrect_rratio 0.5)
+		(chamfer_ratio 0)
+		(chamfer top_right bottom_right)
+		(uuid "d01f5dda-297e-4f23-832b-6d653180a7f3")
 	)
 	(pad "5" thru_hole roundrect
 		(at -7.62 0)
@@ -350,21 +330,17 @@
 		(chamfer top_left bottom_left)
 		(uuid "18394424-abbd-4e1c-88a0-1990c2cb24e2")
 	)
-	(pad "6" thru_hole custom
+	(pad "6" thru_hole roundrect
 		(at -8.98 2.54)
-		(size 0.8 1.6)
-		(drill 0.8
-			(offset 0.4 0)
-		)
+		(size 1.6 1.6)
+		(drill 0.8)
 		(property pad_prop_castellated)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives)
-		(uuid "b367f4d1-7aed-4d7a-944f-0c9bd7650389")
+		(roundrect_rratio 0.5)
+		(chamfer_ratio 0)
+		(chamfer top_right bottom_right)
+		(uuid "ae7b4a9c-8ac6-4024-881c-fc833b09620e")
 	)
 	(pad "6" thru_hole roundrect
 		(at -7.62 2.54)
@@ -377,21 +353,17 @@
 		(chamfer top_left bottom_left)
 		(uuid "3221c81e-68a1-4242-834f-04172a92f16d")
 	)
-	(pad "7" thru_hole custom
+	(pad "7" thru_hole roundrect
 		(at -8.98 5.08)
-		(size 0.8 1.6)
-		(drill 0.8
-			(offset 0.4 0)
-		)
+		(size 1.6 1.6)
+		(drill 0.8)
 		(property pad_prop_castellated)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives)
-		(uuid "a35f2c3b-36ea-43c7-93b9-5742718777ce")
+		(roundrect_rratio 0.5)
+		(chamfer_ratio 0)
+		(chamfer top_right bottom_right)
+		(uuid "3a345869-4b29-485f-b9d5-f17a6b6f2749")
 	)
 	(pad "7" thru_hole roundrect
 		(at -7.62 5.08)
@@ -404,21 +376,17 @@
 		(chamfer top_left bottom_left)
 		(uuid "b2d655d2-9821-4349-85fb-de60a5f17059")
 	)
-	(pad "8" thru_hole custom
+	(pad "8" thru_hole roundrect
 		(at -8.98 7.62)
-		(size 0.8 1.6)
-		(drill 0.8
-			(offset 0.4 0)
-		)
+		(size 1.6 1.6)
+		(drill 0.8)
 		(property pad_prop_castellated)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives)
-		(uuid "b168eb6a-8762-45e2-8570-3c796aaca975")
+		(roundrect_rratio 0.5)
+		(chamfer_ratio 0)
+		(chamfer top_right bottom_right)
+		(uuid "e7fe110f-57f9-43c7-b845-2f2aa223356c")
 	)
 	(pad "8" thru_hole roundrect
 		(at -7.62 7.62)
@@ -431,21 +399,17 @@
 		(chamfer top_left bottom_left)
 		(uuid "d3688c67-34f4-495e-b8f0-43a8484cd489")
 	)
-	(pad "9" thru_hole custom
+	(pad "9" thru_hole roundrect
 		(at -8.98 10.16)
-		(size 0.8 1.6)
-		(drill 0.8
-			(offset 0.4 0)
-		)
+		(size 1.6 1.6)
+		(drill 0.8)
 		(property pad_prop_castellated)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives)
-		(uuid "6fe960b2-b225-4dc7-94d6-77de5d317481")
+		(roundrect_rratio 0.5)
+		(chamfer_ratio 0)
+		(chamfer top_right bottom_right)
+		(uuid "be8e3d93-7190-40cb-a684-17b3b61a27d4")
 	)
 	(pad "9" thru_hole roundrect
 		(at -7.62 10.16)
@@ -469,20 +433,16 @@
 		(chamfer top_left bottom_left)
 		(uuid "879e23b8-8310-4762-8620-a1b319588d53")
 	)
-	(pad "10" thru_hole custom
+	(pad "10" thru_hole roundrect
 		(at 8.98 -10.16 180)
-		(size 0.8 1.6)
-		(drill 0.8
-			(offset 0.4 0)
-		)
+		(size 1.6 1.6)
+		(drill 0.8)
 		(property pad_prop_castellated)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives)
+		(roundrect_rratio 0.5)
+		(chamfer_ratio 0)
+		(chamfer top_right bottom_right)
 		(uuid "8cd1738e-1fed-4c0d-a297-2318ef78df78")
 	)
 	(pad "11" thru_hole roundrect
@@ -496,21 +456,17 @@
 		(chamfer top_left bottom_left)
 		(uuid "f865a220-af60-4fa2-8d7b-09a185648a0e")
 	)
-	(pad "11" thru_hole custom
+	(pad "11" thru_hole roundrect
 		(at 8.98 -7.62 180)
-		(size 0.8 1.6)
-		(drill 0.8
-			(offset 0.4 0)
-		)
+		(size 1.6 1.6)
+		(drill 0.8)
 		(property pad_prop_castellated)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives)
-		(uuid "db056123-f9ad-439c-a753-de11f084b235")
+		(roundrect_rratio 0.5)
+		(chamfer_ratio 0)
+		(chamfer top_right bottom_right)
+		(uuid "cf9c9a6f-90b7-48e5-bb02-f1ff158c14a9")
 	)
 	(pad "12" thru_hole roundrect
 		(at 7.62 -5.08 180)
@@ -523,21 +479,17 @@
 		(chamfer top_left bottom_left)
 		(uuid "77b2e899-4f60-47f9-ab4b-091c7d84e70d")
 	)
-	(pad "12" thru_hole custom
+	(pad "12" thru_hole roundrect
 		(at 8.98 -5.08 180)
-		(size 0.8 1.6)
-		(drill 0.8
-			(offset 0.4 0)
-		)
+		(size 1.6 1.6)
+		(drill 0.8)
 		(property pad_prop_castellated)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives)
-		(uuid "14a094d1-005b-4109-81fb-67791afb1de1")
+		(roundrect_rratio 0.5)
+		(chamfer_ratio 0)
+		(chamfer top_right bottom_right)
+		(uuid "7f55cabd-d4ae-49ba-98f8-7cd58f1d62e0")
 	)
 	(pad "13" thru_hole roundrect
 		(at 7.62 -2.54 180)
@@ -550,21 +502,17 @@
 		(chamfer top_left bottom_left)
 		(uuid "46b26735-1545-42d3-a98d-0e9b6fb35ac3")
 	)
-	(pad "13" thru_hole custom
+	(pad "13" thru_hole roundrect
 		(at 8.98 -2.54 180)
-		(size 0.8 1.6)
-		(drill 0.8
-			(offset 0.4 0)
-		)
+		(size 1.6 1.6)
+		(drill 0.8)
 		(property pad_prop_castellated)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives)
-		(uuid "6ab5cc85-13ef-45a2-8334-c5b0e5a99dd3")
+		(roundrect_rratio 0.5)
+		(chamfer_ratio 0)
+		(chamfer top_right bottom_right)
+		(uuid "7f0ea442-4920-4022-a357-c6d73036bc00")
 	)
 	(pad "14" thru_hole roundrect
 		(at 7.62 0 180)
@@ -577,21 +525,17 @@
 		(chamfer top_left bottom_left)
 		(uuid "0ebba137-a1fe-42df-841f-efb7f3c2cbed")
 	)
-	(pad "14" thru_hole custom
+	(pad "14" thru_hole roundrect
 		(at 8.98 0 180)
-		(size 0.8 1.6)
-		(drill 0.8
-			(offset 0.4 0)
-		)
+		(size 1.6 1.6)
+		(drill 0.8)
 		(property pad_prop_castellated)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives)
-		(uuid "c0f17c8a-e6be-4833-832d-51d4ec5f7209")
+		(roundrect_rratio 0.5)
+		(chamfer_ratio 0)
+		(chamfer top_right bottom_right)
+		(uuid "f15e2c50-d4cf-42ec-b81a-5cce0f87c47f")
 	)
 	(pad "15" thru_hole roundrect
 		(at 7.62 2.54 180)
@@ -604,21 +548,17 @@
 		(chamfer top_left bottom_left)
 		(uuid "9fa9b78e-b5ce-4028-a481-ef1b3725c24b")
 	)
-	(pad "15" thru_hole custom
+	(pad "15" thru_hole roundrect
 		(at 8.98 2.54 180)
-		(size 0.8 1.6)
-		(drill 0.8
-			(offset 0.4 0)
-		)
+		(size 1.6 1.6)
+		(drill 0.8)
 		(property pad_prop_castellated)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives)
-		(uuid "97440588-5927-4e34-abaf-d6a03fd97b12")
+		(roundrect_rratio 0.5)
+		(chamfer_ratio 0)
+		(chamfer top_right bottom_right)
+		(uuid "4d8b975b-d558-4f64-8f83-f5229e5ddc26")
 	)
 	(pad "16" thru_hole roundrect
 		(at 7.62 5.08 180)
@@ -631,21 +571,17 @@
 		(chamfer top_left bottom_left)
 		(uuid "53edec4f-047e-4bdf-9a69-2b5622ab0fc3")
 	)
-	(pad "16" thru_hole custom
+	(pad "16" thru_hole roundrect
 		(at 8.98 5.08 180)
-		(size 0.8 1.6)
-		(drill 0.8
-			(offset 0.4 0)
-		)
+		(size 1.6 1.6)
+		(drill 0.8)
 		(property pad_prop_castellated)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives)
-		(uuid "a05ac91f-919b-448a-b8c6-21082d4d035c")
+		(roundrect_rratio 0.5)
+		(chamfer_ratio 0)
+		(chamfer top_right bottom_right)
+		(uuid "3395378a-362f-46f3-99a2-2ac052ca9786")
 	)
 	(pad "17" thru_hole roundrect
 		(at 7.62 7.62 180)
@@ -658,21 +594,17 @@
 		(chamfer top_left bottom_left)
 		(uuid "9b9336fe-6839-44d6-b87f-6ca7c335edfc")
 	)
-	(pad "17" thru_hole custom
+	(pad "17" thru_hole roundrect
 		(at 8.98 7.62 180)
-		(size 0.8 1.6)
-		(drill 0.8
-			(offset 0.4 0)
-		)
+		(size 1.6 1.6)
+		(drill 0.8)
 		(property pad_prop_castellated)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives)
-		(uuid "86ad2b42-e1de-4dad-9e7d-8d9e992cc9b3")
+		(roundrect_rratio 0.5)
+		(chamfer_ratio 0)
+		(chamfer top_right bottom_right)
+		(uuid "29634073-0f0d-4ab9-8e3e-e87bc626b594")
 	)
 	(pad "18" thru_hole roundrect
 		(at 7.62 10.16 180)
@@ -685,21 +617,17 @@
 		(chamfer top_left bottom_left)
 		(uuid "383e50cf-4765-4eea-8e4b-a1e222e74cb1")
 	)
-	(pad "18" thru_hole custom
+	(pad "18" thru_hole roundrect
 		(at 8.98 10.16 180)
-		(size 0.8 1.6)
-		(drill 0.8
-			(offset 0.4 0)
-		)
+		(size 1.6 1.6)
+		(drill 0.8)
 		(property pad_prop_castellated)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives)
-		(uuid "1d4da29c-daa6-4082-a16d-fd51ec54c0c1")
+		(roundrect_rratio 0.5)
+		(chamfer_ratio 0)
+		(chamfer top_right bottom_right)
+		(uuid "67711335-168f-40f0-ac3f-776ff8ffb1b8")
 	)
 	(pad "19" smd circle
 		(at 5.37 6.6)
@@ -840,76 +768,100 @@
 		)
 	)
 	(group ""
-		(uuid "0efa906c-8d4d-40c0-8f58-4c8ce55b5884")
-		(members "3221c81e-68a1-4242-834f-04172a92f16d" "b367f4d1-7aed-4d7a-944f-0c9bd7650389")
-	)
-	(group ""
-		(uuid "15ef3970-3e17-4f51-a7ab-cda58690bcc4")
-		(members "a35f2c3b-36ea-43c7-93b9-5742718777ce" "b2d655d2-9821-4349-85fb-de60a5f17059")
-	)
-	(group ""
-		(uuid "1ef37c1f-c553-443c-b3d3-3a60a530d405")
-		(members "b168eb6a-8762-45e2-8570-3c796aaca975" "d3688c67-34f4-495e-b8f0-43a8484cd489")
-	)
-	(group ""
-		(uuid "1f9d53fa-161a-4953-9580-5b1c13ba3049")
-		(members "18394424-abbd-4e1c-88a0-1990c2cb24e2" "1b2b2056-e184-4132-b484-bf1f35d4c62c")
+		(uuid "3d444fd1-f1c4-42fe-a66c-89c578cbb7e7")
+		(members "142f6863-25c2-45cb-9674-6d017cdfff4d" "9805eced-8d44-4629-8fa9-5b3203ac35a5")
 	)
 	(group ""
 		(uuid "3d444fd1-f1c4-42fe-a66c-89c578cbb7e7")
 		(members "142f6863-25c2-45cb-9674-6d017cdfff4d" "9805eced-8d44-4629-8fa9-5b3203ac35a5")
 	)
 	(group ""
-		(uuid "677591d4-e7dc-45fd-829d-0ccf51e20cdc")
-		(members "46b26735-1545-42d3-a98d-0e9b6fb35ac3" "6ab5cc85-13ef-45a2-8334-c5b0e5a99dd3")
+		(uuid "3d444fd1-f1c4-42fe-a66c-89c578cbb7e7")
+		(members "142f6863-25c2-45cb-9674-6d017cdfff4d" "9805eced-8d44-4629-8fa9-5b3203ac35a5")
 	)
 	(group ""
-		(uuid "6f69fd24-8344-4567-8150-f3aa3145091d")
-		(members "db056123-f9ad-439c-a753-de11f084b235" "f865a220-af60-4fa2-8d7b-09a185648a0e")
+		(uuid "3d444fd1-f1c4-42fe-a66c-89c578cbb7e7")
+		(members "142f6863-25c2-45cb-9674-6d017cdfff4d" "9805eced-8d44-4629-8fa9-5b3203ac35a5")
 	)
 	(group ""
-		(uuid "885faf1e-8137-4056-b95f-58d8573fb3c9")
-		(members "97440588-5927-4e34-abaf-d6a03fd97b12" "9fa9b78e-b5ce-4028-a481-ef1b3725c24b")
+		(uuid "3d444fd1-f1c4-42fe-a66c-89c578cbb7e7")
+		(members "142f6863-25c2-45cb-9674-6d017cdfff4d" "9805eced-8d44-4629-8fa9-5b3203ac35a5")
 	)
 	(group ""
-		(uuid "917c143f-cca3-4f0c-8d10-4e5e89b65b47")
-		(members "14a094d1-005b-4109-81fb-67791afb1de1" "77b2e899-4f60-47f9-ab4b-091c7d84e70d")
+		(uuid "3d444fd1-f1c4-42fe-a66c-89c578cbb7e7")
+		(members "142f6863-25c2-45cb-9674-6d017cdfff4d" "9805eced-8d44-4629-8fa9-5b3203ac35a5")
 	)
 	(group ""
-		(uuid "918d6934-6c84-4322-95bd-87438cea21d0")
-		(members "03444332-eace-4d7f-9ca3-8ecee215aeec" "b60ed835-d366-4d88-801d-11be74289527")
+		(uuid "3d444fd1-f1c4-42fe-a66c-89c578cbb7e7")
+		(members "142f6863-25c2-45cb-9674-6d017cdfff4d" "9805eced-8d44-4629-8fa9-5b3203ac35a5")
 	)
 	(group ""
-		(uuid "9a2ffeca-cbc7-4845-8c0d-ad38452190a2")
-		(members "86ad2b42-e1de-4dad-9e7d-8d9e992cc9b3" "9b9336fe-6839-44d6-b87f-6ca7c335edfc")
+		(uuid "3d444fd1-f1c4-42fe-a66c-89c578cbb7e7")
+		(members "142f6863-25c2-45cb-9674-6d017cdfff4d" "9805eced-8d44-4629-8fa9-5b3203ac35a5")
 	)
 	(group ""
-		(uuid "9e6a7d5a-d3d2-4d4a-9e5a-ea33d8ae7594")
-		(members "879e23b8-8310-4762-8620-a1b319588d53" "8cd1738e-1fed-4c0d-a297-2318ef78df78")
+		(uuid "3d444fd1-f1c4-42fe-a66c-89c578cbb7e7")
+		(members "142f6863-25c2-45cb-9674-6d017cdfff4d" "9805eced-8d44-4629-8fa9-5b3203ac35a5")
 	)
 	(group ""
-		(uuid "a3fb17f9-2326-48f1-b20d-9692d32c6631")
-		(members "6fe960b2-b225-4dc7-94d6-77de5d317481" "90ccdf5b-8f16-4573-9789-25458639358b")
+		(uuid "3d444fd1-f1c4-42fe-a66c-89c578cbb7e7")
+		(members "142f6863-25c2-45cb-9674-6d017cdfff4d" "9805eced-8d44-4629-8fa9-5b3203ac35a5")
 	)
 	(group ""
-		(uuid "b5343114-f652-4424-9f4c-2e53ba11d721")
-		(members "b11d5078-b10c-40ea-8840-1ce309d838e2" "fe82f269-49db-4583-a5c7-5e670c5b7b6b")
+		(uuid "3d444fd1-f1c4-42fe-a66c-89c578cbb7e7")
+		(members "142f6863-25c2-45cb-9674-6d017cdfff4d" "9805eced-8d44-4629-8fa9-5b3203ac35a5")
 	)
 	(group ""
-		(uuid "ba4fda55-b193-47f5-9303-769b83d2c395")
-		(members "0ebba137-a1fe-42df-841f-efb7f3c2cbed" "c0f17c8a-e6be-4833-832d-51d4ec5f7209")
+		(uuid "3d444fd1-f1c4-42fe-a66c-89c578cbb7e7")
+		(members "142f6863-25c2-45cb-9674-6d017cdfff4d" "9805eced-8d44-4629-8fa9-5b3203ac35a5")
 	)
 	(group ""
-		(uuid "e0d89a9c-f905-4535-8309-a5080b38edda")
-		(members "1d4da29c-daa6-4082-a16d-fd51ec54c0c1" "383e50cf-4765-4eea-8e4b-a1e222e74cb1")
+		(uuid "3d444fd1-f1c4-42fe-a66c-89c578cbb7e7")
+		(members "142f6863-25c2-45cb-9674-6d017cdfff4d" "9805eced-8d44-4629-8fa9-5b3203ac35a5")
 	)
 	(group ""
-		(uuid "eaa8b492-5478-437b-8b82-dd6d07b46063")
-		(members "53edec4f-047e-4bdf-9a69-2b5622ab0fc3" "a05ac91f-919b-448a-b8c6-21082d4d035c")
+		(uuid "3d444fd1-f1c4-42fe-a66c-89c578cbb7e7")
+		(members "142f6863-25c2-45cb-9674-6d017cdfff4d" "9805eced-8d44-4629-8fa9-5b3203ac35a5")
 	)
 	(group ""
-		(uuid "ef7db78d-ead8-44ec-9b40-e3b7edc6e82b")
-		(members "056db50f-e82a-47aa-af71-9a6bd2536957" "cd009ae8-38ff-4263-adde-1fc2007f9bd2")
+		(uuid "3d444fd1-f1c4-42fe-a66c-89c578cbb7e7")
+		(members "142f6863-25c2-45cb-9674-6d017cdfff4d" "9805eced-8d44-4629-8fa9-5b3203ac35a5")
+	)
+	(group ""
+		(uuid "3d444fd1-f1c4-42fe-a66c-89c578cbb7e7")
+		(members "142f6863-25c2-45cb-9674-6d017cdfff4d" "9805eced-8d44-4629-8fa9-5b3203ac35a5")
+	)
+	(group ""
+		(uuid "3d444fd1-f1c4-42fe-a66c-89c578cbb7e7")
+		(members "142f6863-25c2-45cb-9674-6d017cdfff4d" "9805eced-8d44-4629-8fa9-5b3203ac35a5")
+	)
+	(group ""
+		(uuid "3d444fd1-f1c4-42fe-a66c-89c578cbb7e7")
+		(members "142f6863-25c2-45cb-9674-6d017cdfff4d" "9805eced-8d44-4629-8fa9-5b3203ac35a5")
+	)
+	(group ""
+		(uuid "3d444fd1-f1c4-42fe-a66c-89c578cbb7e7")
+		(members "142f6863-25c2-45cb-9674-6d017cdfff4d" "9805eced-8d44-4629-8fa9-5b3203ac35a5")
+	)
+	(group ""
+		(uuid "3d444fd1-f1c4-42fe-a66c-89c578cbb7e7")
+		(members "142f6863-25c2-45cb-9674-6d017cdfff4d" "9805eced-8d44-4629-8fa9-5b3203ac35a5")
+	)
+	(group ""
+		(uuid "3d444fd1-f1c4-42fe-a66c-89c578cbb7e7")
+		(members "142f6863-25c2-45cb-9674-6d017cdfff4d" "9805eced-8d44-4629-8fa9-5b3203ac35a5")
+	)
+	(group ""
+		(uuid "3d444fd1-f1c4-42fe-a66c-89c578cbb7e7")
+		(members "142f6863-25c2-45cb-9674-6d017cdfff4d" "9805eced-8d44-4629-8fa9-5b3203ac35a5")
+	)
+	(group ""
+		(uuid "3d444fd1-f1c4-42fe-a66c-89c578cbb7e7")
+		(members "142f6863-25c2-45cb-9674-6d017cdfff4d" "9805eced-8d44-4629-8fa9-5b3203ac35a5")
+	)
+	(group ""
+		(uuid "3d444fd1-f1c4-42fe-a66c-89c578cbb7e7")
+		(members "142f6863-25c2-45cb-9674-6d017cdfff4d" "9805eced-8d44-4629-8fa9-5b3203ac35a5")
 	)
 	(embedded_fonts no)
 	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_DevKit_WaveShare.3dshapes/WS_ESP32_C6_Zero.step"
