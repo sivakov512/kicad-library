@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "T"
-			(at 0 13.97 0)
+			(at 0 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19,7 +19,7 @@
 			)
 		)
 		(property "Value" "Wurth 750370423"
-			(at 0 -15.24 0)
+			(at 0 20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66,9 +66,9 @@
 		)
 		(symbol "Wurth_750370423_0_0"
 			(arc
-				(start -2.54 12.7)
-				(mid -1.2755 11.43)
-				(end -2.54 10.16)
+				(start -2.54 17.78)
+				(mid -1.2755 16.51)
+				(end -2.54 15.24)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -102,21 +102,9 @@
 				)
 			)
 			(arc
-				(start -2.54 5.08)
-				(mid -1.2755 3.81)
-				(end -2.54 2.54)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -2.54 -2.54)
-				(mid -1.2755 -3.81)
-				(end -2.54 -5.08)
+				(start -2.54 2.54)
+				(mid -1.2755 1.27)
+				(end -2.54 0)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -161,9 +149,69 @@
 					(type none)
 				)
 			)
+			(arc
+				(start -2.54 -20.32)
+				(mid -1.2755 -21.59)
+				(end -2.54 -22.86)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
-					(xy -2.54 12.7) (xy -5.08 12.7)
+					(xy -2.54 17.78) (xy -5.08 17.78)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.5345 15.24)
+				(mid -1.27 13.97)
+				(end -2.5345 12.7)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.5345 12.7)
+				(mid -1.27 11.43)
+				(end -2.5345 10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.5345 5.08)
+				(mid -1.27 3.81)
+				(end -2.5345 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -5.08 0)
 				)
 				(stroke
 					(width 0.254)
@@ -175,8 +223,44 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 2.54) (xy -5.08 2.54)
+					(xy -2.54 -5.08) (xy -5.08 -5.08)
 				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.5345 -12.7)
+				(mid -1.27 -13.97)
+				(end -2.5345 -15.24)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.5345 -15.24)
+				(mid -1.27 -16.51)
+				(end -2.5345 -17.78)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.5345 -17.78)
+				(mid -1.27 -19.05)
+				(end -2.5345 -20.32)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -187,19 +271,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -2.54) (xy -5.08 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -12.7) (xy -5.08 -12.7)
+					(xy -2.54 -22.86) (xy -5.08 -22.86)
 				)
 				(stroke
 					(width 0.254)
@@ -210,7 +282,7 @@
 				)
 			)
 			(circle
-				(center -2.286 11.43)
+				(center -2.286 1.27)
 				(radius 0.2032)
 				(stroke
 					(width 0.381)
@@ -221,7 +293,7 @@
 				)
 			)
 			(circle
-				(center -2.286 -3.81)
+				(center -2.286 -6.35)
 				(radius 0.2032)
 				(stroke
 					(width 0.381)
@@ -233,7 +305,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 12.7) (xy 0 -12.7)
+					(xy 0 17.78) (xy 0 -22.86)
 				)
 				(stroke
 					(width 0.254)
@@ -244,7 +316,7 @@
 				)
 			)
 			(circle
-				(center 2.286 3.81)
+				(center 2.286 5.08)
 				(radius 0.2032)
 				(stroke
 					(width 0.381)
@@ -256,8 +328,44 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 5.08) (xy 5.08 5.08)
+					(xy 2.54 6.35) (xy 5.08 6.35)
 				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.5345 1.27)
+				(mid 1.27 2.54)
+				(end 2.5345 3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.5345 -6.35)
+				(mid 1.27 -5.08)
+				(end 2.5345 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.5345 -8.89)
+				(mid 1.27 -7.62)
+				(end 2.5345 -6.35)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -268,7 +376,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -5.08) (xy 5.08 -5.08)
+					(xy 2.54 -11.43) (xy 5.08 -11.43)
 				)
 				(stroke
 					(width 0.254)
@@ -279,9 +387,9 @@
 				)
 			)
 			(arc
-				(start 2.54 2.54)
-				(mid 1.2755 3.81)
-				(end 2.54 5.08)
+				(start 2.54 3.81)
+				(mid 1.2755 5.08)
+				(end 2.54 6.35)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -291,9 +399,9 @@
 				)
 			)
 			(arc
-				(start 2.54 0)
-				(mid 1.2755 1.27)
-				(end 2.54 2.54)
+				(start 2.54 -1.27)
+				(mid 1.2755 0)
+				(end 2.54 1.27)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -303,9 +411,9 @@
 				)
 			)
 			(arc
-				(start 2.54 -2.54)
-				(mid 1.2755 -1.27)
-				(end 2.54 0)
+				(start 2.54 -3.81)
+				(mid 1.2755 -2.54)
+				(end 2.54 -1.27)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -315,9 +423,9 @@
 				)
 			)
 			(arc
-				(start 2.54 -5.08)
-				(mid 1.2755 -3.81)
-				(end 2.54 -2.54)
+				(start 2.54 -11.43)
+				(mid 1.2755 -10.16)
+				(end 2.54 -8.89)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -327,7 +435,7 @@
 				)
 			)
 			(text "N1"
-				(at -7.62 7.62 0)
+				(at -5.08 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -335,7 +443,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 5.08 180)
+				(at 7.62 6.35 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -355,25 +463,7 @@
 		)
 		(symbol "Wurth_750370423_1_0"
 			(pin power_in line
-				(at -7.62 12.7 0)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -7.62 2.54 0)
+				(at -7.62 17.78 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -390,8 +480,26 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin power_out line
-				(at -7.62 -2.54 0)
+				(at -7.62 -5.08 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -409,7 +517,7 @@
 				)
 			)
 			(pin power_out line
-				(at -7.62 -12.7 0)
+				(at -7.62 -22.86 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -427,7 +535,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -5.08 180)
+				(at 7.62 -11.43 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -447,7 +555,7 @@
 		)
 		(symbol "Wurth_750370423_1_1"
 			(text "N3"
-				(at -7.62 -7.62 0)
+				(at -5.08 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -455,7 +563,7 @@
 				)
 			)
 			(text "N2"
-				(at 7.62 0 0)
+				(at 5.08 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
