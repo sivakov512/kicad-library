@@ -38,7 +38,9 @@ The table below shows the available components in the library and indicates whic
 | TaiyoYuden AH316M245001-T (2.4GHz) | 〰️ | ✅ | ✅ | ✅ |
 | PCB Antenna Espressif 2.4GHz (left/right) | 〰️ | ✅ | 〰️ | 〰️ |
 | **Capacitors** |
-| Radial Electrolytic (THT, Various sizes) | 〰️ | ✅ | ❌ | ❌ |
+| Radial Electrolytic (THT, D5.0mm/P1.5mm) | 〰️ | ✅ | ✅ | ❌ |
+| Radial Electrolytic (THT, D6.0mm/P2.5mm) | 〰️ | ✅ | ✅ | ❌ |
+| Radial Electrolytic (THT, D16.0mm/P10.0mm) | 〰️ | ✅ | ✅ | ❌ |
 | **Fuses and Fuse Holders** |
 | PTF76 (5x20mm, 15mm lead spacing) | 〰️ | ✅ | ✅ | ❌ |
 | 2410 (6125 Metric) SMD Fuse | 〰️ | ✅ | ✅ | ❌ |
