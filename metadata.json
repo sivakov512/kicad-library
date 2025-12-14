@@ -16,10 +16,16 @@
   "resources": {
     "homepage": "https://github.com/sivakov512/kicad-library"
   },
-  "tags": ["datasheets", "footprints", "library", "models", "symbols"],
+  "tags": [
+    "datasheets",
+    "footprints",
+    "library",
+    "models",
+    "symbols"
+  ],
   "versions": [
     {
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "stable",
       "kicad_version": "8.0"
     }
