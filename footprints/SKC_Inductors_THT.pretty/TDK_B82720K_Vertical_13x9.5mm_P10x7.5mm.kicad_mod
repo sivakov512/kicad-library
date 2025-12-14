@@ -29,7 +29,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@master/datasheets/Inductors/Epcos_b82720k2102n040.pdf"
+	(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Inductors/Epcos_b82720k2102n040.pdf"
 		(at 3.02 -18.95 0)
 		(unlocked yes)
 		(layer "F.Fab")

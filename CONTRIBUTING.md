@@ -111,13 +111,13 @@ datasheets/[CategoryName]/[Manufacturer]_[PartNumber].pdf
 - Use descriptive filenames that include the manufacturer and part number (e.g., `STMicroelectronics_VIPER06.pdf`).
 - When referencing datasheets in symbols or footprints, use jsDelivr CDN links with the following format:
   ```
-  https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@master/<relative_path_to_datasheet>
+  https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/<relative_path_to_datasheet>
   ```
   For example:
   ```
-  https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@master/datasheets/ACDC_Converters/STMicroelectronics_VIPER06.pdf
+  https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/ACDC_Converters/STMicroelectronics_VIPER06.pdf
   ```
-- Always use the `@master` branch specifier in the URL to ensure links remain stable.
+- Always use the `@main` branch specifier in the URL to ensure links remain stable.
 - Set this URL in the `datasheet` field of symbols and footprints to enable direct access from KiCad.
 
 
