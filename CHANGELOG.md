@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/sivakov512/kicad-library/compare/v1.2.0...v1.3.0) (2026-02-19)
+
+
+### Features
+
+* Cvilux CU3216SASBLR004-NH USB-C Receptacle footprint and datasheet ([ffa2563](https://github.com/sivakov512/kicad-library/commit/ffa25637e98a2a9203a1ddffbbce5ce7b31f3776))
+
 ## [1.2.0](https://github.com/sivakov512/kicad-library/compare/v1.1.0...v1.2.0) (2026-02-19)
 
 
