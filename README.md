@@ -35,7 +35,8 @@ The table below shows the available components in the library and indicates whic
 | **AC-DC Converters** |
 | STMicroelectronics VIPER06 (SSO10) | ✅ | ✅ | ✅ | ✅ |
 | **Antennas** |
-| TaiyoYuden AH316M245001-T (2.4GHz) | 〰️ | ✅ | ✅ | ✅ |
+| TaiyoYuden AH316M245001-T chip (2.4GHz) | 〰️ | ✅ | ✅ | ✅ |
+| Quectel TaiyoYuden chip (2.4GHz) | 〰️ | ✅ | ✅ | ✅ |
 | PCB Antenna Espressif 2.4GHz (left/right) | 〰️ | ✅ | 〰️ | 〰️ |
 | **Capacitors** |
 | Radial Electrolytic (THT, D5.0mm/P1.5mm) | 〰️ | ✅ | ✅ | ❌ |
