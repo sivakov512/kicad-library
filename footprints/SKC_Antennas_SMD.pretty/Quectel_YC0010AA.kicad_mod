@@ -1,0 +1,272 @@
+(footprint "Quectel_YC0010AA"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Quectel YC0010AA chip antenna, 2.4Ghz, 5.2x2.0 mm")
+	(tags "quectel chip antenna 2.4ghz wifi 5220 2012")
+	(property "Reference" "REF**"
+		(at 0.175 -2.135 0)
+		(layer "F.SilkS")
+		(uuid "99a96c30-a806-4e83-87ba-02446ff7f557")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "YC0010AA"
+		(at 0 2.135 0)
+		(layer "F.Fab")
+		(uuid "d0bcd172-19d3-4bad-b79b-2c1de4cba6dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Antennas/Quectel_YC0010AA.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4c5aeb8-499e-4446-9643-5efd1d2f0248")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de204c0b-c4dc-4fb0-b38e-e3bec5aeed03")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.75 -1)
+		(end 1.75 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b28f4a6-fd37-460a-b0e3-996b3d713657")
+	)
+	(fp_line
+		(start -1.75 1)
+		(end 1.75 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d95f6e8-2cf9-4bdf-bbce-40811b1e4739")
+	)
+	(fp_circle
+		(center -3.65 0)
+		(end -3.55 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "03b921a3-1266-44a3-8b61-1c05001c99ea")
+	)
+	(fp_line
+		(start -3.35 -1.25)
+		(end 3.35 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "862d3da7-1a2f-454b-8bbc-0b4aea982cca")
+	)
+	(fp_line
+		(start -3.35 1.25)
+		(end -3.35 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "62e43fab-a24b-407c-916e-079b3b61e828")
+	)
+	(fp_line
+		(start 3.35 -1.25)
+		(end 3.35 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2875966a-68a5-47e4-a70c-76e948996f9b")
+	)
+	(fp_line
+		(start 3.35 1.25)
+		(end -3.35 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cdb633f4-da95-41a3-ad7a-879248b8e52d")
+	)
+	(fp_line
+		(start -2.6 -1)
+		(end -2.6 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d515ea8e-1911-491d-bf74-ad5e72d5e8d1")
+	)
+	(fp_line
+		(start -2.6 1)
+		(end 2.6 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "969c62ea-667b-4384-8703-820a49e1b67c")
+	)
+	(fp_line
+		(start 2.6 -1)
+		(end -2.6 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e2879ca2-966b-4c54-abfd-4913a1d86668")
+	)
+	(fp_line
+		(start 2.6 1)
+		(end 2.6 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f257b46b-22c9-458a-a8e2-14f82ece4146")
+	)
+	(fp_circle
+		(center -3.65 0)
+		(end -3.55 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a1727113-24f1-45fe-bd16-5ff995edcd58")
+	)
+	(pad "1" smd rect
+		(at -2.6 0)
+		(size 1 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "e9ecc4b5-7144-4b23-b7c5-5ba8f8e99c83")
+	)
+	(pad "2" smd rect
+		(at 2.6 0)
+		(size 1 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "87e3879e-be4b-491a-9374-4b108a823ae0")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "a0c69ee2-3438-4846-a494-8daedee5ed5c")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.01)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -2.1 -1) (xy 2.1 -1) (xy 2.1 1) (xy -2.1 1)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "a24fbe93-1b44-42a8-862b-9a86126c9201")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.01)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -2.1 -1) (xy 2.1 -1) (xy 2.1 1) (xy -2.1 1)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Antennas_SMD.3dshapes/Quectel_YC0010AA.step"
+		(offset
+			(xyz 0 -1 0)
+		)
+		(scale
+			(xyz 1 1.5 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
