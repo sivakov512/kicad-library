@@ -66,6 +66,7 @@ The table below shows the available components in the library and indicates whic
 | Wurth 750370423 (E13 core) | ✅ | ✅ | ✅ | ✅ |
 | **Connectors** |
 | Pin Headers 1x02, 1x04, 1x06, 1x07 (2.54mm, NoSilk) | 〰️ | ✅ | 〰️ | 〰️ |
+| Cvilux CU3216SASBLR004-NH (USB Type-C Receptacle, SMD) | 〰️ | ✅ | ❌ | ✅ |
 | **PCB Design Elements** |
 | Net Ties (Various sizes) | 〰️ | ✅ | 〰️ | 〰️ |
 | **Crystals** |
