@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/sivakov512/kicad-library/compare/v1.3.0...v1.4.0) (2026-02-20)
+
+
+### Features
+
+* Add Rohm BDXXKA5WF fixed regulator family ([be41341](https://github.com/sivakov512/kicad-library/commit/be41341ac73d6ea3890dc7333feab7ab7dd3f7ca))
+
 ## [1.3.0](https://github.com/sivakov512/kicad-library/compare/v1.2.0...v1.3.0) (2026-02-19)
 
 
