@@ -52,7 +52,10 @@ The table below shows the available components in the library and indicates whic
 | ESP32-C3 | ✅ | 〰️ | ✅ | ✅ |
 | **Development Boards** |
 | ESP32-C6-Zero Waveshare | ✅ | ✅ | ✅ | ✅ |
+| **Regulators (Linear)** |
+| Rohm BDXXKA5WF (1A fixed LDO, OVP & TSP, SOP-8) | ✅ | ✅ | 〰️ | ✅ |
 | **Packages** |
+| SOP-8 (4.4x5.35mm, P1.27mm) | 〰️ | ✅ | 〰️ | 〰️ |
 | QFN-32 (4x4mm, P0.4mm, Compact EP) | 〰️ | ✅ | ✅ | 〰️ |
 | QFN-32 (4x4mm, P0.4mm, Standard EP) | 〰️ | ✅ | ✅ | 〰️ |
 | QFN-32 (4x4mm, P0.4mm, Extended EP) | 〰️ | ✅ | ✅ | 〰️ |
