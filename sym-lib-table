@@ -3,5 +3,6 @@
   (lib (name "LOCAL_SKC_ACDC_Converters")(type "KiCad")(uri "${KIPRJMOD}/symbols/SKC_ACDC_Converters.kicad_sym")(options "")(descr ""))
   (lib (name "LOCAL_SKC_MCU_Espressif")(type "KiCad")(uri "${KIPRJMOD}/symbols/SKC_MCU_Espressif.kicad_sym")(options "")(descr ""))
   (lib (name "LOCAL_SKC_Transformers")(type "KiCad")(uri "${KIPRJMOD}/symbols/SKC_Transformers.kicad_sym")(options "")(descr ""))
-  (lib (name "SKC_DevKit_WaveShare")(type "KiCad")(uri "${KIPRJMOD}/symbols/SKC_DevKit_WaveShare.kicad_sym")(options "")(descr ""))
+  (lib (name "LOCAL_SKC_DevKit_WaveShare")(type "KiCad")(uri "${KIPRJMOD}/symbols/SKC_DevKit_WaveShare.kicad_sym")(options "")(descr ""))
+  (lib (name "LOCAL_SKC_Regulators_Linear")(type "KiCad")(uri "${KIPRJMOD}/symbols/SKC_Regulators_Linear.kicad_sym")(options "")(descr ""))
 )
