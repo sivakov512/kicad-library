@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/sivakov512/kicad-library/compare/v1.4.0...v1.5.0) (2026-04-02)
+
+
+### Features
+
+* footprint for hybrid no name usb-c receptacle ([39a2cb9](https://github.com/sivakov512/kicad-library/commit/39a2cb96fb9b5454ee6d1675ec73d7ad36c9bb10))
+
 ## [1.4.0](https://github.com/sivakov512/kicad-library/compare/v1.3.0...v1.4.0) (2026-02-20)
 
 
