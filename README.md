@@ -70,6 +70,7 @@ The table below shows the available components in the library and indicates whic
 | **Connectors** |
 | Pin Headers 1x02, 1x04, 1x06, 1x07 (2.54mm, NoSilk) | 〰️ | ✅ | 〰️ | 〰️ |
 | Cvilux CU3216SASBLR004-NH (USB Type-C Receptacle, SMD) | 〰️ | ✅ | ❌ | ✅ |
+| NoName USB Type-C Receptacle (Hybrid SMD/THT, 24-pin) | 〰️ | ✅ | 〰️ | ❌ |
 | **PCB Design Elements** |
 | Net Ties (Various sizes) | 〰️ | ✅ | 〰️ | 〰️ |
 | **Crystals** |
