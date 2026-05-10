@@ -27,23 +27,25 @@ The easiest way to install this library is through KiCad's Plugin and Content Ma
 
 ### Symbols (`SKC_*`.kicad_sym)
 
-| Symbol                     | Datasheet |
-| -------------------------- | --------- |
-| **Converter ACDC**         |           |
-| STMicroelectronics VIPER06 | ✅        |
-| **DevKit**                 |           |
-| WaveShare ESP32-C6-Zero    | ✅        |
-| **LED SMD**                |           |
-| Worldsemi SK6812-EC20      | ✅        |
-| **MCU Espressif**          |           |
-| Espressif ESP32-C3         | ✅        |
-| Espressif ESP32-H2         | ✅        |
-| **Regulator Linear**       |           |
-| Rohm BDXXKA5WF             | ✅        |
-| **Switch Power**           |           |
-| Texas TPS2121              | ✅        |
-| **Transformer**            |           |
-| Wurth 750370423            | ✅        |
+| Symbol                     | Footprint | Datasheet |
+| -------------------------- | --------- | --------- |
+| **Converter ACDC**         |           |           |
+| STMicroelectronics VIPER06 | ✅        | ✅        |
+| **DevKit**                 |           |           |
+| WaveShare ESP32-C6-Zero    | ✅        | ✅        |
+| **LED SMD**                |           |           |
+| Worldsemi SK6812-EC20      | ✅        | ✅        |
+| **MCU Espressif**          |           |           |
+| Espressif ESP32-C3         | ✅        | ✅        |
+| Espressif ESP32-H2         | ✅        | ✅        |
+| **Regulator Linear**       |           |           |
+| Rohm BDXXKA5WF             | ✅        | ✅        |
+| **Regulator Switching**    |           |           |
+| Texas TPS56424X            | ✅        | ✅        |
+| **Switch Power**           |           |           |
+| Texas TPS2121              | ✅        | ✅        |
+| **Transformer**            |           |           |
+| Wurth 750370423            | ✅        | ✅        |
 
 ### Footprints (`SKC_*`.pretty)
 
