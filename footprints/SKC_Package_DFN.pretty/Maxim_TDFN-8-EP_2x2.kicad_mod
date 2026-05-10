@@ -1,0 +1,313 @@
+(footprint "Maxim_TDFN-8-EP_2x2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(tags "Maxim, tdfn, tdfn8, 2x2")
+	(property "Reference" "REF**"
+		(at 0 -2.23 0)
+		(layer "F.SilkS")
+		(uuid "5d0828f7-f862-4b06-aaac-e04209f71ee1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Power_Monitor/Maxim_MAX1704x.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eddc6b5f-230c-4bec-9ac3-8dea9592fe88")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "acfd6711-a811-43f9-ab3a-3b8a37cc0720")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "Maxim_TDFN-8-EP_2x2"
+		(at 0 2.2 0)
+		(layer "F.Fab")
+		(uuid "752867de-263c-4528-a863-494384ce9227")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.74 -1.16)
+		(end 1.19 -1.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d4da757-311e-4de3-b625-573b97fd417a")
+	)
+	(fp_line
+		(start 1.19 1.16)
+		(end -1.16 1.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9583c50a-24e5-4ca5-b8bb-f8e98a4999d1")
+	)
+	(fp_poly
+		(pts
+			(xy -1.03 -1.17) (xy -1.17 -1.36) (xy -0.89 -1.36)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "0df38820-e003-4c1a-8536-2a6239fa1407")
+	)
+	(fp_line
+		(start -1.58 -1.15)
+		(end -1.3 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "38036a59-3604-460c-b6cd-320099c92403")
+	)
+	(fp_line
+		(start -1.58 1.15)
+		(end -1.58 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b75ea7a0-185a-4ef8-add2-ea98b707020d")
+	)
+	(fp_line
+		(start -1.3 -1.25)
+		(end 1.34 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "897fd497-c582-4f85-b469-85c2b6d92767")
+	)
+	(fp_line
+		(start -1.3 -1.15)
+		(end -1.3 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "050f3535-bbcb-4f9d-bc8e-985d58ac1557")
+	)
+	(fp_line
+		(start -1.3 1.15)
+		(end -1.58 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "524217dd-0a36-42f1-9f80-bc6a2dac9700")
+	)
+	(fp_line
+		(start -1.3 1.25)
+		(end -1.3 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "20596cca-a9ae-44b4-a1c2-f1251e05d43e")
+	)
+	(fp_line
+		(start 1.34 -1.25)
+		(end 1.34 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1ffd3d5f-1248-4d52-802a-d7606857e040")
+	)
+	(fp_line
+		(start 1.34 -1.15)
+		(end 1.58 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "41bd1d11-a75c-4dc3-b386-e0425a997fe8")
+	)
+	(fp_line
+		(start 1.34 1.150059)
+		(end 1.34 1.250059)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "af7185f6-9917-4e3d-a323-6601af1b2856")
+	)
+	(fp_line
+		(start 1.34 1.25)
+		(end -1.3 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "54184e2f-8afc-4e95-8d05-f241bd837bbc")
+	)
+	(fp_line
+		(start 1.58 -1.15)
+		(end 1.58 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5fda32ba-1f18-4fd1-a968-bf2edca039ed")
+	)
+	(fp_line
+		(start 1.58 1.15)
+		(end 1.34 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "31e48f5c-b5f7-4aef-b9f9-3ed88ccc753c")
+	)
+	(fp_poly
+		(pts
+			(xy -0.55 -1) (xy 1.06 -1) (xy 1.06 1) (xy -1.05 1) (xy -1.05 -0.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d67133d3-d628-4222-8dd4-594224c69d0d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0c7766f1-0dfe-48f4-b5f1-37516aa023d1")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.11)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at 0 0)
+		(size 0.66 1.06)
+		(property pad_prop_heatsink)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "654cbd34-51f4-4132-afb5-641f5a149737")
+	)
+	(pad "1" smd roundrect
+		(at -0.985 -0.75)
+		(size 0.7 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "97189802-e006-4ed0-97fb-c7edaa08b7ce")
+	)
+	(pad "2" smd roundrect
+		(at -0.985 -0.25)
+		(size 0.7 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "c871a292-e927-47a7-9dac-e22db71ad52c")
+	)
+	(pad "3" smd roundrect
+		(at -0.985 0.25)
+		(size 0.7 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "7ea68cb6-eca3-4021-905c-83ac4ca44f69")
+	)
+	(pad "4" smd roundrect
+		(at -0.985 0.75)
+		(size 0.7 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "6e6ef251-ed9d-4eee-bbb7-cc9c3aebe45d")
+	)
+	(pad "5" smd roundrect
+		(at 0.985 0.75)
+		(size 0.7 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "bf778421-be57-47d7-8d90-d92cf7cfed55")
+	)
+	(pad "6" smd roundrect
+		(at 0.985 0.25)
+		(size 0.7 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "ace0853e-2b17-42f4-8b52-89567ec5fdb4")
+	)
+	(pad "7" smd roundrect
+		(at 0.985 -0.25)
+		(size 0.7 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "fc225e3e-62bf-4507-ae0c-af297b107635")
+	)
+	(pad "8" smd roundrect
+		(at 0.985 -0.75)
+		(size 0.7 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "24c89296-5246-4560-918e-3dc68f1672e8")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 0.9 1.3)
+		(property pad_prop_heatsink)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(uuid "dc67edb1-4572-4939-b01c-00bd3e844217")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Package_DFN.3dshapes/MAX17048G_T10.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

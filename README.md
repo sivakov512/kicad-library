@@ -40,6 +40,8 @@ The easiest way to install this library is through KiCad's Plugin and Content Ma
 | Espressif ESP32-H2         | ✅        | ✅        |
 | **Motor Driver**           |           |           |
 | Texas DRV8316CR            | ✅        | ✅        |
+| **Power Monitor**          |           |           |
+| Maxim MAX17048G_T10        | ✅        | ✅        |
 | **Regulator Linear**       |           |           |
 | Rohm BDXXKA5WF             | ✅        | ✅        |
 | **Regulator Switching**    |           |           |
@@ -90,6 +92,8 @@ The easiest way to install this library is through KiCad's Plugin and Content Ma
 | Worldsemi SK6812-EC20 2.0x2.0mm            | ❌       | ✅        |
 | **NetTie**                                 |          |           |
 | NetTie 2-pad D0.5mm P4.0mm                 | —        | —         |
+| **Package DFN**                            |          |           |
+| Maxim TDFN-8-EP 2x2mm                     | ✅       | ✅        |
 | **Package QFN**                            |          |           |
 | TQFN-32 4x4mm P0.4mm EP2.4x2.4mm Compact   | ✅       | —         |
 | TQFN-32 4x4mm P0.4mm EP2.6x2.6mm Standard  | ✅       | —         |
