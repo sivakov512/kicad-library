@@ -1,0 +1,253 @@
+(footprint "MetalLions_MMPC0402"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Choke, SMD, 4.5x4mm")
+	(tags "Choke SMD mmpc0402 metallions")
+	(property "Reference" "REF**"
+		(at 0 -3.52 0)
+		(layer "F.SilkS")
+		(uuid "dcd683ad-8414-4b37-945e-8b70358875b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MetalLions_MMPC0402"
+		(at 0 3.6 0)
+		(layer "F.Fab")
+		(uuid "67576cf1-ea41-4fc7-b82a-b98bce05f902")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Inductor_SMD/MetalLions_MMPC0402.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "080ed4eb-9436-4add-b8d8-634d38f7e409")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dfb6f738-3499-42aa-bb89-eb5c52b3cd4c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.4 -2.15)
+		(end 2.4 -2.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a23fa9d-1e72-4960-811f-1efcc79b11d8")
+	)
+	(fp_line
+		(start -2.4 -1.5)
+		(end -2.4 -2.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f94a32c9-94a3-4983-be0c-ae96f9500812")
+	)
+	(fp_line
+		(start -2.4 2.15)
+		(end -2.4 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f318eb27-fc8e-4504-ba1f-e9fdd3f3807c")
+	)
+	(fp_line
+		(start 2.4 -2.15)
+		(end 2.4 -1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d3cfb4f-50d0-4e8f-b92f-86d91fcb8ba6")
+	)
+	(fp_line
+		(start 2.4 1.5)
+		(end 2.4 2.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7575800e-52f1-448e-aff7-f939b554f8fa")
+	)
+	(fp_line
+		(start 2.4 2.15)
+		(end -2.4 2.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4b7cf41-5bb9-4ac4-ac69-73992e8713d4")
+	)
+	(fp_line
+		(start -2.85 -2.4)
+		(end -2.85 2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f10a4841-645f-49cd-91c0-4978bfd162ed")
+	)
+	(fp_line
+		(start -2.85 2.4)
+		(end 2.85 2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f0048fb1-cc0f-4b7a-bafc-99a800bd5fcd")
+	)
+	(fp_line
+		(start 2.85 -2.4)
+		(end -2.85 -2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "12059a74-029c-48a1-9393-8cfdb112d635")
+	)
+	(fp_line
+		(start 2.85 2.4)
+		(end 2.85 -2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e115f72b-0cdb-4ea6-8bf7-81ea66bb4326")
+	)
+	(fp_line
+		(start -2.25 -2)
+		(end 2.25 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "171687f5-5d84-44b7-9d40-2556342b18fe")
+	)
+	(fp_line
+		(start -2.25 -1.5)
+		(end -2.25 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9d3bd95c-b646-4665-8cc4-e6188a7f1399")
+	)
+	(fp_line
+		(start -2.25 2)
+		(end -2.25 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ed0c4f0c-279b-4e5c-84df-c3e593054c86")
+	)
+	(fp_line
+		(start 2.25 -2)
+		(end 2.25 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "49d55604-42ad-49c1-942a-3ff6d3ad1ccd")
+	)
+	(fp_line
+		(start 2.25 1.5)
+		(end 2.25 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bda65ab5-d7c5-4eba-b4ce-a3249f498566")
+	)
+	(fp_line
+		(start 2.25 2)
+		(end -2.25 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3775305f-a169-43bb-a4a8-aa1e58df13e5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1604527e-f39c-499e-bd4c-3c836712f2fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.85 0)
+		(size 1.5 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2fa364b6-c2a5-417e-8aca-ceb670ba7871")
+	)
+	(pad "2" smd rect
+		(at 1.85 0)
+		(size 1.5 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "634fc77d-7dda-43f9-99f5-6e52ffa78814")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_1812_4532Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

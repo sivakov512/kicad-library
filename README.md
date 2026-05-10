@@ -98,6 +98,8 @@ The easiest way to install this library is through KiCad's Plugin and Content Ma
 | PTF76 Cartridge 5x20mm 15mm pitch          | ✅       | ❌        |
 | **Fuse SMD**                               |          |           |
 | Fuse 2410 6125Metric 6.1x2.5mm             | ✅       | ❌        |
+| **Inductor SMD**                           |          |           |
+| MetalLions MMPC0402 4.5x4mm               | ✅       | ✅        |
 | **Inductor THT**                           |          |           |
 | TDK B82720K Vertical 13x9.5mm              | ❌       | ✅        |
 | **LED SMD**                                |          |           |
