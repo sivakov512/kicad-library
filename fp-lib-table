@@ -19,4 +19,5 @@
   (lib (name "LOCAL_SKC_Diode_THT")(type "KiCad")(uri "${KIPRJMOD}/footprints/SKC_Diode_THT.pretty")(options "")(descr ""))
   (lib (name "LOCAL_SKC_Connector_USB")(type "KiCad")(uri "${KIPRJMOD}/footprints/SKC_Connector_USB.pretty")(options "")(descr ""))
   (lib (name "LOCAL_SKC_Package_SO")(type "KiCad")(uri "${KIPRJMOD}/footprints/SKC_Package_SO.pretty")(options "")(descr ""))
+  (lib (name "LOCAL_SKC_LED_SMD")(type "KiCad")(uri "${KIPRJMOD}/footprints/SKC_LED_SMD.pretty")(options "")(descr ""))
 )

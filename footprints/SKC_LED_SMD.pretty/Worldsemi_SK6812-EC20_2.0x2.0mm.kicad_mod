@@ -1,0 +1,234 @@
+(footprint "Worldsemi_SK6812-EC20_2.0x2.0mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "2.0mm x 2.0mm Addressable RGB LED")
+	(tags "RGB LED addressable 2020")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "639a87bf-c196-4502-a03a-2c0c4db321b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Worldsemi_SK6812-EC20_2.0x2.0mm"
+		(at 0 2.2 0)
+		(layer "F.Fab")
+		(uuid "d6620610-ab04-44d4-a5ca-e8ad9df1ffd9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/LED_SMD/Worldsemi_SK6812-EC20.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d70d19f-ebd0-4280-8ae6-6ff03fb63e81")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "2x2mm addressable RGB LED with integrated controller"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2458e94-dafa-4c76-b977-7f758b36a3ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.3 -1.15)
+		(end -1.3 1.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e94a7484-2f99-4880-8e67-677bb3f0e6e3")
+	)
+	(fp_line
+		(start -1.3 -1.15)
+		(end 1.3 -1.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5b2fb467-d71d-40e5-9600-09ef94292f68")
+	)
+	(fp_line
+		(start -1.3 1.15)
+		(end 1 1.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b35f3d0d-b651-493f-8959-a5b55bb8d477")
+	)
+	(fp_line
+		(start 1 1.15)
+		(end 1.3 0.85)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "11a6af51-b887-438a-be45-6deabacc73a4")
+	)
+	(fp_line
+		(start 1.3 0.85)
+		(end 1.3 -1.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5582eabd-1ac8-4552-a3f2-67dc82315cf5")
+	)
+	(fp_line
+		(start -1.4 -1.25)
+		(end -1.4 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f93e5885-b6bc-4a5e-ae06-1bd9af82cca0")
+	)
+	(fp_line
+		(start -1.4 1.25)
+		(end 1.4 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fe69b741-e0f7-48a4-833a-d3c725659519")
+	)
+	(fp_line
+		(start 1.4 -1.25)
+		(end -1.4 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3bd55e8c-567d-4994-9f83-bdfa42a3cba4")
+	)
+	(fp_line
+		(start 1.4 1.25)
+		(end 1.4 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "37f59f26-08cf-40e9-8a5d-fd99891e39f7")
+	)
+	(fp_line
+		(start -1 -1)
+		(end -1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0432ee0d-06e7-49fc-98c1-a887d26ff6c3")
+	)
+	(fp_line
+		(start -1 -1)
+		(end 1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "31b6925c-741c-4f2d-9d1f-21959858a9ec")
+	)
+	(fp_line
+		(start -1 1)
+		(end 0.45 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "93241b6d-b9a7-4158-b516-2afa48838e95")
+	)
+	(fp_line
+		(start 0.45 1)
+		(end 1 0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c74dafe-e842-49e1-9be5-adace419bd2e")
+	)
+	(fp_line
+		(start 1 0.45)
+		(end 1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2cd8f289-7972-4888-986e-264a836543e5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "dacbeb98-f3f7-43a0-bcf5-639a6bfd3b46")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.65 0.6)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "180b51a1-8db5-4aa9-8be5-fb14e0ecc799")
+	)
+	(pad "2" smd rect
+		(at 0.65 -0.6)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "05ecc7b8-2fc0-4d20-8b27-0a38c8937933")
+	)
+	(pad "3" smd rect
+		(at -0.65 -0.6)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c2abb4aa-e030-444c-8c03-7de794727e7c")
+	)
+	(pad "4" smd rect
+		(at -0.65 0.6)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ecfbbf8a-ac19-4799-9779-d62669f81f0d")
+	)
+	(embedded_fonts no)
+)

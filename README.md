@@ -33,6 +33,8 @@ The easiest way to install this library is through KiCad's Plugin and Content Ma
 | STMicroelectronics VIPER06 | ✅        |
 | **DevKit**                 |           |
 | WaveShare ESP32-C6-Zero    | ✅        |
+| **LED SMD**                |           |
+| Worldsemi SK6812-EC20      | ✅        |
 | **MCU Espressif**          |           |
 | Espressif ESP32-C3         | ✅        |
 | Espressif ESP32-H2         | ✅        |
@@ -78,6 +80,8 @@ The easiest way to install this library is through KiCad's Plugin and Content Ma
 | Fuse 2410 6125Metric 6.1x2.5mm             | ✅       | ❌        |
 | **Inductor THT**                           |          |           |
 | TDK B82720K Vertical 13x9.5mm              | ❌       | ✅        |
+| **LED SMD**                                |          |           |
+| Worldsemi SK6812-EC20 2.0x2.0mm            | ❌       | ✅        |
 | **NetTie**                                 |          |           |
 | NetTie 2-pad D0.5mm P4.0mm                 | —        | —         |
 | **Package QFN**                            |          |           |
