@@ -1,5 +1,29 @@
 # Changelog
 
+## [2.1.0](https://github.com/sivakov512/kicad-library/compare/v2.0.0...v2.1.0) (2026-05-10)
+
+
+### Features
+
+* A7672X/A7670X symbol, footprint, datasheet, 3d model ([16ec2bb](https://github.com/sivakov512/kicad-library/commit/16ec2bb8d9b94975df580dfbd7030d42988b2227))
+* added datasheet for TE_OJ-SH-105HM_SPST relay ([62f06dc](https://github.com/sivakov512/kicad-library/commit/62f06dc60ce89252f69dc01246c687f1b3f9aa9d))
+* BH-18650-A5BJ001-2D footprint and datasheet ([8e0c95d](https://github.com/sivakov512/kicad-library/commit/8e0c95db69a137e83a11b82320f94a2e5b7b9a89))
+* DRV8316C symbol, footprint, datasheet, 3d model ([79721c2](https://github.com/sivakov512/kicad-library/commit/79721c22bb5ac0cf9d42e919fc77de3df274e9ac))
+* KLJ-5020 footprint and datasheet ([6fca1ba](https://github.com/sivakov512/kicad-library/commit/6fca1ba8114e46c63fca72b15b899baea8c1f481))
+* MAX17048 symbol, footprint, datasheet, 3d model ([3d69def](https://github.com/sivakov512/kicad-library/commit/3d69def99442a684d35b71835ec95ab0c70c1a6f))
+* MMPC0402 footprint and datasheet ([f5487d3](https://github.com/sivakov512/kicad-library/commit/f5487d3da0d0626a2dcdd4f8500877f46768a01c))
+* MOLEX_475532001 footprint, datasheet, 3d model ([eba6889](https://github.com/sivakov512/kicad-library/commit/eba68890f61b9ecb9057c8eee1640be9d2c63046))
+* PJ-3126-5A footprint and datasheet ([868c2f9](https://github.com/sivakov512/kicad-library/commit/868c2f9a79d3ee0ba0d8feb9ad609e042d5ae573))
+* SK6812-EC20 symbol, footprint, datasheet ([b094d22](https://github.com/sivakov512/kicad-library/commit/b094d22773402aa395469724b2470ca8f9215a19))
+* TPS212x symbol, footprint, 3dmodel, datasheet ([1f0fe0d](https://github.com/sivakov512/kicad-library/commit/1f0fe0d5988d13665b691b5722d31a4a6bb5ea12))
+* TPS56424x symbol ad datasheet ([246dd98](https://github.com/sivakov512/kicad-library/commit/246dd98a5fe2ed70ab40ff164ed75ed68abbce27))
+* ZMPT101B symbol, footprint, datasheet ([ed343d9](https://github.com/sivakov512/kicad-library/commit/ed343d9a81b9d56fefc9ed90cf6aa9bfa3f4e4b9))
+
+
+### Bug Fixes
+
+* drop footprints for pinheaders and nettie ([fe5abb5](https://github.com/sivakov512/kicad-library/commit/fe5abb5e8dee1ea886d6a101c6d5f61893ee48d8))
+
 ## [2.0.0](https://github.com/sivakov512/kicad-library/compare/v1.5.0...v2.0.0) (2026-05-10)
 
 
