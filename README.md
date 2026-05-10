@@ -38,6 +38,9 @@ The easiest way to install this library is through KiCad's Plugin and Content Ma
 | **MCU Espressif**          |           |           |
 | Espressif ESP32-C3         | ✅        | ✅        |
 | Espressif ESP32-H2         | ✅        | ✅        |
+| **Module Cellular**        |           |           |
+| SIMCom A7672X              | ✅        | ✅        |
+| SIMCom A7670X              | ✅        | ✅        |
 | **Motor Driver**           |           |           |
 | Texas DRV8316CR            | ✅        | ✅        |
 | **Power Monitor**          |           |           |
@@ -91,6 +94,8 @@ The easiest way to install this library is through KiCad's Plugin and Content Ma
 | TDK B82720K Vertical 13x9.5mm              | ❌       | ✅        |
 | **LED SMD**                                |          |           |
 | Worldsemi SK6812-EC20 2.0x2.0mm            | ❌       | ✅        |
+| **Module Cellular**                        |          |           |
+| SIMCom A7672X A7670X                       | ✅       | ✅        |
 | **NetTie**                                 |          |           |
 | NetTie 2-pad D0.5mm P4.0mm                 | —        | —         |
 | **Package DFN**                            |          |           |
