@@ -40,6 +40,8 @@ The easiest way to install this library is through KiCad's Plugin and Content Ma
 | Espressif ESP32-H2         | ✅        |
 | **Regulator Linear**       |           |
 | Rohm BDXXKA5WF             | ✅        |
+| **Switch Power**           |           |
+| Texas TPS2121              | ✅        |
 | **Transformer**            |           |
 | Wurth 750370423            | ✅        |
 
@@ -89,6 +91,7 @@ The easiest way to install this library is through KiCad's Plugin and Content Ma
 | TQFN-32 4x4mm P0.4mm EP2.6x2.6mm Standard  | ✅       | —         |
 | TQFN-32 4x4mm P0.4mm EP2.8x2.8mm Extended  | ✅       | —         |
 | VFQFN-32 5x5mm P0.5mm EP3.2x3.2mm Compact  | ✅       | —         |
+| Texas VQFN-HR-12 2x2.5mm P0.5mm            | ✅       | —         |
 | **Package SO**                             |          |           |
 | SOP-8 4.4x5.35mm P1.27mm                   | —        | —         |
 | **Relay THT**                              |          |           |
