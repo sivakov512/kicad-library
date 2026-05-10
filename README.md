@@ -76,6 +76,8 @@ The easiest way to install this library is through KiCad's Plugin and Content Ma
 | CP Radial D16.0mm P10.0mm                  | —        | ❌        |
 | **Connector Audio**                        |          |           |
 | Jack 3.5mm PJ-3126-5A Horizontal           | ✅       | ✅        |
+| **Connector Card**                         |          |           |
+| Molex 475532001 miniSIM Slot               | ✅       | ✅        |
 | **Connector PinHeader 2.54mm**             |          |           |
 | PinHeader 1x02 Vertical NoSilk             | —        | —         |
 | PinHeader 1x04 Vertical NoSilk             | —        | —         |

@@ -1,0 +1,399 @@
+(footprint "Molex_475532001"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "miniSIM slot MOLEX 475532001 8pin")
+	(tags "mini sim minisim slot molex 475532001 8pin")
+	(property "Reference" "REF**"
+		(at 0.01 -15.55 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0a21b918-78d3-4521-b19c-e6f7f102c262")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Molex_475532001"
+		(at 0 1.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8977704f-588a-4389-9cf1-63104046d8e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Connector_Card/Molex_475532001.pdf"
+		(at -5.76531 -11.5943 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65632008-d09b-4939-a559-9d932e3c61fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -5.76531 -11.5943 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea4fd4b3-9c0a-4291-ad8f-7c2d2ae59ade")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -9.875 -13.5)
+		(end -9.875 5.725)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "62226595-6e60-4ca0-aef3-8271423836f6")
+	)
+	(fp_line
+		(start -9.875 -13.5)
+		(end -7.15 -13.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8220a008-abcf-4862-b726-2f64fb92740b")
+	)
+	(fp_line
+		(start -9.875 11)
+		(end -9.875 10.175)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b0eccda7-faa5-41e9-abb0-2c9c3a6d6d7f")
+	)
+	(fp_line
+		(start 9.875 -13.5)
+		(end 4.24 -13.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "17efad77-c6e7-4249-89d8-9595ad9350e1")
+	)
+	(fp_line
+		(start 9.875 -13.5)
+		(end 9.875 5.725)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ade7b607-aaa3-48b0-bb6d-8f0736b0ec66")
+	)
+	(fp_line
+		(start 9.875 11)
+		(end 9.875 10.175)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d90a9c9d-d42c-4aa9-b15b-9d5c956ae24e")
+	)
+	(fp_poly
+		(pts
+			(xy -9.975 39.2) (xy 9.975 39.2) (xy 9.975 13.2) (xy -9.975 13.2)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "8fc6ea62-83ae-42d8-a93b-b22a3057a0e8")
+	)
+	(fp_line
+		(start -11.225 6.25)
+		(end -11.225 9.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f1b56830-e4fb-4081-b3a1-d4b90cade803")
+	)
+	(fp_line
+		(start -11.225 6.25)
+		(end -9.975 6.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6a4e6230-2cb9-42b2-877f-693c6edb88ee")
+	)
+	(fp_line
+		(start -11.225 9.65)
+		(end -9.975 9.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4c2585c4-fcbe-42a3-9c77-2a155ca53c80")
+	)
+	(fp_line
+		(start -9.975 -13.6)
+		(end 9.975 -13.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f7cb6557-aa8a-4ae8-a180-c6a8b549987d")
+	)
+	(fp_line
+		(start -9.975 6.25)
+		(end -9.975 -13.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b3893437-b07b-408d-80fa-db3c9eba83ba")
+	)
+	(fp_line
+		(start -9.975 9.65)
+		(end -9.975 39.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "22c0542c-4f27-4131-95e3-608412de00cd")
+	)
+	(fp_line
+		(start -9.975 39.2)
+		(end 9.975 39.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b2915ec8-1f98-413d-97a2-73042146a2c8")
+	)
+	(fp_line
+		(start 9.975 -13.6)
+		(end 9.975 6.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "adb034b2-1135-4653-8cf4-010154af9d17")
+	)
+	(fp_line
+		(start 9.975 6.25)
+		(end 11.225 6.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "93154115-6c4a-4249-93e0-3152753afaf9")
+	)
+	(fp_line
+		(start 9.975 9.65)
+		(end 9.975 39.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5f9271d4-35f4-4bfd-82cb-7540884dac32")
+	)
+	(fp_line
+		(start 11.225 6.25)
+		(end 11.225 9.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "41fb4382-000c-4197-9ae1-870d27d6c1bd")
+	)
+	(fp_line
+		(start 11.225 9.65)
+		(end 9.975 9.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "48d3b048-a8a0-465b-93ee-0f9ebdfb9cd4")
+	)
+	(fp_line
+		(start -9.675 -13.3)
+		(end -9.675 13.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9d2a1f04-979f-4386-8ef6-df03e3174bba")
+	)
+	(fp_line
+		(start -9.675 -13.3)
+		(end 9.675 -13.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9aee361d-50ee-4f00-9dd4-9a3a042e7e41")
+	)
+	(fp_line
+		(start -9.675 13.2)
+		(end 9.675 13.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "887a0241-edd6-4483-96ca-10a30d79acb6")
+	)
+	(fp_line
+		(start 9.675 -13.3)
+		(end 9.675 13.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "54ead129-d4a3-4199-a382-20dd957dc36d")
+	)
+	(fp_text user "SIM card insertion area"
+		(at -8.98 25.615 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "01782249-e8dd-4bcd-898c-d989de2603fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "aa65cefd-f23b-4fc9-82da-dbfdd3489b7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -8.165 8.72)
+		(size 1.6 1.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(uuid "498086ae-dd2e-483a-a780-78b0d80fab30")
+	)
+	(pad "" np_thru_hole circle
+		(at 7.885 -1.08)
+		(size 1.6 1.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(uuid "8736ec6d-3c14-4fe4-829d-1c2c264df8dd")
+	)
+	(pad "1" smd rect
+		(at 2.985 -12.2)
+		(size 1 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "300cfe3e-937b-40be-85ad-1c4a70c8f026")
+	)
+	(pad "2" smd rect
+		(at 0.445 -12.2)
+		(size 1 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8e2c8b3a-b130-4e35-ba08-b613d89089f1")
+	)
+	(pad "3" smd rect
+		(at -2.095 -12.2)
+		(size 1 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "622cb976-6c30-49b6-996c-484e5ab1a761")
+	)
+	(pad "5" smd rect
+		(at 1.715 -12.2)
+		(size 1 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "20ce6a08-367d-438e-99c5-05adb0b3a853")
+	)
+	(pad "6" smd rect
+		(at -0.825 -12.2)
+		(size 1 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5fdfd352-e38c-44b3-b0d0-b087c842826e")
+	)
+	(pad "7" smd rect
+		(at -3.365 -12.2)
+		(size 1 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "76d71df9-a418-43e7-8bd9-f3cf64f547bd")
+	)
+	(pad "9" smd rect
+		(at -10.275 7.95)
+		(size 1.5 2.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e181bb28-b1a1-4c9d-805e-65653b175e62")
+	)
+	(pad "10" smd rect
+		(at 10.275 7.95)
+		(size 1.5 2.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "46725706-3822-464f-b7f6-6754af11d816")
+	)
+	(pad "CD" smd rect
+		(at -5.905 -12.2)
+		(size 1 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7d87db21-9208-4526-bb1e-e949a32628cc")
+	)
+	(pad "CD" smd rect
+		(at -4.635 -12.2)
+		(size 1 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "25969191-a87f-4317-ba73-04c91afc1dcb")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Connector_Card.3dshapes/Molex_475532001.step"
+		(offset
+			(xyz 25.75 11.05 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)
