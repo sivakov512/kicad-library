@@ -64,6 +64,8 @@ The easiest way to install this library is through KiCad's Plugin and Content Ma
 | Quectel YC0010AA                           | ✅       | ✅        |
 | PCB Antenna Espressif 2.4GHz Left          | —        | —         |
 | PCB Antenna Espressif 2.4GHz Right         | —        | —         |
+| **Buzzer SMD**                             |          |           |
+| KELIKING KLJ-5020 5x5mm                   | ✅       | ✅        |
 | **Button THT**                             |          |           |
 | SW Push SPST 6mm                           | ❌       | —         |
 | **Capacitor THT**                          |          |           |

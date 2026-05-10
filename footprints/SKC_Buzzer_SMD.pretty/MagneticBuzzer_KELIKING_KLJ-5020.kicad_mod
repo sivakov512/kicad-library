@@ -1,0 +1,356 @@
+(footprint "MagneticBuzzer_KELIKING_KLJ-5020"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "MagneticBuzzer_KELIKING_KLJ-5020 3.3V 110mA")
+	(tags "buzzer keliking kllj-5020 kllj-5020 3.3v")
+	(property "Reference" "REF**"
+		(at 0 -6 0)
+		(layer "F.SilkS")
+		(uuid "184c9220-6c8b-46dc-ab0c-542f90cc90b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MagneticBuzzer_KELIKING_KLJ-5020"
+		(at 0 6 0)
+		(layer "F.Fab")
+		(uuid "5c350ea8-8094-4fc2-8194-73cde2cee14c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Buzzer_SMD/KELIKING_KLJ-5020.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d14bbe3c-0958-4bc9-aac9-5c0bbf1d67d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f1aa82d-8151-40a6-bf8e-ef8419ae2a55")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5 -2.8)
+		(end -5 -1.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "33613384-51f4-455a-84f2-4f54d0fc9a73")
+	)
+	(fp_line
+		(start -5 1.5)
+		(end -5 5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "81270de7-964d-4a26-b9e2-fb58b38bac19")
+	)
+	(fp_line
+		(start -5 5)
+		(end 5 5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1b4f8edd-d4a6-4dd5-8680-99b4097d1a07")
+	)
+	(fp_line
+		(start -2.8 -5)
+		(end -5 -2.8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "957de432-3df1-4cb1-af71-f34a728c10d9")
+	)
+	(fp_line
+		(start 5 -5)
+		(end -2.8 -5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2327a3d5-a49a-4c1c-9015-0c150f69f19c")
+	)
+	(fp_line
+		(start 5 -5)
+		(end 5 -1.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "44fe8ce4-4a4a-4423-a39f-7a386dbdccfc")
+	)
+	(fp_line
+		(start 5 1.5)
+		(end 5 5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fd68b9c3-5935-4a16-a77e-d1b0be7ab29d")
+	)
+	(fp_line
+		(start -5.85 -0.95)
+		(end -5.85 0.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5c278899-f77f-45bb-9719-9b2b9dfd114f")
+	)
+	(fp_line
+		(start -5.85 -0.95)
+		(end -5.1 -0.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4bbdaf15-56a1-48b5-8339-f6af5b7e2056")
+	)
+	(fp_line
+		(start -5.85 0.95)
+		(end -5.1 0.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3fe3e96a-42c1-4448-b921-4ed2e515bdfc")
+	)
+	(fp_line
+		(start -5.1 -2.85)
+		(end -2.85 -5.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f8d6900d-339a-48bd-a50b-2dd27e3a0a78")
+	)
+	(fp_line
+		(start -5.1 -0.95)
+		(end -5.1 -2.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "54674df4-5d9e-419a-bc4d-41664f842f31")
+	)
+	(fp_line
+		(start -5.1 0.95)
+		(end -5.1 5.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a570f046-4c51-4e9f-b874-e96fcd7b84c2")
+	)
+	(fp_line
+		(start -5.1 5.1)
+		(end 5.1 5.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "170ab430-c87b-45d2-892c-fab08ff3b853")
+	)
+	(fp_line
+		(start 5.1 -5.1)
+		(end -2.85 -5.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "208e2399-7c25-44b2-9266-05761bea9949")
+	)
+	(fp_line
+		(start 5.1 -0.95)
+		(end 5.1 -5.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a2184de1-cb91-4a53-b673-f6ca5d160610")
+	)
+	(fp_line
+		(start 5.1 5.1)
+		(end 5.1 0.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0d241962-5662-4a39-a27c-d55ec32cc45d")
+	)
+	(fp_line
+		(start 5.85 -0.95)
+		(end 5.1 -0.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "211537e4-211b-404a-aa58-5915afb0e6f4")
+	)
+	(fp_line
+		(start 5.85 -0.95)
+		(end 5.85 0.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4a2b52b2-f923-4c1d-ad78-02c7a7e9f731")
+	)
+	(fp_line
+		(start 5.85 0.95)
+		(end 5.1 0.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "024bf30b-476c-462b-83c2-a4fea8c7ea45")
+	)
+	(fp_line
+		(start -4.8 -2.7)
+		(end -2.7 -4.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "30f20eba-76d7-4806-9ce7-15fb69a6d550")
+	)
+	(fp_line
+		(start -4.8 4.8)
+		(end -4.8 -2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e8780e51-15ff-4759-b90a-5a817c963b81")
+	)
+	(fp_line
+		(start -4.8 4.8)
+		(end 4.8 4.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "93b9202b-2fcb-4c79-bfc0-62f5663a2806")
+	)
+	(fp_line
+		(start 4.8 -4.8)
+		(end -2.7 -4.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2fe06ecb-8725-4afe-ac9f-2693ecce614a")
+	)
+	(fp_line
+		(start 4.8 -4.8)
+		(end 4.8 4.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b8d89302-a7be-474a-8324-8f8c648e0e32")
+	)
+	(fp_text user "+"
+		(at 5.1 -0.95 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "923b6799-ddb1-4b97-a4f8-bf6e6613f338")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "92355133-a38e-4da2-a28c-c8709875d871")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 4.15 0)
+		(size 3 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0e5a8e11-a5b1-40e8-bae6-fcb221e5201b")
+	)
+	(pad "2" smd rect
+		(at -4.15 0)
+		(size 3 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dbc028d9-d35b-466e-b620-45cbd4120189")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/MagneticBuzzer_Kobitone_254-EMB84Q-RO.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

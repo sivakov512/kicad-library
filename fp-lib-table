@@ -23,4 +23,5 @@
   (lib (name "LOCAL_SKC_Package_DFN")(type "KiCad")(uri "${KIPRJMOD}/footprints/SKC_Package_DFN.pretty")(options "")(descr ""))
   (lib (name "LOCAL_SKC_Module_Cellular")(type "KiCad")(uri "${KIPRJMOD}/footprints/SKC_Module_Cellular.pretty")(options "")(descr ""))
   (lib (name "LOCAL_SKC_Connector_Audio")(type "KiCad")(uri "${KIPRJMOD}/footprints/SKC_Connector_Audio.pretty")(options "")(descr ""))
+  (lib (name "LOCAL_SKC_Buzzer_SMD")(type "KiCad")(uri "${KIPRJMOD}/footprints/SKC_Buzzer_SMD.pretty")(options "")(descr ""))
 )
