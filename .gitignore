@@ -1,6 +1,14 @@
 .DS_Store
+.envrc
 
-*-backups/*
+*.000
+*.bak
 *.lck
-.history
+~*.lck
+*.kicad_prl
+*-backups/
+_autosave-*/
+.history/
 fp-info-cache
+/production
+/fabrication-toolkit-options.json

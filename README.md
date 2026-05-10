@@ -23,69 +23,96 @@ The easiest way to install this library is through KiCad's Plugin and Content Ma
 
 ## Component List
 
-The table below shows the available components in the library and indicates which resources are available for each component.
+**Legend:** ✅ available · ❌ not available · —  not applicable
 
-**Legend:**
-- ✅ — Available in the library
-- ❌ — Not available
-- 〰️ — Not applicable or available in standard KiCad libraries
+### Symbols (`SKC_*`.kicad_sym)
 
-| Component | Symbol | Footprint | 3D Model | Datasheet |
-|-----------|:------:|:---------:|:--------:|:---------:|
-| **AC-DC Converters** |
-| STMicroelectronics VIPER06 (SSO10) | ✅ | ✅ | ✅ | ✅ |
-| **Antennas** |
-| TaiyoYuden AH316M245001-T chip (2.4GHz) | 〰️ | ✅ | ✅ | ✅ |
-| Quectel TaiyoYuden chip (2.4GHz) | 〰️ | ✅ | ✅ | ✅ |
-| PCB Antenna Espressif 2.4GHz (left/right) | 〰️ | ✅ | 〰️ | 〰️ |
-| **Capacitors** |
-| Radial Electrolytic (THT, D5.0mm/P1.5mm) | 〰️ | ✅ | ✅ | ❌ |
-| Radial Electrolytic (THT, D6.0mm/P2.5mm) | 〰️ | ✅ | ✅ | ❌ |
-| Radial Electrolytic (THT, D16.0mm/P10.0mm) | 〰️ | ✅ | ✅ | ❌ |
-| **Fuses and Fuse Holders** |
-| PTF76 (5x20mm, 15mm lead spacing) | 〰️ | ✅ | ✅ | ❌ |
-| 2410 (6125 Metric) SMD Fuse | 〰️ | ✅ | ✅ | ❌ |
-| **Inductors** |
-| TDK B82720K (THT, 13x9.5mm) | 〰️ | ✅ | ❌ | ✅ |
-| **Microcontrollers** |
-| ESP32-H2 | ✅ | 〰️ | 〰️ | ✅ |
-| ESP32-C3 | ✅ | 〰️ | ✅ | ✅ |
-| **Development Boards** |
-| ESP32-C6-Zero Waveshare | ✅ | ✅ | ✅ | ✅ |
-| **Regulators (Linear)** |
-| Rohm BDXXKA5WF (1A fixed LDO, OVP & TSP, SOP-8) | ✅ | ✅ | 〰️ | ✅ |
-| **Packages** |
-| SOP-8 (4.4x5.35mm, P1.27mm) | 〰️ | ✅ | 〰️ | 〰️ |
-| QFN-32 (4x4mm, P0.4mm, Compact EP) | 〰️ | ✅ | ✅ | 〰️ |
-| QFN-32 (4x4mm, P0.4mm, Standard EP) | 〰️ | ✅ | ✅ | 〰️ |
-| QFN-32 (4x4mm, P0.4mm, Extended EP) | 〰️ | ✅ | ✅ | 〰️ |
-| VFQFN-32 (5x5mm, P0.5mm, Compact EP) | 〰️ | ✅ | ✅ | 〰️ |
-| **Relays** |
-| Relpol RM51 (SPDT, 10A) | 〰️ | ✅ | ✅ | ✅ |
-| OJ SH-105HM (SPST, 5V coil) | 〰️ | ✅ | ✅ | ✅ |
-| **Thermistors** |
-| NTC10D-7 (10Ω NTC, 7mm disc) | 〰️ | ✅ | ✅ | ❌ |
-| **Transformers** |
-| Wurth 750370423 (E13 core) | ✅ | ✅ | ✅ | ✅ |
-| **Connectors** |
-| Pin Headers 1x02, 1x04, 1x06, 1x07 (2.54mm, NoSilk) | 〰️ | ✅ | 〰️ | 〰️ |
-| Cvilux CU3216SASBLR004-NH (USB Type-C Receptacle, SMD) | 〰️ | ✅ | ❌ | ✅ |
-| NoName USB Type-C Receptacle (Hybrid SMD/THT, 24-pin) | 〰️ | ✅ | 〰️ | ❌ |
-| **PCB Design Elements** |
-| Net Ties (Various sizes) | 〰️ | ✅ | 〰️ | 〰️ |
-| **Crystals** |
-| Crystal SMD 1612 (4-Pin, 1.6x1.2mm) | 〰️ | ✅ | ✅ | 〰️ |
-| **Diodes** |
-| SOD-64 (MELF DO-213AB, THT) | 〰️ | ✅ | ❌ | ❌ |
-| **Buttons** |
-| SW_Push_SPST_6mm (Tactile button) | 〰️ | ✅ | ❌ | 〰️ |
-| **Test Points** |
-| TestPoint_2Pads_RM2.54mm_D1.4 | 〰️ | ✅ | 〰️ | 〰️ |
+| Symbol                     | Datasheet |
+| -------------------------- | --------- |
+| **Converter ACDC**         |           |
+| STMicroelectronics VIPER06 | ✅        |
+| **DevKit**                 |           |
+| WaveShare ESP32-C6-Zero    | ✅        |
+| **MCU Espressif**          |           |
+| Espressif ESP32-C3         | ✅        |
+| Espressif ESP32-H2         | ✅        |
+| **Regulator Linear**       |           |
+| Rohm BDXXKA5WF             | ✅        |
+| **Transformer**            |           |
+| Wurth 750370423            | ✅        |
 
+### Footprints (`SKC_*`.pretty)
+
+| Footprint                                  | 3D Model | Datasheet |
+| ------------------------------------------ | -------- | --------- |
+| **Antenna SMD**                            |          |           |
+| TaiyoYuden AH316M245001-T                  | ✅       | ✅        |
+| Quectel YC0010AA                           | ✅       | ✅        |
+| PCB Antenna Espressif 2.4GHz Left          | —        | —         |
+| PCB Antenna Espressif 2.4GHz Right         | —        | —         |
+| **Button THT**                             |          |           |
+| SW Push SPST 6mm                           | ❌       | —         |
+| **Capacitor THT**                          |          |           |
+| CP Radial D5.0mm P1.50mm                   | —        | ❌        |
+| CP Radial D6.0mm P2.50mm                   | —        | ❌        |
+| CP Radial D16.0mm P10.0mm                  | —        | ❌        |
+| **Connector PinHeader 2.54mm**             |          |           |
+| PinHeader 1x02 Vertical NoSilk             | —        | —         |
+| PinHeader 1x04 Vertical NoSilk             | —        | —         |
+| PinHeader 1x06 Vertical NoSilk             | —        | —         |
+| PinHeader 1x07 Vertical NoSilk             | —        | —         |
+| **Connector USB**                          |          |           |
+| Cvilux CU3216SASBLR004-NH (USB-C SMD)      | ❌       | ✅        |
+| NoName USB-C Receptacle (Hybrid SMD/THT)   | —        | ❌        |
+| **Converter ACDC SMD**                     |          |           |
+| STMicroelectronics VIPER06 SSO-10          | ✅       | ✅        |
+| **Crystal**                                |          |           |
+| Crystal SMD 1612 4-Pin 1.6x1.2mm           | ✅       | —         |
+| **DevKit**                                 |          |           |
+| WaveShare ESP32-C6-Zero                    | ✅       | ✅        |
+| **Diode THT**                              |          |           |
+| SOD-64                                     | ❌       | ❌        |
+| **FuseHolder THT**                         |          |           |
+| PTF76 Cartridge 5x20mm 15mm pitch          | ✅       | ❌        |
+| **Fuse SMD**                               |          |           |
+| Fuse 2410 6125Metric 6.1x2.5mm             | ✅       | ❌        |
+| **Inductor THT**                           |          |           |
+| TDK B82720K Vertical 13x9.5mm              | ❌       | ✅        |
+| **NetTie**                                 |          |           |
+| NetTie 2-pad D0.5mm P4.0mm                 | —        | —         |
+| **Package QFN**                            |          |           |
+| TQFN-32 4x4mm P0.4mm EP2.4x2.4mm Compact   | ✅       | —         |
+| TQFN-32 4x4mm P0.4mm EP2.6x2.6mm Standard  | ✅       | —         |
+| TQFN-32 4x4mm P0.4mm EP2.8x2.8mm Extended  | ✅       | —         |
+| VFQFN-32 5x5mm P0.5mm EP3.2x3.2mm Compact  | ✅       | —         |
+| **Package SO**                             |          |           |
+| SOP-8 4.4x5.35mm P1.27mm                   | —        | —         |
+| **Relay THT**                              |          |           |
+| Relpol RM51 SPDT                           | ✅       | ✅        |
+| TE Connectivity OJ-SH-105HM SPST           | ✅       | ✅        |
+| **TestPoint**                              |          |           |
+| TestPoint 2-Pad RM2.54mm D1.4mm            | —        | —         |
+| **Thermistor THT**                         |          |           |
+| NTC10D-7 Disc D7.0mm P5.0mm                | ✅       | ❌        |
+| **Transformer THT**                        |          |           |
+| Wurth 750370423 THT E13                    | ✅       | ✅        |
+
+
+## Structure
+
+```
+.
+├── 3dmodels/       # SKC_[Category].3dshapes/
+├── datasheets/     # [CategoryName]/[Manufacturer]_[PartNumber].pdf
+├── footprints/     # SKC_[Category].pretty/
+└── symbols/        # SKC_[Category].kicad_sym
+```
+
+Naming follows [KiCad Library Conventions (KLC) v3.0](https://klc.kicad.org). All manufacturer-specific symbols and footprints include the vendor prefix (e.g. `Espressif_ESP32-C3`, `STMicroelectronics_VIPER06_SSO-10`).
 
 ## Contribution
 
-Contributions are welcome! Please follow the naming conventions outlined above and in [CONTRIBUTING.md](./CONTRIBUTING.md).
+Contributions are welcome! Follow the repository structure above and [KLC naming conventions](https://klc.kicad.org).
 
 ## License
 

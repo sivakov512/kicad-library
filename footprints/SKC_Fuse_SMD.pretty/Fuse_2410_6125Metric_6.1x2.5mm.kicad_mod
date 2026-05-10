@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Fuse_2410 "
+	(property "Value" "Fuse_2410_6125Metric_6.1x2.5mm"
 		(at 4.755 2.865 0)
 		(layer "F.Fab")
 		(uuid "fa247c8b-2425-40ae-9648-ae4426c752c3")

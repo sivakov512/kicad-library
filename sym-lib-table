@@ -1,8 +1,8 @@
 (sym_lib_table
   (version 7)
-  (lib (name "LOCAL_SKC_ACDC_Converters")(type "KiCad")(uri "${KIPRJMOD}/symbols/SKC_ACDC_Converters.kicad_sym")(options "")(descr ""))
+  (lib (name "LOCAL_SKC_Converter_ACDC")(type "KiCad")(uri "${KIPRJMOD}/symbols/SKC_Converter_ACDC.kicad_sym")(options "")(descr ""))
   (lib (name "LOCAL_SKC_MCU_Espressif")(type "KiCad")(uri "${KIPRJMOD}/symbols/SKC_MCU_Espressif.kicad_sym")(options "")(descr ""))
-  (lib (name "LOCAL_SKC_Transformers")(type "KiCad")(uri "${KIPRJMOD}/symbols/SKC_Transformers.kicad_sym")(options "")(descr ""))
-  (lib (name "LOCAL_SKC_DevKit_WaveShare")(type "KiCad")(uri "${KIPRJMOD}/symbols/SKC_DevKit_WaveShare.kicad_sym")(options "")(descr ""))
-  (lib (name "LOCAL_SKC_Regulators_Linear")(type "KiCad")(uri "${KIPRJMOD}/symbols/SKC_Regulators_Linear.kicad_sym")(options "")(descr ""))
+  (lib (name "LOCAL_SKC_Transformer")(type "KiCad")(uri "${KIPRJMOD}/symbols/SKC_Transformer.kicad_sym")(options "")(descr ""))
+  (lib (name "LOCAL_SKC_DevKit")(type "KiCad")(uri "${KIPRJMOD}/symbols/SKC_DevKit.kicad_sym")(options "")(descr ""))
+  (lib (name "LOCAL_SKC_Regulator_Linear")(type "KiCad")(uri "${KIPRJMOD}/symbols/SKC_Regulator_Linear.kicad_sym")(options "")(descr ""))
 )
