@@ -78,11 +78,6 @@ The easiest way to install this library is through KiCad's Plugin and Content Ma
 | Jack 3.5mm PJ-3126-5A Horizontal           | ✅       | ✅        |
 | **Connector Card**                         |          |           |
 | Molex 475532001 miniSIM Slot               | ✅       | ✅        |
-| **Connector PinHeader 2.54mm**             |          |           |
-| PinHeader 1x02 Vertical NoSilk             | —        | —         |
-| PinHeader 1x04 Vertical NoSilk             | —        | —         |
-| PinHeader 1x06 Vertical NoSilk             | —        | —         |
-| PinHeader 1x07 Vertical NoSilk             | —        | —         |
 | **Connector USB**                          |          |           |
 | Cvilux CU3216SASBLR004-NH (USB-C SMD)      | ❌       | ✅        |
 | NoName USB-C Receptacle (Hybrid SMD/THT)   | —        | ❌        |
@@ -106,8 +101,6 @@ The easiest way to install this library is through KiCad's Plugin and Content Ma
 | Worldsemi SK6812-EC20 2.0x2.0mm            | ❌       | ✅        |
 | **Module Cellular**                        |          |           |
 | SIMCom A7672X A7670X                       | ✅       | ✅        |
-| **NetTie**                                 |          |           |
-| NetTie 2-pad D0.5mm P4.0mm                 | —        | —         |
 | **Package DFN**                            |          |           |
 | Maxim TDFN-8-EP 2x2mm                     | ✅       | ✅        |
 | **Package QFN**                            |          |           |
