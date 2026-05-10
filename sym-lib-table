@@ -8,4 +8,5 @@
   (lib (name "LOCAL_SKC_LED_SMD")(type "KiCad")(uri "${KIPRJMOD}/symbols/SKC_LED_SMD.kicad_sym")(options "")(descr ""))
   (lib (name "LOCAL_SKC_Switch_Power")(type "KiCad")(uri "${KIPRJMOD}/symbols/SKC_Switch_Power.kicad_sym")(options "")(descr ""))
   (lib (name "LOCAL_SKC_Regulator_Switching")(type "KiCad")(uri "${KIPRJMOD}/symbols/SKC_Regulator_Switching.kicad_sym")(options "")(descr ""))
+  (lib (name "LOCAL_SKC_Motor_Driver")(type "KiCad")(uri "${KIPRJMOD}/symbols/SKC_Motor_Driver.kicad_sym")(options "")(descr ""))
 )
