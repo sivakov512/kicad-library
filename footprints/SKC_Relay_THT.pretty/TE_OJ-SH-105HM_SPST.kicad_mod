@@ -29,7 +29,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Relay_THT/TE_OJ-SH-105HM.pdf"
 		(at -7.75 4.03 0)
 		(layer "F.Fab")
 		(hide yes)
