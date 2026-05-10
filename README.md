@@ -50,6 +50,7 @@ The easiest way to install this library is through KiCad's Plugin and Content Ma
 | Texas TPS2121              | ✅        | ✅        |
 | **Transformer**            |           |           |
 | Wurth 750370423            | ✅        | ✅        |
+| Zeming ZMPT101B            | ✅        | ✅        |
 
 ### Footprints (`SKC_*`.pretty)
 
@@ -112,6 +113,7 @@ The easiest way to install this library is through KiCad's Plugin and Content Ma
 | NTC10D-7 Disc D7.0mm P5.0mm                | ✅       | ❌        |
 | **Transformer THT**                        |          |           |
 | Wurth 750370423 THT E13                    | ✅       | ✅        |
+| Zeming ZMPT101B                            | ✅       | ✅        |
 
 
 ## Structure
