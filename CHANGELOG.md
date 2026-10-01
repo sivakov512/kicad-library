@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.1](https://github.com/sivakov512/kicad-library/compare/v2.1.0...v2.1.1) (2026-10-01)
+
+
+### Bug Fixes
+
+* mark WaveShare_ESP32-C6-Zero power pins as bidirectional ([bcb569c](https://github.com/sivakov512/kicad-library/commit/bcb569c35790ede5b2799076737a393fd7bd45b1))
+
 ## [2.1.0](https://github.com/sivakov512/kicad-library/compare/v2.0.0...v2.1.0) (2026-05-10)
 
 
