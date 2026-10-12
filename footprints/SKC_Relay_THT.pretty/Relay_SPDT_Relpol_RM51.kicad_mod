@@ -388,13 +388,12 @@
 		(roundrect_rratio 0.1)
 		(uuid "6b4457b0-051a-45f7-8e35-b138eb490d0a")
 	)
-	(pad "A2" thru_hole roundrect
+	(pad "A2" thru_hole circle
 		(at 12 0)
 		(size 2.5 2.5)
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0.1)
 		(uuid "e421eec4-1ace-49b2-9ddd-e7de6a793a9a")
 	)
 	(embedded_fonts no)
