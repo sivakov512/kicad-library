@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "TRS 3.5mm, horizontal, through-hole")
+	(descr "TRS 3.5mm, horizontal, through-hole, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Connector_Audio/PJ-3126-5A.pdf")
 	(tags "TRS audio jack stereo horizontal")
 	(property "Reference" "REF**"
 		(at 0 -7.6 0)
@@ -27,16 +27,14 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Connector_Audio/PJ-3126-5A.pdf"
-		(at 0 1.2 0)
-		(unlocked yes)
+	(property "Datasheet" ""
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d08acd35-1df2-4108-8605-3ec622334e87")
+		(uuid "a5383ef9-8514-413f-929e-11f81f19b7f6")
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)

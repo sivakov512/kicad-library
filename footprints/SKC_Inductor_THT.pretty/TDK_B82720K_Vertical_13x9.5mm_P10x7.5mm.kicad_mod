@@ -3,22 +3,22 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "THT B82720K common mode choke, 4-pin, vertical, 13×9.5 mm body, 10x7.5mm pitch ")
-	(tags "choke cmc tdk b82720k common-mode inductor tht emi filter ")
+	(descr "THT B82720K common mode choke, 4-pin, vertical, 13×9.5 mm body, 10x7.5mm pitch, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Inductor_THT/Epcos_b82720k2102n040.pdf")
+	(tags "choke cmc tdk b82720k common-mode inductor tht emi filter")
 	(property "Reference" "REF**"
-		(at 0 -6.3 0)
+		(at 5 -2.55 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "c13dc4f1-5e3d-44c0-ab7a-eee6eaae0d1a")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
 	(property "Value" "TDK_B82720K_Vertical_13x9.5mm_P10x7.5mm"
-		(at 0 6.3 0)
+		(at 5 10.05 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "665b16ff-2888-421b-b607-885f6563d3cc")
@@ -29,21 +29,19 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Inductor_THT/Epcos_b82720k2102n040.pdf"
-		(at 3.02 -18.95 0)
-		(unlocked yes)
+	(property "Datasheet" ""
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0e87db37-40be-4a06-bffc-cb66aead5e1b")
+		(uuid "0f06aaa3-0c95-49b9-a8d5-4a5ba5afc55f")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 1.27 1.27)
 			)
 		)
 	)
 	(property "Description" ""
-		(at 3.02 -18.95 0)
+		(at 8.02 -15.2 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -58,8 +56,8 @@
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -6.6 -4.85)
-		(end 6.6 -4.85)
+		(start -1.6 -1.1)
+		(end 11.6 -1.1)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -68,8 +66,8 @@
 		(uuid "cc5d33b6-172e-4b42-9bc7-b9f1e4441e12")
 	)
 	(fp_line
-		(start -6.6 4.85)
-		(end -6.6 -4.85)
+		(start -1.6 8.6)
+		(end -1.6 -1.1)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -78,8 +76,8 @@
 		(uuid "c4166799-3acc-460b-a164-990520bc9613")
 	)
 	(fp_line
-		(start 6.6 -4.85)
-		(end 6.6 4.85)
+		(start 11.6 -1.1)
+		(end 11.6 8.6)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -88,8 +86,8 @@
 		(uuid "e726f61f-cdef-4f8c-b68b-9ff5a417132f")
 	)
 	(fp_line
-		(start 6.6 4.85)
-		(end -6.6 4.85)
+		(start 11.6 8.6)
+		(end -1.6 8.6)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -98,8 +96,8 @@
 		(uuid "6f35b228-e2a1-4199-9314-10eff1aac657")
 	)
 	(fp_line
-		(start -6.75 -5)
-		(end 6.75 -5)
+		(start -1.75 -1.25)
+		(end 11.75 -1.25)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -108,8 +106,8 @@
 		(uuid "ac85fe14-b9b6-4619-8ada-821b4019aeed")
 	)
 	(fp_line
-		(start -6.75 5)
-		(end -6.75 -5)
+		(start -1.75 8.75)
+		(end -1.75 -1.25)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -118,8 +116,8 @@
 		(uuid "b0e96e3a-8198-41d1-a13e-7d220f284c98")
 	)
 	(fp_line
-		(start 6.75 -5)
-		(end 6.75 5)
+		(start 11.75 -1.25)
+		(end 11.75 8.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -128,8 +126,8 @@
 		(uuid "9d451517-044f-4ed4-85dc-c1da2b8e0d59")
 	)
 	(fp_line
-		(start 6.75 5)
-		(end -6.75 5)
+		(start 11.75 8.75)
+		(end -1.75 8.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -138,8 +136,8 @@
 		(uuid "8b0cff29-58e3-43b6-b046-d04df552adc4")
 	)
 	(fp_line
-		(start -6.5 4.75)
-		(end -6.5 -4.76)
+		(start -1.5 8.5)
+		(end -1.5 -1.01)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -148,8 +146,8 @@
 		(uuid "130b7266-921f-464e-835b-68688f9ea766")
 	)
 	(fp_line
-		(start -5.85 -4.76)
-		(end -6.5 -4.76)
+		(start -0.85 -1.01)
+		(end -1.5 -1.01)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -158,8 +156,8 @@
 		(uuid "4189ca21-fbd4-4b0c-a8eb-620047ef797c")
 	)
 	(fp_line
-		(start -5.85 4.75)
-		(end -6.5 4.75)
+		(start -0.85 8.5)
+		(end -1.5 8.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -168,8 +166,8 @@
 		(uuid "fed75e8b-9ee4-4701-8fd4-c13e97d5364e")
 	)
 	(fp_line
-		(start -4.15 -4.75)
-		(end 4.15 -4.75)
+		(start 0.85 -1)
+		(end 9.15 -1)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -178,8 +176,8 @@
 		(uuid "5c0cc5d8-01ca-4b60-84ca-6db0595c16ae")
 	)
 	(fp_line
-		(start 4.15 4.75)
-		(end -4.15 4.75)
+		(start 9.15 8.5)
+		(end 0.85 8.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -188,8 +186,8 @@
 		(uuid "82751018-6a4a-49cd-abd0-6c4222a42570")
 	)
 	(fp_line
-		(start 6.5 -4.75)
-		(end 5.85 -4.75)
+		(start 11.5 -1)
+		(end 10.85 -1)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -198,8 +196,8 @@
 		(uuid "b85c4a23-ef95-4113-a6d7-5326130b30bb")
 	)
 	(fp_line
-		(start 6.5 -4.75)
-		(end 6.5 4.75)
+		(start 11.5 -1)
+		(end 11.5 8.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -208,8 +206,8 @@
 		(uuid "4cfeb1c4-8088-4991-b1c0-0366b62ae7e2")
 	)
 	(fp_line
-		(start 6.5 4.75)
-		(end 5.85 4.75)
+		(start 11.5 8.5)
+		(end 10.85 8.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -218,8 +216,8 @@
 		(uuid "a9b9a246-24fe-44ab-8d95-eb652e58dae5")
 	)
 	(fp_circle
-		(center -4.05 -4.45)
-		(end -3.95 -4.45)
+		(center 0.95 -0.7)
+		(end 1.05 -0.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -229,8 +227,8 @@
 		(uuid "4066f6af-be65-491d-8eb7-98ebf5eeb4cd")
 	)
 	(fp_circle
-		(center 4.05 -4.45)
-		(end 4.15 -4.45)
+		(center 9.05 -0.7)
+		(end 9.15 -0.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -240,7 +238,7 @@
 		(uuid "04f352a2-b228-4e7b-b8d8-069b93e19f89")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 5 3.75 0)
 		(layer "F.Fab")
 		(uuid "20a81274-8acc-41e9-bb81-85747cd9794c")
 		(effects
@@ -250,16 +248,17 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
-		(at -5 -3.75)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
 		(size 1.7 1.7)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.1471)
 		(uuid "88eead36-29f5-4850-846b-143df1bed85c")
 	)
 	(pad "2" thru_hole circle
-		(at 5 -3.75)
+		(at 10 0)
 		(size 1.7 1.7)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -267,7 +266,7 @@
 		(uuid "d81cf12d-662e-42cf-88f0-db77fc5d97ac")
 	)
 	(pad "3" thru_hole circle
-		(at 5 3.75)
+		(at 10 7.5)
 		(size 1.7 1.7)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -275,7 +274,7 @@
 		(uuid "db61c557-4c9d-4aa5-a633-e000ee725e33")
 	)
 	(pad "4" thru_hole circle
-		(at -5 3.75)
+		(at 0 7.5)
 		(size 1.7 1.7)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")

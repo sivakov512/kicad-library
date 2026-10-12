@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Choke, SMD, 4.5x4mm")
+	(descr "Choke, SMD, 4.5x4mm, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Inductor_SMD/MetalLions_MMPC0402.pdf")
 	(tags "Choke SMD mmpc0402 metallions")
 	(property "Reference" "REF**"
 		(at 0 -3.52 0)
@@ -27,16 +27,14 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Inductor_SMD/MetalLions_MMPC0402.pdf"
+	(property "Datasheet" ""
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "080ed4eb-9436-4add-b8d8-634d38f7e409")
+		(uuid "f4c216ba-c4a1-419f-9171-8fa3ea449404")
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -226,16 +224,18 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -1.85 0)
 		(size 1.5 2.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1667)
 		(uuid "2fa364b6-c2a5-417e-8aca-ceb670ba7871")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 1.85 0)
 		(size 1.5 2.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1667)
 		(uuid "634fc77d-7dda-43f9-99f5-6e52ffa78814")
 	)
 	(embedded_fonts no)

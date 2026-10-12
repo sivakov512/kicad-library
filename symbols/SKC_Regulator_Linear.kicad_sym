@@ -9,27 +9,29 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 7.62 0)
+			(at -7.62 8.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "Rohm_BDXXKA5WF"
-			(at 0 5.08 0)
+			(at -7.62 6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "PCM_SKC_Package_SO:SOP-8_4.4x5.35mm_P1.27mm"
-			(at 0 2.54 0)
+			(at 0 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -40,7 +42,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Regulator_Linear/Rohm_BDXXKA5WF.pdf"
-			(at -1.27 10.16 0)
+			(at -1.27 12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -50,8 +52,8 @@
 				)
 			)
 		)
-		(property "Description" "1A, fixed LDO regulator with OVP & TSP, with enable, SOP-8 SOIC-8"
-			(at 0 0 0)
+		(property "Description" "500mA fixed positive voltage output, with enable, overcurrent and thermal shutdown protection, SOP-8"
+			(at 0 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -61,7 +63,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "linear regulator fixed positive over voltage protection thermal shutdown"
+		(property "ki_keywords" "ROHM LDO low-dropout regulator linear"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -85,8 +87,8 @@
 		)
 		(symbol "Rohm_BDXXKA5WF_1_1"
 			(rectangle
-				(start -5.08 1.27)
-				(end 5.08 -5.08)
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -96,7 +98,7 @@
 				)
 			)
 			(pin power_out line
-				(at 7.62 0 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "VO"
 					(effects
@@ -114,7 +116,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 5.08 -3.81 180)
+				(at -5.08 -2.54 90)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -133,7 +135,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 3.81 -5.08 90)
+				(at -2.54 -2.54 90)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -152,7 +154,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -3.81 -5.08 90)
+				(at 0 -2.54 90)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -171,7 +173,7 @@
 				)
 			)
 			(pin input line
-				(at -7.62 -2.54 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "CTL"
 					(effects
@@ -189,44 +191,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -7.62 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -7.62 90)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -7.62 0 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -236,6 +201,24 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "[6-7]"
 					(effects
 						(font
 							(size 1.27 1.27)

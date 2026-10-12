@@ -3,16 +3,13 @@
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
 	(symbol "STMicroelectronics_VIPER06"
-		(pin_names
-			(offset 1.016)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -7.874 14.732 0)
+			(at -7.62 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23,7 +20,7 @@
 			)
 		)
 		(property "Value" "STMicroelectronics_VIPER06"
-			(at -7.62 12.192 0)
+			(at -7.62 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56,7 +53,7 @@
 				)
 			)
 		)
-		(property "Description" "VIPER06 series PWM flyback converter"
+		(property "Description" "Offline high-voltage converter, 800V avalanche rugged power section, PWM controller with frequency jittering, direct feedback, SSO-10"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -67,7 +64,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "VIPER ST flyback PWM AC-DC switcher COMP LIM "
+		(property "ki_keywords" "STMicroelectronics VIPer AC-DC SMPS flyback buck switcher"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -92,7 +89,7 @@
 		(symbol "STMicroelectronics_VIPER06_0_0"
 			(rectangle
 				(start -7.62 10.16)
-				(end 7.62 -10.16)
+				(end 7.62 -12.7)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -102,37 +99,37 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 -15.24 90)
+				(at 5.08 -17.78 90)
 				(length 5.08)
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at -12.7 7.62 0)
+				(at -5.08 15.24 270)
 				(length 5.08)
 				(name "VDD"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -143,14 +140,14 @@
 				(name "LIM"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -161,14 +158,14 @@
 				(name "FB"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -179,14 +176,14 @@
 				(name "COMP"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -197,90 +194,14 @@
 				(name "DRAIN"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "[6-10]"
 					(effects
 						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 15.24 270)
-				(length 5.08)
-				(hide yes)
-				(name "DRAIN"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 15.24 270)
-				(length 5.08)
-				(hide yes)
-				(name "DRAIN"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 15.24 270)
-				(length 5.08)
-				(hide yes)
-				(name "DRAIN"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 15.24 270)
-				(length 5.08)
-				(hide yes)
-				(name "DRAIN"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)

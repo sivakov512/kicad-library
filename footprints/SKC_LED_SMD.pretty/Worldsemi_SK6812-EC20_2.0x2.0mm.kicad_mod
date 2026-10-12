@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "2.0mm x 2.0mm Addressable RGB LED")
+	(descr "2.0mm x 2.0mm Addressable RGB LED, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/LED_SMD/Worldsemi_SK6812-EC20.pdf")
 	(tags "RGB LED addressable 2020")
 	(property "Reference" "REF**"
 		(at 0 -2 0)
@@ -27,20 +27,18 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/LED_SMD/Worldsemi_SK6812-EC20.pdf"
+	(property "Datasheet" ""
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0d70d19f-ebd0-4280-8ae6-6ff03fb63e81")
+		(uuid "7ecbd508-8d12-451c-91a2-1725603f1c67")
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
-	(property "Description" "2x2mm addressable RGB LED with integrated controller"
+	(property "Description" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -206,28 +204,32 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at 0.65 0.6)
 		(size 0.8 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 		(uuid "180b51a1-8db5-4aa9-8be5-fb14e0ecc799")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 0.65 -0.6)
 		(size 0.8 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 		(uuid "05ecc7b8-2fc0-4d20-8b27-0a38c8937933")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at -0.65 -0.6)
 		(size 0.8 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 		(uuid "c2abb4aa-e030-444c-8c03-7de794727e7c")
 	)
-	(pad "4" smd rect
+	(pad "4" smd roundrect
 		(at -0.65 0.6)
 		(size 0.8 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 		(uuid "ecfbbf8a-ac19-4799-9779-d62669f81f0d")
 	)
 	(embedded_fonts no)

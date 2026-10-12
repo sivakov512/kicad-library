@@ -3,32 +3,31 @@
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
 	(symbol "Maxim_MAX17048G_T10"
-		(pin_names
-			(offset 1.016)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 17.526 0)
+			(at -10.16 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "Maxim_MAX17048G_T10"
-			(at 0 15.24 0)
+			(at -10.16 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "PCM_SKC_Package_DFN:Maxim_TDFN-8-EP_2x2"
@@ -53,7 +52,7 @@
 				)
 			)
 		)
-		(property "Description" "Single/Multi-Cell Fuel Gauge, ModelGauge, TDFN-8"
+		(property "Description" "Single-cell Li+ fuel gauge, ModelGauge, I2C, TDFN-8"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64,7 +63,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "fuel gauge battery monitor i2c"
+		(property "ki_keywords" "Maxim Analog battery SOC lithium"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -124,7 +123,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 7.62 0)
+				(at 0 17.78 270)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -134,24 +133,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -15.24 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -196,16 +177,16 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 -10.16 180)
+				(at 0 -15.24 90)
 				(length 2.54)
-				(name "EP"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "[4,9]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -254,7 +235,7 @@
 		)
 		(symbol "Maxim_MAX17048G_T10_1_1"
 			(rectangle
-				(start -10.16 12.7)
+				(start -10.16 15.24)
 				(end 10.16 -12.7)
 				(stroke
 					(width 0.254)

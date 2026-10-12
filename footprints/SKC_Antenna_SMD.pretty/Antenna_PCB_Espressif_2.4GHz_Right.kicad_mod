@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "PCB trace antenna for 2.4 GHz, as used on Espressif DevKitC and ESP32-MINI modules, right direction")
 	(tags "antenna pcb 2.4GHz esp32 esp8266 wroom wrover devkit esp-mc right")
-	(property "Reference" "J1"
+	(property "Reference" "REF**"
 		(at 0 1.79 0)
 		(layer "F.SilkS")
 		(uuid "796f64bc-c5a5-4c6d-9800-57c781c75aaa")
@@ -28,14 +28,13 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at -4.55 2.85 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5506c163-d62a-4169-8e69-366e851d5e79")
+		(uuid "d02ebcde-0152-44f2-bf61-7df19390fcb6")
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -119,7 +118,7 @@
 		(start -7.75 -2.75)
 		(end 7.75 -2.75)
 		(stroke
-			(width 0.15)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -129,7 +128,7 @@
 		(start -7.75 3.2)
 		(end -7.75 -2.75)
 		(stroke
-			(width 0.15)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -139,7 +138,7 @@
 		(start 7.75 -2.75)
 		(end 7.75 3.2)
 		(stroke
-			(width 0.15)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -149,7 +148,7 @@
 		(start 7.75 3.2)
 		(end -7.75 3.2)
 		(stroke
-			(width 0.15)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -172,10 +171,11 @@
 		(layers "F.Cu")
 		(uuid "e01f4251-2b4d-4b51-9d59-3d20b270644d")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at -6.935 2.86)
 		(size 0.63 0.5)
 		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
 		(zone_connect 2)
 		(uuid "dcaa8680-f539-4dd8-be40-0204efcec4c4")
 	)

@@ -3,10 +3,10 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Battery holder, BH-18650-A5BJ001-2D, battery type 1x18650")
-	(tags "18650, myoung, A5BJ001, C19184083")
+	(descr "Battery holder, BH-18650-A5BJ001-2D, battery type 1x18650, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/BatteryHolder_THT/Myoung_BH-18650-A5BJ001-2D.pdf")
+	(tags "18650 myoung A5BJ001 C19184083")
 	(property "Reference" "REF**"
-		(at 0 -12 0)
+		(at 36.15 -12 0)
 		(layer "F.SilkS")
 		(uuid "5cad4100-d7e6-44b3-9735-eaf1346858cc")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "Myoung_BH-18650-A5BJ001-2D"
-		(at 0 12 0)
+		(at 36.15 12 0)
 		(layer "F.Fab")
 		(uuid "6abcd79a-85c0-419d-9f82-f879341ad323")
 		(effects
@@ -27,11 +27,11 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/BatteryHolder_THT/Myoung_BH-18650-A5BJ001-2D.pdf"
-		(at -36.15 0 0)
+	(property "Datasheet" ""
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2499ba17-99e6-4f83-8a97-5691d80ec992")
+		(uuid "fc38951b-6362-417c-95ed-0e1db5bbd10f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39,7 +39,7 @@
 		)
 	)
 	(property "Description" ""
-		(at -36.15 0 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "c7016bdc-0f57-471b-8049-dd20907c392a")
@@ -52,8 +52,8 @@
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
-		(start -39.1 -10.6)
-		(end 39.1 10.6)
+		(start -2.95 -10.6)
+		(end 75.25 10.6)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -63,8 +63,8 @@
 		(uuid "57ed81f4-1aed-46c0-812f-24a0c991aab8")
 	)
 	(fp_rect
-		(start -39.2 -10.7)
-		(end 39.2 10.7)
+		(start -3.05 -10.7)
+		(end 75.35 10.7)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -74,8 +74,8 @@
 		(uuid "9e913876-eb07-43fd-a4d3-b5e1337b8df3")
 	)
 	(fp_rect
-		(start -38.9 -10.4)
-		(end 38.9 10.4)
+		(start -2.75 -10.4)
+		(end 75.05 10.4)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -85,7 +85,7 @@
 		(uuid "61e26a9f-876b-4234-a8da-aa1a43424015")
 	)
 	(fp_text user "+"
-		(at -40.6 0 0)
+		(at -4.45 0 0)
 		(layer "F.SilkS")
 		(uuid "2d08258e-caf7-4d29-89ec-fed334c75689")
 		(effects
@@ -96,7 +96,7 @@
 		)
 	)
 	(fp_text user "+"
-		(at -32.15 0 0)
+		(at 4 0 0)
 		(layer "F.Fab")
 		(uuid "f838ede8-39d5-49f9-a9e7-dd552b9e26fe")
 		(effects
@@ -107,7 +107,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 36.15 0 0)
 		(layer "F.Fab")
 		(uuid "a61ef9a8-eab7-4c79-8b27-51c46b505ae4")
 		(effects
@@ -118,21 +118,21 @@
 		)
 	)
 	(pad "" np_thru_hole circle
-		(at -27.75 0)
+		(at 8.4 0)
 		(size 3.2 3.2)
 		(drill 3.2)
 		(layers "*.Cu" "*.Mask")
 		(uuid "a8bd2796-f284-48af-815c-1ef6336982d1")
 	)
 	(pad "" np_thru_hole circle
-		(at 27.75 0)
+		(at 63.9 0)
 		(size 3.2 3.2)
 		(drill 3.2)
 		(layers "*.Cu" "*.Mask")
 		(uuid "3802f531-2d7b-49e4-8c41-fbbbdf7fc846")
 	)
 	(pad "1" thru_hole roundrect
-		(at -36.15 0)
+		(at 0 0)
 		(size 3 3)
 		(drill 1.68)
 		(layers "*.Cu" "*.Mask")
@@ -141,7 +141,7 @@
 		(uuid "365e3e87-f24d-4078-a020-490785de484d")
 	)
 	(pad "2" thru_hole circle
-		(at 36.15 0)
+		(at 72.3 0)
 		(size 3 3)
 		(drill 1.68)
 		(layers "*.Cu" "*.Mask")
@@ -151,7 +151,7 @@
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_MPD_BH-18650-PC2.step"
 		(offset
-			(xyz -36.15 0 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

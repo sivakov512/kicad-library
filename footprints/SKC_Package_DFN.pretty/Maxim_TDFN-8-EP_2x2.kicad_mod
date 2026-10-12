@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(tags "Maxim, tdfn, tdfn8, 2x2")
+	(tags "Maxim tdfn tdfn8 2x2")
 	(property "Reference" "REF**"
 		(at 0 -2.23 0)
 		(layer "F.SilkS")
@@ -15,11 +15,22 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Power_Monitor/Maxim_MAX1704x.pdf"
+	(property "Value" "Maxim_TDFN-8-EP_2x2"
+		(at 0 2.2 0)
+		(layer "F.Fab")
+		(uuid "752867de-263c-4528-a863-494384ce9227")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "eddc6b5f-230c-4bec-9ac3-8dea9592fe88")
+		(uuid "a466960c-6f18-4dcd-811f-a4dc1e583643")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -34,17 +45,6 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "Value" "Maxim_TDFN-8-EP_2x2"
-		(at 0 2.2 0)
-		(layer "F.Fab")
-		(uuid "752867de-263c-4528-a863-494384ce9227")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -82,125 +82,16 @@
 		(layer "F.SilkS")
 		(uuid "0df38820-e003-4c1a-8536-2a6239fa1407")
 	)
-	(fp_line
-		(start -1.58 -1.15)
-		(end -1.3 -1.15)
+	(fp_rect
+		(start -1.59 -1.25)
+		(end 1.59 1.25)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "38036a59-3604-460c-b6cd-320099c92403")
-	)
-	(fp_line
-		(start -1.58 1.15)
-		(end -1.58 -1.15)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "b75ea7a0-185a-4ef8-add2-ea98b707020d")
-	)
-	(fp_line
-		(start -1.3 -1.25)
-		(end 1.34 -1.25)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "897fd497-c582-4f85-b469-85c2b6d92767")
-	)
-	(fp_line
-		(start -1.3 -1.15)
-		(end -1.3 -1.25)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "050f3535-bbcb-4f9d-bc8e-985d58ac1557")
-	)
-	(fp_line
-		(start -1.3 1.15)
-		(end -1.58 1.15)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "524217dd-0a36-42f1-9f80-bc6a2dac9700")
-	)
-	(fp_line
-		(start -1.3 1.25)
-		(end -1.3 1.15)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "20596cca-a9ae-44b4-a1c2-f1251e05d43e")
-	)
-	(fp_line
-		(start 1.34 -1.25)
-		(end 1.34 -1.15)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "1ffd3d5f-1248-4d52-802a-d7606857e040")
-	)
-	(fp_line
-		(start 1.34 -1.15)
-		(end 1.58 -1.15)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "41bd1d11-a75c-4dc3-b386-e0425a997fe8")
-	)
-	(fp_line
-		(start 1.34 1.150059)
-		(end 1.34 1.250059)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "af7185f6-9917-4e3d-a323-6601af1b2856")
-	)
-	(fp_line
-		(start 1.34 1.25)
-		(end -1.3 1.25)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "54184e2f-8afc-4e95-8d05-f241bd837bbc")
-	)
-	(fp_line
-		(start 1.58 -1.15)
-		(end 1.58 1.15)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "5fda32ba-1f18-4fd1-a968-bf2edca039ed")
-	)
-	(fp_line
-		(start 1.58 1.15)
-		(end 1.34 1.15)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "31e48f5c-b5f7-4aef-b9f9-3ed88ccc753c")
+		(uuid "ad235702-a29f-4f9c-8d58-60233c92c677")
 	)
 	(fp_poly
 		(pts
@@ -231,7 +122,6 @@
 		(property pad_prop_heatsink)
 		(layers "F.Paste")
 		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.102)
 		(uuid "654cbd34-51f4-4132-afb5-641f5a149737")
 	)
 	(pad "1" smd roundrect
@@ -290,11 +180,12 @@
 		(roundrect_rratio 0.25)
 		(uuid "24c89296-5246-4560-918e-3dc68f1672e8")
 	)
-	(pad "9" smd rect
+	(pad "9" smd roundrect
 		(at 0 0)
 		(size 0.9 1.3)
 		(property pad_prop_heatsink)
 		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
 		(zone_connect 2)
 		(uuid "dc67edb1-4572-4939-b01c-00bd3e844217")
 	)
