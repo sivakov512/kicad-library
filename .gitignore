@@ -14,3 +14,4 @@ fp-info-cache
 /fabrication-toolkit-options.json
 
 build/
+__pycache__/
