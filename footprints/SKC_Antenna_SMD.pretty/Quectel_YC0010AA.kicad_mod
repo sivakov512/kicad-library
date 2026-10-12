@@ -268,13 +268,13 @@
 	(embedded_fonts no)
 	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Antenna_SMD.3dshapes/Quectel_YC0010AA.step"
 		(offset
-			(xyz 0 -1 0)
+			(xyz 0 0 0)
 		)
 		(scale
-			(xyz 1 1.5 1)
+			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz 0 0 0)
 		)
 	)
 )

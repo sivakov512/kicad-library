@@ -190,7 +190,7 @@
 		(uuid "cda9d934-bd8e-4b27-9684-3fbc93b07cc1")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3DMODEL_DIR}/Transformer_THT.3dshapes/Transformer_Zeming_ZMPT101K.step"
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Transformer_THT.3dshapes/Transformer_Zeming_ZMPT101B.step"
 		(offset
 			(xyz 0 0 0)
 		)

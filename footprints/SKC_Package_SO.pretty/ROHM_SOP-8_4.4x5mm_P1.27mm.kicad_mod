@@ -363,15 +363,15 @@
 		(uuid "7fbd8d0f-9bf8-4b14-abe1-72997002c4a0")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_5.3x5.3mm_P1.27mm.step"
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Package_SO.3dshapes/ROHM_SOP-8_4.4x5mm_P1.27mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
 		(scale
-			(xyz 0.8 1 1)
+			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz 0 0 0)
 		)
 	)
 )
