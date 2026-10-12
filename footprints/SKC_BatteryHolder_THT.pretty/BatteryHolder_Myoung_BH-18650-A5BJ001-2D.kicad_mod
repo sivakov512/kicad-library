@@ -149,7 +149,7 @@
 		(uuid "846a9f8e-d5cc-4815-8bf6-a593759ca736")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_MPD_BH-18650-PC2.step"
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_BatteryHolder_THT.3dshapes/BatteryHolder_Myoung_BH-18650-A5BJ001-2D.step"
 		(offset
 			(xyz 0 0 0)
 		)
