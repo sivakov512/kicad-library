@@ -14,7 +14,7 @@ jobs:
       kicad_version: ${{ steps.extract_metadata.outputs.kicad_version }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
 
       - name: Extract metadata
         id: extract_metadata
@@ -42,7 +42,7 @@ jobs:
       download_url: ${{ steps.upload_archive.outputs.download_url }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
 
       - name: Pin datasheet links to the release tag
         run: |

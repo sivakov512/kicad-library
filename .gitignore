@@ -12,3 +12,5 @@ _autosave-*/
 fp-info-cache
 /production
 /fabrication-toolkit-options.json
+
+build/

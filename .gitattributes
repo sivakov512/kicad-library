@@ -1,0 +1,11 @@
+# KiCad files use LF line endings (KLC G1.7)
+*.kicad_sym text eol=lf
+*.kicad_mod text eol=lf
+*.kicad_sch text eol=lf
+*.kicad_pcb text eol=lf
+*.kicad_pro text eol=lf
+*-lib-table text eol=lf
+
+# Vendor files are stored as received
+*.step -text
+*.pdf binary

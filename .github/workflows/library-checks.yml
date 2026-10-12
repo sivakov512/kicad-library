@@ -1,0 +1,46 @@
+name: Library checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    name: ${{ matrix.check }}
+    runs-on: ubuntu-latest
+    # The full image ships KiCad's stock libraries and 3D models, which the
+    # checks resolve stock footprint links and models against.
+    container:
+      image: kicad/kicad:10.0.6-full
+      options: --user root
+    strategy:
+      fail-fast: false
+      matrix:
+        check: [integrity, klc-symbols, klc-footprints, erc, drc]
+    steps:
+      - name: Install make
+        run: apt-get update -qq && apt-get install -y -qq make
+
+      - uses: actions/checkout@v7
+        with:
+          submodules: true
+
+      # Jobs run as root with HOME=/github/home, so give kicad-cli the stock
+      # global library tables the image prepared for its own user.
+      - name: Configure KiCad
+        run: |
+          dir="$HOME/.config/kicad/$(kicad-cli -v | cut -d . -f 1,2)"
+          mkdir -p "$dir"
+          cp /usr/share/kicad/template/*-lib-table "$dir"
+
+      - name: make ${{ matrix.check }}
+        run: make ${{ matrix.check }}
+
+      - name: Upload reports
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v7
+        with:
+          name: reports-${{ matrix.check }}
+          path: build/
+          if-no-files-found: ignore
