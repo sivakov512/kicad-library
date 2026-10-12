@@ -1,7 +1,7 @@
 (footprint "Fuse_2410_6125Metric_6.1x2.5mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "SMD fuse, 2410 (6125 Metric), 6.1×2.5 mm body, IPC 7351 nominal ")
 	(tags "fuse smd 2410 6125 6.1x2.5 protection current")
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1 -1.27)
 		(end 1 -1.27)

@@ -1,7 +1,7 @@
 (footprint "NTC10D_7_Disc_D7.0mm_P5.0mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "THT NTC thermistor, 10 Ω, 7 mm disc, 5.0 mm lead spacing (RM) ")
 	(tags "ntc thermistor inrush disc 10d-7 10ohm 7mm 5mm tht ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.9939 -2.6289)
 		(end 1.9939 -2.6289)

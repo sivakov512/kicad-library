@@ -1,7 +1,7 @@
 (footprint "STMicroelectronics_VIPER06_SSO-10"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "SSO-10 footprint for ST VIPER06 series PWM flyback converters ")
 	(tags "VIPER flyback ST SSO-10 AC-DC switcher PWM ")
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.7 -2.6)
 		(end -0.3 -2.6)

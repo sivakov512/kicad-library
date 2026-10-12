@@ -1,7 +1,7 @@
 (footprint "Antenna_PCB_Espressif_2.4GHz_Right"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "PCB trace antenna for 2.4 GHz, as used on Espressif DevKitC and ESP32-MINI modules, right direction")
 	(tags "antenna pcb 2.4GHz esp32 esp8266 wroom wrover devkit esp-mc right")
@@ -53,6 +53,7 @@
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
 	(net_tie_pad_groups "1, 2")
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy -2.25 0.4) (xy -0.25 0.4) (xy -0.25 -2.3) (xy 2.55 -2.3) (xy 2.55 0.4) (xy 4.55 0.4) (xy 4.55 -2.3)
@@ -179,8 +180,6 @@
 		(uuid "dcaa8680-f539-4dd8-be40-0204efcec4c4")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.SilkS")
 		(uuid "38d0a201-206e-4635-ab2a-dc3007798e22")
 		(hatch edge 0.5)
@@ -188,7 +187,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -203,6 +201,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
