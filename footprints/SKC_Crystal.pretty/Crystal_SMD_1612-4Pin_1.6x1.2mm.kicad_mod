@@ -28,14 +28,13 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0.19 0.12 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c3fd1b2f-8a22-4b2e-94e6-b1c69e9c6e65")
+		(uuid "51b4859b-a621-40b3-b9a9-91071a191168")
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)

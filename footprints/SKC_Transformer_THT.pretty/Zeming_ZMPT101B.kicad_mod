@@ -3,10 +3,10 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Qingxian Zeming Langxi Electronic ZMPT101B voltage transformer 1000:1000 2mA:2mA")
+	(descr "Qingxian Zeming Langxi Electronic ZMPT101B voltage transformer 1000:1000 2mA:2mA, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Transformer/Zeming_ZMPT101B.pdf")
 	(tags "voltage transformer ZMPT")
 	(property "Reference" "REF**"
-		(at 0 -9.65 0)
+		(at 5 -3.3 0)
 		(layer "F.SilkS")
 		(uuid "d18d79a2-8cf4-4bf8-9687-0a7b8c42e90b")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "Zeming_ZMPT101B"
-		(at 0 10.15 0)
+		(at 5 16.5 0)
 		(layer "F.Fab")
 		(uuid "a852a5a1-ee38-4c67-ba8b-15a9bb227291")
 		(effects
@@ -27,21 +27,19 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Transformer/Zeming_ZMPT101B.pdf"
-		(at -5 -6.35 0)
-		(unlocked yes)
+	(property "Datasheet" ""
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b8f54fbb-e802-4a3f-b49b-54462f59c7f2")
+		(uuid "a798becb-cef9-4206-885a-f4f9f8c49a43")
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
 	(property "Description" ""
-		(at -5 -6.35 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -56,8 +54,8 @@
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -9.9 -8.65)
-		(end -8.62 -8.65)
+		(start -4.9 -2.3)
+		(end -3.62 -2.3)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -66,8 +64,8 @@
 		(uuid "3a701d7a-83da-421e-aa70-c06fa7b96e34")
 	)
 	(fp_line
-		(start -9.9 -7.37)
-		(end -9.9 -8.65)
+		(start -4.9 -1.02)
+		(end -4.9 -2.3)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -76,8 +74,8 @@
 		(uuid "6de5211d-0527-4698-a560-d9ae34c7ac86")
 	)
 	(fp_rect
-		(start -9.6 -8.35)
-		(end 9.6 8.35)
+		(start -4.6 -2)
+		(end 14.6 14.7)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -87,8 +85,8 @@
 		(uuid "7fe3b8c6-2b96-45d6-a964-a65c4ba32a52")
 	)
 	(fp_rect
-		(start -9.72 -8.47)
-		(end 9.72 8.48)
+		(start -4.72 -2.12)
+		(end 14.72 14.83)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -98,8 +96,8 @@
 		(uuid "4ae7502e-e4d6-4934-8a24-5207bfd604ba")
 	)
 	(fp_line
-		(start -9.48 -6.77)
-		(end -8.02 -8.23)
+		(start -4.48 -0.42)
+		(end -3.02 -1.88)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -108,8 +106,8 @@
 		(uuid "0ac00359-b93f-407f-8ad0-3e8e566adf5f")
 	)
 	(fp_line
-		(start -9.48 8.23)
-		(end -9.48 -6.77)
+		(start -4.48 14.58)
+		(end -4.48 -0.42)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -118,8 +116,8 @@
 		(uuid "6c3ebe15-d171-4b18-9393-870def6a64a0")
 	)
 	(fp_line
-		(start -8.02 -8.23)
-		(end 9.48 -8.23)
+		(start -3.02 -1.88)
+		(end 14.48 -1.88)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -128,8 +126,8 @@
 		(uuid "c1d16117-132e-4147-9637-483bf9769bf8")
 	)
 	(fp_line
-		(start 9.48 -8.23)
-		(end 9.48 8.23)
+		(start 14.48 -1.88)
+		(end 14.48 14.58)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -138,8 +136,8 @@
 		(uuid "70c75bfc-acd4-482b-ab23-a64f2dc9c76b")
 	)
 	(fp_line
-		(start 9.48 8.23)
-		(end -9.48 8.23)
+		(start 14.48 14.58)
+		(end -4.48 14.58)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -148,7 +146,7 @@
 		(uuid "33fc783f-3cfb-418b-a07d-4221e305911d")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0.15 0)
+		(at 5 6.5 0)
 		(layer "F.Fab")
 		(uuid "c5140e94-dcbf-442e-b9c2-1f0403e1aa7d")
 		(effects
@@ -158,16 +156,17 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
-		(at -5 -6.35)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
 		(size 2.2 2.2)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.1136)
 		(uuid "3206791e-fb9d-4687-95e8-5920b2c2f4fd")
 	)
 	(pad "2" thru_hole circle
-		(at -5 6.35)
+		(at 0 12.7)
 		(size 2.2 2.2)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
@@ -175,7 +174,7 @@
 		(uuid "6ccc7c71-be96-4600-8c17-3dc2a1cd2545")
 	)
 	(pad "3" thru_hole circle
-		(at 5 6.35)
+		(at 10 12.7)
 		(size 2.2 2.2)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
@@ -183,7 +182,7 @@
 		(uuid "6e575365-bc59-4d36-b582-dcef125882f8")
 	)
 	(pad "4" thru_hole circle
-		(at 5 -6.35)
+		(at 10 0)
 		(size 2.2 2.2)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
@@ -193,7 +192,7 @@
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Transformer_THT.3dshapes/Transformer_Zeming_ZMPT101K.step"
 		(offset
-			(xyz -5 6.35 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

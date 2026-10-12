@@ -3,38 +3,35 @@
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
 	(symbol "Texas_DRV8316CR"
-		(pin_names
-			(offset 0.254)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 7.62 25.4 0)
+			(at -15.24 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "Texas_DRV8316CR"
-			(at 7.62 22.86 0)
+			(at -15.24 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "PCM_SKC_Package_QFN:Texas_RGF0040E_VQFN-40-1EP_5x7mm_P0.5mm_EP3.8x5.8mm"
-			(at -0.254 0 0)
+			(at -0.254 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -46,7 +43,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Motor_Driver/Texas_DRV8316C.pdf"
-			(at -0.254 0.254 0)
+			(at -0.254 5.334 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -57,8 +54,8 @@
 				)
 			)
 		)
-		(property "Description" "DRV8316CR Three-Phase Integrated FET Motor Driver"
-			(at -0.508 0 0)
+		(property "Description" "Three-phase BLDC motor driver, integrated FETs, 4.5-35V, 8A peak, SPI configuration, built-in current sensing, VQFN-40"
+			(at -0.508 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -68,7 +65,18 @@
 				)
 			)
 		)
-		(property "ki_keywords" "Texas TI DRV8316CT 3-phase BLDC motor driver SPI 3pwm 6pwm"
+		(property private "KLC_S4.4" "AVDD is the output of the internal 3.3V regulator (datasheet), so Power Output is correct"
+			(at -2.54 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Texas TI brushless 3PWM 6PWM"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -92,7 +100,7 @@
 		)
 		(symbol "Texas_DRV8316CR_0_1"
 			(rectangle
-				(start -15.24 20.32)
+				(start -15.24 27.94)
 				(end 12.7 -30.48)
 				(stroke
 					(width 0.254)
@@ -105,7 +113,7 @@
 		)
 		(symbol "Texas_DRV8316CR_1_1"
 			(pin no_connect line
-				(at 8.89 -33.02 90)
+				(at -12.7 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -116,24 +124,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -33.02 90)
-				(length 2.54)
-				(name "AGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -196,7 +186,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 22.86 270)
+				(at 5.08 30.48 270)
 				(length 2.54)
 				(name "CPL"
 					(effects
@@ -214,7 +204,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 22.86 270)
+				(at 2.54 30.48 270)
 				(length 2.54)
 				(name "CPH"
 					(effects
@@ -231,8 +221,8 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 0 22.86 270)
+			(pin passive line
+				(at 0 30.48 270)
 				(length 2.54)
 				(name "CP"
 					(effects
@@ -249,231 +239,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -7.62 22.86 270)
-				(length 2.54)
-				(name "VM"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -7.62 22.86 270)
-				(length 2.54)
-				(hide yes)
-				(name "VM"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -7.62 22.86 270)
-				(length 2.54)
-				(hide yes)
-				(name "VM"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -5.08 -33.02 90)
-				(length 2.54)
-				(name "PGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin tri_state line
-				(at 15.24 17.78 180)
-				(length 2.54)
-				(name "OUTA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin tri_state line
-				(at 15.24 17.78 180)
-				(length 2.54)
-				(hide yes)
-				(name "OUTA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -5.08 -33.02 90)
-				(length 2.54)
-				(hide yes)
-				(name "PGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin tri_state line
-				(at 15.24 15.24 180)
-				(length 2.54)
-				(name "OUTB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin tri_state line
-				(at 15.24 15.24 180)
-				(length 2.54)
-				(hide yes)
-				(name "OUTB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -5.08 -33.02 90)
-				(length 2.54)
-				(hide yes)
-				(name "PGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin tri_state line
-				(at 15.24 12.7 180)
-				(length 2.54)
-				(name "OUTC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin tri_state line
-				(at 15.24 12.7 180)
-				(length 2.54)
-				(hide yes)
-				(name "OUTC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
-				(at -17.78 -12.7 0)
+				(at -17.78 -7.62 0)
 				(length 2.54)
 				(name "DRVOFF"
 					(effects
@@ -491,9 +258,9 @@
 				)
 			)
 			(pin open_collector line
-				(at -17.78 -15.24 0)
+				(at -17.78 -10.16 0)
 				(length 2.54)
-				(name "NFAULT"
+				(name "~{FAULT}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -509,9 +276,9 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -17.78 0)
+				(at -17.78 -12.7 0)
 				(length 2.54)
-				(name "NSLEEP"
+				(name "~{SLEEP}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -527,7 +294,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 8.89 -33.02 90)
+				(at -10.16 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -563,27 +330,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -33.02 90)
-				(length 2.54)
-				(hide yes)
-				(name "AGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "26"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
-				(at -17.78 17.78 0)
+				(at -17.78 22.86 0)
 				(length 2.54)
 				(name "INHA"
 					(effects
@@ -601,7 +349,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 15.24 0)
+				(at -17.78 20.32 0)
 				(length 2.54)
 				(name "INLA"
 					(effects
@@ -619,7 +367,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 12.7 0)
+				(at -17.78 17.78 0)
 				(length 2.54)
 				(name "INHB"
 					(effects
@@ -637,7 +385,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 10.16 0)
+				(at -17.78 15.24 0)
 				(length 2.54)
 				(name "INLB"
 					(effects
@@ -655,7 +403,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 7.62 0)
+				(at -17.78 12.7 0)
 				(length 2.54)
 				(name "INHC"
 					(effects
@@ -673,7 +421,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 5.08 0)
+				(at -17.78 10.16 0)
 				(length 2.54)
 				(name "INLC"
 					(effects
@@ -691,7 +439,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -5.08 0)
+				(at -17.78 0 0)
 				(length 2.54)
 				(name "SDO"
 					(effects
@@ -709,7 +457,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -2.54 0)
+				(at -17.78 2.54 0)
 				(length 2.54)
 				(name "SDI"
 					(effects
@@ -727,7 +475,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 0 0)
+				(at -17.78 5.08 0)
 				(length 2.54)
 				(name "SCLK"
 					(effects
@@ -745,9 +493,9 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -7.62 0)
+				(at -17.78 -2.54 0)
 				(length 2.54)
-				(name "NSCS"
+				(name "~{SCS}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -781,7 +529,7 @@
 				)
 			)
 			(pin output line
-				(at -17.78 -27.94 0)
+				(at -17.78 -22.86 0)
 				(length 2.54)
 				(name "SOC"
 					(effects
@@ -799,7 +547,7 @@
 				)
 			)
 			(pin output line
-				(at -17.78 -25.4 0)
+				(at -17.78 -20.32 0)
 				(length 2.54)
 				(name "SOB"
 					(effects
@@ -817,7 +565,7 @@
 				)
 			)
 			(pin output line
-				(at -17.78 -22.86 0)
+				(at -17.78 -17.78 0)
 				(length 2.54)
 				(name "SOA"
 					(effects
@@ -835,16 +583,106 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 -33.02 90)
+				(at 2.54 -33.02 90)
 				(length 2.54)
-				(name "EP"
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "41"
+				(number "[2,26,41]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 30.48 270)
+				(length 2.54)
+				(name "VM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "[9-11]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 -33.02 90)
+				(length 2.54)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "[12,15,18]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at 15.24 22.86 180)
+				(length 2.54)
+				(name "OUTA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "[13-14]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at 15.24 17.78 180)
+				(length 2.54)
+				(name "OUTB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "[16-17]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at 15.24 12.7 180)
+				(length 2.54)
+				(name "OUTC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "[19-20]"
 					(effects
 						(font
 							(size 1.27 1.27)

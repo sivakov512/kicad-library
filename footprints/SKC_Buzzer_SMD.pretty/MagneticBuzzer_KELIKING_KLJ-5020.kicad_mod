@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "MagneticBuzzer_KELIKING_KLJ-5020 3.3V 110mA")
+	(descr "MagneticBuzzer_KELIKING_KLJ-5020 3.3V 110mA, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Buzzer_SMD/KELIKING_KLJ-5020.pdf")
 	(tags "buzzer keliking kllj-5020 kllj-5020 3.3v")
 	(property "Reference" "REF**"
 		(at 0 -6 0)
@@ -27,16 +27,14 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Buzzer_SMD/KELIKING_KLJ-5020.pdf"
+	(property "Datasheet" ""
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d14bbe3c-0958-4bc9-aac9-5c0bbf1d67d4")
+		(uuid "f950882b-ef08-4901-824b-91ecdfd463d1")
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -329,16 +327,18 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at 4.15 0)
 		(size 3 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1667)
 		(uuid "0e5a8e11-a5b1-40e8-bae6-fcb221e5201b")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at -4.15 0)
 		(size 3 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1667)
 		(uuid "dbc028d9-d35b-466e-b620-45cbd4120189")
 	)
 	(embedded_fonts no)

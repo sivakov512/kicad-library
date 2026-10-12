@@ -3,14 +3,15 @@
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
 	(symbol "Wurth_750370423"
-		(pin_names
-			(offset 1.016)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "T"
-			(at 0 22.86 0)
+			(at 0 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19,7 +20,9 @@
 			)
 		)
 		(property "Value" "Wurth_750370423"
-			(at 0 20.574 0)
+			(at 0 23.114 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28,47 +31,78 @@
 			)
 		)
 		(property "Footprint" "PCM_SKC_Transformer_THT:Wurth_750370423_THT_E13"
-			(at 0 0 0)
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Transformer/Wurth_750370423.pdf"
-			(at 0 0 0)
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" "Flyback transformer, Würth 750370423, EE13/7/6, 13.33:1:2.78 turns"
-			(at 0 0 0)
+		(property "Description" "Offline flyback transformer, EE13/7/6, 13.33:1:2.78 turns ratio, 1.5mH primary, THT"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "ki_keywords" "transformer flyback we wurth 750370423 ee13 auxiliary vcc "
+		(property "ki_keywords" "Wurth WE-OLS power auxiliary"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Wurth?750370423*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(symbol "Wurth_750370423_0_0"
 			(arc
-				(start -2.54 17.78)
-				(mid -1.2755 16.51)
-				(end -2.54 15.24)
+				(start -2.54 20.32)
+				(mid -1.2755 19.05)
+				(end -2.54 17.78)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.54 12.7)
+				(mid -1.2755 11.43)
+				(end -2.54 10.16)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -90,9 +124,9 @@
 				)
 			)
 			(arc
-				(start -2.54 7.62)
-				(mid -1.2755 6.35)
-				(end -2.54 5.08)
+				(start -2.54 5.08)
+				(mid -1.2755 3.81)
+				(end -2.54 2.54)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -102,9 +136,9 @@
 				)
 			)
 			(arc
-				(start -2.54 2.54)
-				(mid -1.2755 1.27)
-				(end -2.54 0)
+				(start -2.54 -2.54)
+				(mid -1.2755 -3.81)
+				(end -2.54 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -138,21 +172,9 @@
 				)
 			)
 			(arc
-				(start -2.54 -10.16)
-				(mid -1.2755 -11.43)
-				(end -2.54 -12.7)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -2.54 -20.32)
-				(mid -1.2755 -21.59)
-				(end -2.54 -22.86)
+				(start -2.54 -17.78)
+				(mid -1.2755 -19.05)
+				(end -2.54 -20.32)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -163,8 +185,20 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 17.78) (xy -5.08 17.78)
+					(xy -2.54 20.32) (xy -5.08 20.32)
 				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.5345 17.78)
+				(mid -1.27 16.51)
+				(end -2.5345 15.24)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -186,9 +220,33 @@
 				)
 			)
 			(arc
-				(start -2.5345 12.7)
-				(mid -1.27 11.43)
-				(end -2.5345 10.16)
+				(start -2.5345 7.62)
+				(mid -1.27 6.35)
+				(end -2.5345 5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 2.54) (xy -5.08 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -2.54) (xy -5.08 -2.54)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -198,33 +256,9 @@
 				)
 			)
 			(arc
-				(start -2.5345 5.08)
-				(mid -1.27 3.81)
-				(end -2.5345 2.54)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 0) (xy -5.08 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -5.08) (xy -5.08 -5.08)
-				)
+				(start -2.5345 -10.16)
+				(mid -1.27 -11.43)
+				(end -2.5345 -12.7)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -257,21 +291,9 @@
 					(type none)
 				)
 			)
-			(arc
-				(start -2.5345 -17.78)
-				(mid -1.27 -19.05)
-				(end -2.5345 -20.32)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
-					(xy -2.54 -22.86) (xy -5.08 -22.86)
+					(xy -2.54 -20.32) (xy -5.08 -20.32)
 				)
 				(stroke
 					(width 0.254)
@@ -282,7 +304,7 @@
 				)
 			)
 			(circle
-				(center -2.286 1.27)
+				(center -2.286 3.81)
 				(radius 0.2032)
 				(stroke
 					(width 0.381)
@@ -293,7 +315,7 @@
 				)
 			)
 			(circle
-				(center -2.286 -6.35)
+				(center -2.286 -3.81)
 				(radius 0.2032)
 				(stroke
 					(width 0.381)
@@ -305,7 +327,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 17.78) (xy 0 -22.86)
+					(xy 0 20.32) (xy 0 -20.32)
 				)
 				(stroke
 					(width 0.254)
@@ -316,7 +338,7 @@
 				)
 			)
 			(circle
-				(center 2.286 5.08)
+				(center 2.286 8.89)
 				(radius 0.2032)
 				(stroke
 					(width 0.381)
@@ -328,7 +350,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 6.35) (xy 5.08 6.35)
+					(xy 2.54 10.16) (xy 5.08 10.16)
 				)
 				(stroke
 					(width 0.254)
@@ -339,9 +361,9 @@
 				)
 			)
 			(arc
-				(start 2.5345 1.27)
-				(mid 1.27 2.54)
-				(end 2.5345 3.81)
+				(start 2.5345 5.08)
+				(mid 1.27 6.35)
+				(end 2.5345 7.62)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -351,9 +373,9 @@
 				)
 			)
 			(arc
-				(start 2.5345 -6.35)
-				(mid 1.27 -5.08)
-				(end 2.5345 -3.81)
+				(start 2.5345 -2.54)
+				(mid 1.27 -1.27)
+				(end 2.5345 0)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -363,9 +385,9 @@
 				)
 			)
 			(arc
-				(start 2.5345 -8.89)
-				(mid 1.27 -7.62)
-				(end 2.5345 -6.35)
+				(start 2.5345 -5.08)
+				(mid 1.27 -3.81)
+				(end 2.5345 -2.54)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -376,7 +398,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -11.43) (xy 5.08 -11.43)
+					(xy 2.54 -7.62) (xy 5.08 -7.62)
 				)
 				(stroke
 					(width 0.254)
@@ -387,9 +409,9 @@
 				)
 			)
 			(arc
-				(start 2.54 3.81)
-				(mid 1.2755 5.08)
-				(end 2.54 6.35)
+				(start 2.54 7.62)
+				(mid 1.2755 8.89)
+				(end 2.54 10.16)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -399,9 +421,9 @@
 				)
 			)
 			(arc
-				(start 2.54 -1.27)
-				(mid 1.2755 0)
-				(end 2.54 1.27)
+				(start 2.54 2.54)
+				(mid 1.2755 3.81)
+				(end 2.54 5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -411,9 +433,9 @@
 				)
 			)
 			(arc
-				(start 2.54 -3.81)
-				(mid 1.2755 -2.54)
-				(end 2.54 -1.27)
+				(start 2.54 0)
+				(mid 1.2755 1.27)
+				(end 2.54 2.54)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -423,9 +445,9 @@
 				)
 			)
 			(arc
-				(start 2.54 -11.43)
-				(mid 1.2755 -10.16)
-				(end 2.54 -8.89)
+				(start 2.54 -7.62)
+				(mid 1.2755 -6.35)
+				(end 2.54 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -435,7 +457,7 @@
 				)
 			)
 			(text "N1"
-				(at -5.08 8.89 0)
+				(at -5.08 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -443,111 +465,149 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 6.35 180)
+				(at 7.62 10.16 180)
 				(length 2.54)
 				(name "~"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 		)
 		(symbol "Wurth_750370423_1_0"
-			(pin power_in line
-				(at -7.62 17.78 0)
+			(pin passive line
+				(at -7.62 -20.32 0)
 				(length 2.54)
 				(name "~"
 					(effects
 						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -7.62 0 0)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -7.62 -5.08 0)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -7.62 -22.86 0)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 7.62 -11.43 180)
+				(at -7.62 -2.54 0)
 				(length 2.54)
 				(name "~"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 20.32 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 0 5.08 180)
+				(length 2.54)
+				(hide yes)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 0 0 180)
+				(length 2.54)
+				(hide yes)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -7.62 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "8"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -555,7 +615,7 @@
 		)
 		(symbol "Wurth_750370423_1_1"
 			(text "N3"
-				(at -5.08 -13.97 0)
+				(at -5.08 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -563,7 +623,7 @@
 				)
 			)
 			(text "N2"
-				(at 5.08 -2.54 0)
+				(at 5.08 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -579,7 +639,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "TR"
+		(property "Reference" "T"
 			(at 0 4.445 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -621,7 +681,18 @@
 				)
 			)
 		)
-		(property "Description" "Qingxian Zeming Langxi Electronic ZMPT101B voltage transformer 1000:1000 2mA:2mA"
+		(property "Description" "Current-type voltage transformer, 1000:1000 turns ratio, 2mA rated, 4kV isolation, voltage and power measurement, THT"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Zeming PT mains sensing"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -757,7 +828,7 @@
 				(start -0.254 2.54)
 				(end 0.254 -2.54)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -826,7 +897,7 @@
 			(pin passive line
 				(at -5.08 2.54 0)
 				(length 2.54)
-				(name ""
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -844,7 +915,7 @@
 			(pin passive line
 				(at -5.08 -2.54 0)
 				(length 2.54)
-				(name ""
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -862,7 +933,7 @@
 			(pin passive line
 				(at 5.08 -2.54 180)
 				(length 2.54)
-				(name ""
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -880,7 +951,7 @@
 			(pin passive line
 				(at 5.08 2.54 180)
 				(length 2.54)
-				(name ""
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)

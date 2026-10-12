@@ -14,7 +14,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -24,7 +24,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -52,7 +52,7 @@
 				)
 			)
 		)
-		(property "Description" "4A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 3-16V Input Voltage, 0.6-7V Output Voltage, SOT-563"
+		(property "Description" "4A synchronous buck converter, 3-16V input, 0.6-7V adjustable output, 1.2MHz, D-CAP3, SOT-563"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -63,7 +63,18 @@
 				)
 			)
 		)
-		(property "ki_keywords" "step-down dcdc voltage regulator"
+		(property private "KLC_S4.2" "Buck converter: VIN is on the left per the power-converter exception of S4.2; its output is the SW switch node, typed Output like the stock TPS56x symbols"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Texas TI step-down DC-DC switching regulator"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -133,7 +144,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at -2.54 -7.62 90)
 				(length 2.54)
 				(name "GND"
@@ -151,7 +162,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 2.54 -7.62 90)
 				(length 2.54)
 				(name "AGND"

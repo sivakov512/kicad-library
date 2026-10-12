@@ -9,7 +9,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -7.874 14.478 0)
+			(at -7.62 13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20,7 +20,7 @@
 			)
 		)
 		(property "Value" "Texas_TPS2121"
-			(at -7.62 12.192 0)
+			(at -7.62 11.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52,7 +52,7 @@
 				)
 			)
 		)
-		(property "Description" "2-Channel Power Mux with Manual and Priority Switchover, 2.8-22V Input, 4.5A Output, 56mΩ Ron, VQFN-HR-12"
+		(property "Description" "Priority power multiplexer, 2.8-22V, 4.5A, 56mOhm, seamless switchover, VQFN-HR-12"
 			(at 0 -1.016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -63,7 +63,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "Texas Instruments TI power mux switchover TPS2121 2-channel vqfn"
+		(property "ki_keywords" "Texas TI mux power-path ORing source-selection"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -86,24 +86,6 @@
 			)
 		)
 		(symbol "Texas_TPS2121_0_0"
-			(pin power_out line
-				(at 10.16 7.62 180)
-				(length 2.54)
-				(name "OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at -10.16 -5.08 0)
 				(length 2.54)
@@ -212,25 +194,6 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 10.16 7.62 180)
-				(length 2.54)
-				(hide yes)
-				(name "OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin open_collector line
 				(at 10.16 0 180)
 				(length 2.54)
@@ -286,7 +249,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -12.7 90)
+				(at 0 -15.24 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -303,11 +266,29 @@
 					)
 				)
 			)
+			(pin power_out line
+				(at 10.16 7.62 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "[1,8]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "Texas_TPS2121_0_1"
 			(rectangle
 				(start -7.62 10.16)
-				(end 7.62 -10.16)
+				(end 7.62 -12.7)
 				(stroke
 					(width 0.254)
 					(type default)

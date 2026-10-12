@@ -31,11 +31,10 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5647faad-35be-4e5c-ac34-1bb588abc99b")
+		(uuid "00eecde4-37de-4ebc-8e9c-38ebc2998382")
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -156,7 +155,7 @@
 		(uuid "5efa7263-8d60-4faf-97aa-3d0a19beae12")
 	)
 	(fp_line
-		(start -2.3 -2.775)
+		(start -2.3 -2.78)
 		(end -2.3 -2.34)
 		(stroke
 			(width 0.05)
@@ -166,8 +165,8 @@
 		(uuid "f15fd16c-374f-40e3-9896-2d6ed268062f")
 	)
 	(fp_line
-		(start -2.3 -2.775)
-		(end 2.3 -2.775)
+		(start -2.3 -2.78)
+		(end 2.3 -2.78)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -177,7 +176,7 @@
 	)
 	(fp_line
 		(start -2.3 2.34)
-		(end -2.3 2.775)
+		(end -2.3 2.78)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -186,8 +185,8 @@
 		(uuid "7e463871-21b3-4084-b134-5d3ba5e46f1c")
 	)
 	(fp_line
-		(start -2.3 2.775)
-		(end 2.3 2.775)
+		(start -2.3 2.78)
+		(end 2.3 2.78)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -196,7 +195,7 @@
 		(uuid "0f7b7aeb-dd56-4ce7-beb1-a205cda7ee04")
 	)
 	(fp_line
-		(start 2.3 -2.775)
+		(start 2.3 -2.78)
 		(end 2.3 -2.34)
 		(stroke
 			(width 0.05)
@@ -217,7 +216,7 @@
 	)
 	(fp_line
 		(start 2.3 2.34)
-		(end 2.3 2.775)
+		(end 2.3 2.78)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -295,6 +294,18 @@
 		(layer "F.Fab")
 		(uuid "0097a3e4-1c5c-4f00-9b19-3e58cfa86369")
 	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c661fdd0-78c6-4773-9d27-815905350c07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(pad "1" smd roundrect
 		(at -2.65 -1.905)
 		(size 1.5 0.67)
@@ -352,7 +363,7 @@
 		(uuid "7fbd8d0f-9bf8-4b14-abe1-72997002c4a0")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_5.3x5.3mm_P1.27mm.step"
+	(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_5.3x5.3mm_P1.27mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

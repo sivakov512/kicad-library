@@ -3,10 +3,10 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "SSO-10 footprint for ST VIPER06 series PWM flyback converters ")
-	(tags "VIPER flyback ST SSO-10 AC-DC switcher PWM ")
+	(descr "SSO-10 footprint for ST VIPER06 series PWM flyback converters, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Converter_ACDC/STMicroelectronics_VIPER06.pdf")
+	(tags "VIPER flyback ST SSO-10 AC-DC switcher PWM")
 	(property "Reference" "REF**"
-		(at 0.67 -3.745 0)
+		(at 0.6201 -3.6975 0)
 		(layer "F.SilkS")
 		(uuid "048071f2-55ea-45f6-aed0-fd1aaa6526ad")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "STMicroelectronics_VIPER06_SSO-10"
-		(at 0.705 3.545 0)
+		(at 0.6551 3.5925 0)
 		(layer "F.Fab")
 		(uuid "dedb80d4-c52d-4ac6-b2e2-3b62be3e5693")
 		(effects
@@ -27,20 +27,19 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Converter_ACDC/STMicroelectronics_VIPER06.pdf"
+	(property "Datasheet" ""
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1af6dcae-2fff-4afe-9bd5-fba02c03528e")
+		(uuid "ed0b3ca3-1b32-4ffa-92ae-e6144b49e2e8")
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at -0.0499 0.0475 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "f0e8a35f-e7f9-4ebc-acc5-3e6648a00676")
@@ -54,8 +53,8 @@
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -1.7 -2.6)
-		(end -0.3 -2.6)
+		(start -1.7499 -2.5525)
+		(end -0.3499 -2.5525)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -64,8 +63,8 @@
 		(uuid "23b0be4b-7d90-4fb9-b85c-b32fc2ea5504")
 	)
 	(fp_line
-		(start -1.7 2.5)
-		(end -1.7 -2.6)
+		(start -1.7499 2.5475)
+		(end -1.7499 -2.5525)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -74,8 +73,8 @@
 		(uuid "ad75e9a3-85da-4641-b3ab-2502beb3d87d")
 	)
 	(fp_line
-		(start -0.3 -2.6)
-		(end -0.3 -2.1)
+		(start -0.3499 -2.5525)
+		(end -0.3499 -2.0525)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -84,8 +83,8 @@
 		(uuid "1879c7f7-900d-4a33-8213-34fb7e0dd4ee")
 	)
 	(fp_line
-		(start -0.3 -2.1)
-		(end 0.4 -2.1)
+		(start -0.3499 -2.0525)
+		(end 0.3501 -2.0525)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -94,8 +93,8 @@
 		(uuid "a8e48d71-9bcd-4e88-93ff-b88b9aa02973")
 	)
 	(fp_line
-		(start 0.4 -2.6)
-		(end 1.8 -2.6)
+		(start 0.3501 -2.5525)
+		(end 1.7501 -2.5525)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -104,8 +103,8 @@
 		(uuid "db4299fc-ab4b-4021-832d-96c4cf644f3a")
 	)
 	(fp_line
-		(start 0.4 -2.1)
-		(end 0.4 -2.6)
+		(start 0.3501 -2.0525)
+		(end 0.3501 -2.5525)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -114,8 +113,8 @@
 		(uuid "3606e617-fe04-4b1c-b37b-a34b54137ae8")
 	)
 	(fp_line
-		(start 1.8 -2.6)
-		(end 1.8 2.5)
+		(start 1.7501 -2.5525)
+		(end 1.7501 2.5475)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -124,8 +123,8 @@
 		(uuid "afa661e2-c65e-4180-9ecb-9c1fe42db8d3")
 	)
 	(fp_line
-		(start 1.8 2.5)
-		(end -1.7 2.5)
+		(start 1.7501 2.5475)
+		(end -1.7499 2.5475)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -134,19 +133,30 @@
 		(uuid "89bd85aa-097c-4b76-969e-156b2a379f34")
 	)
 	(fp_circle
-		(center -4.35 -2.0451)
-		(end -4.1 -2.0451)
+		(center -4.3999 -1.9976)
+		(end -4.1499 -1.9976)
 		(stroke
-			(width 0)
+			(width 0.12)
 			(type solid)
 		)
 		(fill yes)
 		(layer "F.SilkS")
 		(uuid "502c5acc-7d87-4ce6-8ae5-10fbdffe1a26")
 	)
+	(fp_rect
+		(start -4.25 -2.71)
+		(end 4.26 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "78cae827-f5d9-49f5-8aab-e79cd74a79c3")
+	)
 	(fp_line
-		(start -1.6 2.4)
-		(end -1.6 -1.98)
+		(start -1.6499 2.4475)
+		(end -1.6499 -1.9325)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -155,8 +165,8 @@
 		(uuid "53505a6f-ca9d-43b8-aeb8-1841b61792d6")
 	)
 	(fp_line
-		(start -1.08 -2.5)
-		(end -1.6 -1.98)
+		(start -1.1299 -2.4525)
+		(end -1.6499 -1.9325)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -165,8 +175,8 @@
 		(uuid "6c12cc56-cc3d-4717-8341-1ee6eb796453")
 	)
 	(fp_line
-		(start -1.08 -2.5)
-		(end -0.4 -2.5)
+		(start -1.1299 -2.4525)
+		(end -0.4499 -2.4525)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -175,8 +185,8 @@
 		(uuid "a280b3e0-90af-4c72-b2cc-1ce6893c96ed")
 	)
 	(fp_line
-		(start -0.4 -2.5)
-		(end -0.4 -2)
+		(start -0.4499 -2.4525)
+		(end -0.4499 -1.9525)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -185,8 +195,8 @@
 		(uuid "7f6de998-32e0-4624-b590-90f8fe8d215f")
 	)
 	(fp_line
-		(start -0.4 -2)
-		(end 0.5 -2)
+		(start -0.4499 -1.9525)
+		(end 0.4501 -1.9525)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -195,8 +205,8 @@
 		(uuid "d8740723-c518-433c-a954-05f342009607")
 	)
 	(fp_line
-		(start 0.5 -2.5)
-		(end 1.7 -2.5)
+		(start 0.4501 -2.4525)
+		(end 1.6501 -2.4525)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -205,8 +215,8 @@
 		(uuid "f584bbeb-01ce-4f5b-bab8-cb4304c66f59")
 	)
 	(fp_line
-		(start 0.5 -2)
-		(end 0.5 -2.5)
+		(start 0.4501 -1.9525)
+		(end 0.4501 -2.4525)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -215,8 +225,8 @@
 		(uuid "1fb2d8bb-83df-4855-8802-c0fe410abd49")
 	)
 	(fp_line
-		(start 1.7 -2.5)
-		(end 1.7 2.4)
+		(start 1.6501 -2.4525)
+		(end 1.6501 2.4475)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -225,8 +235,8 @@
 		(uuid "f1e2722a-d2e1-4057-9437-d9c74d9d65b0")
 	)
 	(fp_line
-		(start 1.7 2.4)
-		(end -1.6 2.4)
+		(start 1.6501 2.4475)
+		(end -1.6499 2.4475)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -236,10 +246,10 @@
 	)
 	(fp_poly
 		(pts
-			(xy -2.05 -2.2902) (xy -2.05 -1.8) (xy -3.1501 -1.8) (xy -3.1501 -2.2902)
+			(xy -2.0999 -2.2427) (xy -2.0999 -1.7525) (xy -3.2 -1.7525) (xy -3.2 -2.2427)
 		)
 		(stroke
-			(width 0.01)
+			(width 0.1)
 			(type solid)
 		)
 		(fill yes)
@@ -248,10 +258,10 @@
 	)
 	(fp_poly
 		(pts
-			(xy -2.05 -1.2902) (xy -2.05 -0.8) (xy -3.1501 -0.8) (xy -3.1501 -1.2902)
+			(xy -2.0999 -1.2427) (xy -2.0999 -0.7525) (xy -3.2 -0.7525) (xy -3.2 -1.2427)
 		)
 		(stroke
-			(width 0.01)
+			(width 0.1)
 			(type solid)
 		)
 		(fill yes)
@@ -260,10 +270,10 @@
 	)
 	(fp_poly
 		(pts
-			(xy -2.05 -0.2902) (xy -2.05 0.2) (xy -3.1501 0.2) (xy -3.1501 -0.2902)
+			(xy -2.0999 -0.2427) (xy -2.0999 0.2475) (xy -3.2 0.2475) (xy -3.2 -0.2427)
 		)
 		(stroke
-			(width 0.01)
+			(width 0.1)
 			(type solid)
 		)
 		(fill yes)
@@ -272,10 +282,10 @@
 	)
 	(fp_poly
 		(pts
-			(xy -2.05 0.7098) (xy -2.05 1.2) (xy -3.1501 1.2) (xy -3.1501 0.7098)
+			(xy -2.0999 0.7573) (xy -2.0999 1.2475) (xy -3.2 1.2475) (xy -3.2 0.7573)
 		)
 		(stroke
-			(width 0.01)
+			(width 0.1)
 			(type solid)
 		)
 		(fill yes)
@@ -284,10 +294,10 @@
 	)
 	(fp_poly
 		(pts
-			(xy -2.05 1.7098) (xy -2.05 2.2) (xy -3.1501 2.2) (xy -3.1501 1.7098)
+			(xy -2.0999 1.7573) (xy -2.0999 2.2475) (xy -3.2 2.2475) (xy -3.2 1.7573)
 		)
 		(stroke
-			(width 0.01)
+			(width 0.1)
 			(type solid)
 		)
 		(fill yes)
@@ -296,10 +306,10 @@
 	)
 	(fp_poly
 		(pts
-			(xy 3.25 -2.2951) (xy 3.25 -1.8049) (xy 2.1499 -1.8049) (xy 2.1499 -2.2951)
+			(xy 3.2001 -2.2476) (xy 3.2001 -1.7574) (xy 2.1 -1.7574) (xy 2.1 -2.2476)
 		)
 		(stroke
-			(width 0.01)
+			(width 0.1)
 			(type solid)
 		)
 		(fill yes)
@@ -308,10 +318,10 @@
 	)
 	(fp_poly
 		(pts
-			(xy 3.25 -1.2951) (xy 3.25 -0.8049) (xy 2.1499 -0.8049) (xy 2.1499 -1.2951)
+			(xy 3.2001 -1.2476) (xy 3.2001 -0.7574) (xy 2.1 -0.7574) (xy 2.1 -1.2476)
 		)
 		(stroke
-			(width 0.01)
+			(width 0.1)
 			(type solid)
 		)
 		(fill yes)
@@ -320,10 +330,10 @@
 	)
 	(fp_poly
 		(pts
-			(xy 3.25 -0.2951) (xy 3.25 0.1951) (xy 2.1499 0.1951) (xy 2.1499 -0.2951)
+			(xy 3.2001 -0.2476) (xy 3.2001 0.2426) (xy 2.1 0.2426) (xy 2.1 -0.2476)
 		)
 		(stroke
-			(width 0.01)
+			(width 0.1)
 			(type solid)
 		)
 		(fill yes)
@@ -332,10 +342,10 @@
 	)
 	(fp_poly
 		(pts
-			(xy 3.25 0.7049) (xy 3.25 1.1951) (xy 2.1499 1.1951) (xy 2.1499 0.7049)
+			(xy 3.2001 0.7524) (xy 3.2001 1.2426) (xy 2.1 1.2426) (xy 2.1 0.7524)
 		)
 		(stroke
-			(width 0.01)
+			(width 0.1)
 			(type solid)
 		)
 		(fill yes)
@@ -344,10 +354,10 @@
 	)
 	(fp_poly
 		(pts
-			(xy 3.25 1.7049) (xy 3.25 2.1951) (xy 2.1499 2.1951) (xy 2.1499 1.7049)
+			(xy 3.2001 1.7524) (xy 3.2001 2.2426) (xy 2.1 2.2426) (xy 2.1 1.7524)
 		)
 		(stroke
-			(width 0.01)
+			(width 0.1)
 			(type solid)
 		)
 		(fill yes)
@@ -355,7 +365,7 @@
 		(uuid "6df2038e-48d8-4463-89c1-f56f70d44409")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at -0.0499 0.0475 0)
 		(layer "F.Fab")
 		(uuid "95bad191-173d-442b-b08a-f0419ceb6f1c")
 		(effects
@@ -365,80 +375,80 @@
 			)
 		)
 	)
-	(pad "1" smd rect
-		(at -2.95 -2.0451)
+	(pad "1" smd roundrect
+		(at -2.9999 -1.9976)
 		(size 2 0.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
+		(roundrect_rratio 0.25)
 		(uuid "9f3e36f7-d8fa-4704-9ff2-7d9b38fcc996")
 	)
-	(pad "2" smd rect
-		(at -2.95 -1.0451)
+	(pad "2" smd roundrect
+		(at -2.9999 -0.9976)
 		(size 2 0.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
+		(roundrect_rratio 0.25)
 		(uuid "7ece1c9e-6ad7-410c-a8b4-e72a2eb4ff81")
 	)
-	(pad "3" smd rect
-		(at -2.95 -0.0451)
+	(pad "3" smd roundrect
+		(at -2.9999 0.0024)
 		(size 2 0.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
+		(roundrect_rratio 0.25)
 		(uuid "eb437971-9054-43b1-ba64-aaf00c9c8f60")
 	)
-	(pad "4" smd rect
-		(at -2.95 0.9549)
+	(pad "4" smd roundrect
+		(at -2.9999 1.0024)
 		(size 2 0.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
+		(roundrect_rratio 0.25)
 		(uuid "164f8168-3bd1-4aae-845b-2f53be90f0e5")
 	)
-	(pad "5" smd rect
-		(at -2.95 1.9549)
+	(pad "5" smd roundrect
+		(at -2.9999 2.0024)
 		(size 2 0.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
+		(roundrect_rratio 0.25)
 		(uuid "5537bf86-c363-4c2c-91ea-1d18bcb1f62e")
 	)
-	(pad "6" smd rect
-		(at 3.0499 1.95)
+	(pad "6" smd roundrect
+		(at 3 1.9975)
 		(size 2 0.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
+		(roundrect_rratio 0.25)
 		(uuid "f308e846-0426-4c68-bd25-680316e045ef")
 	)
-	(pad "7" smd rect
-		(at 3.0499 0.95)
+	(pad "7" smd roundrect
+		(at 3 0.9975)
 		(size 2 0.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
+		(roundrect_rratio 0.25)
 		(uuid "cd9061ea-98ab-4956-9494-89f12b5e26eb")
 	)
-	(pad "8" smd rect
-		(at 3.0499 -0.05)
+	(pad "8" smd roundrect
+		(at 3 -0.0025)
 		(size 2 0.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
+		(roundrect_rratio 0.25)
 		(uuid "7fae4b5f-11cb-428c-bb41-5756ff57e672")
 	)
-	(pad "9" smd rect
-		(at 3.0499 -1.05)
+	(pad "9" smd roundrect
+		(at 3 -1.0025)
 		(size 2 0.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
+		(roundrect_rratio 0.25)
 		(uuid "7a3c1b89-4bba-44df-8b00-114fc60a3395")
 	)
-	(pad "10" smd rect
-		(at 3.0499 -2.05)
+	(pad "10" smd roundrect
+		(at 3 -2.0025)
 		(size 2 0.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
+		(roundrect_rratio 0.25)
 		(uuid "154d58d5-0f2c-4023-af9d-7bbf70b1afcd")
 	)
 	(embedded_fonts no)
 	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Converter_ACDC_SMD.3dshapes/STMicroelectronics_VIPER06_SSO-10.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz -0.0499 -0.0475 0)
 		)
 		(scale
 			(xyz 1 1 1)

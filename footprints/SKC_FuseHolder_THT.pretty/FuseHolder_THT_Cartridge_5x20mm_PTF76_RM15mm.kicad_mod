@@ -3,9 +3,10 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
+	(descr "Fuse holder, THT, 5x20mm cartridge, PTF76, 15mm pitch")
 	(tags "fuse holder tht cartridge 5x20mm ptf76 rm15mm")
 	(property "Reference" "REF**"
-		(at 0 -6.135 0)
+		(at 7.5 -6.135 0)
 		(layer "F.SilkS")
 		(uuid "24a3f876-92da-4e5a-9098-f557555267e6")
 		(effects
@@ -16,7 +17,7 @@
 		)
 	)
 	(property "Value" "FuseHolder_THT_Cartridge_5x20mm_PTF76_RM15mm"
-		(at 0 6.5 0)
+		(at 7.5 6.5 0)
 		(layer "F.Fab")
 		(uuid "8015e2a6-a2d3-4c9f-aea7-f4cd6470c34f")
 		(effects
@@ -30,16 +31,15 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "16d29996-811d-4ee3-ab5a-b31bc413b187")
+		(uuid "989898c4-9c08-4668-8bb1-336bb0056f1a")
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
-	(property "Description" "Fuse holder, THT, 5x20mm cartridge, PTF76, 15mm pitch"
-		(at 0 0 0)
+	(property "Description" ""
+		(at 7.5 0 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "3476c209-34a1-496b-983c-fc53e61b47d1")
@@ -53,48 +53,48 @@
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -12.3 -4.8)
-		(end 12.3 -4.8)
+		(start -4.8 -4.8)
+		(end 19.8 -4.8)
 		(stroke
-			(width 0.2)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "46b11a5b-38f8-4f6d-9343-ade845b72b75")
 	)
 	(fp_line
-		(start -12.3 4.8)
-		(end -12.3 -4.8)
+		(start -4.8 4.8)
+		(end -4.8 -4.8)
 		(stroke
-			(width 0.2)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "7f7f1bb2-bd71-48ca-86a0-b796f9ffb716")
 	)
 	(fp_line
-		(start 12.3 -4.8)
-		(end 12.3 4.8)
+		(start 19.8 -4.8)
+		(end 19.8 4.8)
 		(stroke
-			(width 0.2)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "7b265c80-5ab0-4523-a98b-ee60d538abc5")
 	)
 	(fp_line
-		(start 12.3 4.8)
-		(end -12.3 4.8)
+		(start 19.8 4.8)
+		(end -4.8 4.8)
 		(stroke
-			(width 0.2)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "22188cf3-22a7-42fd-984b-6de286cb803c")
 	)
 	(fp_line
-		(start -12.5 -5)
-		(end 12.5 -5)
+		(start -5 -5)
+		(end 20 -5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -103,8 +103,8 @@
 		(uuid "7ef0231c-e4d6-4dd9-8bee-a91ba64e9b26")
 	)
 	(fp_line
-		(start -12.5 5)
-		(end -12.5 -5)
+		(start -5 5)
+		(end -5 -5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -113,8 +113,8 @@
 		(uuid "5d27f9e0-6567-4ec2-b65a-930faadb9e50")
 	)
 	(fp_line
-		(start 12.5 -5)
-		(end 12.5 5)
+		(start 20 -5)
+		(end 20 5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -123,8 +123,8 @@
 		(uuid "9d8933e1-9196-4ea1-95b4-184a82247837")
 	)
 	(fp_line
-		(start 12.5 5)
-		(end -12.5 5)
+		(start 20 5)
+		(end -5 5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -133,8 +133,8 @@
 		(uuid "059315ad-378a-4447-9941-8cc5aabb37ab")
 	)
 	(fp_line
-		(start -12.2 -4.7)
-		(end 12.2 -4.7)
+		(start -4.7 -4.7)
+		(end 19.7 -4.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -143,8 +143,8 @@
 		(uuid "8b33c327-115f-4d31-a4c3-ea3180504021")
 	)
 	(fp_line
-		(start -12.2 4.7)
-		(end -12.2 -4.7)
+		(start -4.7 4.7)
+		(end -4.7 -4.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -153,8 +153,8 @@
 		(uuid "7a52cd93-9013-4c70-8cf9-4753722fd066")
 	)
 	(fp_line
-		(start 12.2 -4.7)
-		(end 12.2 4.7)
+		(start 19.7 -4.7)
+		(end 19.7 4.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -163,8 +163,8 @@
 		(uuid "338b4145-8efe-4c0e-aac7-d6f8e3952a80")
 	)
 	(fp_line
-		(start 12.2 4.7)
-		(end -12.2 4.7)
+		(start 19.7 4.7)
+		(end -4.7 4.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -172,28 +172,38 @@
 		(layer "F.Fab")
 		(uuid "29e89f72-f707-4fa3-887b-baf17e7138d7")
 	)
+	(fp_text user "${REFERENCE}"
+		(at 7.5 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ceda29c3-dd42-4cdf-b7c8-0f66aa092ab3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(pad "1" thru_hole circle
-		(at -7.5 0)
+		(at 0 0)
 		(size 2.5 2.5)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
 		(uuid "106530e0-1a8f-466a-abed-59acec2c905b")
 	)
 	(pad "2" thru_hole circle
-		(at 7.5 0)
+		(at 15 0)
 		(size 2.25 2.25)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
 		(uuid "65cb0d7a-85a8-4a72-a327-5f9fa8f40414")
 	)
 	(embedded_fonts no)
 	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_FuseHolder_THT.3dshapes/FuseHolder_THT_Cartridge_5x20mm_PTF76_RM15mm.step"
 		(offset
-			(xyz 0 -4.5 0)
+			(xyz 7.5 -4.5 0)
 		)
 		(scale
 			(xyz 1 1 1)

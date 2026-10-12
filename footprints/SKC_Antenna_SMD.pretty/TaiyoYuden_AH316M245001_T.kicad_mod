@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Taiyo Yuden AH316M245001-T chip antenna, 2.4 GHz, 3.2×1.6 mm, SMT")
+	(descr "Taiyo Yuden AH316M245001-T chip antenna, 2.4 GHz, 3.2×1.6 mm, SMT, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Antenna_SMD/TaiyoYuden_Antennas.pdf")
 	(tags "antenna chip 2.4GHz taiyo yuden AH316M245001-T")
 	(property "Reference" "REF**"
 		(at 0 -2.3 0)
@@ -27,15 +27,14 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Antenna_SMD/TaiyoYuden_Antennas.pdf"
+	(property "Datasheet" ""
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "93371e23-794d-4033-a340-bd16d9649d14")
+		(uuid "42cb2bf8-7c12-44c2-92c0-a7fa53af8349")
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -57,7 +56,7 @@
 		(start -1.6 0.8)
 		(end 1.6 0.8)
 		(stroke
-			(width 0.127)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -67,7 +66,7 @@
 		(start 1.6 -0.8)
 		(end -1.6 -0.8)
 		(stroke
-			(width 0.127)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -77,7 +76,7 @@
 		(center -2.3 -0.8)
 		(end -2.2 -0.8)
 		(stroke
-			(width 0)
+			(width 0.12)
 			(type solid)
 		)
 		(fill yes)
@@ -88,7 +87,7 @@
 		(start -2.5 -1)
 		(end 2.5 -1)
 		(stroke
-			(width 0.127)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -98,7 +97,7 @@
 		(start -2.5 1)
 		(end -2.5 -1)
 		(stroke
-			(width 0.127)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -108,7 +107,7 @@
 		(start 2.5 -1)
 		(end 2.5 1)
 		(stroke
-			(width 0.127)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -118,7 +117,7 @@
 		(start 2.5 1)
 		(end -2.5 1)
 		(stroke
-			(width 0.127)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -128,7 +127,7 @@
 		(start -1.6 -0.8)
 		(end -1.6 0.8)
 		(stroke
-			(width 0.127)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -138,7 +137,7 @@
 		(start 1.6 0.8)
 		(end 1.6 -0.8)
 		(stroke
-			(width 0.127)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -148,7 +147,7 @@
 		(center -0.6 0)
 		(end -0.239447 0)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(fill yes)
@@ -160,7 +159,7 @@
 			(xy -1.60147 -0.6) (xy -1.1 -0.6) (xy -1.1 0.60055) (xy -1.60147 0.60055)
 		)
 		(stroke
-			(width 0.01)
+			(width 0.1)
 			(type solid)
 		)
 		(fill yes)
@@ -172,25 +171,37 @@
 			(xy 1.10108 -0.6) (xy 1.6 -0.6) (xy 1.6 0.600587) (xy 1.10108 0.600587)
 		)
 		(stroke
-			(width 0.01)
+			(width 0.1)
 			(type solid)
 		)
 		(fill yes)
 		(layer "F.Fab")
 		(uuid "6671b75f-e44f-4474-b851-63ba358ec446")
 	)
-	(pad "1" smd rect
+	(fp_text user "${REFERENCE}"
+		(at -0.0007 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fcb0b5e2-4dd8-4f4f-a92c-4d90d628c871")
+		(effects
+			(font
+				(size 0.89 0.89)
+				(thickness 0.134)
+			)
+		)
+	)
+	(pad "1" smd roundrect
 		(at -1.6 0)
 		(size 1 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
+		(roundrect_rratio 0.25)
 		(uuid "e8531d2c-eb84-4a89-9724-e63e84d03b9f")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 1.6 0)
 		(size 1 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
+		(roundrect_rratio 0.25)
 		(uuid "be6f3306-5521-4410-8e2c-441567956a15")
 	)
 	(embedded_fonts no)
