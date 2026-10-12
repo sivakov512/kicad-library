@@ -1,9 +1,9 @@
-(footprint "Jack_3.5mm_PJ-3126-5A_Horizontal"
+(footprint "Jack_3.5mm_HRO_PJ-3126-5A_Horizontal"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "TRS 3.5mm, horizontal, through-hole, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Connector_Audio/PJ-3126-5A.pdf")
+	(descr "TRS 3.5mm, horizontal, through-hole, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Connector_Audio/HRO_PJ-3126-5A.pdf")
 	(tags "TRS audio jack stereo horizontal")
 	(property "Reference" "REF**"
 		(at 0 -7.6 0)
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Jack_3.5mm_PJ-3126-5A_Horizontal"
+	(property "Value" "Jack_3.5mm_HRO_PJ-3126-5A_Horizontal"
 		(at 0 8.8 0)
 		(layer "F.Fab")
 		(uuid "e4c76357-8bfc-4e43-a76c-0489c792142c")

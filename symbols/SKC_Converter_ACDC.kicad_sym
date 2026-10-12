@@ -2,7 +2,7 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "STMicroelectronics_VIPER06"
+	(symbol "VIPER06XS"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -19,7 +19,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STMicroelectronics_VIPER06"
+		(property "Value" "VIPER06XS"
 			(at -7.62 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30,7 +30,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SKC_Converter_ACDC_SMD:STMicroelectronics_VIPER06_SSO-10"
+		(property "Footprint" "PCM_SKC_Converter_ACDC_SMD:STMicroelectronics_SSO-10_3.9x4.9mm_P1.00mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53,7 +53,7 @@
 				)
 			)
 		)
-		(property "Description" "Offline high-voltage converter, 800V avalanche rugged power section, PWM controller with frequency jittering, direct feedback, SSO-10"
+		(property "Description" "Offline high-voltage converter, 800V avalanche rugged power section, PWM controller, 30kHz with frequency jittering, direct feedback, SSO-10"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -75,7 +75,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "*VIPER06*_*"
+		(property "ki_fp_filters" "*SSO?10*3.9x4.9mm*P1.00mm*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -86,7 +86,7 @@
 				)
 			)
 		)
-		(symbol "STMicroelectronics_VIPER06_0_0"
+		(symbol "VIPER06XS_0_0"
 			(rectangle
 				(start -7.62 10.16)
 				(end 7.62 -12.7)
@@ -204,6 +204,170 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "VIPER06HS"
+		(extends "VIPER06XS")
+		(property "Reference" "U"
+			(at -7.62 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VIPER06HS"
+			(at -7.62 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SKC_Converter_ACDC_SMD:STMicroelectronics_SSO-10_3.9x4.9mm_P1.00mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Converter_ACDC/STMicroelectronics_VIPER06.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Offline high-voltage converter, 800V avalanche rugged power section, PWM controller, 115kHz with frequency jittering, direct feedback, SSO-10"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "STMicroelectronics VIPer AC-DC SMPS flyback buck switcher"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "*SSO?10*3.9x4.9mm*P1.00mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "VIPER06LS"
+		(extends "VIPER06XS")
+		(property "Reference" "U"
+			(at -7.62 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VIPER06LS"
+			(at -7.62 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SKC_Converter_ACDC_SMD:STMicroelectronics_SSO-10_3.9x4.9mm_P1.00mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Converter_ACDC/STMicroelectronics_VIPER06.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Offline high-voltage converter, 800V avalanche rugged power section, PWM controller, 60kHz with frequency jittering, direct feedback, SSO-10"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "STMicroelectronics VIPer AC-DC SMPS flyback buck switcher"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "*SSO?10*3.9x4.9mm*P1.00mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)

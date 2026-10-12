@@ -1,4 +1,4 @@
-(footprint "TE_OJ-SH-105HM_SPST"
+(footprint "Relay_SPST_TE_OJ-SH-105HM"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "TE_OJ-SH-105HM_SPST"
+	(property "Value" "Relay_SPST_TE_OJ-SH-105HM"
 		(at 7.85 10.15 0)
 		(layer "F.Fab")
 		(uuid "a5893e5a-ed6f-4abe-88c3-928f6b66b180")
@@ -352,7 +352,7 @@
 		(uuid "7a2f8602-6185-4e93-b0d5-d09fe892343e")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Relay_THT.3dshapes/TE_OJ-SH-105HM_SPST.step"
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Relay_THT.3dshapes/Relay_SPST_TE_OJ-SH-105HM.step"
 		(offset
 			(xyz 0.03 -7.61 0)
 		)

@@ -3,7 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(tags "Texas RGF0040E VQFN40 1EP 5x7mm P0.5mm EP3.8x5.8mm")
+	(descr "Texas Instruments RGF0040E VQFN-40, 5x7mm, 0.5mm pitch, exposed pad 3.8x5.8mm, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Motor_Driver/Texas_DRV8316C.pdf")
+	(tags "VQFN QFN Texas RGF0040E")
 	(property "Reference" "REF**"
 		(at 0 -5.04 0)
 		(unlocked yes)
@@ -513,16 +514,6 @@
 		(uuid "fbf85325-3340-4c28-96c7-756db4028957")
 	)
 	(fp_line
-		(start -2.5527 3.556)
-		(end -2.5527 3.556)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "4671461a-10cc-4480-8643-8a5d9ac08969")
-	)
-	(fp_line
 		(start -2.55 -2.05)
 		(end -1.05 -3.55)
 		(stroke
@@ -571,26 +562,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "84d5d40c-94df-4faa-90af-f5f254a39835")
-	)
-	(fp_line
-		(start 2.5527 -3.556)
-		(end 2.5527 -3.556)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "a67a3b7f-1b3b-4ea5-9814-98cbc71460a1")
-	)
-	(fp_line
-		(start 2.5527 3.556)
-		(end 2.5527 3.556)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "66a3a0b8-3458-4adc-aa2f-54e22c0536b1")
 	)
 	(fp_text user "*"
 		(at -3.3 -3 0)
@@ -916,7 +887,7 @@
 		(uuid "28ac07e6-270e-4a2c-81ea-1bbe4b194bfe")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Package_QFN.3dshapes/Texas_RGF0040E_VQFN-40-1EP_5x7mm_P0.5mm_EP3.8x5.8mm.step"
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Package_QFN.3dshapes/Texas_RGF0040E_VQFN-40-1EP_5x7mm_P0.5mm_EP3.8x5.8mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

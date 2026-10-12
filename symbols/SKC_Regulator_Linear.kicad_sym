@@ -2,7 +2,7 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "Rohm_BDXXKA5WF"
+	(symbol "BD10KA5WF"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -19,7 +19,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Rohm_BDXXKA5WF"
+		(property "Value" "BD10KA5WF"
 			(at -7.62 6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30,7 +30,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SKC_Package_SO:SOP-8_4.4x5.35mm_P1.27mm"
+		(property "Footprint" "PCM_SKC_Package_SO:ROHM_SOP-8_4.4x5mm_P1.27mm"
 			(at 0 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41,7 +41,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Regulator_Linear/Rohm_BDXXKA5WF.pdf"
+		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Regulator_Linear/ROHM_BDxxKA5WF.pdf"
 			(at -1.27 12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52,7 +52,7 @@
 				)
 			)
 		)
-		(property "Description" "500mA fixed positive voltage output, with enable, overcurrent and thermal shutdown protection, SOP-8"
+		(property "Description" "500mA 1.0V fixed positive voltage output, with enable, overcurrent and thermal shutdown protection, SOP-8"
 			(at 0 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -74,7 +74,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "SOP-8*"
+		(property "ki_fp_filters" "*SOP?8*4.4x5mm*P1.27mm*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -85,7 +85,7 @@
 				)
 			)
 		)
-		(symbol "Rohm_BDXXKA5WF_1_1"
+		(symbol "BD10KA5WF_1_1"
 			(rectangle
 				(start -7.62 5.08)
 				(end 7.62 -5.08)
@@ -224,6 +224,492 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "BD12KA5WF"
+		(extends "BD10KA5WF")
+		(property "Reference" "U"
+			(at -7.62 8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BD12KA5WF"
+			(at -7.62 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SKC_Package_SO:ROHM_SOP-8_4.4x5mm_P1.27mm"
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Regulator_Linear/ROHM_BDxxKA5WF.pdf"
+			(at -1.27 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "500mA 1.2V fixed positive voltage output, with enable, overcurrent and thermal shutdown protection, SOP-8"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "ROHM LDO low-dropout regulator linear"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "*SOP?8*4.4x5mm*P1.27mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "BD15KA5WF"
+		(extends "BD10KA5WF")
+		(property "Reference" "U"
+			(at -7.62 8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BD15KA5WF"
+			(at -7.62 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SKC_Package_SO:ROHM_SOP-8_4.4x5mm_P1.27mm"
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Regulator_Linear/ROHM_BDxxKA5WF.pdf"
+			(at -1.27 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "500mA 1.5V fixed positive voltage output, with enable, overcurrent and thermal shutdown protection, SOP-8"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "ROHM LDO low-dropout regulator linear"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "*SOP?8*4.4x5mm*P1.27mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "BD18KA5WF"
+		(extends "BD10KA5WF")
+		(property "Reference" "U"
+			(at -7.62 8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BD18KA5WF"
+			(at -7.62 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SKC_Package_SO:ROHM_SOP-8_4.4x5mm_P1.27mm"
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Regulator_Linear/ROHM_BDxxKA5WF.pdf"
+			(at -1.27 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "500mA 1.8V fixed positive voltage output, with enable, overcurrent and thermal shutdown protection, SOP-8"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "ROHM LDO low-dropout regulator linear"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "*SOP?8*4.4x5mm*P1.27mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "BD25KA5WF"
+		(extends "BD10KA5WF")
+		(property "Reference" "U"
+			(at -7.62 8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BD25KA5WF"
+			(at -7.62 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SKC_Package_SO:ROHM_SOP-8_4.4x5mm_P1.27mm"
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Regulator_Linear/ROHM_BDxxKA5WF.pdf"
+			(at -1.27 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "500mA 2.5V fixed positive voltage output, with enable, overcurrent and thermal shutdown protection, SOP-8"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "ROHM LDO low-dropout regulator linear"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "*SOP?8*4.4x5mm*P1.27mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "BD30KA5WF"
+		(extends "BD10KA5WF")
+		(property "Reference" "U"
+			(at -7.62 8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BD30KA5WF"
+			(at -7.62 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SKC_Package_SO:ROHM_SOP-8_4.4x5mm_P1.27mm"
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Regulator_Linear/ROHM_BDxxKA5WF.pdf"
+			(at -1.27 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "500mA 3.0V fixed positive voltage output, with enable, overcurrent and thermal shutdown protection, SOP-8"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "ROHM LDO low-dropout regulator linear"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "*SOP?8*4.4x5mm*P1.27mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "BD33KA5WF"
+		(extends "BD10KA5WF")
+		(property "Reference" "U"
+			(at -7.62 8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BD33KA5WF"
+			(at -7.62 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SKC_Package_SO:ROHM_SOP-8_4.4x5mm_P1.27mm"
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Regulator_Linear/ROHM_BDxxKA5WF.pdf"
+			(at -1.27 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "500mA 3.3V fixed positive voltage output, with enable, overcurrent and thermal shutdown protection, SOP-8"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "ROHM LDO low-dropout regulator linear"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "*SOP?8*4.4x5mm*P1.27mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)

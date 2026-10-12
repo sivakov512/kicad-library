@@ -2,7 +2,7 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "Texas_DRV8316CR"
+	(symbol "DRV8316CRRGF"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -19,7 +19,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Texas_DRV8316CR"
+		(property "Value" "DRV8316CRRGF"
 			(at -15.24 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -87,7 +87,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "PCM_SKC_Package_QFN:Texas_RGF0040E*"
+		(property "ki_fp_filters" "*VQFN?40?1EP*5x7mm*P0.5mm*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -98,7 +98,7 @@
 				)
 			)
 		)
-		(symbol "Texas_DRV8316CR_0_1"
+		(symbol "DRV8316CRRGF_0_1"
 			(rectangle
 				(start -15.24 27.94)
 				(end 12.7 -30.48)
@@ -111,7 +111,7 @@
 				)
 			)
 		)
-		(symbol "Texas_DRV8316CR_1_1"
+		(symbol "DRV8316CRRGF_1_1"
 			(pin no_connect line
 				(at -12.7 -22.86 90)
 				(length 2.54)

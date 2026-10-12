@@ -1,4 +1,4 @@
-(footprint "NTC10D_7_Disc_D7.0mm_P5.0mm"
+(footprint "RT_Disc_D7mm_W2.8mm_P5mm"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "NTC10D_7_Disc_D7.0mm_P5.0mm"
+	(property "Value" "RT_Disc_D7mm_W2.8mm_P5mm"
 		(at 2.54 1.27 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -48,6 +48,19 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KLC_F9.1" "Generic footprint not tied to a single manufacturer part, so there is no datasheet to link"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2976d60c-f863-4126-bcf3-0a74dcda052e")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -229,7 +242,7 @@
 		(uuid "e9133897-af56-4e29-864a-1c3b166be14e")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Thermistor_THT.3dshapes/NTC10D_7_Disc_D7.0mm_P5.0mm.step"
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Thermistor_THT.3dshapes/RT_Disc_D7mm_W2.8mm_P5mm.step"
 		(offset
 			(xyz 0.04 -1.27 2.5)
 		)

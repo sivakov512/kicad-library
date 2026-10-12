@@ -30,7 +30,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "PCM_SKC_Transformer_THT:Wurth_750370423_THT_E13"
+		(property "Footprint" "PCM_SKC_Transformer_THT:Transformer_Wurth_750370423"
 			(at 0 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -75,7 +75,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "Wurth?750370423*"
+		(property "ki_fp_filters" "Transformer?Wurth?750370423*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -633,7 +633,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Zeming_ZMPT101B"
+	(symbol "ZMPT101B"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -649,7 +649,7 @@
 				)
 			)
 		)
-		(property "Value" "Zeming_ZMPT101B"
+		(property "Value" "ZMPT101B"
 			(at 0 -4.445 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -659,7 +659,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SKC_Transformer_THT:Zeming_ZMPT101B"
+		(property "Footprint" "PCM_SKC_Transformer_THT:Transformer_Zeming_ZMPT101B"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -703,7 +703,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "PCM_SKC_Transformer_THT:Zeming_ZMPT101B*"
+		(property "ki_fp_filters" "Transformer?Zeming?ZMPT101B*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -714,7 +714,7 @@
 				)
 			)
 		)
-		(symbol "Zeming_ZMPT101B_0_1"
+		(symbol "ZMPT101B_0_1"
 			(polyline
 				(pts
 					(xy -1.27 2.54) (xy -2.54 2.54)
@@ -764,7 +764,7 @@
 				)
 			)
 		)
-		(symbol "Zeming_ZMPT101B_1_1"
+		(symbol "ZMPT101B_1_1"
 			(arc
 				(start -1.27 2.54)
 				(mid -0.6377 1.905)

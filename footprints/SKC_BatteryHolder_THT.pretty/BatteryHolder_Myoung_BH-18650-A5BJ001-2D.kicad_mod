@@ -1,4 +1,4 @@
-(footprint "Myoung_BH-18650-A5BJ001-2D"
+(footprint "BatteryHolder_Myoung_BH-18650-A5BJ001-2D"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Myoung_BH-18650-A5BJ001-2D"
+	(property "Value" "BatteryHolder_Myoung_BH-18650-A5BJ001-2D"
 		(at 36.15 12 0)
 		(layer "F.Fab")
 		(uuid "6abcd79a-85c0-419d-9f82-f879341ad323")
