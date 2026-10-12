@@ -50,6 +50,19 @@
 			)
 		)
 	)
+	(property "KLC_F9.1" "Generic footprint not tied to a single manufacturer part, so there is no datasheet to link"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aaf816c0-9911-42e2-a6da-b7b87ea01900")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line

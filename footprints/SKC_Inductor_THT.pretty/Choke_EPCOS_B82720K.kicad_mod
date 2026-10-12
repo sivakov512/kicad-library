@@ -1,9 +1,9 @@
-(footprint "TDK_B82720K_Vertical_13x9.5mm_P10x7.5mm"
+(footprint "Choke_EPCOS_B82720K"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "THT B82720K common mode choke, 4-pin, vertical, 13×9.5 mm body, 10x7.5mm pitch, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Inductor_THT/Epcos_b82720k2102n040.pdf")
+	(descr "THT B82720K common mode choke, 4-pin, vertical, 13×9.5 mm body, 10x7.5mm pitch, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Inductor_THT/EPCOS_B82720K.pdf")
 	(tags "choke cmc tdk b82720k common-mode inductor tht emi filter")
 	(property "Reference" "REF**"
 		(at 5 -2.55 0)
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "TDK_B82720K_Vertical_13x9.5mm_P10x7.5mm"
+	(property "Value" "Choke_EPCOS_B82720K"
 		(at 5 10.05 0)
 		(unlocked yes)
 		(layer "F.Fab")

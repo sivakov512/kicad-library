@@ -1,4 +1,4 @@
-(footprint "TestPoint_2Pads_RM2.54mm_D1.4mm"
+(footprint "TestPoint_2Pads_Pitch2.54mm_D1.4mm"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "TestPoint_2Pads_RM2.54mm_D1.4mm"
+	(property "Value" "TestPoint_2Pads_Pitch2.54mm_D1.4mm"
 		(at 1.27 2 0)
 		(layer "F.Fab")
 		(uuid "38785b6e-504f-4fb3-a46e-3e4504bf8a8c")
@@ -47,6 +47,32 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KLC_F9.1" "Generic footprint not tied to a single manufacturer part, so there is no datasheet to link"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab9dd2a6-0bdb-43cf-aaa1-b157f5b30344")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KLC_F6.1" "Test point is a virtual footprint: type Other and excluded from BOM and position files per KLC F8.1, like the stock TestPoint footprints"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf8cf019-0b85-43ed-90c8-dcfd38e9a365")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)

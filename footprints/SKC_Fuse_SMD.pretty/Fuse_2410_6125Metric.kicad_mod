@@ -1,4 +1,4 @@
-(footprint "Fuse_2410_6125Metric_6.1x2.5mm"
+(footprint "Fuse_2410_6125Metric"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Fuse_2410_6125Metric_6.1x2.5mm"
+	(property "Value" "Fuse_2410_6125Metric"
 		(at 4.755 2.865 0)
 		(layer "F.Fab")
 		(uuid "fa247c8b-2425-40ae-9648-ae4426c752c3")
@@ -46,6 +46,19 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KLC_F9.1" "Generic footprint not tied to a single manufacturer part, so there is no datasheet to link"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "371a4764-17de-45fb-996c-ad7b5619ebce")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -179,7 +192,7 @@
 		(uuid "fb5001ea-5375-4d40-8d62-b07e3ca90215")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Fuse_SMD.3dshapes/Fuse_2410_6125Metric_6.1x2.5mm.step"
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Fuse_SMD.3dshapes/Fuse_2410_6125Metric.step"
 		(offset
 			(xyz 0 -1.38 1.25)
 		)

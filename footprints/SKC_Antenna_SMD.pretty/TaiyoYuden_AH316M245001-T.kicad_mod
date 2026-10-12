@@ -1,9 +1,9 @@
-(footprint "TaiyoYuden_AH316M245001_T"
+(footprint "TaiyoYuden_AH316M245001-T"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Taiyo Yuden AH316M245001-T chip antenna, 2.4 GHz, 3.2×1.6 mm, SMT, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Antenna_SMD/TaiyoYuden_Antennas.pdf")
+	(descr "Taiyo Yuden AH316M245001-T chip antenna, 2.4 GHz, 3.2×1.6 mm, SMT, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Antenna_SMD/TaiyoYuden_AH316M245001-T.pdf")
 	(tags "antenna chip 2.4GHz taiyo yuden AH316M245001-T")
 	(property "Reference" "REF**"
 		(at 0 -2.3 0)
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "TaiyoYuden_AH316M245001_T"
+	(property "Value" "TaiyoYuden_AH316M245001-T"
 		(at 0 2.4 0)
 		(layer "F.Fab")
 		(uuid "74dbb369-3118-4d8f-b67d-d6f35d883470")
@@ -205,7 +205,7 @@
 		(uuid "be6f3306-5521-4410-8e2c-441567956a15")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Antenna_SMD.3dshapes/TaiyoYuden_AH316M245001_T.step"
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Antenna_SMD.3dshapes/TaiyoYuden_AH316M245001-T.step"
 		(offset
 			(xyz 0 0 0)
 		)

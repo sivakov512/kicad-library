@@ -2,7 +2,7 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "Texas_TPS56424X"
+	(symbol "TPS564242DRL"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -18,7 +18,7 @@
 				)
 			)
 		)
-		(property "Value" "Texas_TPS56424X"
+		(property "Value" "TPS564242DRL"
 			(at 0 7.366 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52,7 +52,7 @@
 				)
 			)
 		)
-		(property "Description" "4A synchronous buck converter, 3-16V input, 0.6-7V adjustable output, 1.2MHz, D-CAP3, SOT-563"
+		(property "Description" "4A synchronous buck converter, Eco-mode at light load, 3-16V input, 0.6-7V adjustable output, 1.2MHz, D-CAP3, SOT-563"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -85,7 +85,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "Package_TO_SOT_SMD:SOT-563*"
+		(property "ki_fp_filters" "SOT?563*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -96,7 +96,7 @@
 				)
 			)
 		)
-		(symbol "Texas_TPS56424X_0_1"
+		(symbol "TPS564242DRL_0_1"
 			(rectangle
 				(start -7.62 5.08)
 				(end 7.62 -5.08)
@@ -214,6 +214,87 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TPS564247DRL"
+		(extends "TPS564242DRL")
+		(property "Reference" "U"
+			(at 0 9.906 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS564247DRL"
+			(at 0 7.366 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Regulator_Switching/Texas_TPS56424x.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" "4A synchronous buck converter, forced continuous conduction at light load, 3-16V input, 0.6-7V adjustable output, 1.2MHz, D-CAP3, SOT-563"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Texas TI step-down DC-DC switching regulator"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "SOT?563*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)

@@ -1,4 +1,4 @@
-(footprint "Wurth_750370423_THT_E13"
+(footprint "Transformer_Wurth_750370423"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Wurth_750370423_THT_E13"
+	(property "Value" "Transformer_Wurth_750370423"
 		(at 5.08 14.415 0)
 		(layer "F.Fab")
 		(uuid "31894b5d-c281-4a0c-a237-129f9fee0353")
@@ -244,7 +244,7 @@
 		(uuid "98b9f8f9-e649-4551-ac0b-8ef2a5593f2e")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Transformer_THT.3dshapes/Wurth_750370423_THT_E13.step"
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Transformer_THT.3dshapes/Transformer_Wurth_750370423.step"
 		(offset
 			(xyz 5.08 -5.715 0)
 		)

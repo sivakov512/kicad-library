@@ -1,4 +1,4 @@
-(footprint "Zeming_ZMPT101B"
+(footprint "Transformer_Zeming_ZMPT101B"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Zeming_ZMPT101B"
+	(property "Value" "Transformer_Zeming_ZMPT101B"
 		(at 5 16.5 0)
 		(layer "F.Fab")
 		(uuid "a852a5a1-ee38-4c67-ba8b-15a9bb227291")

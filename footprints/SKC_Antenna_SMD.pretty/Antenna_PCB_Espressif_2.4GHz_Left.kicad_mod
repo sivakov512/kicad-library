@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "PCB trace antenna for 2.4 GHz, as used on Espressif DevKitC and ESP32-MINI modules, left direction")
+	(descr "PCB trace antenna for 2.4 GHz, as used on Espressif DevKitC and ESP32-MINI modules, left direction, https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32c3/pcb-layout-design.html")
 	(tags "antenna pcb 2.4GHz esp32 esp8266 wroom wrover devkit esp-mc left")
 	(property "Reference" "REF**"
 		(at 0 1.79 0)

@@ -1,4 +1,4 @@
-(footprint "WaveShare_ESP32-C6-Zero"
+(footprint "Waveshare_ESP32-C6-Zero"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "WaveShare_ESP32-C6-Zero"
+	(property "Value" "Waveshare_ESP32-C6-Zero"
 		(at 8.98 23.2 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -721,7 +721,7 @@
 		(members "142f6863-25c2-45cb-9674-6d017cdfff4d" "9805eced-8d44-4629-8fa9-5b3203ac35a5")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_DevKit.3dshapes/WaveShare_ESP32-C6-Zero.step"
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_DevKit.3dshapes/Waveshare_ESP32-C6-Zero.step"
 		(offset
 			(xyz 16.68 -7.6 1.5)
 		)

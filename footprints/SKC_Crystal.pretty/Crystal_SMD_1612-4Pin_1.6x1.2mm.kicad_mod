@@ -50,6 +50,19 @@
 			)
 		)
 	)
+	(property "KLC_F9.1" "Generic footprint not tied to a single manufacturer part, so there is no datasheet to link"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c31386d5-a667-4beb-a112-771fdc8ae2f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
@@ -135,7 +148,7 @@
 		(uuid "fd629230-59f9-443a-883e-6e0b74639170")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Crystal.3dshapes/Crystal_SMD_1612-4Pin_1.6x1.2mm.step"
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Crystal.3dshapes/Crystal_SMD_1612-4Pin_1.6x1.2mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

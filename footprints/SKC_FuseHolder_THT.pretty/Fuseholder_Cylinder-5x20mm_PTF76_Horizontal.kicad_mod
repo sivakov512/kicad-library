@@ -1,4 +1,4 @@
-(footprint "FuseHolder_THT_Cartridge_5x20mm_PTF76_RM15mm"
+(footprint "Fuseholder_Cylinder-5x20mm_PTF76_Horizontal"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "FuseHolder_THT_Cartridge_5x20mm_PTF76_RM15mm"
+	(property "Value" "Fuseholder_Cylinder-5x20mm_PTF76_Horizontal"
 		(at 7.5 6.5 0)
 		(layer "F.Fab")
 		(uuid "8015e2a6-a2d3-4c9f-aea7-f4cd6470c34f")
@@ -46,6 +46,19 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KLC_F9.1" "Holder bought without documentation, manufacturer unknown"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2e82240-45d9-4e83-9cd1-f9667492f5ea")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -201,7 +214,7 @@
 		(uuid "65cb0d7a-85a8-4a72-a327-5f9fa8f40414")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_FuseHolder_THT.3dshapes/FuseHolder_THT_Cartridge_5x20mm_PTF76_RM15mm.step"
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_FuseHolder_THT.3dshapes/Fuseholder_Cylinder-5x20mm_PTF76_Horizontal.step"
 		(offset
 			(xyz 7.5 -4.5 0)
 		)

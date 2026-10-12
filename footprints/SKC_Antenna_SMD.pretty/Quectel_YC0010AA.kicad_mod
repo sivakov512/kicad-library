@@ -266,7 +266,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Antenna_SMD.3dshapes/Quectel_YC0010AA.step"
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Antenna_SMD.3dshapes/Quectel_YC0010AA.step"
 		(offset
 			(xyz 0 -1 0)
 		)
