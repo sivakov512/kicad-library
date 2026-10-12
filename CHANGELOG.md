@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.2](https://github.com/sivakov512/kicad-library/compare/v2.1.1...v2.1.2) (2026-10-12)
+
+
+### Bug Fixes
+
+* pin datasheet links to the release tag in PCM packages ([1c2853b](https://github.com/sivakov512/kicad-library/commit/1c2853be4d187ce1b48bc0678ade4516d6960f41))
+
 ## [2.1.1](https://github.com/sivakov512/kicad-library/compare/v2.1.0...v2.1.1) (2026-10-01)
 
 
