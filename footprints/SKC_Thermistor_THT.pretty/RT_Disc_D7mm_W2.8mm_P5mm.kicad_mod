@@ -244,13 +244,13 @@
 	(embedded_fonts no)
 	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Thermistor_THT.3dshapes/RT_Disc_D7mm_W2.8mm_P5mm.step"
 		(offset
-			(xyz 0.04 -1.27 2.5)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz 0 0 0)
 		)
 	)
 )

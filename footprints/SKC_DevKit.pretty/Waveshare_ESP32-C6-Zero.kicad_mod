@@ -723,13 +723,13 @@
 	(embedded_fonts no)
 	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_DevKit.3dshapes/Waveshare_ESP32-C6-Zero.step"
 		(offset
-			(xyz 16.68 -7.6 1.5)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz 0 0 0)
 		)
 	)
 )

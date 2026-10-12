@@ -239,7 +239,7 @@
 		(uuid "634fc77d-7dda-43f9-99f5-6e52ffa78814")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_1812_4532Metric.step"
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Inductor_SMD.3dshapes/L_MetalLions_MMPC0402.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -247,7 +247,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz 0 0 0)
 		)
 	)
 )

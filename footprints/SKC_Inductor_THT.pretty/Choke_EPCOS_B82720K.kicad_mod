@@ -282,4 +282,15 @@
 		(uuid "3675af37-6804-4e9a-ac23-a1ab5dd521ff")
 	)
 	(embedded_fonts no)
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Inductor_THT.3dshapes/Choke_EPCOS_B82720K.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

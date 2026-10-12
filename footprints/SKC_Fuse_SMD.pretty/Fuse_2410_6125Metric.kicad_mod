@@ -194,13 +194,13 @@
 	(embedded_fonts no)
 	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Fuse_SMD.3dshapes/Fuse_2410_6125Metric.step"
 		(offset
-			(xyz 0 -1.38 1.25)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz 0 0 0)
 		)
 	)
 )

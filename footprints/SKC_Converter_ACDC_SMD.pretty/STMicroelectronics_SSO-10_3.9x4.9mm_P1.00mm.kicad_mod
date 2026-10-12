@@ -448,13 +448,13 @@
 	(embedded_fonts no)
 	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Converter_ACDC_SMD.3dshapes/STMicroelectronics_SSO-10_3.9x4.9mm_P1.00mm.step"
 		(offset
-			(xyz -0.0499 -0.0475 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 -0)
+			(xyz 0 0 0)
 		)
 	)
 )

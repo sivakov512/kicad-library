@@ -216,13 +216,13 @@
 	(embedded_fonts no)
 	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_FuseHolder_THT.3dshapes/Fuseholder_Cylinder-5x20mm_PTF76_Horizontal.step"
 		(offset
-			(xyz 7.5 -4.5 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz 0 0 0)
 		)
 	)
 )
