@@ -44,6 +44,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Pin datasheet links to the release tag
+        run: |
+          # The repository links datasheets via @main; a release must keep pointing
+          # at the files it shipped with, even after they are renamed on main.
+          grep -rl 'kicad-library@main/' symbols footprints \
+            | xargs sed -i 's#kicad-library@main/#kicad-library@${{ github.ref_name }}/#g'
+          if grep -rq 'kicad-library@main/' symbols footprints; then
+            echo "::error::datasheet links still point to @main"
+            exit 1
+          fi
+
       - name: Create ZIP archive
         id: create_archive
         run: |
