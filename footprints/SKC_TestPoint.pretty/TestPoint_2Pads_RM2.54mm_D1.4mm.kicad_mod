@@ -1,7 +1,7 @@
 (footprint "TestPoint_2Pads_RM2.54mm_D1.4mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Test point with 2 pins, pitch 2.54mm, diameter 1.4mm")
 	(tags "test point 2 pads tht")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.03 -0.4)
 		(end -0.53 -0.9)

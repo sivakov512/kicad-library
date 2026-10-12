@@ -1,13 +1,17 @@
 (kicad_symbol_lib
-	(version 20241209)
+	(version 20251024)
 	(generator "kicad_symbol_editor")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(symbol "Rohm_BDXXKA5WF"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,6 +20,8 @@
 		)
 		(property "Value" "Rohm_BDXXKA5WF"
 			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24,47 +30,57 @@
 		)
 		(property "Footprint" "PCM_SKC_Package_SO:SOP-8_4.4x5.35mm_P1.27mm"
 			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Regulator_Linear/Rohm_BDXXKA5WF.pdf"
 			(at -1.27 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "1A, fixed LDO regulator with OVP & TSP, with enable, SOP-8 SOIC-8"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "linear regulator fixed positive over voltage protection thermal shutdown"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "SOP-8*"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Rohm_BDXXKA5WF_1_1"
@@ -79,17 +95,17 @@
 					(type background)
 				)
 			)
-			(pin power_in line
-				(at -7.62 0 0)
+			(pin power_out line
+				(at 7.62 0 180)
 				(length 2.54)
-				(name "VCC"
+				(name "VO"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -97,17 +113,37 @@
 					)
 				)
 			)
-			(pin input line
-				(at -7.62 -2.54 0)
+			(pin no_connect line
+				(at 5.08 -3.81 180)
 				(length 2.54)
-				(name "CTL"
+				(hide yes)
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 3.81 -5.08 90)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -127,6 +163,24 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "CTL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -171,55 +225,17 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 3.81 -5.08 90)
+			(pin power_in line
+				(at -7.62 0 0)
 				(length 2.54)
-				(hide yes)
-				(name "NC"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 5.08 -3.81 180)
-				(length 2.54)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 7.62 0 180)
-				(length 2.54)
-				(name "VO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)

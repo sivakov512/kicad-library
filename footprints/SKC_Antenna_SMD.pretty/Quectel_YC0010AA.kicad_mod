@@ -1,7 +1,7 @@
 (footprint "Quectel_YC0010AA"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Quectel YC0010AA chip antenna, 2.4Ghz, 5.2x2.0 mm")
 	(tags "quectel chip antenna 2.4ghz wifi 5220 2012")
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.75 -1)
 		(end 1.75 -1)
@@ -189,8 +190,6 @@
 		(uuid "87e3879e-be4b-491a-9374-4b108a823ae0")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "a0c69ee2-3438-4846-a494-8daedee5ed5c")
 		(hatch full 0.508)
@@ -198,7 +197,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.01)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -213,6 +211,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -221,8 +220,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
 			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
 			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
@@ -235,7 +232,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.01)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias not_allowed)
@@ -250,6 +246,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
