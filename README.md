@@ -23,106 +23,107 @@ The easiest way to install this library is through KiCad's Plugin and Content Ma
 
 ## Component List
 
-**Legend:** ✅ available · ❌ not available · —  not applicable
+**Legend:** ✅ available · ❌ not available · — not applicable
 
-### Symbols (`SKC_*`.kicad_sym)
+### Symbols (`SKC_*.kicad_sym`)
 
-| Symbol                     | Footprint | Datasheet |
-| -------------------------- | --------- | --------- |
-| **Converter ACDC**         |           |           |
-| STMicroelectronics VIPER06 | ✅        | ✅        |
-| **DevKit**                 |           |           |
-| WaveShare ESP32-C6-Zero    | ✅        | ✅        |
-| **LED SMD**                |           |           |
-| Worldsemi SK6812-EC20      | ✅        | ✅        |
-| **MCU Espressif**          |           |           |
-| Espressif ESP32-C3         | ✅        | ✅        |
-| Espressif ESP32-H2         | ✅        | ✅        |
-| **Module Cellular**        |           |           |
-| SIMCom A7672X              | ✅        | ✅        |
-| SIMCom A7670X              | ✅        | ✅        |
-| **Motor Driver**           |           |           |
-| Texas DRV8316CR            | ✅        | ✅        |
-| **Power Monitor**          |           |           |
-| Maxim MAX17048G_T10        | ✅        | ✅        |
-| **Regulator Linear**       |           |           |
-| Rohm BDXXKA5WF             | ✅        | ✅        |
-| **Regulator Switching**    |           |           |
-| Texas TPS56424X            | ✅        | ✅        |
-| **Switch Power**           |           |           |
-| Texas TPS2121              | ✅        | ✅        |
-| **Transformer**            |           |           |
-| Wurth 750370423            | ✅        | ✅        |
-| Zeming ZMPT101B            | ✅        | ✅        |
+| Symbol                      | Footprint                                             | Datasheet |
+| --------------------------- | ----------------------------------------------------- | --------- |
+| **SKC_Converter_ACDC**      |                                                       |           |
+| `VIPER06XS`                 | `STMicroelectronics_SSO-10_3.9x4.9mm_P1.00mm`         | ✅         |
+| `VIPER06HS`                 | `STMicroelectronics_SSO-10_3.9x4.9mm_P1.00mm`         | ✅         |
+| `VIPER06LS`                 | `STMicroelectronics_SSO-10_3.9x4.9mm_P1.00mm`         | ✅         |
+| **SKC_DevKit**              |                                                       |           |
+| `Waveshare_ESP32-C6-Zero`   | `Waveshare_ESP32-C6-Zero`                             | ✅         |
+| **SKC_LED_SMD**             |                                                       |           |
+| `SK6812-EC20`               | `LED_SK6812_EC20_2.0x2.0mm`                           | ✅         |
+| **SKC_MCU_Espressif**       |                                                       |           |
+| `ESP32-C3`                  | `QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm`                 | ✅         |
+| `ESP32-H2`                  | `VQFN-32-1EP_4x4mm_P0.4mm_EP2.8x2.8mm`                | ✅         |
+| **SKC_Module_Cellular**     |                                                       |           |
+| `A7672x`                    | `SIMCom_A7672X_A7670X`                                | ✅         |
+| `A7670x`                    | `SIMCom_A7672X_A7670X`                                | ✅         |
+| **SKC_Motor_Driver**        |                                                       |           |
+| `DRV8316CRRGF`              | `Texas_RGF0040E_VQFN-40-1EP_5x7mm_P0.5mm_EP3.8x5.8mm` | ✅         |
+| **SKC_Power_Monitor**       |                                                       |           |
+| `MAX17048G`                 | `Maxim_TDFN-8-1EP_2x2mm_P0.5mm_EP0.9x1.3mm`           | ✅         |
+| **SKC_Regulator_Linear**    |                                                       |           |
+| `BD10KA5WF`                 | `ROHM_SOP-8_4.4x5mm_P1.27mm`                          | ✅         |
+| `BD12KA5WF`                 | `ROHM_SOP-8_4.4x5mm_P1.27mm`                          | ✅         |
+| `BD15KA5WF`                 | `ROHM_SOP-8_4.4x5mm_P1.27mm`                          | ✅         |
+| `BD18KA5WF`                 | `ROHM_SOP-8_4.4x5mm_P1.27mm`                          | ✅         |
+| `BD25KA5WF`                 | `ROHM_SOP-8_4.4x5mm_P1.27mm`                          | ✅         |
+| `BD30KA5WF`                 | `ROHM_SOP-8_4.4x5mm_P1.27mm`                          | ✅         |
+| `BD33KA5WF`                 | `ROHM_SOP-8_4.4x5mm_P1.27mm`                          | ✅         |
+| **SKC_Regulator_Switching** |                                                       |           |
+| `TPS564242DRL`              | `SOT-563`                                             | ✅         |
+| `TPS564247DRL`              | `SOT-563`                                             | ✅         |
+| **SKC_Switch_Power**        |                                                       |           |
+| `TPS2121RUX`                | `Texas_RUX0012A_VQFN-HR-12_2x2.5mm_P0.5mm`            | ✅         |
+| **SKC_Transformer**         |                                                       |           |
+| `Wurth_750370423`           | `Transformer_Wurth_750370423`                         | ✅         |
+| `ZMPT101B`                  | `Transformer_Zeming_ZMPT101B`                         | ✅         |
 
-### Footprints (`SKC_*`.pretty)
+### Footprints (`SKC_*.pretty`)
 
-| Footprint                                  | 3D Model | Datasheet |
-| ------------------------------------------ | -------- | --------- |
-| **Antenna SMD**                            |          |           |
-| TaiyoYuden AH316M245001-T                  | ✅       | ✅        |
-| Quectel YC0010AA                           | ✅       | ✅        |
-| PCB Antenna Espressif 2.4GHz Left          | —        | —         |
-| PCB Antenna Espressif 2.4GHz Right         | —        | —         |
-| **Battery Holder THT**                     |          |           |
-| Myoung BH-18650-A5BJ001-2D                 | ✅       | ✅        |
-| **Buzzer SMD**                             |          |           |
-| KELIKING KLJ-5020 5x5mm                   | ✅       | ✅        |
-| **Button THT**                             |          |           |
-| SW Push SPST 6mm                           | ❌       | —         |
-| **Capacitor THT**                          |          |           |
-| CP Radial D5.0mm P1.50mm                   | —        | ❌        |
-| CP Radial D6.0mm P2.50mm                   | —        | ❌        |
-| CP Radial D16.0mm P10.0mm                  | —        | ❌        |
-| **Connector Audio**                        |          |           |
-| Jack 3.5mm PJ-3126-5A Horizontal           | ✅       | ✅        |
-| **Connector Card**                         |          |           |
-| Molex 475532001 miniSIM Slot               | ✅       | ✅        |
-| **Connector USB**                          |          |           |
-| Cvilux CU3216SASBLR004-NH (USB-C SMD)      | ❌       | ✅        |
-| NoName USB-C Receptacle (Hybrid SMD/THT)   | —        | ❌        |
-| **Converter ACDC SMD**                     |          |           |
-| STMicroelectronics VIPER06 SSO-10          | ✅       | ✅        |
-| **Crystal**                                |          |           |
-| Crystal SMD 1612 4-Pin 1.6x1.2mm           | ✅       | —         |
-| **DevKit**                                 |          |           |
-| WaveShare ESP32-C6-Zero                    | ✅       | ✅        |
-| **Diode THT**                              |          |           |
-| SOD-64                                     | ❌       | ❌        |
-| **FuseHolder THT**                         |          |           |
-| PTF76 Cartridge 5x20mm 15mm pitch          | ✅       | ❌        |
-| **Fuse SMD**                               |          |           |
-| Fuse 2410 6125Metric 6.1x2.5mm             | ✅       | ❌        |
-| **Inductor SMD**                           |          |           |
-| MetalLions MMPC0402 4.5x4mm               | ✅       | ✅        |
-| **Inductor THT**                           |          |           |
-| TDK B82720K Vertical 13x9.5mm              | ❌       | ✅        |
-| **LED SMD**                                |          |           |
-| Worldsemi SK6812-EC20 2.0x2.0mm            | ❌       | ✅        |
-| **Module Cellular**                        |          |           |
-| SIMCom A7672X A7670X                       | ✅       | ✅        |
-| **Package DFN**                            |          |           |
-| Maxim TDFN-8-EP 2x2mm                     | ✅       | ✅        |
-| **Package QFN**                            |          |           |
-| TQFN-32 4x4mm P0.4mm EP2.4x2.4mm Compact   | ✅       | —         |
-| TQFN-32 4x4mm P0.4mm EP2.6x2.6mm Standard  | ✅       | —         |
-| TQFN-32 4x4mm P0.4mm EP2.8x2.8mm Extended  | ✅       | —         |
-| VFQFN-32 5x5mm P0.5mm EP3.2x3.2mm Compact  | ✅       | —         |
-| Texas VQFN-HR-12 2x2.5mm P0.5mm            | ✅       | —         |
-| Texas RGF0040E VQFN-40 5x7mm P0.5mm        | ✅       | —         |
-| **Package SO**                             |          |           |
-| SOP-8 4.4x5.35mm P1.27mm                   | —        | —         |
-| **Relay THT**                              |          |           |
-| Relpol RM51 SPDT                           | ✅       | ✅        |
-| TE Connectivity OJ-SH-105HM SPST           | ✅       | ✅        |
-| **TestPoint**                              |          |           |
-| TestPoint 2-Pad RM2.54mm D1.4mm            | —        | —         |
-| **Thermistor THT**                         |          |           |
-| NTC10D-7 Disc D7.0mm P5.0mm                | ✅       | ❌        |
-| **Transformer THT**                        |          |           |
-| Wurth 750370423 THT E13                    | ✅       | ✅        |
-| Zeming ZMPT101B                            | ✅       | ✅        |
-
+| Footprint                                             | 3D Model | Datasheet |
+| ----------------------------------------------------- | -------- | --------- |
+| **SKC_Antenna_SMD**                                   |          |           |
+| `Antenna_PCB_Espressif_2.4GHz_Left`                   | —        | ✅         |
+| `Antenna_PCB_Espressif_2.4GHz_Right`                  | —        | ✅         |
+| `Quectel_YC0010AA`                                    | ✅        | ✅         |
+| `TaiyoYuden_AH316M245001-T`                           | ✅        | ✅         |
+| **SKC_BatteryHolder_THT**                             |          |           |
+| `BatteryHolder_Myoung_BH-18650-A5BJ001-2D`            | ✅        | ✅         |
+| **SKC_Button_THT**                                    |          |           |
+| `SW_PUSH_6mm_2Pins`                                   | ✅        | —         |
+| **SKC_Buzzer_SMD**                                    |          |           |
+| `MagneticBuzzer_KELIKING_KLJ-5020`                    | ✅        | ✅         |
+| **SKC_Capacitor_THT**                                 |          |           |
+| `CP_Radial_D6.0mm_P2.50mm`                            | ✅        | —         |
+| **SKC_Connector_Audio**                               |          |           |
+| `Jack_3.5mm_HRO_PJ-3126-5A_Horizontal`                | ✅        | ✅         |
+| **SKC_Connector_Card**                                |          |           |
+| `miniSIM_Molex_47553-2001`                            | ✅        | ✅         |
+| **SKC_Connector_USB**                                 |          |           |
+| `USB_C_Receptacle_Cvilux_CU3216SASBLR004-NH`          | ❌        | ✅         |
+| **SKC_Converter_ACDC_SMD**                            |          |           |
+| `STMicroelectronics_SSO-10_3.9x4.9mm_P1.00mm`         | ✅        | ✅         |
+| **SKC_Crystal**                                       |          |           |
+| `Crystal_SMD_1612-4Pin_1.6x1.2mm`                     | ✅        | —         |
+| **SKC_DevKit**                                        |          |           |
+| `Waveshare_ESP32-C6-Zero`                             | ✅        | ✅         |
+| **SKC_Diode_THT**                                     |          |           |
+| `D_SOD-64_P10.16mm_Horizontal`                        | ✅        | —         |
+| **SKC_FuseHolder_THT**                                |          |           |
+| `Fuseholder_Cylinder-5x20mm_PTF76_Horizontal`         | ✅        | —         |
+| **SKC_Fuse_SMD**                                      |          |           |
+| `Fuse_2410_6125Metric`                                | ✅        | —         |
+| **SKC_Inductor_SMD**                                  |          |           |
+| `L_MetalLions_MMPC0402`                               | ✅        | ✅         |
+| **SKC_Inductor_THT**                                  |          |           |
+| `Choke_EPCOS_B82720K`                                 | ✅        | ✅         |
+| **SKC_LED_SMD**                                       |          |           |
+| `LED_SK6812_EC20_2.0x2.0mm`                           | ✅        | ✅         |
+| **SKC_Module_Cellular**                               |          |           |
+| `SIMCom_A7672X_A7670X`                                | ✅        | ✅         |
+| **SKC_Package_DFN**                                   |          |           |
+| `Maxim_TDFN-8-1EP_2x2mm_P0.5mm_EP0.9x1.3mm`           | ✅        | ✅         |
+| **SKC_Package_QFN**                                   |          |           |
+| `Texas_RGF0040E_VQFN-40-1EP_5x7mm_P0.5mm_EP3.8x5.8mm` | ✅        | ✅         |
+| `Texas_RUX0012A_VQFN-HR-12_2x2.5mm_P0.5mm`            | ✅        | ✅         |
+| **SKC_Package_SO**                                    |          |           |
+| `ROHM_SOP-8_4.4x5mm_P1.27mm`                          | ✅        | ✅         |
+| **SKC_Relay_THT**                                     |          |           |
+| `Relay_SPDT_Relpol_RM51`                              | ✅        | ✅         |
+| `Relay_SPST_TE_OJ-SH-105HM`                           | ✅        | ✅         |
+| **SKC_TestPoint**                                     |          |           |
+| `TestPoint_2Pads_Pitch2.54mm_D1.4mm`                  | —        | —         |
+| **SKC_Thermistor_THT**                                |          |           |
+| `RT_Disc_D7mm_W2.8mm_P5mm`                            | ✅        | —         |
+| **SKC_Transformer_THT**                               |          |           |
+| `Transformer_Wurth_750370423`                         | ✅        | ✅         |
+| `Transformer_Zeming_ZMPT101B`                         | ✅        | ✅         |
 
 ## Structure
 
@@ -134,7 +135,7 @@ The easiest way to install this library is through KiCad's Plugin and Content Ma
 └── symbols/        # SKC_[Category].kicad_sym
 ```
 
-Naming follows [KiCad Library Conventions (KLC) v3.0](https://klc.kicad.org). All manufacturer-specific symbols and footprints include the vendor prefix (e.g. `Espressif_ESP32-C3`, `STMicroelectronics_VIPER06_SSO-10`).
+Naming follows the [KiCad Library Conventions (KLC)](https://klc.kicad.org) and the stock KiCad libraries: symbols are named by part number (e.g. `ESP32-C3`, `TPS2121RUX`), footprints by package or by manufacturer and part (e.g. `ROHM_SOP-8_4.4x5mm_P1.27mm`, `Relay_SPDT_Relpol_RM51`). Run `make check` to validate the libraries against KLC, ERC and DRC.
 
 ## Contribution
 
