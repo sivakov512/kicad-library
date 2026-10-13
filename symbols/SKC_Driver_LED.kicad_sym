@@ -41,7 +41,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Driver_LED/Texas_LP5009.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheets/Driver_LED/Texas_LP5009.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -533,7 +533,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Driver_LED/Texas_TPS92512.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheets/Driver_LED/Texas_TPS92512.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

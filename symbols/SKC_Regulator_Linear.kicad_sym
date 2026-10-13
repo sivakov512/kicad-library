@@ -41,7 +41,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Regulator_Linear/ROHM_BDxxKA5WF.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheets/Regulator_Linear/ROHM_BDxxKA5WF.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -268,7 +268,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Regulator_Linear/Texas_TPS709.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheets/Regulator_Linear/Texas_TPS709.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -453,7 +453,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Regulator_Linear/ROHM_BDxxKA5WF.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheets/Regulator_Linear/ROHM_BDxxKA5WF.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -534,7 +534,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Regulator_Linear/ROHM_BDxxKA5WF.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheets/Regulator_Linear/ROHM_BDxxKA5WF.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -615,7 +615,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Regulator_Linear/ROHM_BDxxKA5WF.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheets/Regulator_Linear/ROHM_BDxxKA5WF.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -696,7 +696,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Regulator_Linear/ROHM_BDxxKA5WF.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheets/Regulator_Linear/ROHM_BDxxKA5WF.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -777,7 +777,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Regulator_Linear/ROHM_BDxxKA5WF.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheets/Regulator_Linear/ROHM_BDxxKA5WF.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -858,7 +858,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Regulator_Linear/ROHM_BDxxKA5WF.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheets/Regulator_Linear/ROHM_BDxxKA5WF.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

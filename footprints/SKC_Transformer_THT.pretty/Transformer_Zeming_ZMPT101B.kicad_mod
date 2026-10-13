@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Qingxian Zeming Langxi Electronic ZMPT101B voltage transformer 1000:1000 2mA:2mA, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Transformer/Zeming_ZMPT101B.pdf")
+	(descr "Qingxian Zeming Langxi Electronic ZMPT101B voltage transformer 1000:1000 2mA:2mA, ${KIPRJMOD}/datasheets/Transformer/Zeming_ZMPT101B.pdf")
 	(tags "voltage transformer ZMPT")
 	(property "Reference" "REF**"
 		(at 5 -3.3 0)

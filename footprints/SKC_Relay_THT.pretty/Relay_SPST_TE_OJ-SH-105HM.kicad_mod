@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "TE Connectivity OJ-SH-105HM,000 relay, SPST, THT package, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Relay_THT/TE_OJ-SH-105HM.pdf")
+	(descr "TE Connectivity OJ-SH-105HM,000 relay, SPST, THT package, ${KIPRJMOD}/datasheets/Relay_THT/TE_OJ-SH-105HM.pdf")
 	(tags "relay spst te oj tht power")
 	(property "Reference" "REF**"
 		(at 7.85 -2.55 0)

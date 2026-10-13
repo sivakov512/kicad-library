@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "GUOCONN FFC/FPC connector, horizontal, bottom contacts, 10 contacts, 1.0mm pitch, 3D model of the pin-compatible TE 1-84952-0, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Connector_FFC-FPC/GUOCONN_1.0K-FX-10PWB-RL.pdf")
+	(descr "GUOCONN FFC/FPC connector, horizontal, bottom contacts, 10 contacts, 1.0mm pitch, 3D model of the pin-compatible TE 1-84952-0, ${KIPRJMOD}/datasheets/Connector_FFC-FPC/GUOCONN_1.0K-FX-10PWB-RL.pdf")
 	(tags "connector FFC FPC GUOCONN 1.0K-FX-10PWB-RL horizontal")
 	(property "Reference" "REF**"
 		(at 0 -5.65 0)

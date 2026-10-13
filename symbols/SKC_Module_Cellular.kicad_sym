@@ -41,7 +41,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Module_Cellular/SIMCom_A7672x_A7670x.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheets/Module_Cellular/SIMCom_A7672x_A7670x.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1697,7 +1697,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Module_Cellular/SIMCom_A7672x_A7670x.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheets/Module_Cellular/SIMCom_A7672x_A7670x.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

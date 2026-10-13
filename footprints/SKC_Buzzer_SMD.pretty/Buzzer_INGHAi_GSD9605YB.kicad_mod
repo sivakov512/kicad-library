@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "INGHAi GSD9605YB SMD piezo buzzer, 9.6x9.6x5.0mm, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Buzzer_SMD/INGHAi_GSD9605YB.pdf")
+	(descr "INGHAi GSD9605YB SMD piezo buzzer, 9.6x9.6x5.0mm, ${KIPRJMOD}/datasheets/Buzzer_SMD/INGHAi_GSD9605YB.pdf")
 	(tags "buzzer piezo SMD INGHAi GSD9605YB")
 	(property "Reference" "REF**"
 		(at 0 -6 0)

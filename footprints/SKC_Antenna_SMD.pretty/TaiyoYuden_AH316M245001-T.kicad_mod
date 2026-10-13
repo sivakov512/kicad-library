@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Taiyo Yuden AH316M245001-T chip antenna, 2.4 GHz, 3.2×1.6 mm, SMT, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Antenna_SMD/TaiyoYuden_AH316M245001-T.pdf")
+	(descr "Taiyo Yuden AH316M245001-T chip antenna, 2.4 GHz, 3.2×1.6 mm, SMT, ${KIPRJMOD}/datasheets/Antenna_SMD/TaiyoYuden_AH316M245001-T.pdf")
 	(tags "antenna chip 2.4GHz taiyo yuden AH316M245001-T")
 	(property "Reference" "REF**"
 		(at 0 -2.3 0)

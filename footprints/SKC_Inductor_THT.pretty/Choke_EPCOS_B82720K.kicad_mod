@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "THT B82720K common mode choke, 4-pin, vertical, 13×9.5 mm body, 10x7.5mm pitch, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Inductor_THT/EPCOS_B82720K.pdf")
+	(descr "THT B82720K common mode choke, 4-pin, vertical, 13×9.5 mm body, 10x7.5mm pitch, ${KIPRJMOD}/datasheets/Inductor_THT/EPCOS_B82720K.pdf")
 	(tags "choke cmc tdk b82720k common-mode inductor tht emi filter")
 	(property "Reference" "REF**"
 		(at 5 -2.55 0)

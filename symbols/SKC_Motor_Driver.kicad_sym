@@ -42,7 +42,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Motor_Driver/Texas_DRV8316C.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheets/Motor_Driver/Texas_DRV8316C.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

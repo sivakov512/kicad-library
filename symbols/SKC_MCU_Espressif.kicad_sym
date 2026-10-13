@@ -42,7 +42,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/MCU_Espressif/Espressif_ESP32-C3.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheets/MCU_Espressif/Espressif_ESP32-C3.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -700,7 +700,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/MCU_Espressif/Espressif_ESP32-H2.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheets/MCU_Espressif/Espressif_ESP32-H2.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

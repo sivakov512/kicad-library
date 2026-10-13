@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Silicon Labs MGM240P wireless Gecko module, Bluetooth LE / Zigbee / Thread / Matter, 12.9x15.0mm, with antenna keep-out, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/RF_Module/SiliconLabs_MGM240P.pdf")
+	(descr "Silicon Labs MGM240P wireless Gecko module, Bluetooth LE / Zigbee / Thread / Matter, 12.9x15.0mm, with antenna keep-out, ${KIPRJMOD}/datasheets/RF_Module/SiliconLabs_MGM240P.pdf")
 	(tags "RF module SiliconLabs MGM240P BLE Zigbee Thread Matter")
 	(property "Reference" "REF**"
 		(at 0 8.9 0)

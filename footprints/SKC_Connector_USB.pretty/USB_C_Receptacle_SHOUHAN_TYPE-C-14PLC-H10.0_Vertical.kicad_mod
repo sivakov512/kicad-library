@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "USB 2.0 Type-C receptacle, SHOU HAN TYPE-C 14PLC-H10.0, 14 pins, through-hole, vertical, 10mm high, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Connector_USB/SHOUHAN_TYPE-C-14PLC-H10.0.pdf")
+	(descr "USB 2.0 Type-C receptacle, SHOU HAN TYPE-C 14PLC-H10.0, 14 pins, through-hole, vertical, 10mm high, ${KIPRJMOD}/datasheets/Connector_USB/SHOUHAN_TYPE-C-14PLC-H10.0.pdf")
 	(tags "USB C Type-C receptacle vertical SHOUHAN 14P")
 	(property "Reference" "REF**"
 		(at 3.25 -5.23 0)

@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "THT flyback transformer Würth 750370423, EE13/7/6, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Transformer/Wurth_750370423.pdf")
+	(descr "THT flyback transformer Würth 750370423, EE13/7/6, ${KIPRJMOD}/datasheets/Transformer/Wurth_750370423.pdf")
 	(tags "transformer ee13 ee13/7/6 flyback tht würth 750370423")
 	(property "Reference" "REF**"
 		(at 5.08 -3.085 0)

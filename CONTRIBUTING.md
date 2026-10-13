@@ -53,10 +53,11 @@ Everything points at the working copy. `tools/pcm_package.py` rewrites the refer
 | --- | --- | --- |
 | Footprint of a symbol | `LOCAL_SKC_<Category>:<name>` | `PCM_SKC_<Category>:<name>` |
 | 3D model of a footprint | `${KIPRJMOD}/3dmodels/SKC_<Category>.3dshapes/<name>.step` | `${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/...` |
-| Datasheet | `https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/...` | `...@<release tag>/datasheets/...` |
+| Datasheet | `${KIPRJMOD}/datasheets/<Category>/<file>.pdf` | `https://sivakov512.github.io/kicad-library/datasheets/<hash>/<file>.pdf` |
 
-- **Symbols** keep the datasheet URL in the **Datasheet** field.
-- **Footprints** keep it at the end of the **Description**: KLC F9.1 forbids a Datasheet field on footprints.
+- **Symbols** keep the datasheet in the **Datasheet** field. In the library project it opens the local PDF.
+- **Footprints** keep it at the end of the **Description**: KLC F9.1 forbids a Datasheet field on footprints. `make integrity` requires a datasheet or a `KLC_F9.1` exception on every footprint, since the KLC checker can't see local paths.
+- **Releases** publish the PDFs on GitHub Pages under the hash of their content (branch `gh-pages`). A link in any release keeps pointing at the file it shipped with. The release is held back if any link doesn't open.
 
 ## Symbols
 

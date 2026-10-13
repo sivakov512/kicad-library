@@ -24,7 +24,7 @@ from kicad_sym import KicadLibrary  # noqa: E402
 # In the repository everything points at the working copy; tools/pcm_package.py
 # rewrites nicknames, model paths and datasheet links for a release.
 LOCAL_PREFIX = "LOCAL_"
-DATASHEET_URL = "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/"
+DATASHEET_URL = "${KIPRJMOD}/"  # repository datasheets; pcm_package.py publishes and links them
 OWN_MODEL = re.compile(r"^\$\{KIPRJMOD\}/3dmodels/(.*)$")
 STOCK_MODEL = re.compile(r"^\$\{KICAD\d*_3DMODEL_DIR\}/(.*)$")
 STOCK_MODEL_DIRS = [
@@ -82,9 +82,16 @@ def check_footprints(footprints):
         print("WARN  KiCad 3D model directory not found, stock models are not checked")
     for fp_id, fp in footprints.items():
         where = fp_id[len(LOCAL_PREFIX):]
-        # KLC F9.1: footprints carry the datasheet URL in their description
-        for url in re.findall(re.escape(DATASHEET_URL) + r"\S+\.pdf", fp.description):
+        # KLC F9.1: footprints carry the datasheet in their description. In the
+        # repository it is a local path (the package gets a URL), so the KLC
+        # wrapper can't see it; check here that every footprint has one.
+        local = re.findall(re.escape(DATASHEET_URL) + r"\S+?\.pdf", fp.description)
+        for url in local:
             check_datasheet(where, url)
+        if not local and not re.search(r"https?://", fp.description) and "KLC_F9.1" not in exceptions(fp):
+            error(where, "description has no datasheet and there is no KLC_F9.1 exception")
+        if "cdn.jsdelivr.net" in fp.description:
+            error(where, "datasheet should be written as %sdatasheets/..." % DATASHEET_URL)
         for model in fp.models:
             own, stock = OWN_MODEL.match(model["file"]), STOCK_MODEL.match(model["file"])
             if own:
@@ -98,6 +105,11 @@ def check_footprints(footprints):
                 error(where, "3D model path %s uses an unknown variable" % model["file"])
 
 
+def exceptions(fp):
+    """KLC_* exception property names of a footprint."""
+    return {p.get("name", "") for p in getattr(fp, "properties", [])} | set(re.findall(r'"(KLC_[^"]+)"', open(fp.filename).read()))
+
+
 def symbol_property(sym, name):
     """Property value, falling back to the parent of a derived symbol."""
     p = sym.get_property(name) or sym.get_root_symbol().get_property(name)
@@ -109,7 +121,10 @@ def check_symbols(footprints):
         for sym in KicadLibrary.from_path(path).symbols:
             where = "%s:%s" % (sym.libname, sym.name)
             root = sym.get_root_symbol()
-            check_datasheet(where, symbol_property(sym, "Datasheet"))
+            ds = symbol_property(sym, "Datasheet")
+            check_datasheet(where, ds)
+            if "cdn.jsdelivr.net" in ds:
+                error(where, "datasheet should be written as %sdatasheets/..." % DATASHEET_URL)
             fp_id = symbol_property(sym, "Footprint")
             if fp_id.startswith("PCM_SKC_"):
                 error(where, "footprint %s should use the local nickname %s" % (fp_id, LOCAL_PREFIX + fp_id[4:]))

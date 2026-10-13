@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "XINGLIGHT XL-2835WWC-02 white LED, PLCC-2 3.5x2.8mm, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/LED_SMD/XINGLIGHT_XL-2835WWC-02.pdf")
+	(descr "XINGLIGHT XL-2835WWC-02 white LED, PLCC-2 3.5x2.8mm, ${KIPRJMOD}/datasheets/LED_SMD/XINGLIGHT_XL-2835WWC-02.pdf")
 	(tags "LED SMD 2835 PLCC2 XINGLIGHT XL-2835WWC-02")
 	(property "Reference" "REF**"
 		(at 0.3 -4 0)

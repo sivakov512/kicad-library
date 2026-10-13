@@ -42,7 +42,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/LED_SMD/Worldsemi_SK6812-EC20.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheets/LED_SMD/Worldsemi_SK6812-EC20.pdf"
 			(at 2.54 -9.525 0)
 			(show_name no)
 			(do_not_autoplace no)

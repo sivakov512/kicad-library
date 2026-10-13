@@ -44,14 +44,48 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v7
 
+      - name: Check out the datasheet site
+        run: |
+          # gh-pages keeps every datasheet any release has linked to, under the hash of
+          # its content; it is created on the first release.
+          if git fetch --depth=1 origin gh-pages:gh-pages; then
+            git worktree add site gh-pages
+          else
+            git worktree add --orphan -b gh-pages site
+            printf '<!doctype html><meta http-equiv="refresh" content="0; url=https://github.com/%s">\n' "${{ github.repository }}" > site/index.html
+          fi
+          touch site/.nojekyll
+
       - name: Build PCM package
         id: create_archive
         run: |
-          # Rewrites the working-copy references (LOCAL_ nicknames, ${KIPRJMOD} model
-          # paths, @main datasheet links) to the ones PCM users need, checks them and zips.
+          # Rewrites the working-copy references (LOCAL_ nicknames, ${KIPRJMOD} model and
+          # datasheet paths) to the ones PCM users need, checks them and zips. New
+          # datasheets are copied into the site.
           ARCHIVE_NAME=skc-${{ github.ref_name }}.zip
           echo "archive_name=$ARCHIVE_NAME" >> $GITHUB_OUTPUT
-          python3 tools/pcm_package.py ${{ github.ref_name }} "$ARCHIVE_NAME"
+          python3 tools/pcm_package.py ${{ github.ref_name }} "$ARCHIVE_NAME" --pages site --urls datasheet-urls.txt
+
+      - name: Publish new datasheets to gh-pages
+        run: |
+          cd site
+          git add -A
+          if ! git diff --cached --quiet; then
+            git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -q -m "Datasheets for ${{ github.ref_name }}"
+            git push origin gh-pages
+          fi
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Keep the datasheet URLs for checking
+        uses: actions/upload-artifact@v7
+        with:
+          name: datasheet-urls
+          path: datasheet-urls.txt
 
       - name: Upload archive to release
         id: upload_archive
@@ -64,8 +98,45 @@ jobs:
           DOWNLOAD_URL="https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/${{ steps.create_archive.outputs.archive_name }}"
           echo "download_url=$DOWNLOAD_URL" >> $GITHUB_OUTPUT
 
+  deploy_datasheets:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
+
+  check_datasheets:
+    needs: deploy_datasheets
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: datasheet-urls
+
+      - name: Every datasheet link opens a PDF
+        run: |
+          # The package must not reach PCM with a broken datasheet link.
+          failed=0
+          while read -r url; do
+            ok=0
+            for attempt in $(seq 1 20); do
+              type=$(curl -sL -o /dev/null -w '%{http_code} %{content_type}' "$url")
+              case "$type" in "200 application/pdf"*) ok=1; break ;; esac
+              sleep 15
+            done
+            if [ $ok = 1 ]; then echo "ok   $url"; else echo "FAIL $url ($type)"; failed=1; fi
+          done < datasheet-urls.txt
+          exit $failed
+
   add_to_index:
-    needs: [prepare, build]
+    needs: [prepare, build, check_datasheets]
     runs-on: ubuntu-latest
     steps:
       - name: Trigger PCM Index workflow

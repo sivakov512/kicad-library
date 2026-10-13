@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "2.0mm x 2.0mm Addressable RGB LED, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/LED_SMD/Worldsemi_SK6812-EC20.pdf")
+	(descr "2.0mm x 2.0mm Addressable RGB LED, ${KIPRJMOD}/datasheets/LED_SMD/Worldsemi_SK6812-EC20.pdf")
 	(tags "RGB LED addressable 2020")
 	(property "Reference" "REF**"
 		(at 0 -2 0)
