@@ -1,9 +1,9 @@
-(footprint "SIMCom_A7672X_A7670X"
+(footprint "SIMCom_A7672x_A7670x"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "LTE Cat 1 Module On Module 10Mbps 700MHz/800MHz/900MHz/1700MHz/1800MHz/1900MHz/2100MHz 33dBm 3.4V to 4.2V -109dBm, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Module_Cellular/SIMCom_A7672X_A7670X.pdf")
+	(descr "LTE Cat 1 Module On Module 10Mbps 700MHz/800MHz/900MHz/1700MHz/1800MHz/1900MHz/2100MHz 33dBm 3.4V to 4.2V -109dBm, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Module_Cellular/SIMCom_A7672x_A7670x.pdf")
 	(tags "simcom a7672x a7670x lte gsm 2g gnss")
 	(property "Reference" "REF**"
 		(at 0 -15.25 0)
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "SIMCom_A7672X_A7670X"
+	(property "Value" "SIMCom_A7672x_A7670x"
 		(at 0 15.24 0)
 		(layer "F.Fab")
 		(uuid "1f448d0a-dce7-4dfc-a1ba-1be0fef55c83")
@@ -2886,7 +2886,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Module_Cellular.3dshapes/SIMCom_A7672X_A7670X.step"
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Module_Cellular.3dshapes/SIMCom_A7672x_A7670x.step"
 		(offset
 			(xyz 0 0 0)
 		)

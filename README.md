@@ -41,8 +41,8 @@ The easiest way to install this library is through KiCad's Plugin and Content Ma
 | `ESP32-C3`                  | `QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm`                 | ✅         |
 | `ESP32-H2`                  | `VQFN-32-1EP_4x4mm_P0.4mm_EP2.8x2.8mm`                | ✅         |
 | **SKC_Module_Cellular**     |                                                       |           |
-| `A7672x`                    | `SIMCom_A7672X_A7670X`                                | ✅         |
-| `A7670x`                    | `SIMCom_A7672X_A7670X`                                | ✅         |
+| `A7672x`                    | `SIMCom_A7672x_A7670x`                                | ✅         |
+| `A7670x`                    | `SIMCom_A7672x_A7670x`                                | ✅         |
 | **SKC_Motor_Driver**        |                                                       |           |
 | `DRV8316CRRGF`              | `Texas_RGF0040E_VQFN-40-1EP_5x7mm_P0.5mm_EP3.8x5.8mm` | ✅         |
 | **SKC_Power_Monitor**       |                                                       |           |
@@ -106,7 +106,7 @@ The easiest way to install this library is through KiCad's Plugin and Content Ma
 | **SKC_LED_SMD**                                       |          |           |
 | `LED_SK6812_EC20_2.0x2.0mm`                           | ✅        | ✅         |
 | **SKC_Module_Cellular**                               |          |           |
-| `SIMCom_A7672X_A7670X`                                | ✅        | ✅         |
+| `SIMCom_A7672x_A7670x`                                | ✅        | ✅         |
 | **SKC_Package_DFN**                                   |          |           |
 | `Maxim_TDFN-8-1EP_2x2mm_P0.5mm_EP0.9x1.3mm`           | ✅        | ✅         |
 | **SKC_Package_QFN**                                   |          |           |
