@@ -9,25 +9,25 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -7.62 21.59 0)
+			(at 1.27 -13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "VIPER06XS"
-			(at -7.62 19.05 0)
+			(at 1.27 -16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "PCM_SKC_Converter_ACDC_SMD:STMicroelectronics_SSO-10_3.9x4.9mm_P1.00mm"
@@ -39,7 +39,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Converter_ACDC/STMicroelectronics_VIPER06.pdf"
@@ -99,8 +98,8 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 -17.78 90)
-				(length 5.08)
+				(at 5.08 -15.24 90)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -117,8 +116,8 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 15.24 270)
-				(length 5.08)
+				(at -5.08 12.7 270)
+				(length 2.54)
 				(name "VDD"
 					(effects
 						(font
@@ -135,8 +134,8 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -7.62 0)
-				(length 5.08)
+				(at -10.16 -7.62 0)
+				(length 2.54)
 				(name "LIM"
 					(effects
 						(font
@@ -153,8 +152,8 @@
 				)
 			)
 			(pin input line
-				(at -12.7 2.54 0)
-				(length 5.08)
+				(at -10.16 2.54 0)
+				(length 2.54)
 				(name "FB"
 					(effects
 						(font
@@ -171,8 +170,8 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -2.54 0)
-				(length 5.08)
+				(at -10.16 -2.54 0)
+				(length 2.54)
 				(name "COMP"
 					(effects
 						(font
@@ -189,8 +188,8 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 15.24 270)
-				(length 5.08)
+				(at 5.08 12.7 270)
+				(length 2.54)
 				(name "DRAIN"
 					(effects
 						(font
@@ -198,7 +197,7 @@
 						)
 					)
 				)
-				(number "[6-10]"
+				(number "[6,7,8,9,10]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -212,25 +211,25 @@
 	(symbol "VIPER06HS"
 		(extends "VIPER06XS")
 		(property "Reference" "U"
-			(at -7.62 21.59 0)
+			(at 1.27 -13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "VIPER06HS"
-			(at -7.62 19.05 0)
+			(at 1.27 -16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "PCM_SKC_Converter_ACDC_SMD:STMicroelectronics_SSO-10_3.9x4.9mm_P1.00mm"
@@ -242,7 +241,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Converter_ACDC/STMicroelectronics_VIPER06.pdf"
@@ -294,25 +292,25 @@
 	(symbol "VIPER06LS"
 		(extends "VIPER06XS")
 		(property "Reference" "U"
-			(at -7.62 21.59 0)
+			(at 1.27 -13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "VIPER06LS"
-			(at -7.62 19.05 0)
+			(at 1.27 -16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "PCM_SKC_Converter_ACDC_SMD:STMicroelectronics_SSO-10_3.9x4.9mm_P1.00mm"
@@ -324,7 +322,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Converter_ACDC/STMicroelectronics_VIPER06.pdf"

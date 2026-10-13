@@ -9,29 +9,27 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "T"
-			(at 0 25.4 0)
+			(at 0 22.225 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Value" "Wurth_750370423"
-			(at 0 23.114 0)
+			(at 0 -22.225 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Footprint" "PCM_SKC_Transformer_THT:Transformer_Wurth_750370423"
-			(at 0 2.54 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -39,11 +37,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Transformer/Wurth_750370423.pdf"
-			(at 0 2.54 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -54,7 +51,7 @@
 			)
 		)
 		(property "Description" "Offline flyback transformer, EE13/7/6, 13.33:1:2.78 turns ratio, 1.5mH primary, THT"
-			(at 0 2.54 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)

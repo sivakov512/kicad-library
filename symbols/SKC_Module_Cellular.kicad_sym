@@ -9,7 +9,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -21.59 77.47 0)
+			(at -34.29 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20,18 +20,18 @@
 			)
 		)
 		(property "Value" "A7672x"
-			(at -21.59 74.93 0)
+			(at 34.29 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "PCM_SKC_Module_Cellular:SIMCom_A7672X_A7670X"
-			(at 0 -7.62 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -42,7 +42,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Module_Cellular/SIMCom_A7672X_A7670X.pdf"
-			(at 0 -7.62 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -53,7 +53,7 @@
 			)
 		)
 		(property "Description" "LTE Cat 1 and GSM/EDGE module, 10Mbps downlink, 5Mbps uplink, optional GNSS and Bluetooth, 3.4-4.2V supply, LCC+LGA-124 24x24mm"
-			(at 0 -7.62 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -98,8 +98,8 @@
 		)
 		(symbol "A7672x_0_0"
 			(rectangle
-				(start -21.59 67.31)
-				(end 21.59 -69.85)
+				(start -34.29 67.31)
+				(end 34.29 -69.85)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -109,7 +109,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -17.78 0)
+				(at -38.1 -17.78 0)
 				(length 3.81)
 				(name "PWRKEY"
 					(effects
@@ -127,7 +127,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 50.8 0)
+				(at -38.1 50.8 0)
 				(length 3.81)
 				(name "DTR"
 					(effects
@@ -145,7 +145,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 48.26 0)
+				(at -38.1 48.26 0)
 				(length 3.81)
 				(name "RI"
 					(effects
@@ -163,7 +163,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 45.72 0)
+				(at -38.1 45.72 0)
 				(length 3.81)
 				(name "DCD"
 					(effects
@@ -181,7 +181,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -53.34 0)
+				(at -38.1 -53.34 0)
 				(length 3.81)
 				(name "USB_BOOT"
 					(effects
@@ -199,7 +199,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 43.18 0)
+				(at -38.1 43.18 0)
 				(length 3.81)
 				(name "CTS"
 					(effects
@@ -217,7 +217,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 40.64 0)
+				(at -38.1 40.64 0)
 				(length 3.81)
 				(name "RTS"
 					(effects
@@ -235,7 +235,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 38.1 0)
+				(at -38.1 38.1 0)
 				(length 3.81)
 				(name "TXD"
 					(effects
@@ -253,7 +253,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 35.56 0)
+				(at -38.1 35.56 0)
 				(length 3.81)
 				(name "RXD"
 					(effects
@@ -271,7 +271,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 7.62 0)
+				(at -38.1 7.62 0)
 				(length 3.81)
 				(name "SPI_CLK"
 					(effects
@@ -289,7 +289,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 5.08 0)
+				(at -38.1 5.08 0)
 				(length 3.81)
 				(name "SPI_CS"
 					(effects
@@ -307,7 +307,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 2.54 0)
+				(at -38.1 2.54 0)
 				(length 3.81)
 				(name "SPI_MOSI"
 					(effects
@@ -325,7 +325,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 0 0)
+				(at -38.1 0 0)
 				(length 3.81)
 				(name "SPI_MISO"
 					(effects
@@ -343,7 +343,7 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 58.42 180)
+				(at 38.1 58.42 180)
 				(length 3.81)
 				(name "VDD_1V8"
 					(effects
@@ -361,7 +361,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -20.32 0)
+				(at -38.1 -20.32 0)
 				(length 3.81)
 				(name "RESET"
 					(effects
@@ -379,7 +379,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -5.08 0)
+				(at -38.1 -5.08 0)
 				(length 3.81)
 				(name "GPIO1"
 					(effects
@@ -397,7 +397,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 7.62 180)
+				(at 38.1 7.62 180)
 				(length 3.81)
 				(name "MK_IN_3"
 					(effects
@@ -415,7 +415,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -2.54 180)
+				(at 38.1 -2.54 180)
 				(length 3.81)
 				(name "MK_OUT_3"
 					(effects
@@ -433,7 +433,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 30.48 0)
+				(at -38.1 30.48 0)
 				(length 3.81)
 				(name "UART_LOG_RX"
 					(effects
@@ -451,7 +451,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 27.94 0)
+				(at -38.1 27.94 0)
 				(length 3.81)
 				(name "UART_LOG_TX"
 					(effects
@@ -469,7 +469,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -43.18 0)
+				(at -38.1 -43.18 0)
 				(length 3.81)
 				(name "VBUS"
 					(effects
@@ -487,7 +487,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -55.88 0)
+				(at -38.1 -55.88 0)
 				(length 3.81)
 				(name "ADC"
 					(effects
@@ -505,7 +505,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -7.62 0)
+				(at -38.1 -7.62 0)
 				(length 3.81)
 				(name "GPIO2"
 					(effects
@@ -523,7 +523,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -45.72 0)
+				(at -38.1 -45.72 0)
 				(length 3.81)
 				(name "USB_DP"
 					(effects
@@ -541,7 +541,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -48.26 0)
+				(at -38.1 -48.26 0)
 				(length 3.81)
 				(name "USB_DM"
 					(effects
@@ -559,7 +559,7 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 40.64 180)
+				(at 38.1 40.64 180)
 				(length 3.81)
 				(name "USIM1_VDD"
 					(effects
@@ -577,7 +577,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 38.1 180)
+				(at 38.1 38.1 180)
 				(length 3.81)
 				(name "USIM1_DATA"
 					(effects
@@ -595,7 +595,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 35.56 180)
+				(at 38.1 35.56 180)
 				(length 3.81)
 				(name "USIM1_CLK"
 					(effects
@@ -613,7 +613,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 33.02 180)
+				(at 38.1 33.02 180)
 				(length 3.81)
 				(name "USIM1_RST"
 					(effects
@@ -631,7 +631,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 30.48 180)
+				(at 38.1 30.48 180)
 				(length 3.81)
 				(name "USIM1_DET"
 					(effects
@@ -649,7 +649,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -7.62 180)
+				(at 38.1 -7.62 180)
 				(length 3.81)
 				(name "MK_OUT_6/I2C3_SDA"
 					(effects
@@ -667,7 +667,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 2.54 180)
+				(at 38.1 2.54 180)
 				(length 3.81)
 				(name "MK_IN_6/I2C3_SCL"
 					(effects
@@ -685,7 +685,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 15.24 0)
+				(at -38.1 15.24 0)
 				(length 3.81)
 				(name "I2C_SDA"
 					(effects
@@ -703,7 +703,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 12.7 0)
+				(at -38.1 12.7 0)
 				(length 3.81)
 				(name "I2C_SCL"
 					(effects
@@ -721,7 +721,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -12.7 180)
+				(at 38.1 -12.7 180)
 				(length 3.81)
 				(name "EAR_P"
 					(effects
@@ -739,7 +739,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -15.24 180)
+				(at 38.1 -15.24 180)
 				(length 3.81)
 				(name "EAR_N"
 					(effects
@@ -757,7 +757,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 -17.78 180)
+				(at 38.1 -17.78 180)
 				(length 3.81)
 				(name "MIC_P"
 					(effects
@@ -775,7 +775,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 -20.32 180)
+				(at 38.1 -20.32 180)
 				(length 3.81)
 				(name "MIC_N"
 					(effects
@@ -793,7 +793,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 0 180)
+				(at 38.1 0 180)
 				(length 3.81)
 				(name "MK_OUT_2"
 					(effects
@@ -811,7 +811,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 10.16 180)
+				(at 38.1 10.16 180)
 				(length 3.81)
 				(name "MK_IN_2"
 					(effects
@@ -829,7 +829,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -10.16 0)
+				(at -38.1 -10.16 0)
 				(length 3.81)
 				(name "GPIO3"
 					(effects
@@ -847,7 +847,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 22.86 0)
+				(at -38.1 22.86 0)
 				(length 3.81)
 				(name "UART3_RXD"
 					(effects
@@ -865,7 +865,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 20.32 0)
+				(at -38.1 20.32 0)
 				(length 3.81)
 				(name "UART3_TXD"
 					(effects
@@ -883,7 +883,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -58.42 0)
+				(at -38.1 -58.42 0)
 				(length 3.81)
 				(name "VBAT_ADC"
 					(effects
@@ -901,7 +901,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -60.96 0)
+				(at -38.1 -60.96 0)
 				(length 3.81)
 				(name "NETLIGHT"
 					(effects
@@ -919,7 +919,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -12.7 0)
+				(at -38.1 -12.7 0)
 				(length 3.81)
 				(name "GPIO4"
 					(effects
@@ -937,7 +937,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 50.8 180)
+				(at 38.1 50.8 180)
 				(length 3.81)
 				(name "RF_ANT"
 					(effects
@@ -955,7 +955,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -63.5 0)
+				(at -38.1 -63.5 0)
 				(length 3.81)
 				(name "STATUS"
 					(effects
@@ -973,7 +973,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -5.08 180)
+				(at 38.1 -5.08 180)
 				(length 3.81)
 				(name "MK_OUT_5"
 					(effects
@@ -991,7 +991,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 5.08 180)
+				(at 38.1 5.08 180)
 				(length 3.81)
 				(name "MK_IN_5"
 					(effects
@@ -1009,7 +1009,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 48.26 180)
+				(at 38.1 48.26 180)
 				(length 3.81)
 				(name "GNSS_ANT"
 					(effects
@@ -1027,7 +1027,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 45.72 180)
+				(at 38.1 45.72 180)
 				(length 3.81)
 				(name "BT_ANT"
 					(effects
@@ -1045,7 +1045,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -25.4 0)
+				(at -38.1 -25.4 0)
 				(length 3.81)
 				(name "GNSS_TXD"
 					(effects
@@ -1063,7 +1063,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -27.94 0)
+				(at -38.1 -27.94 0)
 				(length 3.81)
 				(name "GNSS_RXD"
 					(effects
@@ -1081,7 +1081,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 -30.48 0)
+				(at -38.1 -30.48 0)
 				(length 3.81)
 				(name "1V8_GNSS"
 					(effects
@@ -1099,7 +1099,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -33.02 0)
+				(at -38.1 -33.02 0)
 				(length 3.81)
 				(name "GNSS_PWRCTL"
 					(effects
@@ -1117,7 +1117,7 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 55.88 180)
+				(at 38.1 55.88 180)
 				(length 3.81)
 				(name "VDD_2V8"
 					(effects
@@ -1135,7 +1135,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -35.56 0)
+				(at -38.1 -35.56 0)
 				(length 3.81)
 				(name "1PPS"
 					(effects
@@ -1153,7 +1153,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -25.4 180)
+				(at 38.1 -25.4 180)
 				(length 3.81)
 				(name "LCD_BL_PWM"
 					(effects
@@ -1171,7 +1171,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -27.94 180)
+				(at 38.1 -27.94 180)
 				(length 3.81)
 				(name "LCD_SPI_CLK"
 					(effects
@@ -1189,7 +1189,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -30.48 180)
+				(at 38.1 -30.48 180)
 				(length 3.81)
 				(name "LCD_SPI_TXD"
 					(effects
@@ -1207,7 +1207,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 -33.02 180)
+				(at 38.1 -33.02 180)
 				(length 3.81)
 				(name "LCD_SPI_RXD"
 					(effects
@@ -1225,7 +1225,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -35.56 180)
+				(at 38.1 -35.56 180)
 				(length 3.81)
 				(name "LCD_SPI_CS"
 					(effects
@@ -1243,7 +1243,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -38.1 180)
+				(at 38.1 -38.1 180)
 				(length 3.81)
 				(name "LCD_RST"
 					(effects
@@ -1261,7 +1261,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -40.64 180)
+				(at 38.1 -40.64 180)
 				(length 3.81)
 				(name "LCD_DCX"
 					(effects
@@ -1279,7 +1279,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 25.4 180)
+				(at 38.1 25.4 180)
 				(length 3.81)
 				(name "USIM2_DATA"
 					(effects
@@ -1297,7 +1297,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 22.86 180)
+				(at 38.1 22.86 180)
 				(length 3.81)
 				(name "USIM2_CLK"
 					(effects
@@ -1315,7 +1315,7 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 20.32 180)
+				(at 38.1 20.32 180)
 				(length 3.81)
 				(name "USIM2_VDD"
 					(effects
@@ -1333,7 +1333,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 17.78 180)
+				(at 38.1 17.78 180)
 				(length 3.81)
 				(name "USIM2_RST"
 					(effects
@@ -1351,7 +1351,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 15.24 180)
+				(at 38.1 15.24 180)
 				(length 3.81)
 				(name "USIM2_DET"
 					(effects
@@ -1369,7 +1369,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -17.78 -66.04 90)
+				(at -30.48 -66.04 90)
 				(length 3.81)
 				(hide yes)
 				(name "NC"
@@ -1388,7 +1388,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -15.24 -66.04 90)
+				(at -27.94 -66.04 90)
 				(length 3.81)
 				(hide yes)
 				(name "NC"
@@ -1407,7 +1407,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -12.7 -66.04 90)
+				(at -25.4 -66.04 90)
 				(length 3.81)
 				(hide yes)
 				(name "NC"
@@ -1426,7 +1426,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 -38.1 0)
+				(at -38.1 -38.1 0)
 				(length 3.81)
 				(name "GNSS_VBKP"
 					(effects
@@ -1444,7 +1444,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -45.72 180)
+				(at 38.1 -45.72 180)
 				(length 3.81)
 				(name "CAM_I2C_SDA"
 					(effects
@@ -1462,7 +1462,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -48.26 180)
+				(at 38.1 -48.26 180)
 				(length 3.81)
 				(name "CAM_I2C_SCL"
 					(effects
@@ -1480,7 +1480,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -50.8 180)
+				(at 38.1 -50.8 180)
 				(length 3.81)
 				(name "CAM_PWDN"
 					(effects
@@ -1498,7 +1498,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -53.34 180)
+				(at 38.1 -53.34 180)
 				(length 3.81)
 				(name "CAM_RST"
 					(effects
@@ -1516,7 +1516,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -55.88 180)
+				(at 38.1 -55.88 180)
 				(length 3.81)
 				(name "CAM_MCLK"
 					(effects
@@ -1534,7 +1534,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 -58.42 180)
+				(at 38.1 -58.42 180)
 				(length 3.81)
 				(name "CAM_SPI_D0"
 					(effects
@@ -1552,7 +1552,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 -60.96 180)
+				(at 38.1 -60.96 180)
 				(length 3.81)
 				(name "CAM_SPI_D1"
 					(effects
@@ -1570,7 +1570,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -63.5 180)
+				(at 38.1 -63.5 180)
 				(length 3.81)
 				(name "CAM_SPI_CLK"
 					(effects
@@ -1588,7 +1588,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -73.66 90)
+				(at -12.7 -73.66 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -1597,7 +1597,7 @@
 						)
 					)
 				)
-				(number "[2,17-18,29,39,45-46,54,58-59,61-65,69-89,91-92,94]"
+				(number "[2,17,18,29,39,45,46,54,58,59,61,62,63]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1615,7 +1615,43 @@
 						)
 					)
 				)
-				(number "[55-57]"
+				(number "[55,56,57]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 -73.66 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "[64,65,69,70,71,72,73,74,75,76,77,78,79]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 33.02 -73.66 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "[80,81,82,83,84,85,86,87,88,89,91,92,94]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1629,23 +1665,25 @@
 	(symbol "A7670x"
 		(extends "A7672x")
 		(property "Reference" "U"
-			(at 49.53 7.62 0)
+			(at -34.29 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "A7670x"
-			(at 49.53 5.08 0)
+			(at 34.29 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "PCM_SKC_Module_Cellular:SIMCom_A7672X_A7670X"
