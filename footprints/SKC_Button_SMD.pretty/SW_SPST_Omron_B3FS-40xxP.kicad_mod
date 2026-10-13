@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Omron B3FS-4000 series SMD tactile switch, 12x12mm, land pattern per datasheet, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Button_SMD/Omron_B3FS-4.pdf")
+	(descr "Omron B3FS-4000 series SMD tactile switch, 12x12mm, land pattern per datasheet, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Button_SMD/Omron_B3FS-40xxP.pdf")
 	(tags "tactile switch SPST button Omron B3FS-4002P B3FS-4005P B3FS-4052P B3FS-4055P")
 	(property "Reference" "REF**"
 		(at 0 -7.4 0)
