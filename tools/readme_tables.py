@@ -123,9 +123,14 @@ def render():
     groups = rows()
     cats = sorted(groups)
     parts = [START,
-             " · ".join("[%s](#%s)" % (c, anchor(c)) for c in cats),
-             "**Symbol** KiCad: use a stock KiCad symbol. **Footprint** (KiCad): stock footprint. "
-             "**3D model:** ✅ included · ❌ not available · — not applicable (copper only) · KiCad: stock model"]
+             "\n".join("- [%s](#%s) — %d" % (c, anchor(c), len(groups[c])) for c in cats),
+             "\n".join([
+                 "Legend:",
+                 "",
+                 "- **Symbol** `KiCad`: no own symbol, use a stock KiCad one",
+                 "- **Footprint** `(KiCad)`: stock KiCad footprint",
+                 "- **3D model** ✅ included · ❌ not available · — copper only, no body · KiCad: stock model",
+             ])]
     for c in cats:
         body = sorted(groups[c], key=lambda r: r[0].lower())
         parts += ["### %s" % c, table(["Part", "Description", "Symbol", "Footprint", "3D model", "Datasheet"], body)]
