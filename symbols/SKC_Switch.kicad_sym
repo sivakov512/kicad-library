@@ -43,7 +43,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Switch/SHOUHAN_SS13D07VG4.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheets/Switch/SHOUHAN_SS13D07VG4.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

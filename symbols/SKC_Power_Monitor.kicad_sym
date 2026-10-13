@@ -41,7 +41,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Power_Monitor/Maxim_MAX1704x.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheets/Power_Monitor/Maxim_MAX1704x.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

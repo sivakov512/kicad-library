@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Cvilux CU3216SASBLR004-NH USB 2.0 Type-C Receptacle 16 ways, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Connector_USB/Cvilux_CU3216SASBLR004-NH.pdf")
+	(descr "Cvilux CU3216SASBLR004-NH USB 2.0 Type-C Receptacle 16 ways, ${KIPRJMOD}/datasheets/Connector_USB/Cvilux_CU3216SASBLR004-NH.pdf")
 	(tags "cvilux cu3216sasblr004 usb type-c")
 	(property "Reference" "REF**"
 		(at 3 -2.2 0)

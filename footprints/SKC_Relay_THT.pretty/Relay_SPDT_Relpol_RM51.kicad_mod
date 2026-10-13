@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Relpol Relay SPDT RM51, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Relay_THT/Relpol_RM51.pdf")
+	(descr "Relpol Relay SPDT RM51, ${KIPRJMOD}/datasheets/Relay_THT/Relpol_RM51.pdf")
 	(tags "Relpol Relay SPDT RM51")
 	(property "Reference" "REF**"
 		(at 6 -5.8 0)

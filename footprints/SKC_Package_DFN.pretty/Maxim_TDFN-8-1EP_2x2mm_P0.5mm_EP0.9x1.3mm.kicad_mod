@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Maxim TDFN-8 2x2mm, 0.5mm pitch, exposed pad, package code T822+3 (21-0168), land pattern 90-0065, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Power_Monitor/Maxim_MAX1704x.pdf")
+	(descr "Maxim TDFN-8 2x2mm, 0.5mm pitch, exposed pad, package code T822+3 (21-0168), land pattern 90-0065, ${KIPRJMOD}/datasheets/Power_Monitor/Maxim_MAX1704x.pdf")
 	(tags "TDFN DFN Maxim T822")
 	(property "Reference" "REF**"
 		(at 0 -2.23 0)

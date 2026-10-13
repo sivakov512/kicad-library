@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "TRS 3.5mm, horizontal, through-hole, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Connector_Audio/HRO_PJ-3126-5A.pdf")
+	(descr "TRS 3.5mm, horizontal, through-hole, ${KIPRJMOD}/datasheets/Connector_Audio/HRO_PJ-3126-5A.pdf")
 	(tags "TRS audio jack stereo horizontal")
 	(property "Reference" "REF**"
 		(at 0 -7.6 0)

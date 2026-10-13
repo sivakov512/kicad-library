@@ -41,7 +41,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Converter_ACDC/STMicroelectronics_VIPER06.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheets/Converter_ACDC/STMicroelectronics_VIPER06.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -243,7 +243,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Converter_ACDC/STMicroelectronics_VIPER06.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheets/Converter_ACDC/STMicroelectronics_VIPER06.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -324,7 +324,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Converter_ACDC/STMicroelectronics_VIPER06.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheets/Converter_ACDC/STMicroelectronics_VIPER06.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

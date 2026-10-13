@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Choke, SMD, 4.5x4mm, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Inductor_SMD/MetalLions_MMPC0402.pdf")
+	(descr "Choke, SMD, 4.5x4mm, ${KIPRJMOD}/datasheets/Inductor_SMD/MetalLions_MMPC0402.pdf")
 	(tags "Choke SMD mmpc0402 metallions")
 	(property "Reference" "REF**"
 		(at 0 -3.52 0)

@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Battery holder, BH-18650-A5BJ001-2D, battery type 1x18650, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/BatteryHolder_THT/Myoung_BH-18650-A5BJ001-2D.pdf")
+	(descr "Battery holder, BH-18650-A5BJ001-2D, battery type 1x18650, ${KIPRJMOD}/datasheets/BatteryHolder_THT/Myoung_BH-18650-A5BJ001-2D.pdf")
 	(tags "18650 myoung A5BJ001 C19184083")
 	(property "Reference" "REF**"
 		(at 36.15 -12 0)

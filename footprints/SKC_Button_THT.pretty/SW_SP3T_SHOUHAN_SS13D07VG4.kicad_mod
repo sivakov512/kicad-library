@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "SHOUHAN SS13D07VG4 SP3T slide switch, 12.8x4.4mm, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Switch/SHOUHAN_SS13D07VG4.pdf")
+	(descr "SHOUHAN SS13D07VG4 SP3T slide switch, 12.8x4.4mm, ${KIPRJMOD}/datasheets/Switch/SHOUHAN_SS13D07VG4.pdf")
 	(tags "slide switch SP3T SHOUHAN SS13D07")
 	(property "Reference" "REF**"
 		(at 4 -4 0)

@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "SOP, 8 Pin, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Regulator_Linear/ROHM_BDxxKA5WF.pdf")
+	(descr "SOP, 8 Pin, ${KIPRJMOD}/datasheets/Regulator_Linear/ROHM_BDxxKA5WF.pdf")
 	(tags "sop sop8 so soic soic8")
 	(property "Reference" "REF**"
 		(at 0 -3.55 0)

@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "SSO-10 footprint for ST VIPER06 series PWM flyback converters, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Converter_ACDC/STMicroelectronics_VIPER06.pdf")
+	(descr "SSO-10 footprint for ST VIPER06 series PWM flyback converters, ${KIPRJMOD}/datasheets/Converter_ACDC/STMicroelectronics_VIPER06.pdf")
 	(tags "VIPER flyback ST SSO-10 AC-DC switcher PWM")
 	(property "Reference" "REF**"
 		(at 0.6201 -3.6975 0)

@@ -17,7 +17,7 @@ import kicadlib as kl
 
 README = os.path.join(kl.ROOT, "README.md")
 START, END = "<!-- components:start -->", "<!-- components:end -->"
-LOCAL_URL = "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/"
+LOCAL_URL = "${KIPRJMOD}/"
 YES, NO, NA = "✅", "❌", "—"
 # Footprints that are copper only and have no physical body to model.
 VIRTUAL = re.compile(r"^(Antenna_PCB_|TestPoint_)")
@@ -62,9 +62,9 @@ def footprints():
             fp = kl.load(path)
             name = os.path.basename(path)[: -len(".kicad_mod")]
             descr = (kl.child(fp, "descr") or ["", ""])[1]
-            url = (re.search(r"https?://\S+", descr) or [""])[0].rstrip(",")
+            url = (re.search(r"(https?://|\$\{KIPRJMOD\}/)\S+", descr) or [""])[0].rstrip(",")
             model = YES if kl.children(fp, "model") else (NA if VIRTUAL.match(name) else NO)
-            out["%s:%s" % (lib, name)] = (category(lib), model, url, re.sub(r",?\s*https?://\S+", "", descr).strip())
+            out["%s:%s" % (lib, name)] = (category(lib), model, url, re.sub(r",?\s*(https?://|\$\{KIPRJMOD\}/)\S+", "", descr).strip())
     return out
 
 

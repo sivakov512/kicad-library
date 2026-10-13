@@ -42,7 +42,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Regulator_Switching/Texas_TPS56424x.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheets/Regulator_Switching/Texas_TPS56424x.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -257,7 +257,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Regulator_Switching/Texas_TPS56424x.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheets/Regulator_Switching/Texas_TPS56424x.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

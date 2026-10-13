@@ -23,6 +23,9 @@ MAX_DETAILS = 10
 # model directory, so these F9.3 messages are dropped when the folder matches.
 IGNORED_MESSAGES = [
     re.compile(r"^Model path should start with '\$\{KICAD\d+_3DMODEL_DIR\}/'"),
+    # Datasheets are linked as ${KIPRJMOD}/datasheets/... in the repository and get a
+    # URL in the package; check_library.py makes sure every footprint has one.
+    re.compile(r"^Description field does not contain a URL"),
     re.compile(r"^3D model directory is different from footprint directory "
                r"\(found '\$\{KIPRJMOD\}/3dmodels/(?P<dir>[^']+)', should be '(?P=dir)'\)"),
 ]

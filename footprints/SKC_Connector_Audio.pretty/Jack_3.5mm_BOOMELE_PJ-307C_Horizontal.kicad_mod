@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "3.5mm stereo audio jack, switched tip and ring, horizontal, BOOMELE PJ-307C, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Connector_Audio/BOOMELE_PJ-307C.pdf")
+	(descr "3.5mm stereo audio jack, switched tip and ring, horizontal, BOOMELE PJ-307C, ${KIPRJMOD}/datasheets/Connector_Audio/BOOMELE_PJ-307C.pdf")
 	(tags "audio jack 3.5mm stereo headphones TRS horizontal BOOMELE PJ-307C")
 	(property "Reference" "REF**"
 		(at 0 6.3 0)
