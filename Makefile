@@ -5,6 +5,7 @@
 #   make erc         ERC on a generated schematic with every symbol
 #   make drc         DRC on a generated board with every footprint
 #   make package     PCM package as a release builds it (TAG=v1.2.3, default main)
+#   make readme      regenerate the component tables in README.md
 #
 # KLC_WARNINGS=1 also lists KLC warnings. Reports are written to build/.
 
@@ -19,13 +20,13 @@ BUILD := build
 KLC_FLAGS := $(if $(KLC_WARNINGS),--warnings)
 TAG ?= main
 
-.PHONY: check integrity klc klc-symbols klc-footprints erc drc package tools clean
+.PHONY: check integrity klc klc-symbols klc-footprints erc drc package readme readme-check tools clean
 
 # Run every listed target even when an earlier one fails.
 run_all = status=0; for t in $(1); do $(MAKE) --no-print-directory $$t || status=1; done; exit $$status
 
 check:
-	@$(call run_all,integrity klc-symbols klc-footprints erc drc package)
+	@$(call run_all,integrity klc-symbols klc-footprints erc drc package readme-check)
 
 integrity: tools
 	@echo "==> integrity"
@@ -61,6 +62,13 @@ drc:
 		grep -E '^\[|^    @' $(BUILD)/drc/drc.rpt; \
 		grep -E '^Found' $(BUILD)/drc/cli.log || cat $(BUILD)/drc/cli.log; \
 		exit $$status
+
+readme:
+	@$(PYTHON) tools/readme_tables.py
+
+readme-check:
+	@echo "==> README"
+	@$(PYTHON) tools/readme_tables.py --check
 
 package:
 	@echo "==> PCM package"
