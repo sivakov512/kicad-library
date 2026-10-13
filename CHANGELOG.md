@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.1](https://github.com/sivakov512/kicad-library/compare/v3.1.0...v3.1.1) (2026-10-13)
+
+
+### Bug Fixes
+
+* publish datasheets on GitHub Pages, linked by content hash ([cff02f6](https://github.com/sivakov512/kicad-library/commit/cff02f6dbb4eb95a6c6904ba7d1f998d02b31492))
+
 ## [3.1.0](https://github.com/sivakov512/kicad-library/compare/v3.0.0...v3.1.0) (2026-10-13)
 
 
