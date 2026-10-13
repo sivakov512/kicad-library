@@ -1,31 +1,43 @@
-# KiCad Component Library
+# Sivakov KiCad Component Library
 
-A comprehensive collection of custom libraries for KiCad, including schematic symbols, footprints, 3D models, and datasheets. Organized by component categories and mounting types for easy navigation.
+Symbols, footprints and 3D models for parts that are missing from the stock KiCad libraries. Datasheets are linked from every symbol and footprint. The library follows the [KiCad Library Conventions (KLC)](https://klc.kicad.org) and is checked against them on every change.
 
-All library components are prefixed with **SKC** (Sivakov KiCad Components) to make them easily searchable in KiCad. When looking for symbols, footprints, or 3D models from this library, simply type "SKC" in the KiCad search field to quickly filter all components from this collection.
+Everything is prefixed with **SKC** (Sivakov KiCad Components): type `SKC` in a library browser to see only this library.
+
+## Requirements
+
+KiCad 10.0 or newer is required since version 3.0. Older KiCad installations are offered the last 2.x release by the Plugin and Content Manager.
 
 ## Installation
 
-### Using Plugin and Content Manager (Recommended)
-
-The easiest way to install this library is through KiCad's Plugin and Content Manager:
-
-1. Open KiCad
-2. Go to **Plugin and Content Manager** → **Manage**
-3. Click **Add Repository**
-4. Add this repository URL:
+1. In KiCad open **Plugin and Content Manager** → **Manage**.
+2. Click **Add Repository** and paste:
    ```
    https://raw.githubusercontent.com/sivakov512/kicad-pcm-index/main/repository.json
    ```
-5. Click **OK**
-6. Find "Sivakov KiCad Component Library" in the list and click **Install**
-7. Restart KiCad to ensure all components are properly loaded
+3. Select the repository, find **Sivakov KiCad Component Library** and click **Install**, then **Apply Pending Changes**.
 
-## Component List
+Updates arrive through the same manager.
+
+## Usage
+
+- Libraries appear as `PCM_SKC_<Category>`, for example `PCM_SKC_Regulator_Linear`.
+- Symbols come with their footprint assigned and footprint filters set.
+- **Datasheet** on a symbol or footprint opens the PDF of the exact library version you have installed.
+
+### Sharing a project with someone who doesn't have the library
+
+- **Schematics and boards** keep their own copy of every symbol and footprint, so they open without the library.
+- **3D models** are only referenced. Run **Collect And Embed 3D Models** in the PCB editor to store them inside the board file.
+- **The recipient will keep adding these parts:** ask them to install the library as above, or copy the parts the project uses into a project library.
+
+## Components
+
+<!-- components:start -->
 
 **Legend:** ✅ available · ❌ not available · — not applicable
 
-### Symbols (`SKC_*.kicad_sym`)
+### Symbols
 
 | Symbol                      | Footprint                                             | Datasheet |
 | --------------------------- | ----------------------------------------------------- | --------- |
@@ -64,9 +76,9 @@ The easiest way to install this library is through KiCad's Plugin and Content Ma
 | `Wurth_750370423`           | `Transformer_Wurth_750370423`                         | ✅         |
 | `ZMPT101B`                  | `Transformer_Zeming_ZMPT101B`                         | ✅         |
 
-### Footprints (`SKC_*.pretty`)
+### Footprints
 
-| Footprint                                             | 3D Model | Datasheet |
+| Footprint                                             | 3D model | Datasheet |
 | ----------------------------------------------------- | -------- | --------- |
 | **SKC_Antenna_SMD**                                   |          |           |
 | `Antenna_PCB_Espressif_2.4GHz_Left`                   | —        | ✅         |
@@ -125,39 +137,14 @@ The easiest way to install this library is through KiCad's Plugin and Content Ma
 | `Transformer_Wurth_750370423`                         | ✅        | ✅         |
 | `Transformer_Zeming_ZMPT101B`                         | ✅        | ✅         |
 
-## Structure
+<!-- components:end -->
 
-```
-.
-├── 3dmodels/       # SKC_[Category].3dshapes/
-├── datasheets/     # [CategoryName]/[Manufacturer]_[PartNumber].pdf
-├── footprints/     # SKC_[Category].pretty/
-└── symbols/        # SKC_[Category].kicad_sym
-```
+## Contributing
 
-Naming follows the [KiCad Library Conventions (KLC)](https://klc.kicad.org) and the stock KiCad libraries: symbols are named by part number (e.g. `ESP32-C3`, `TPS2121RUX`), footprints by package or by manufacturer and part (e.g. `ROHM_SOP-8_4.4x5mm_P1.27mm`, `Relay_SPDT_Relpol_RM51`). Run `make check` to validate the libraries against KLC, ERC and DRC.
-
-## Development
-
-Open `kicad-library.kicad_pro` to edit the library. Its project tables load the working copy, so it can be edited next to an installed release without mixing the two up:
-
-| Reference | In the repository | In the released package |
-| --- | --- | --- |
-| Footprint of a symbol | `LOCAL_SKC_<lib>:<name>` | `PCM_SKC_<lib>:<name>` |
-| 3D model of a footprint | `${KIPRJMOD}/3dmodels/<lib>.3dshapes/<name>.step` | `${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/...` |
-| Datasheet link | `https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/...` | `...@<release tag>/datasheets/...` |
-
-The release workflow builds the package with `tools/pcm_package.py`, which rewrites these references and refuses to build if anything local is left or a footprint or 3D model is missing.
-
-```bash
-make check                # integrity, KLC, ERC, DRC and a test package
-make package TAG=v1.2.3   # build the package a release would publish
-```
-
-## Contribution
-
-Contributions are welcome! Follow the repository structure above and [KLC naming conventions](https://klc.kicad.org), and make sure `make check` passes.
+Contributions are welcome. See [CONTRIBUTING.md](./CONTRIBUTING.md) for the rules and the development setup.
 
 ## License
 
-This project is licensed under the terms of the [MIT License](./LICENSE).
+- **Library (symbols, footprints and tooling):** [MIT License](./LICENSE).
+- **Datasheets:** belong to their manufacturers and are redistributed for convenience.
+- **3D models:** come from the part manufacturers or from LCSC/EasyEDA and remain subject to their terms.
