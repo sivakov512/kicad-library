@@ -112,7 +112,7 @@ def main(out_dir):
     x = y = 0.0
     row_height = 0.0
     for path in kl.symbol_libs():
-        nickname = kl.PCM_PREFIX + kl.lib_name(path)
+        nickname = kl.LOCAL_PREFIX + kl.lib_name(path)
         lib = kl.load(path)
         by_name = {s[1]: s for s in kl.children(lib, "symbol")}
         for name, sym in by_name.items():

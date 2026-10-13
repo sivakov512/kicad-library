@@ -233,7 +233,7 @@
 		(uuid "ecfbbf8a-ac19-4799-9779-d62669f81f0d")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_LED_SMD.3dshapes/LED_SK6812_EC20_2.0x2.0mm.step"
+	(model "${KIPRJMOD}/3dmodels/SKC_LED_SMD.3dshapes/LED_SK6812_EC20_2.0x2.0mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

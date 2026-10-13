@@ -205,7 +205,7 @@
 		(uuid "be6f3306-5521-4410-8e2c-441567956a15")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Antenna_SMD.3dshapes/TaiyoYuden_AH316M245001-T.step"
+	(model "${KIPRJMOD}/3dmodels/SKC_Antenna_SMD.3dshapes/TaiyoYuden_AH316M245001-T.step"
 		(offset
 			(xyz 0 0 0)
 		)

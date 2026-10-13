@@ -446,7 +446,7 @@
 		(uuid "154d58d5-0f2c-4023-af9d-7bbf70b1afcd")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Converter_ACDC_SMD.3dshapes/STMicroelectronics_SSO-10_3.9x4.9mm_P1.00mm.step"
+	(model "${KIPRJMOD}/3dmodels/SKC_Converter_ACDC_SMD.3dshapes/STMicroelectronics_SSO-10_3.9x4.9mm_P1.00mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

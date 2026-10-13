@@ -17,7 +17,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        check: [integrity, klc-symbols, klc-footprints, erc, drc]
+        check: [integrity, klc-symbols, klc-footprints, erc, drc, package]
     steps:
       - name: Install make
         run: apt-get update -qq && apt-get install -y -qq make

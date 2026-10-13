@@ -304,7 +304,7 @@
 		(uuid "f8f00240-57f2-49e1-a29c-1790d021ca0d")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Diode_THT.3dshapes/D_SOD-64_P10.16mm_Horizontal.step"
+	(model "${KIPRJMOD}/3dmodels/SKC_Diode_THT.3dshapes/D_SOD-64_P10.16mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

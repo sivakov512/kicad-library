@@ -148,7 +148,7 @@
 		(uuid "fd629230-59f9-443a-883e-6e0b74639170")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Crystal.3dshapes/Crystal_SMD_1612-4Pin_1.6x1.2mm.step"
+	(model "${KIPRJMOD}/3dmodels/SKC_Crystal.3dshapes/Crystal_SMD_1612-4Pin_1.6x1.2mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

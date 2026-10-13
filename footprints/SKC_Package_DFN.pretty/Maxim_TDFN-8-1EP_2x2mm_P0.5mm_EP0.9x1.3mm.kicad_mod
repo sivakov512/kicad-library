@@ -191,7 +191,7 @@
 		(uuid "dc67edb1-4572-4939-b01c-00bd3e844217")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Package_DFN.3dshapes/Maxim_TDFN-8-1EP_2x2mm_P0.5mm_EP0.9x1.3mm.step"
+	(model "${KIPRJMOD}/3dmodels/SKC_Package_DFN.3dshapes/Maxim_TDFN-8-1EP_2x2mm_P0.5mm_EP0.9x1.3mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

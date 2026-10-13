@@ -2886,7 +2886,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Module_Cellular.3dshapes/SIMCom_A7672x_A7670x.step"
+	(model "${KIPRJMOD}/3dmodels/SKC_Module_Cellular.3dshapes/SIMCom_A7672x_A7670x.step"
 		(offset
 			(xyz 0 0 0)
 		)

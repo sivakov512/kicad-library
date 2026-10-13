@@ -1447,7 +1447,7 @@
 		(uuid "168b864f-15d1-405a-ace6-eea6d35d428a")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Capacitor_THT.3dshapes/CP_Radial_D6.0mm_P2.50mm.step"
+	(model "${KIPRJMOD}/3dmodels/SKC_Capacitor_THT.3dshapes/CP_Radial_D6.0mm_P2.50mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

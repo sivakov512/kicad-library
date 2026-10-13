@@ -214,7 +214,7 @@
 		(uuid "65cb0d7a-85a8-4a72-a327-5f9fa8f40414")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_FuseHolder_THT.3dshapes/Fuseholder_Cylinder-5x20mm_PTF76_Horizontal.step"
+	(model "${KIPRJMOD}/3dmodels/SKC_FuseHolder_THT.3dshapes/Fuseholder_Cylinder-5x20mm_PTF76_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

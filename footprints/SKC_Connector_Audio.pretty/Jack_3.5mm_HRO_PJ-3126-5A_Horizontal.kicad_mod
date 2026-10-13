@@ -434,7 +434,7 @@
 		(uuid "6c6cb61b-ea07-4816-8fbb-5f4dfc8ec07f")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Connector_Audio.3dshapes/Jack_3.5mm_HRO_PJ-3126-5A_Horizontal.step"
+	(model "${KIPRJMOD}/3dmodels/SKC_Connector_Audio.3dshapes/Jack_3.5mm_HRO_PJ-3126-5A_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

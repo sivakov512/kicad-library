@@ -4,6 +4,7 @@
 #   make klc         KiCad Library Convention (official kicad-library-utils)
 #   make erc         ERC on a generated schematic with every symbol
 #   make drc         DRC on a generated board with every footprint
+#   make package     PCM package as a release builds it (TAG=v1.2.3, default main)
 #
 # KLC_WARNINGS=1 also lists KLC warnings. Reports are written to build/.
 
@@ -16,14 +17,15 @@ KLU_DIR := tools/kicad-library-utils
 
 BUILD := build
 KLC_FLAGS := $(if $(KLC_WARNINGS),--warnings)
+TAG ?= main
 
-.PHONY: check integrity klc klc-symbols klc-footprints erc drc tools clean
+.PHONY: check integrity klc klc-symbols klc-footprints erc drc package tools clean
 
 # Run every listed target even when an earlier one fails.
 run_all = status=0; for t in $(1); do $(MAKE) --no-print-directory $$t || status=1; done; exit $$status
 
 check:
-	@$(call run_all,integrity klc-symbols klc-footprints erc drc)
+	@$(call run_all,integrity klc-symbols klc-footprints erc drc package)
 
 integrity: tools
 	@echo "==> integrity"
@@ -59,6 +61,10 @@ drc:
 		grep -E '^\[|^    @' $(BUILD)/drc/drc.rpt; \
 		grep -E '^Found' $(BUILD)/drc/cli.log || cat $(BUILD)/drc/cli.log; \
 		exit $$status
+
+package:
+	@echo "==> PCM package"
+	@$(PYTHON) tools/pcm_package.py $(TAG) $(BUILD)/package/skc-$(TAG).zip
 
 tools: $(KLU_DIR)/klc-check/check_symbol.py
 
