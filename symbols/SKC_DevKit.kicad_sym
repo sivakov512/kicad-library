@@ -9,7 +9,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -12.7 31.75 0)
+			(at -12.7 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20,7 +20,7 @@
 			)
 		)
 		(property "Value" "Waveshare_ESP32-C6-Zero"
-			(at -12.7 29.21 0)
+			(at 1.27 -21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Footprint" "PCM_SKC_DevKit:Waveshare_ESP32-C6-Zero"
-			(at 7.62 -16.256 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -42,7 +42,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.waveshare.com/wiki/ESP32-C6-Zero"
-			(at 7.366 -18.796 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -53,7 +53,7 @@
 			)
 		)
 		(property "Description" "Development board, ESP32-C6 Wi-Fi 6 BLE 5 Zigbee Thread module, castellated and through-hole pins"
-			(at -2.54 7.62 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)

@@ -9,7 +9,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -10.16 24.13 0)
+			(at 1.27 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20,7 +20,7 @@
 			)
 		)
 		(property "Value" "MAX17048G"
-			(at -10.16 21.59 0)
+			(at 1.27 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

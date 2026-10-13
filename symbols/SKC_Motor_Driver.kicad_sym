@@ -9,7 +9,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -15.24 36.83 0)
+			(at -15.24 -31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20,7 +20,7 @@
 			)
 		)
 		(property "Value" "DRV8316CRRGF"
-			(at -15.24 34.29 0)
+			(at 3.81 -31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Footprint" "PCM_SKC_Package_QFN:Texas_RGF0040E_VQFN-40-1EP_5x7mm_P0.5mm_EP3.8x5.8mm"
-			(at -0.254 5.08 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -43,7 +43,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Motor_Driver/Texas_DRV8316C.pdf"
-			(at -0.254 5.334 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -55,7 +55,7 @@
 			)
 		)
 		(property "Description" "Three-phase BLDC motor driver, integrated FETs, 4.5-35V, 8A peak, SPI configuration, built-in current sensing, VQFN-40"
-			(at -0.508 5.08 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -610,7 +610,7 @@
 						)
 					)
 				)
-				(number "[9-11]"
+				(number "[9,10,11]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -646,7 +646,7 @@
 						)
 					)
 				)
-				(number "[13-14]"
+				(number "[13,14]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -664,7 +664,7 @@
 						)
 					)
 				)
-				(number "[16-17]"
+				(number "[16,17]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -682,7 +682,7 @@
 						)
 					)
 				)
-				(number "[19-20]"
+				(number "[19,20]"
 					(effects
 						(font
 							(size 1.27 1.27)

@@ -9,7 +9,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -20.32 39.37 0)
+			(at -20.32 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20,18 +20,18 @@
 			)
 		)
 		(property "Value" "ESP32-C3"
-			(at -20.32 36.83 0)
+			(at 20.32 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm"
-			(at -25.4 30.48 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -43,7 +43,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/MCU_Espressif/Espressif_ESP32-C3.pdf"
-			(at -25.4 30.48 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -55,7 +55,7 @@
 			)
 		)
 		(property "Description" "2.4GHz Wi-Fi and BLE 5 SoC, 32-bit RISC-V microcontroller, 22 GPIO, QFN-32"
-			(at -25.4 30.48 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -631,7 +631,7 @@
 						)
 					)
 				)
-				(number "[2-3]"
+				(number "[2,3]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -649,7 +649,7 @@
 						)
 					)
 				)
-				(number "[31-32]"
+				(number "[31,32]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -667,7 +667,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -20.32 36.83 0)
+			(at -20.32 -29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -678,18 +678,18 @@
 			)
 		)
 		(property "Value" "ESP32-H2"
-			(at -20.32 34.29 0)
+			(at 20.32 -29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:VQFN-32-1EP_4x4mm_P0.4mm_EP2.8x2.8mm"
-			(at -25.4 30.48 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -701,7 +701,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/MCU_Espressif/Espressif_ESP32-H2.pdf"
-			(at -25.4 30.48 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -713,7 +713,7 @@
 			)
 		)
 		(property "Description" "IEEE 802.15.4 and BLE 5 SoC, Thread and Zigbee, 32-bit RISC-V microcontroller, 19 GPIO, QFN-32"
-			(at -25.4 30.48 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1235,7 +1235,7 @@
 						)
 					)
 				)
-				(number "[1-2,27,30-31]"
+				(number "[1,2,27,30,31]"
 					(effects
 						(font
 							(size 1.27 1.27)
