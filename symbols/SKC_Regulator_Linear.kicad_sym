@@ -30,7 +30,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SKC_Package_SO:ROHM_SOP-8_4.4x5mm_P1.27mm"
+		(property "Footprint" "LOCAL_SKC_Package_SO:ROHM_SOP-8_4.4x5mm_P1.27mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -253,7 +253,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SKC_Package_SO:ROHM_SOP-8_4.4x5mm_P1.27mm"
+		(property "Footprint" "LOCAL_SKC_Package_SO:ROHM_SOP-8_4.4x5mm_P1.27mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -334,7 +334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SKC_Package_SO:ROHM_SOP-8_4.4x5mm_P1.27mm"
+		(property "Footprint" "LOCAL_SKC_Package_SO:ROHM_SOP-8_4.4x5mm_P1.27mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -415,7 +415,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SKC_Package_SO:ROHM_SOP-8_4.4x5mm_P1.27mm"
+		(property "Footprint" "LOCAL_SKC_Package_SO:ROHM_SOP-8_4.4x5mm_P1.27mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -496,7 +496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SKC_Package_SO:ROHM_SOP-8_4.4x5mm_P1.27mm"
+		(property "Footprint" "LOCAL_SKC_Package_SO:ROHM_SOP-8_4.4x5mm_P1.27mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -577,7 +577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SKC_Package_SO:ROHM_SOP-8_4.4x5mm_P1.27mm"
+		(property "Footprint" "LOCAL_SKC_Package_SO:ROHM_SOP-8_4.4x5mm_P1.27mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -658,7 +658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SKC_Package_SO:ROHM_SOP-8_4.4x5mm_P1.27mm"
+		(property "Footprint" "LOCAL_SKC_Package_SO:ROHM_SOP-8_4.4x5mm_P1.27mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

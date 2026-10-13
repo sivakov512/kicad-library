@@ -137,9 +137,26 @@ The easiest way to install this library is through KiCad's Plugin and Content Ma
 
 Naming follows the [KiCad Library Conventions (KLC)](https://klc.kicad.org) and the stock KiCad libraries: symbols are named by part number (e.g. `ESP32-C3`, `TPS2121RUX`), footprints by package or by manufacturer and part (e.g. `ROHM_SOP-8_4.4x5mm_P1.27mm`, `Relay_SPDT_Relpol_RM51`). Run `make check` to validate the libraries against KLC, ERC and DRC.
 
+## Development
+
+Open `kicad-library.kicad_pro` to edit the library. Its project tables load the working copy, so it can be edited next to an installed release without mixing the two up:
+
+| Reference | In the repository | In the released package |
+| --- | --- | --- |
+| Footprint of a symbol | `LOCAL_SKC_<lib>:<name>` | `PCM_SKC_<lib>:<name>` |
+| 3D model of a footprint | `${KIPRJMOD}/3dmodels/<lib>.3dshapes/<name>.step` | `${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/...` |
+| Datasheet link | `https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/...` | `...@<release tag>/datasheets/...` |
+
+The release workflow builds the package with `tools/pcm_package.py`, which rewrites these references and refuses to build if anything local is left or a footprint or 3D model is missing.
+
+```bash
+make check                # integrity, KLC, ERC, DRC and a test package
+make package TAG=v1.2.3   # build the package a release would publish
+```
+
 ## Contribution
 
-Contributions are welcome! Follow the repository structure above and [KLC naming conventions](https://klc.kicad.org).
+Contributions are welcome! Follow the repository structure above and [KLC naming conventions](https://klc.kicad.org), and make sure `make check` passes.
 
 ## License
 

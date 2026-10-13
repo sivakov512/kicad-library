@@ -363,7 +363,7 @@
 		(uuid "7fbd8d0f-9bf8-4b14-abe1-72997002c4a0")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Package_SO.3dshapes/ROHM_SOP-8_4.4x5mm_P1.27mm.step"
+	(model "${KIPRJMOD}/3dmodels/SKC_Package_SO.3dshapes/ROHM_SOP-8_4.4x5mm_P1.27mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -30,7 +30,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SKC_Package_QFN:Texas_RUX0012A_VQFN-HR-12_2x2.5mm_P0.5mm"
+		(property "Footprint" "LOCAL_SKC_Package_QFN:Texas_RUX0012A_VQFN-HR-12_2x2.5mm_P0.5mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

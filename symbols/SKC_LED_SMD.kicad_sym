@@ -30,7 +30,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "PCM_SKC_LED_SMD:LED_SK6812_EC20_2.0x2.0mm"
+		(property "Footprint" "LOCAL_SKC_LED_SMD:LED_SK6812_EC20_2.0x2.0mm"
 			(at 1.27 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)

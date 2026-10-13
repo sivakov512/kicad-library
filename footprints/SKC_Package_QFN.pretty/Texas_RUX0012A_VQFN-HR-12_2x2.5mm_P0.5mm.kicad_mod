@@ -281,7 +281,7 @@
 		(uuid "0b801570-b63b-4056-ad11-7893c22b6aed")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Package_QFN.3dshapes/Texas_RUX0012A_VQFN-HR-12_2x2.5mm_P0.5mm.step"
+	(model "${KIPRJMOD}/3dmodels/SKC_Package_QFN.3dshapes/Texas_RUX0012A_VQFN-HR-12_2x2.5mm_P0.5mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

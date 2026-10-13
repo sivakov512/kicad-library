@@ -119,7 +119,7 @@ def main(out_dir):
     row_height = 0.0
     n = 0
     for lib_dir in kl.footprint_libs():
-        nickname = kl.PCM_PREFIX + kl.lib_name(lib_dir)
+        nickname = kl.LOCAL_PREFIX + kl.lib_name(lib_dir)
         for path in kl.footprint_files(lib_dir):
             fp = kl.load(path)
             x0, x1, y0, y1 = bbox(fp)

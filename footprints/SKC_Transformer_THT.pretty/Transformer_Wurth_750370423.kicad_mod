@@ -244,7 +244,7 @@
 		(uuid "98b9f8f9-e649-4551-ac0b-8ef2a5593f2e")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Transformer_THT.3dshapes/Transformer_Wurth_750370423.step"
+	(model "${KIPRJMOD}/3dmodels/SKC_Transformer_THT.3dshapes/Transformer_Wurth_750370423.step"
 		(offset
 			(xyz 0 0 0)
 		)

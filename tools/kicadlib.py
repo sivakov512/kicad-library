@@ -6,8 +6,9 @@ import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# Symbols reference footprints by the nickname PCM installs the library under.
-PCM_PREFIX = "PCM_"
+# Symbols reference footprints by the nickname the repository project uses;
+# tools/pcm_package.py renames it to the PCM one for a release.
+LOCAL_PREFIX = "LOCAL_"
 
 
 class Q(str):
@@ -153,14 +154,14 @@ def lib_table(kind, entries):
 
 
 def project_lib_tables(out_dir):
-    """Write lib tables mapping the PCM nicknames to this repository's libraries."""
+    """Write lib tables mapping the local nicknames to this repository's libraries."""
     rel = os.path.relpath(ROOT, out_dir)
     sym = [
-        (PCM_PREFIX + lib_name(p), "${KIPRJMOD}/%s/symbols/%s" % (rel, os.path.basename(p)))
+        (LOCAL_PREFIX + lib_name(p), "${KIPRJMOD}/%s/symbols/%s" % (rel, os.path.basename(p)))
         for p in symbol_libs()
     ]
     fp = [
-        (PCM_PREFIX + lib_name(p), "${KIPRJMOD}/%s/footprints/%s" % (rel, os.path.basename(p)))
+        (LOCAL_PREFIX + lib_name(p), "${KIPRJMOD}/%s/footprints/%s" % (rel, os.path.basename(p)))
         for p in footprint_libs()
     ]
     with open(os.path.join(out_dir, "sym-lib-table"), "w") as f:

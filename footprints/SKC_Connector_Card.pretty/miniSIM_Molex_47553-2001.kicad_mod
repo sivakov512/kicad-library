@@ -395,7 +395,7 @@
 		(uuid "25969191-a87f-4317-ba73-04c91afc1dcb")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Connector_Card.3dshapes/miniSIM_Molex_47553-2001.step"
+	(model "${KIPRJMOD}/3dmodels/SKC_Connector_Card.3dshapes/miniSIM_Molex_47553-2001.step"
 		(offset
 			(xyz 0 0 0)
 		)

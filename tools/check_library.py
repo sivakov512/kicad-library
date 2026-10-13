@@ -21,9 +21,11 @@ sys.path.insert(0, os.path.join(ROOT, "tools", "kicad-library-utils", "common"))
 from kicad_mod import KicadMod  # noqa: E402
 from kicad_sym import KicadLibrary  # noqa: E402
 
-PCM_PREFIX = "PCM_"
+# In the repository everything points at the working copy; tools/pcm_package.py
+# rewrites nicknames, model paths and datasheet links for a release.
+LOCAL_PREFIX = "LOCAL_"
 DATASHEET_URL = "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/"
-OWN_MODEL = re.compile(r"^\$\{KICAD\d*_3RD_PARTY\}/3dmodels/com_github_sivakov512_kicad-library/(.*)$")
+OWN_MODEL = re.compile(r"^\$\{KIPRJMOD\}/3dmodels/(.*)$")
 STOCK_MODEL = re.compile(r"^\$\{KICAD\d*_3DMODEL_DIR\}/(.*)$")
 STOCK_MODEL_DIRS = [
     os.environ.get("KICAD10_3DMODEL_DIR", ""),
@@ -70,7 +72,7 @@ def load_footprints():
     footprints = {}
     for path in sorted(glob.glob(os.path.join(ROOT, "footprints", "*.pretty", "*.kicad_mod"))):
         lib = os.path.basename(os.path.dirname(path))[: -len(".pretty")]
-        footprints["%s%s:%s" % (PCM_PREFIX, lib, os.path.basename(path)[: -len(".kicad_mod")])] = KicadMod(path)
+        footprints["%s%s:%s" % (LOCAL_PREFIX, lib, os.path.basename(path)[: -len(".kicad_mod")])] = KicadMod(path)
     return footprints
 
 
@@ -79,13 +81,16 @@ def check_footprints(footprints):
     if not stock_dir:
         print("WARN  KiCad 3D model directory not found, stock models are not checked")
     for fp_id, fp in footprints.items():
-        where = fp_id[len(PCM_PREFIX):]
+        where = fp_id[len(LOCAL_PREFIX):]
         # KLC F9.1: footprints carry the datasheet URL in their description
         for url in re.findall(re.escape(DATASHEET_URL) + r"\S+\.pdf", fp.description):
             check_datasheet(where, url)
         for model in fp.models:
             own, stock = OWN_MODEL.match(model["file"]), STOCK_MODEL.match(model["file"])
             if own:
+                expected = "%s.3dshapes/%s.step" % tuple(where.split(":"))
+                if own.group(1) != expected:
+                    error(where, "3D model %s should be %s" % (own.group(1), expected))
                 check_file(where, os.path.join(ROOT, "3dmodels", own.group(1)), b"ISO-10303", "3D model", "STEP")
             elif stock and stock_dir and not os.path.isfile(os.path.join(stock_dir, stock.group(1))):
                 error(where, "stock 3D model %s does not exist" % stock.group(1))
@@ -106,7 +111,10 @@ def check_symbols(footprints):
             root = sym.get_root_symbol()
             check_datasheet(where, symbol_property(sym, "Datasheet"))
             fp_id = symbol_property(sym, "Footprint")
-            if not fp_id.startswith(PCM_PREFIX):
+            if fp_id.startswith("PCM_SKC_"):
+                error(where, "footprint %s should use the local nickname %s" % (fp_id, LOCAL_PREFIX + fp_id[4:]))
+                continue
+            if not fp_id.startswith(LOCAL_PREFIX):
                 continue  # stock footprints are checked by ERC
             if fp_id not in footprints:
                 error(where, "default footprint %s does not exist" % fp_id)

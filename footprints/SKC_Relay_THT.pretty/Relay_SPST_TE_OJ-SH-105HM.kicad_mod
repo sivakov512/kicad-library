@@ -350,7 +350,7 @@
 		(uuid "7a2f8602-6185-4e93-b0d5-d09fe892343e")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Relay_THT.3dshapes/Relay_SPST_TE_OJ-SH-105HM.step"
+	(model "${KIPRJMOD}/3dmodels/SKC_Relay_THT.3dshapes/Relay_SPST_TE_OJ-SH-105HM.step"
 		(offset
 			(xyz 0 0 0)
 		)

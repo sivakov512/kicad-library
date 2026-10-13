@@ -167,7 +167,7 @@
 		(uuid "56e33142-6abc-4c09-b99f-4e81c18a0168")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Buzzer_SMD.3dshapes/MagneticBuzzer_KELIKING_KLJ-5020.step"
+	(model "${KIPRJMOD}/3dmodels/SKC_Buzzer_SMD.3dshapes/MagneticBuzzer_KELIKING_KLJ-5020.step"
 		(offset
 			(xyz 0 0 0)
 		)

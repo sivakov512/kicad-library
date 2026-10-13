@@ -397,7 +397,7 @@
 		(uuid "e421eec4-1ace-49b2-9ddd-e7de6a793a9a")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_Relay_THT.3dshapes/Relay_SPDT_Relpol_RM51.step"
+	(model "${KIPRJMOD}/3dmodels/SKC_Relay_THT.3dshapes/Relay_SPDT_Relpol_RM51.step"
 		(offset
 			(xyz 0 0 0)
 		)

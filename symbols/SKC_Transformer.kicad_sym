@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SKC_Transformer_THT:Transformer_Wurth_750370423"
+		(property "Footprint" "LOCAL_SKC_Transformer_THT:Transformer_Wurth_750370423"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -656,7 +656,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SKC_Transformer_THT:Transformer_Zeming_ZMPT101B"
+		(property "Footprint" "LOCAL_SKC_Transformer_THT:Transformer_Zeming_ZMPT101B"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

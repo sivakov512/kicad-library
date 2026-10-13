@@ -615,7 +615,7 @@
 		(members "142f6863-25c2-45cb-9674-6d017cdfff4d" "9805eced-8d44-4629-8fa9-5b3203ac35a5")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sivakov512_kicad-library/SKC_DevKit.3dshapes/Waveshare_ESP32-C6-Zero.step"
+	(model "${KIPRJMOD}/3dmodels/SKC_DevKit.3dshapes/Waveshare_ESP32-C6-Zero.step"
 		(offset
 			(xyz 0 0 0)
 		)

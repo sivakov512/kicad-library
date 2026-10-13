@@ -17,12 +17,14 @@ import kicadlib as kl
 # Some rules list every offending item; keep the report readable.
 MAX_DETAILS = 10
 
-# Third-party libraries ship their models under ${KICADn_3RD_PARTY}, not in
-# KiCad's bundled model directory, so these F9.3 messages never apply.
+# In the repository models are referenced from the working copy as
+# ${KIPRJMOD}/3dmodels/<lib>.3dshapes/...; tools/pcm_package.py rewrites them to
+# ${KICADn_3RD_PARTY}/... for a release. The checker only knows KiCad's bundled
+# model directory, so these F9.3 messages are dropped when the folder matches.
 IGNORED_MESSAGES = [
     re.compile(r"^Model path should start with '\$\{KICAD\d+_3DMODEL_DIR\}/'"),
-    re.compile(r"^Model path starts with outdated prefix '\$\{KICAD\d+_3RD_PARTY\}/"),
-    re.compile(r"^3D model directory is different from footprint directory \(found '\$\{KICAD\d+_3RD_PARTY\}/"),
+    re.compile(r"^3D model directory is different from footprint directory "
+               r"\(found '\$\{KIPRJMOD\}/3dmodels/(?P<dir>[^']+)', should be '(?P=dir)'\)"),
 ]
 
 
@@ -35,10 +37,10 @@ STOCK_FOOTPRINT_DIRS = [
 
 def footprint_aliases(build_dir):
     """Expose footprint libraries under the nicknames the symbols use: this
-    library under its PCM nicknames, KiCad's stock libraries as they are."""
+    library under its local nicknames, KiCad's stock libraries as they are."""
     alias_dir = os.path.join(build_dir, "fp-aliases")
     os.makedirs(alias_dir, exist_ok=True)
-    libs = [(kl.PCM_PREFIX + os.path.basename(d), d) for d in kl.footprint_libs()]
+    libs = [(kl.LOCAL_PREFIX + os.path.basename(d), d) for d in kl.footprint_libs()]
     stock_dir = next((d for d in STOCK_FOOTPRINT_DIRS if d and os.path.isdir(d)), None)
     if stock_dir:
         libs += [(name, os.path.join(stock_dir, name)) for name in os.listdir(stock_dir) if name.endswith(".pretty")]

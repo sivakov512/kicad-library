@@ -30,7 +30,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SKC_Module_Cellular:SIMCom_A7672x_A7670x"
+		(property "Footprint" "LOCAL_SKC_Module_Cellular:SIMCom_A7672x_A7670x"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1686,7 +1686,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SKC_Module_Cellular:SIMCom_A7672x_A7670x"
+		(property "Footprint" "LOCAL_SKC_Module_Cellular:SIMCom_A7672x_A7670x"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
