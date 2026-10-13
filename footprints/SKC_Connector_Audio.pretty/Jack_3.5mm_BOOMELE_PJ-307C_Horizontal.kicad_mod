@@ -1,0 +1,261 @@
+(footprint "Jack_3.5mm_BOOMELE_PJ-307C_Horizontal"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "3.5mm stereo audio jack, switched tip and ring, horizontal, BOOMELE PJ-307C, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Connector_Audio/BOOMELE_PJ-307C.pdf")
+	(tags "audio jack 3.5mm stereo headphones TRS horizontal BOOMELE PJ-307C")
+	(property "Reference" "REF**"
+		(at 0 6.3 0)
+		(layer "F.SilkS")
+		(uuid "e2d74931-fc5c-415a-9451-4296952747a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Jack_3.5mm_BOOMELE_PJ-307C_Horizontal"
+		(at 0 -10.3 0)
+		(layer "F.Fab")
+		(uuid "86fc6884-06b9-4604-a45c-e2522881854b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4649358-7c26-490c-b833-39f6b6ad3de2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4d00e51-422d-4412-804e-43d4b41bc88e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -6 -6)
+		(end -6 5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dcf19185-397d-4820-83dd-fa4211ea4811")
+	)
+	(fp_line
+		(start -6 5)
+		(end 6 5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c7a5e28d-991e-449d-a328-27cf72b6cb96")
+	)
+	(fp_line
+		(start -2.5 -6)
+		(end -2.5 -9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64f11ae6-457a-4a03-8ba6-e71e19b99d2e")
+	)
+	(fp_line
+		(start -2.5 -6)
+		(end 2.5 -6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3d5bd221-09ae-41a2-a2bf-3df4466d26de")
+	)
+	(fp_line
+		(start 2.5 -6)
+		(end 2.5 -9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c07b31b2-b741-457f-b507-5509f6fb3c27")
+	)
+	(fp_line
+		(start 6 5)
+		(end 6 -6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e1cff35-dce1-4ba3-9b9c-ac56734d7ef1")
+	)
+	(fp_poly
+		(pts
+			(xy -2.5 -9) (xy 2.5 -9) (xy 2.5 -6) (xy -2.5 -6)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill hatch)
+		(layer "Dwgs.User")
+		(uuid "c0716e30-bb40-478b-a53f-0aacf2c70b15")
+	)
+	(fp_poly
+		(pts
+			(xy -3.25 -6.25) (xy -3.25 -9.25) (xy 3.25 -9.25) (xy 3.25 -6.25) (xy 6.25 -6.25) (xy 6.25 5.25)
+			(xy -6.25 5.25) (xy -6.25 -6.25) (xy -3.25 -6.25)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4fd44b3b-4afa-488b-ae6b-992c83167b29")
+	)
+	(fp_poly
+		(pts
+			(xy -6 -6) (xy -3 -6) (xy -3 -9) (xy 3 -9) (xy 3 -6) (xy 6 -6) (xy 6 5) (xy -6 5) (xy -6 -6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0df805ab-efc8-4d34-83de-7cc7ce4c8078")
+	)
+	(fp_text user "Floating area"
+		(at 0 -7.5 0)
+		(layer "Dwgs.User")
+		(uuid "691c4056-6485-42d5-a826-729e68d572d0")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "df5ef802-abd4-4bf2-b704-38d05208f202")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -5 -5)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "d5cbb178-ffd6-421c-999a-75230cab1973")
+	)
+	(pad "" np_thru_hole circle
+		(at -5 -2.5)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "d84bf47d-9f51-44b2-80c6-a29b326b8bfa")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 2.5)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "e6754e30-6aaa-4e99-b442-ae617c0a66df")
+	)
+	(pad "" np_thru_hole circle
+		(at 5 -5)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "a3e4576a-3d7e-49de-9152-50a772ea3b08")
+	)
+	(pad "" np_thru_hole circle
+		(at 5 -2.5)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "73a63ece-7715-4bc5-9f40-7481a7556e0e")
+	)
+	(pad "R" thru_hole oval
+		(at 5 2.5 90)
+		(size 2.2 1.5)
+		(drill oval 1.5 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "68f346e4-0c35-4f68-b682-9d9fa76944d3")
+	)
+	(pad "RN" thru_hole oval
+		(at 2.5 2.5 90)
+		(size 2.2 1.5)
+		(drill oval 1.5 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1aaa1971-d58c-4dd0-9ff7-de5eb88e6d84")
+	)
+	(pad "S" thru_hole oval
+		(at 0 -2.5)
+		(size 2.2 1.5)
+		(drill oval 1.5 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "39425ad4-1955-47c6-ad2d-49492fabcb92")
+	)
+	(pad "T" thru_hole oval
+		(at -5 2.5 90)
+		(size 2.2 1.5)
+		(drill oval 1.5 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6dc4ea5d-62d6-4c5b-b411-685315835b48")
+	)
+	(pad "TN" thru_hole oval
+		(at -2.5 2.5 90)
+		(size 2.2 1.5)
+		(drill oval 1.5 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "369b515e-14c2-4f81-baf2-55596d5bfe11")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/SKC_Connector_Audio.3dshapes/Jack_3.5mm_BOOMELE_PJ-307C_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

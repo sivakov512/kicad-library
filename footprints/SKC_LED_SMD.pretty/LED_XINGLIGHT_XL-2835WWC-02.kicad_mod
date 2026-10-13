@@ -1,0 +1,234 @@
+(footprint "LED_XINGLIGHT_XL-2835WWC-02"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "XINGLIGHT XL-2835WWC-02 white LED, PLCC-2 3.5x2.8mm, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/LED_SMD/XINGLIGHT_XL-2835WWC-02.pdf")
+	(tags "LED SMD 2835 PLCC2 XINGLIGHT XL-2835WWC-02")
+	(property "Reference" "REF**"
+		(at 0.3 -4 0)
+		(layer "F.SilkS")
+		(uuid "b0665b50-4bde-4e3b-b2ba-eafb3d71fd5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_XINGLIGHT_XL-2835WWC-02"
+		(at 0.3 4 0)
+		(layer "F.Fab")
+		(uuid "c85fe8ab-d86d-47bb-9b77-0781610a6ed6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52398163-6c56-4686-8a6f-bc2dba348559")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.3 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3835f4d9-ace2-46f1-959d-3b4b0daf1b97")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.6 -1.4)
+		(end -2.6 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1364d688-7a15-4e4c-ade0-2adf14f558a8")
+	)
+	(fp_line
+		(start -2.6 1.4)
+		(end -2.3 1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c22a96d7-9589-425f-b244-475bbcd3bd75")
+	)
+	(fp_line
+		(start -2.3 -1.7)
+		(end -2.6 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de774028-6ea4-46a9-868c-1abe93183041")
+	)
+	(fp_line
+		(start -2.3 1.7)
+		(end -0.5 1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27798ad5-f930-4dfe-a7cc-e62b456a4b76")
+	)
+	(fp_line
+		(start -0.5 -1.7)
+		(end -2.3 -1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eee29274-8784-4c9d-9430-3efb3b03f0db")
+	)
+	(fp_line
+		(start 0.4 -1.7)
+		(end 2.4 -1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0cdca630-e560-48b0-91ae-0519d0cb6581")
+	)
+	(fp_line
+		(start 2.4 -1.7)
+		(end 2.4 1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "abf7f068-9227-42ac-bbc9-9bcb1c59afc9")
+	)
+	(fp_line
+		(start 2.4 1.7)
+		(end 0.4 1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "605c9b28-08bf-446d-b5e9-a3bd13613088")
+	)
+	(fp_circle
+		(center 1.75 -1.4)
+		(end 1.78 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a0263848-2e1a-4eed-b064-85de69bcabbf")
+	)
+	(fp_line
+		(start -1.75 -1.4)
+		(end 1.75 -1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e9a4b8c4-9881-4f2d-bac9-6f19f56d7fbd")
+	)
+	(fp_line
+		(start -1.75 1.4)
+		(end -1.75 -1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6b2f2c28-d1b3-4f3b-bd3b-2ddf0fa427ba")
+	)
+	(fp_line
+		(start 1.75 -1.4)
+		(end 1.75 1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9ddf13ca-66a0-4485-a021-adfa1b56b8c3")
+	)
+	(fp_line
+		(start 1.75 1.4)
+		(end -1.75 1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5373494f-2fe7-4ae3-89c1-fddeba2d6324")
+	)
+	(fp_poly
+		(pts
+			(xy -1.75 -1.4) (xy 1.048 -1.4) (xy 1.75 -0.698) (xy 1.75 1.4) (xy -1.75 1.4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "41ed83cf-62f4-4e8d-8d0c-c9f0448aba13")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.3 0 0)
+		(layer "F.Fab")
+		(uuid "6349f8f9-a4e3-4b52-9bee-7845101222e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 1.55 0 180)
+		(size 1.4 2.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1786)
+		(uuid "2443c743-4a81-4673-abca-275487c9a9bd")
+	)
+	(pad "2" smd roundrect
+		(at -0.95 0)
+		(size 2.4 2.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1042)
+		(uuid "d5a372b9-d56a-49db-b699-6aa3f4985c85")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/SKC_LED_SMD.3dshapes/LED_XINGLIGHT_XL-2835WWC-02.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

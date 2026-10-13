@@ -1,0 +1,299 @@
+(footprint "SW_SP3T_SHOUHAN_SS13D07VG4"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SHOUHAN SS13D07VG4 SP3T slide switch, 12.8x4.4mm, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Switch/SHOUHAN_SS13D07VG4.pdf")
+	(tags "slide switch SP3T SHOUHAN SS13D07")
+	(property "Reference" "REF**"
+		(at 4 -4 0)
+		(layer "F.SilkS")
+		(uuid "63719cd1-4b7e-47b1-b869-1807e1e09284")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_SP3T_SHOUHAN_SS13D07VG4"
+		(at 4 4 0)
+		(layer "F.Fab")
+		(uuid "930c5b30-ccb1-450f-a523-88b7d779f290")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1458a9fb-1a0a-4596-888e-abd8adbcb7bc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 4 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d915aaf-3338-4b42-be1e-2bd136dd48c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.4 -2.2)
+		(end -2.4 -1.31)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1355012f-02f1-448e-889a-0264fca845b8")
+	)
+	(fp_line
+		(start -2.4 -2.2)
+		(end 10.4 -2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "140dd33d-6950-407e-bfda-4679ba48069a")
+	)
+	(fp_line
+		(start -2.4 1.31)
+		(end -2.4 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31a7e486-778a-43e2-8dd7-775f58b2bdd8")
+	)
+	(fp_line
+		(start -2.4 2.2)
+		(end 10.4 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "689008d4-9f27-45bd-9684-4f275426397e")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 7 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d104888d-03b9-4b5d-ad07-f4727d4a3a84")
+	)
+	(fp_line
+		(start 1 1)
+		(end 1 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "faefba5a-1d9e-408e-9ca4-3589bef0772e")
+	)
+	(fp_line
+		(start 7 -1)
+		(end 7 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4a283a67-43ab-4819-9224-811879275ada")
+	)
+	(fp_line
+		(start 7 1)
+		(end 1 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f818f3e-80b9-4af3-b3bb-c023e6769f9a")
+	)
+	(fp_line
+		(start 10.4 -2.2)
+		(end 10.4 -1.31)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4fd9c55d-4949-4d2b-baa6-3b3ea84f26e7")
+	)
+	(fp_line
+		(start 10.4 1.31)
+		(end 10.4 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56671439-5c4b-41e5-a44d-4c5e54628b64")
+	)
+	(fp_line
+		(start 10.4 2)
+		(end 10.4 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3724c2f4-ea4d-426f-9093-afa1928d433d")
+	)
+	(fp_circle
+		(center -2.4 2.25)
+		(end -2.37 2.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a09aed61-3804-4ae8-931e-e52d044ec1c5")
+	)
+	(fp_line
+		(start -2.35 -2.25)
+		(end 10.35 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3cf2bdda-583f-4653-beff-cd19797c7425")
+	)
+	(fp_line
+		(start -2.35 2.25)
+		(end -2.35 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "86c60171-106f-4f1d-8b23-7b923d960ffa")
+	)
+	(fp_line
+		(start 10.35 -2.25)
+		(end 10.35 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "99e00dbe-c4c3-4322-94a6-9943b037563e")
+	)
+	(fp_line
+		(start 10.35 2.25)
+		(end -2.35 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6837d646-f43d-4f37-b2f7-4973d0a17ab8")
+	)
+	(fp_poly
+		(pts
+			(xy -2.4 -1.2) (xy -1.4 -2.2) (xy 10.4 -2.2) (xy 10.4 2.2) (xy -2.4 2.2)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "35894581-c9aa-4a48-bb43-180db323127f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4 0 0)
+		(layer "F.Fab")
+		(uuid "626e9986-5a41-4093-aa87-7feae1be4bf2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole oval
+		(at -2.2 0)
+		(size 1.4 2.2)
+		(drill oval 0.8 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "44d558a8-f6cf-4f03-93c8-195251361bc4")
+	)
+	(pad "" thru_hole oval
+		(at 10.2 0)
+		(size 1.4 2.2)
+		(drill oval 0.8 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4304c1c0-c50e-40dc-a522-f852a126d329")
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "380bc47e-59c2-4046-b739-b93b1f8d3f1e")
+	)
+	(pad "2" thru_hole circle
+		(at 4 0)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5adec8a2-3626-4bc6-b666-438609d80713")
+	)
+	(pad "3" thru_hole circle
+		(at 6 0)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cc5416aa-c159-4bd2-b379-2bb76cdb4d43")
+	)
+	(pad "4" thru_hole circle
+		(at 8 0)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ff087aa6-3c86-402b-bf84-0eb2dece799b")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/SKC_Button_THT.3dshapes/SW_SP3T_SHOUHAN_SS13D07VG4.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

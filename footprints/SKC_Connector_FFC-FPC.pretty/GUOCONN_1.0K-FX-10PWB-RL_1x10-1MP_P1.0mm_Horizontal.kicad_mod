@@ -1,0 +1,235 @@
+(footprint "GUOCONN_1.0K-FX-10PWB-RL_1x10-1MP_P1.0mm_Horizontal"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "GUOCONN FFC/FPC connector, horizontal, bottom contacts, 10 contacts, 1.0mm pitch, 3D model of the pin-compatible TE 1-84952-0, https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@main/datasheets/Connector_FFC-FPC/GUOCONN_1.0K-FX-10PWB-RL.pdf")
+	(tags "connector FFC FPC GUOCONN 1.0K-FX-10PWB-RL horizontal")
+	(property "Reference" "REF**"
+		(at 0 -5.65 0)
+		(layer "F.SilkS")
+		(uuid "ea6792b7-b67b-4e7c-bd04-86c4384530b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "GUOCONN_1.0K-FX-10PWB-RL_1x10-1MP_P1.0mm_Horizontal"
+		(at 0 5.1 0)
+		(layer "F.Fab")
+		(uuid "13ca6fef-2c02-4076-8a47-579a47bb0643")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -0.275 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa6fcf4d-a84f-4d4b-ad26-2ff67ff5ee36")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -0.275 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5fe30ca-c304-4a2a-8f48-ccee5fa0409b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -8.5 4.995)
+		(end -8.5 2.415)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b5324fc0-6c4b-47cc-a9ca-8ada1a809e2f")
+	)
+	(fp_line
+		(start 5.86 -0.485)
+		(end -5.86 -0.485)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec3f0815-fe8a-45cc-a779-ccc718eb67f0")
+	)
+	(fp_line
+		(start 8.5 4.995)
+		(end -8.5 4.995)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c11ce54d-ac79-410b-bbb9-1b167421972f")
+	)
+	(fp_line
+		(start 8.5 4.995)
+		(end 8.5 2.415)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "96d3ef5b-d565-4b68-9ede-897fa0b97b64")
+	)
+	(fp_circle
+		(center -5.2 -0.975)
+		(end -5.1 -0.975)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "2e2a85ff-7ef9-4f56-8b8e-73e6c5e08edf")
+	)
+	(fp_rect
+		(start -9.46 -2.9)
+		(end 9.46 4.83)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7e192153-1d06-486d-8ba9-d055fb1e6a28")
+	)
+	(fp_poly
+		(pts
+			(xy -8.96 -1.215) (xy -7.96 -2.215) (xy 8.96 -2.215) (xy 8.96 4.325) (xy -8.96 4.325)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "36aebc12-112e-4d09-816c-9852ddec47dc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.275 0)
+		(layer "F.Fab")
+		(uuid "eef24725-f650-4df7-a895-7a82d884bd41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -4.5 -1.645)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "89e1f59a-6129-4563-9231-0a282ef2768d")
+	)
+	(pad "2" smd roundrect
+		(at -3.5 -1.645)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "867fc610-68fb-41a3-bb75-d4d060b7c9ff")
+	)
+	(pad "3" smd roundrect
+		(at -2.5 -1.645)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "0dd60cd4-ef38-41d0-b05f-c315708a696c")
+	)
+	(pad "4" smd roundrect
+		(at -1.5 -1.645)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "038ef19e-c923-46f6-8aeb-4fbd4dd22320")
+	)
+	(pad "5" smd roundrect
+		(at -0.5 -1.645)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "15b0b75d-4699-4ffb-ab8d-5513829dee27")
+	)
+	(pad "6" smd roundrect
+		(at 0.5 -1.645)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e007a1cd-10ca-4994-994c-c7e60a002b40")
+	)
+	(pad "7" smd roundrect
+		(at 1.5 -1.645)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "59459ec0-78d0-4c47-bb1e-419d164b67b1")
+	)
+	(pad "8" smd roundrect
+		(at 2.5 -1.645)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "5bfd2a4a-931e-406b-b2e0-f52ff90d098c")
+	)
+	(pad "9" smd roundrect
+		(at 3.5 -1.645)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e76ff940-4e56-406a-b308-9130c1a159ab")
+	)
+	(pad "10" smd roundrect
+		(at 4.5 -1.645)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "9a7310e6-e1a8-411b-8d9c-036305ed95d0")
+	)
+	(pad "11" smd roundrect
+		(at 7.15 1.095)
+		(size 2.3 2.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1087)
+		(uuid "fe543e57-a2ec-4ace-9120-78cd1e74c80e")
+	)
+	(pad "12" smd roundrect
+		(at -7.15 1.095)
+		(size 2.3 2.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1087)
+		(uuid "ece43369-4a10-4e73-b12b-9d20ccbc9cef")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/SKC_Connector_FFC-FPC.3dshapes/GUOCONN_1.0K-FX-10PWB-RL_1x10-1MP_P1.0mm_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
