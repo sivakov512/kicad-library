@@ -1,5 +1,34 @@
 # Changelog
 
+## [3.0.0](https://github.com/sivakov512/kicad-library/compare/v2.1.2...v3.0.0) (2026-10-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* lowercase x for SIMCom footprint, Molex datasheet name
+* listed pin stacks, 100mil pins, stock fields, A7672x GND
+* drop unused CP_Radial D5/P1.5 and D16/P10 footprints
+* KLJ-5020 land pattern and pads per datasheet
+* rename symbols, footprints and datasheets per KLC
+* bring symbols and footprints in line with KLC
+* migrate all libraries to KiCad 10 format
+
+### Bug Fixes
+
+* bring symbols and footprints in line with KLC ([6072c72](https://github.com/sivakov512/kicad-library/commit/6072c725f3d93b9bc5928b503ca277937790f2d4))
+* KLJ-5020 land pattern and pads per datasheet ([f4fb927](https://github.com/sivakov512/kicad-library/commit/f4fb92748aa864ad5f6f8708729b6f92099f82d1))
+* listed pin stacks, 100mil pins, stock fields, A7672x GND ([d21d9d1](https://github.com/sivakov512/kicad-library/commit/d21d9d10bc049281f8d2eaa614fb0ca5d8aa9668))
+* migrate all libraries to KiCad 10 format ([7ebd067](https://github.com/sivakov512/kicad-library/commit/7ebd067859d8d1978d92e3ec62b459818c4fee2c))
+* replace wrong and missing 3D models, bake placement into STEP ([900b9f3](https://github.com/sivakov512/kicad-library/commit/900b9f3ce4ecfddeb52de18ca7612fd4a23b88dd))
+* round non-pin-1 THT pads, KLC exception for Cvilux USB-C ([525a244](https://github.com/sivakov512/kicad-library/commit/525a2443855782195eda20c11be3fd881fdde7d2))
+
+
+### Code Refactoring
+
+* drop unused CP_Radial D5/P1.5 and D16/P10 footprints ([83d346a](https://github.com/sivakov512/kicad-library/commit/83d346a68ecd7a1ca611542ce499f6b6acac240b))
+* lowercase x for SIMCom footprint, Molex datasheet name ([d7e347f](https://github.com/sivakov512/kicad-library/commit/d7e347fde274cb02c9ede95c26ed62b1188706f3))
+* rename symbols, footprints and datasheets per KLC ([e671b88](https://github.com/sivakov512/kicad-library/commit/e671b88ae8bf9e0c68147373a267310245f8afe3))
+
 ## [2.1.2](https://github.com/sivakov512/kicad-library/compare/v2.1.1...v2.1.2) (2026-10-12)
 
 
