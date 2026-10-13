@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.0](https://github.com/sivakov512/kicad-library/compare/v3.0.0...v3.1.0) (2026-10-13)
+
+
+### Features
+
+* add 15 parts used in client projects with models and datasheets ([8ee6e73](https://github.com/sivakov512/kicad-library/commit/8ee6e73971c42e2677858bf105777d906852b165))
+
 ## [3.0.0](https://github.com/sivakov512/kicad-library/compare/v2.1.2...v3.0.0) (2026-10-13)
 
 
