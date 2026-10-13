@@ -35,9 +35,44 @@ Updates arrive through the same manager.
 
 <!-- components:start -->
 
-[Antenna](#antenna) · [BatteryHolder](#batteryholder) · [Button](#button) · [Buzzer](#buzzer) · [Capacitor](#capacitor) · [Connector Audio](#connector-audio) · [Connector Card](#connector-card) · [Connector FFC-FPC](#connector-ffc-fpc) · [Connector USB](#connector-usb) · [Converter ACDC](#converter-acdc) · [Crystal](#crystal) · [DevKit](#devkit) · [Diode](#diode) · [Driver LED](#driver-led) · [Fuse](#fuse) · [FuseHolder](#fuseholder) · [Inductor](#inductor) · [LED](#led) · [MCU Espressif](#mcu-espressif) · [Module Cellular](#module-cellular) · [Motor Driver](#motor-driver) · [Power Monitor](#power-monitor) · [RF Module](#rf-module) · [Regulator Linear](#regulator-linear) · [Regulator Switching](#regulator-switching) · [Relay](#relay) · [Switch](#switch) · [Switch Power](#switch-power) · [TerminalBlock](#terminalblock) · [TestPoint](#testpoint) · [Thermistor](#thermistor) · [Transformer](#transformer)
+- [Antenna](#antenna) — 4
+- [BatteryHolder](#batteryholder) — 1
+- [Button](#button) — 2
+- [Buzzer](#buzzer) — 2
+- [Capacitor](#capacitor) — 1
+- [Connector Audio](#connector-audio) — 2
+- [Connector Card](#connector-card) — 1
+- [Connector FFC-FPC](#connector-ffc-fpc) — 2
+- [Connector USB](#connector-usb) — 2
+- [Converter ACDC](#converter-acdc) — 1
+- [Crystal](#crystal) — 1
+- [DevKit](#devkit) — 1
+- [Diode](#diode) — 1
+- [Driver LED](#driver-led) — 2
+- [Fuse](#fuse) — 1
+- [FuseHolder](#fuseholder) — 1
+- [Inductor](#inductor) — 2
+- [LED](#led) — 2
+- [MCU Espressif](#mcu-espressif) — 2
+- [Module Cellular](#module-cellular) — 1
+- [Motor Driver](#motor-driver) — 1
+- [Power Monitor](#power-monitor) — 1
+- [RF Module](#rf-module) — 1
+- [Regulator Linear](#regulator-linear) — 2
+- [Regulator Switching](#regulator-switching) — 1
+- [Relay](#relay) — 2
+- [Switch](#switch) — 1
+- [Switch Power](#switch-power) — 1
+- [TerminalBlock](#terminalblock) — 1
+- [TestPoint](#testpoint) — 1
+- [Thermistor](#thermistor) — 1
+- [Transformer](#transformer) — 2
 
-**Symbol** KiCad: use a stock KiCad symbol. **Footprint** (KiCad): stock footprint. **3D model:** ✅ included · ❌ not available · — not applicable (copper only) · KiCad: stock model
+Legend:
+
+- **Symbol** `KiCad`: no own symbol, use a stock KiCad one
+- **Footprint** `(KiCad)`: stock KiCad footprint
+- **3D model** ✅ included · ❌ not available · — copper only, no body · KiCad: stock model
 
 ### Antenna
 
