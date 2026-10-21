@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.2](https://github.com/sivakov512/kicad-library/compare/v3.1.1...v3.1.2) (2026-10-21)
+
+
+### Bug Fixes
+
+* MAX17048G ALRT pin is open-drain, named per datasheet ([d3a0168](https://github.com/sivakov512/kicad-library/commit/d3a01681571a43c38c1d521ee964ebb9e4dd298d))
+
 ## [3.1.1](https://github.com/sivakov512/kicad-library/compare/v3.1.0...v3.1.1) (2026-10-13)
 
 
