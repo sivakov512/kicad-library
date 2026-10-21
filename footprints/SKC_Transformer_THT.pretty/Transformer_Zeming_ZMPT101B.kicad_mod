@@ -85,15 +85,15 @@
 		(uuid "7fe3b8c6-2b96-45d6-a964-a65c4ba32a52")
 	)
 	(fp_rect
-		(start -4.72 -2.12)
-		(end 14.72 14.83)
+		(start -4.73 -2.13)
+		(end 14.73 14.83)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "4ae7502e-e4d6-4934-8a24-5207bfd604ba")
+		(uuid "73965e32-27ae-41bf-b84c-5695cd541da4")
 	)
 	(fp_line
 		(start -4.48 -0.42)

@@ -6,11 +6,13 @@ Usage: check_library.py
 - 3D models exist and are STEP files
 - datasheets hosted in this repository exist and are PDFs
 - every 3D model and datasheet in the repository is referenced
+- the courtyard keeps COURTYARD_CLEARANCE around the pads and the F.Fab body
 
 Files are read with the parsers of kicad-library-utils (git submodule).
 """
 
 import glob
+import math
 import os
 import re
 import sys
@@ -27,6 +29,7 @@ LOCAL_PREFIX = "LOCAL_"
 DATASHEET_URL = "${KIPRJMOD}/"  # repository datasheets; pcm_package.py publishes and links them
 OWN_MODEL = re.compile(r"^\$\{KIPRJMOD\}/3dmodels/(.*)$")
 STOCK_MODEL = re.compile(r"^\$\{KICAD\d*_3DMODEL_DIR\}/(.*)$")
+COURTYARD_CLEARANCE = 0.25  # KLC F5.3; the KLC checker only checks the grid and line width
 STOCK_MODEL_DIRS = [
     os.environ.get("KICAD10_3DMODEL_DIR", ""),
     "/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels",
@@ -92,6 +95,7 @@ def check_footprints(footprints):
             error(where, "description has no datasheet and there is no KLC_F9.1 exception")
         if "cdn.jsdelivr.net" in fp.description:
             error(where, "datasheet should be written as %sdatasheets/..." % DATASHEET_URL)
+        check_courtyard(where, fp)
         for model in fp.models:
             own, stock = OWN_MODEL.match(model["file"]), STOCK_MODEL.match(model["file"])
             if own:
@@ -103,6 +107,34 @@ def check_footprints(footprints):
                 error(where, "stock 3D model %s does not exist" % stock.group(1))
             elif not own and not stock:
                 error(where, "3D model path %s uses an unknown variable" % model["file"])
+
+
+def outline(fp, layer):
+    bb = fp.geometricBoundingBox(layer)
+    # BoundingBox.addPoint drops the radius of a circle centred on x or y = 0.
+    for c in fp.filterCircles(layer):
+        r = math.hypot(c["end"]["x"] - c["center"]["x"], c["end"]["y"] - c["center"]["y"])
+        bb.addPoint(c["center"]["x"] - r, c["center"]["y"] - r)
+        bb.addPoint(c["center"]["x"] + r, c["center"]["y"] + r)
+    return bb
+
+
+def check_courtyard(where, fp):
+    if "KLC_F5.3" in exceptions(fp):
+        return
+    courtyard = outline(fp, "F.CrtYd")
+    need = fp.overpadsBounds()
+    body = outline(fp, "F.Fab")
+    if body.valid:
+        need.addBoundingBox(body)
+    if not courtyard.valid or not need.valid:
+        return  # a missing courtyard is reported by the KLC checker
+    need.expand(COURTYARD_CLEARANCE - 1e-6)
+    if (courtyard.xmin > need.xmin or courtyard.ymin > need.ymin
+            or courtyard.xmax < need.xmax or courtyard.ymax < need.ymax):
+        error(where, "courtyard (%.2f, %.2f)..(%.2f, %.2f) should cover pads and body with %g mm: (%.2f, %.2f)..(%.2f, %.2f)"
+              % (courtyard.xmin, courtyard.ymin, courtyard.xmax, courtyard.ymax, COURTYARD_CLEARANCE,
+                 need.xmin, need.ymin, need.xmax, need.ymax))
 
 
 def exceptions(fp):
