@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.3](https://github.com/sivakov512/kicad-library/compare/v3.1.2...v3.1.3) (2026-10-21)
+
+
+### Bug Fixes
+
+* B3FS-40xxP pads paired per internal connection, not always closed ([6114770](https://github.com/sivakov512/kicad-library/commit/6114770c40329a6cb0662af9656153ceaa0947cc))
+
 ## [3.1.2](https://github.com/sivakov512/kicad-library/compare/v3.1.1...v3.1.2) (2026-10-21)
 
 
