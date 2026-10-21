@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.4](https://github.com/sivakov512/kicad-library/compare/v3.1.3...v3.1.4) (2026-10-21)
+
+
+### Bug Fixes
+
+* B3FS-40xxP pad pairs are joined inside the switch ([10fc67b](https://github.com/sivakov512/kicad-library/commit/10fc67b9c0f08d888dedd4a5a90ce19e3b186896))
+
 ## [3.1.3](https://github.com/sivakov512/kicad-library/compare/v3.1.2...v3.1.3) (2026-10-21)
 
 
