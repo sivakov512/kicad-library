@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.5](https://github.com/sivakov512/kicad-library/compare/v3.1.4...v3.1.5) (2026-10-21)
+
+
+### Bug Fixes
+
+* courtyards cover pads and body with 0.25 mm clearance ([0a01f89](https://github.com/sivakov512/kicad-library/commit/0a01f8989a8adf472204925baab020d9df4c89ba))
+
 ## [3.1.4](https://github.com/sivakov512/kicad-library/compare/v3.1.3...v3.1.4) (2026-10-21)
 
 
