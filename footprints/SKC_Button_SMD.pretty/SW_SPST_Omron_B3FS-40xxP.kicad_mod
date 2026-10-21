@@ -197,25 +197,18 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at 7.15 -2.5)
-		(size 2.3 2.4)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.1042)
-		(uuid "adafb1e6-22c9-48ca-83d7-3e77f191b7bc")
-	)
-	(pad "1" smd roundrect
-		(at 7.15 2.5)
-		(size 2.3 2.4)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.1042)
-		(uuid "3d80ede2-b0d2-439e-a569-7ac9ccf0ac4d")
-	)
-	(pad "2" smd roundrect
 		(at -7.15 -2.5)
 		(size 2.3 2.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1042)
 		(uuid "e1e507b1-a358-468c-aa55-6114f1ab5942")
+	)
+	(pad "1" smd roundrect
+		(at 7.15 -2.5)
+		(size 2.3 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1042)
+		(uuid "adafb1e6-22c9-48ca-83d7-3e77f191b7bc")
 	)
 	(pad "2" smd roundrect
 		(at -7.15 2.5)
@@ -223,6 +216,13 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1042)
 		(uuid "3f980eb5-8c17-43f0-ada2-e2d536610445")
+	)
+	(pad "2" smd roundrect
+		(at 7.15 2.5)
+		(size 2.3 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1042)
+		(uuid "3d80ede2-b0d2-439e-a569-7ac9ccf0ac4d")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3dmodels/SKC_Button_SMD.3dshapes/SW_SPST_Omron_B3FS-40xxP.step"
