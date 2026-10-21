@@ -140,10 +140,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin open_collector line
 				(at 12.7 10.16 180)
 				(length 2.54)
-				(name "~{ALERT}"
+				(name "~{ALRT}"
 					(effects
 						(font
 							(size 1.27 1.27)
