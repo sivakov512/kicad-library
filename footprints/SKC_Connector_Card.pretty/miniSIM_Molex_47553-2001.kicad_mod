@@ -125,125 +125,16 @@
 		(layer "Dwgs.User")
 		(uuid "8fc6ea62-83ae-42d8-a93b-b22a3057a0e8")
 	)
-	(fp_line
-		(start -11.23 8.16)
-		(end -11.23 11.56)
+	(fp_rect
+		(start -11.28 -11.69)
+		(end 11.28 41.12)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "f1b56830-e4fb-4081-b3a1-d4b90cade803")
-	)
-	(fp_line
-		(start -11.23 8.16)
-		(end -9.98 8.16)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "6a4e6230-2cb9-42b2-877f-693c6edb88ee")
-	)
-	(fp_line
-		(start -11.23 11.56)
-		(end -9.98 11.56)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "4c2585c4-fcbe-42a3-9c77-2a155ca53c80")
-	)
-	(fp_line
-		(start -9.98 -11.69)
-		(end 9.98 -11.69)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "f7cb6557-aa8a-4ae8-a180-c6a8b549987d")
-	)
-	(fp_line
-		(start -9.98 8.16)
-		(end -9.98 -11.69)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "b3893437-b07b-408d-80fa-db3c9eba83ba")
-	)
-	(fp_line
-		(start -9.98 11.56)
-		(end -9.98 41.12)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "22c0542c-4f27-4131-95e3-608412de00cd")
-	)
-	(fp_line
-		(start -9.98 41.12)
-		(end 9.98 41.12)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "b2915ec8-1f98-413d-97a2-73042146a2c8")
-	)
-	(fp_line
-		(start 9.98 -11.69)
-		(end 9.98 8.16)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "adb034b2-1135-4653-8cf4-010154af9d17")
-	)
-	(fp_line
-		(start 9.98 8.16)
-		(end 11.23 8.16)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "93154115-6c4a-4249-93e0-3152753afaf9")
-	)
-	(fp_line
-		(start 9.98 11.56)
-		(end 9.98 41.12)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "5f9271d4-35f4-4bfd-82cb-7540884dac32")
-	)
-	(fp_line
-		(start 11.23 8.16)
-		(end 11.23 11.56)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "41fb4382-000c-4197-9ae1-870d27d6c1bd")
-	)
-	(fp_line
-		(start 11.23 11.56)
-		(end 9.98 11.56)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "48d3b048-a8a0-465b-93ee-0f9ebdfb9cd4")
+		(uuid "89408dc7-c3c0-4a3c-90e8-fcbf3d1a7984")
 	)
 	(fp_line
 		(start -9.675 -11.385)
