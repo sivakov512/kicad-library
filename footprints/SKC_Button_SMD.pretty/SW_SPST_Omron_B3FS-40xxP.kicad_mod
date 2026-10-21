@@ -50,7 +50,7 @@
 		)
 	)
 	(attr smd)
-	(duplicate_pad_numbers_are_jumpers no)
+	(duplicate_pad_numbers_are_jumpers yes)
 	(fp_line
 		(start -6 -6)
 		(end 6 -6)
