@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.7](https://github.com/sivakov512/kicad-library/compare/v3.1.6...v3.1.7) (2026-10-22)
+
+
+### Bug Fixes
+
+* Omron B3FS-4000 symbols and footprints per plunger type ([bf77463](https://github.com/sivakov512/kicad-library/commit/bf77463245f0c6ead08b667d9e03668f20329ec7))
+
 ## [3.1.6](https://github.com/sivakov512/kicad-library/compare/v3.1.5...v3.1.6) (2026-10-22)
 
 
