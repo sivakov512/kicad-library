@@ -21,7 +21,7 @@ Open `kicad-library.kicad_pro` to edit the library. Its project library tables l
 
 | Check | What it covers |
 | --- | --- |
-| `make integrity` | Symbol pins match footprint pads; 3D models and datasheets exist and are STEP/PDF; courtyards clear pads and body; no unreferenced files. |
+| `make integrity` | Symbol pins match footprint pads; 3D models and datasheets exist and are STEP/PDF; courtyards clear every pad; no unreferenced files. |
 | `make klc` | Official KLC checker from [kicad-library-utils](https://gitlab.com/kicad/libraries/kicad-library-utils) (git submodule). `KLC_WARNINGS=1` lists warnings. |
 | `make erc` / `make drc` | ERC on a schematic and DRC on a board generated with every symbol and footprint. |
 | `make package` | Builds the PCM package the way a release does and checks it. |
@@ -70,7 +70,7 @@ Everything points at the working copy. `tools/pcm_package.py` rewrites the refer
 
 - **Source of 3D models.** Don't draw models yourself. Take them from the manufacturer; otherwise from LCSC/EasyEDA, for the same part or for a part with the same land pattern and body.
 - **Placement** is baked into the STEP file: the footprint keeps offset and rotation at 0 and scale at 1. Check the model against pads, holes and the board surface, including polarity.
-- **Courtyard** keeps at least 0.25 mm around the pads and the F.Fab body (KLC F5.3), also where leads stick out of the body.
+- **Courtyard** keeps the KLC F5.3 clearance around the pads and the body: 0.25 mm, 0.5 mm for connectors, buttons and switches, 0.15 mm for parts under 2x2 mm. It follows the outline of the part: where pads stick out of the body, leave the free space between them out of the courtyard. `make integrity` checks the pads; check the body against the datasheet.
 - **Footprints without a model** are fine when there is a reason; record it as a KLC exception (see below).
 
 ## KLC exceptions

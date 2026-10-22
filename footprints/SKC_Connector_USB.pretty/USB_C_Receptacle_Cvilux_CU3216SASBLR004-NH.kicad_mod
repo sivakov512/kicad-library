@@ -117,20 +117,32 @@
 		(layer "F.SilkS")
 		(uuid "f03ccf49-8569-408b-a721-98a4f9ae73d8")
 	)
-	(fp_rect
-		(start -2.43 -1.36)
-		(end 8.38 7.9)
+	(fp_line
+		(start -1.625 7.65)
+		(end 7.575 7.65)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "Dwgs.User")
+		(uuid "9f6331e1-a847-4050-b504-2f68a333ffcf")
+	)
+	(fp_poly
+		(pts
+			(xy -2.13 -1.6) (xy 8.08 -1.6) (xy 8.08 -0.4) (xy 8.63 -0.4) (xy 8.63 5.7) (xy 8.08 5.7) (xy 8.08 8.5)
+			(xy -2.13 8.5) (xy -2.13 5.7) (xy -2.68 5.7) (xy -2.68 -0.4) (xy -2.13 -0.4)
+		)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "f4a06486-0794-4cd9-b745-473cb3d80dff")
+		(uuid "d836d3b4-4203-46a2-9554-bb17ef5a21f2")
 	)
 	(fp_line
 		(start -1.625 -1.1)
-		(end -1.625 7.65)
+		(end -1.625 8)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -149,8 +161,8 @@
 		(uuid "3f624350-2a66-42df-b61e-6366eb093fe8")
 	)
 	(fp_line
-		(start -1.625 7.65)
-		(end 7.575 7.65)
+		(start -1.625 8)
+		(end 7.575 8)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -160,13 +172,25 @@
 	)
 	(fp_line
 		(start 7.575 -1.1)
-		(end 7.575 7.65)
+		(end 7.575 8)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "0c885668-0014-4c6c-92fe-4723cbb6fdf8")
+	)
+	(fp_text user "PCB Edge"
+		(at 2.975 7.25 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "4e450418-e3d8-4cbb-bdb8-fc0bf5f105c6")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.04)
+			)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 2.975 3.275 0)

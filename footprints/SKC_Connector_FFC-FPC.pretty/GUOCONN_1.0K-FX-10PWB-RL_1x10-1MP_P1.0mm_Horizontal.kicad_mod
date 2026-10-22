@@ -52,8 +52,8 @@
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -8.5 4.995)
-		(end -8.5 2.415)
+		(start -8.66 4.96)
+		(end -8.66 2.415)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -62,8 +62,8 @@
 		(uuid "b5324fc0-6c4b-47cc-a9ca-8ada1a809e2f")
 	)
 	(fp_line
-		(start 5.86 -0.485)
-		(end -5.86 -0.485)
+		(start 5.86 -0.56)
+		(end -5.86 -0.56)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -72,8 +72,8 @@
 		(uuid "ec3f0815-fe8a-45cc-a779-ccc718eb67f0")
 	)
 	(fp_line
-		(start 8.5 4.995)
-		(end -8.5 4.995)
+		(start 8.66 4.96)
+		(end -8.66 4.96)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -82,8 +82,8 @@
 		(uuid "c11ce54d-ac79-410b-bbb9-1b167421972f")
 	)
 	(fp_line
-		(start 8.5 4.995)
-		(end 8.5 2.415)
+		(start 8.66 4.96)
+		(end 8.66 2.415)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -102,20 +102,22 @@
 		(layer "F.SilkS")
 		(uuid "2e2a85ff-7ef9-4f56-8b8e-73e6c5e08edf")
 	)
-	(fp_rect
-		(start -9.46 -2.9)
-		(end 9.46 4.83)
+	(fp_poly
+		(pts
+			(xy 5.3 -0.95) (xy 9.05 -0.95) (xy 9.05 5.35) (xy -9.05 5.35) (xy -9.05 -0.95) (xy -5.3 -0.95) (xy -5.3 -2.9)
+			(xy 5.3 -2.9)
+		)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "7e192153-1d06-486d-8ba9-d055fb1e6a28")
+		(uuid "7b81207d-b254-4f64-9a6e-7fa4c752809e")
 	)
 	(fp_poly
 		(pts
-			(xy -8.96 -1.215) (xy -7.96 -2.215) (xy 8.96 -2.215) (xy 8.96 4.325) (xy -8.96 4.325)
+			(xy -8.55 0.55) (xy -7.55 -0.45) (xy 8.55 -0.45) (xy 8.55 4.85) (xy -8.55 4.85)
 		)
 		(stroke
 			(width 0.1)

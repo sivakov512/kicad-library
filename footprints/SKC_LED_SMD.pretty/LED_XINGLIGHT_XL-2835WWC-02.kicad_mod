@@ -142,16 +142,28 @@
 		(layer "F.SilkS")
 		(uuid "a0263848-2e1a-4eed-b064-85de69bcabbf")
 	)
-	(fp_rect
-		(start -2.4 -1.65)
-		(end 2.5 1.65)
+	(fp_poly
+		(pts
+			(xy 2 -1.55)
+			(xy 2.5 -1.55)
+			(xy 2.5 1.55)
+			(xy 2 1.55)
+			(xy 2 1.65)
+			(xy -2 1.65)
+			(xy -2 1.55)
+			(xy -2.4 1.55)
+			(xy -2.4 -1.55)
+			(xy -2 -1.55)
+			(xy -2 -1.65)
+			(xy 2 -1.65)
+		)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "4da40e49-c247-4605-9aa1-1f8dc32f84d7")
+		(uuid "f3f71307-49a2-4ef6-8aca-6987ad270af3")
 	)
 	(fp_poly
 		(pts
