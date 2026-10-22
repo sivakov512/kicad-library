@@ -125,16 +125,18 @@
 		(layer "Dwgs.User")
 		(uuid "8fc6ea62-83ae-42d8-a93b-b22a3057a0e8")
 	)
-	(fp_rect
-		(start -11.28 -11.69)
-		(end 11.28 41.12)
+	(fp_poly
+		(pts
+			(xy -10.18 -11.94) (xy 10.18 -11.94) (xy 10.18 7.89) (xy 11.53 7.89) (xy 11.53 11.84) (xy 10.18 11.84)
+			(xy 10.18 41.12) (xy -10.18 41.12) (xy -10.18 11.84) (xy -11.53 11.84) (xy -11.53 7.89) (xy -10.18 7.89)
+		)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "89408dc7-c3c0-4a3c-90e8-fcbf3d1a7984")
+		(uuid "6523b84a-f4c9-45fa-b4ea-e286fd143eb9")
 	)
 	(fp_line
 		(start -9.675 -11.385)

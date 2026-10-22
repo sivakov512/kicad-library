@@ -6,12 +6,14 @@ Usage: check_library.py
 - 3D models exist and are STEP files
 - datasheets hosted in this repository exist and are PDFs
 - every 3D model and datasheet in the repository is referenced
-- the courtyard keeps COURTYARD_CLEARANCE around the pads and the F.Fab body
+- the courtyard keeps the KLC F5.3 clearance around every pad
 
 Files are read with the parsers of kicad-library-utils (git submodule).
 """
 
+import contextlib
 import glob
+import io
 import math
 import os
 import re
@@ -19,9 +21,11 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "tools", "kicad-library-utils", "common"))
+sys.path.insert(0, os.path.join(ROOT, "tools", "kicad-library-utils", "klc-check"))
 
 from kicad_mod import KicadMod  # noqa: E402
 from kicad_sym import KicadLibrary  # noqa: E402
+from rules_footprint import F5_3  # noqa: E402
 
 # In the repository everything points at the working copy; tools/pcm_package.py
 # rewrites nicknames, model paths and datasheet links for a release.
@@ -29,7 +33,7 @@ LOCAL_PREFIX = "LOCAL_"
 DATASHEET_URL = "${KIPRJMOD}/"  # repository datasheets; pcm_package.py publishes and links them
 OWN_MODEL = re.compile(r"^\$\{KIPRJMOD\}/3dmodels/(.*)$")
 STOCK_MODEL = re.compile(r"^\$\{KICAD\d*_3DMODEL_DIR\}/(.*)$")
-COURTYARD_CLEARANCE = 0.25  # KLC F5.3; the KLC checker only checks the grid and line width
+
 STOCK_MODEL_DIRS = [
     os.environ.get("KICAD10_3DMODEL_DIR", ""),
     "/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels",
@@ -109,32 +113,133 @@ def check_footprints(footprints):
                 error(where, "3D model path %s uses an unknown variable" % model["file"])
 
 
-def outline(fp, layer):
-    bb = fp.geometricBoundingBox(layer)
-    # BoundingBox.addPoint drops the radius of a circle centred on x or y = 0.
+def xy(p):
+    return (p["x"], p["y"])
+
+
+def circle_points(cx, cy, r, a0, sweep):
+    """Polyline along an arc, with a chord error far below the courtyard grid."""
+    n = max(8, int(abs(sweep) / (2 * math.acos(max(-1.0, 1 - 1e-4 / r))) + 1)) if r > 0 else 1
+    return [(cx + r * math.cos(a0 + sweep * i / n), cy + r * math.sin(a0 + sweep * i / n)) for i in range(n + 1)]
+
+
+def arc_points(s, m, e):
+    (x1, y1), (x2, y2), (x3, y3) = s, m, e
+    d = 2 * (x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2))
+    if abs(d) < 1e-12:
+        return [s, e]
+    cx = ((x1**2 + y1**2) * (y2 - y3) + (x2**2 + y2**2) * (y3 - y1) + (x3**2 + y3**2) * (y1 - y2)) / d
+    cy = ((x1**2 + y1**2) * (x3 - x2) + (x2**2 + y2**2) * (x1 - x3) + (x3**2 + y3**2) * (x2 - x1)) / d
+    a1, a2, a3 = (math.atan2(y - cy, x - cx) for x, y in (s, m, e))
+    sweep = (a3 - a1) % (2 * math.pi)
+    if (a2 - a1) % (2 * math.pi) > sweep:  # mid is on the other side: go clockwise
+        sweep -= 2 * math.pi
+    return circle_points(cx, cy, math.hypot(x1 - cx, y1 - cy), a1, sweep)
+
+
+def courtyard_segments(fp):
+    """F.CrtYd outline as straight segments; arcs and circles are approximated."""
+    layer = "F.CrtYd"
+    chains = [[xy(ln["start"]), xy(ln["end"])] for ln in fp.filterLines(layer)]
+    for r in fp.filterRects(layer):
+        (x0, y0), (x1, y1) = xy(r["start"]), xy(r["end"])
+        chains.append([(x0, y0), (x1, y0), (x1, y1), (x0, y1), (x0, y0)])
+    for p in fp.filterPolys(layer):
+        pts = [xy(q) for q in p["points"]]
+        chains.append(pts + pts[:1])
     for c in fp.filterCircles(layer):
-        r = math.hypot(c["end"]["x"] - c["center"]["x"], c["end"]["y"] - c["center"]["y"])
-        bb.addPoint(c["center"]["x"] - r, c["center"]["y"] - r)
-        bb.addPoint(c["center"]["x"] + r, c["center"]["y"] + r)
-    return bb
+        (cx, cy), (ex, ey) = xy(c["center"]), xy(c["end"])
+        chains.append(circle_points(cx, cy, math.hypot(ex - cx, ey - cy), 0, 2 * math.pi))
+    for a in fp.filterArcs(layer):
+        chains.append(arc_points(xy(a["start"]), xy(a["mid"]), xy(a["end"])))
+    return [(c[i], c[i + 1]) for c in chains for i in range(len(c) - 1)]
+
+
+def inside(point, segments):
+    """Even-odd test: is the point inside the area enclosed by the segments?"""
+    x, y = point
+    crossings = 0
+    for (x1, y1), (x2, y2) in segments:
+        if (y1 > y) != (y2 > y) and x < x1 + (y - y1) * (x2 - x1) / (y2 - y1):
+            crossings += 1
+    return crossings % 2 == 1
+
+
+def point_segment_distance(p, a, b):
+    (px, py), (ax, ay), (bx, by) = p, a, b
+    dx, dy = bx - ax, by - ay
+    t = ((px - ax) * dx + (py - ay) * dy) / (dx * dx + dy * dy) if dx or dy else 0
+    t = min(1, max(0, t))
+    return math.hypot(px - ax - t * dx, py - ay - t * dy)
+
+
+def segments_cross(a, b, c, d):
+    def side(p, q, r):
+        return (q[0] - p[0]) * (r[1] - p[1]) - (q[1] - p[1]) * (r[0] - p[0])
+    return side(a, b, c) * side(a, b, d) < 0 and side(c, d, a) * side(c, d, b) < 0
+
+
+def segment_rect_distance(a, b, hw, hh):
+    """Distance between a segment and the rectangle |x| <= hw, |y| <= hh."""
+    if any(abs(x) <= hw and abs(y) <= hh for x, y in (a, b)):
+        return 0.0
+    corners = [(-hw, -hh), (hw, -hh), (hw, hh), (-hw, hh)]
+    edges = [(corners[i], corners[(i + 1) % 4]) for i in range(4)]
+    if any(segments_cross(a, b, c, d) for c, d in edges):
+        return 0.0
+    return min([point_segment_distance(p, c, d) for c, d in edges for p in (a, b)]
+               + [point_segment_distance(c, a, b) for c in corners])
+
+
+def pad_outline(pad):
+    """A pad as a rectangle (half sizes) grown by a radius: covers rect, roundrect, oval and circle."""
+    w, h = pad["size"]["x"], pad["size"]["y"]
+    shape = pad["shape"]
+    if shape == "circle":
+        r = w / 2
+    elif shape == "oval":
+        r = min(w, h) / 2
+    elif shape == "roundrect":
+        r = min(w, h) * float(pad["roundrect_rratio"] or 0)
+    else:  # rect; custom and other shapes are checked by their anchor size
+        r = 0.0
+    return w / 2 - r, h / 2 - r, r
+
+
+def courtyard_clearance(fp):
+    """KLC F5.3 clearance for this footprint: 0.25 mm, 0.5 mm for connectors, buttons
+    and switches, 0.15 mm for parts under 2x2 mm. Taken from the KLC checker, which
+    only uses it to draw a courtyard and doesn't check it."""
+    with contextlib.redirect_stdout(io.StringIO()):
+        return F5_3.Rule(fp, None).defaultOffset()
 
 
 def check_courtyard(where, fp):
+    """Every pad lies inside the courtyard and no courtyard edge comes closer than the clearance."""
     if "KLC_F5.3" in exceptions(fp):
         return
-    courtyard = outline(fp, "F.CrtYd")
-    need = fp.overpadsBounds()
-    body = outline(fp, "F.Fab")
-    if body.valid:
-        need.addBoundingBox(body)
-    if not courtyard.valid or not need.valid:
+    segments = courtyard_segments(fp)
+    if not segments:
         return  # a missing courtyard is reported by the KLC checker
-    need.expand(COURTYARD_CLEARANCE - 1e-6)
-    if (courtyard.xmin > need.xmin or courtyard.ymin > need.ymin
-            or courtyard.xmax < need.xmax or courtyard.ymax < need.ymax):
-        error(where, "courtyard (%.2f, %.2f)..(%.2f, %.2f) should cover pads and body with %g mm: (%.2f, %.2f)..(%.2f, %.2f)"
-              % (courtyard.xmin, courtyard.ymin, courtyard.xmax, courtyard.ymax, COURTYARD_CLEARANCE,
-                 need.xmin, need.ymin, need.xmax, need.ymax))
+    clearance = courtyard_clearance(fp)
+    for pad in fp.pads:
+        px, py = pad["pos"]["x"], pad["pos"]["y"]
+        name = pad["number"] or "unnamed"
+        if not inside((px, py), segments):
+            error(where, "pad %s at (%g, %g) is outside the courtyard" % (name, px, py))
+            continue
+        hw, hh, r = pad_outline(pad)
+        angle = math.radians(pad["pos"]["orientation"])
+        cos, sin = math.cos(angle), math.sin(angle)
+
+        def local(p):
+            x, y = p[0] - px, p[1] - py
+            return (x * cos - y * sin, x * sin + y * cos)
+
+        gap = min(segment_rect_distance(local(a), local(b), hw, hh) for a, b in segments) - r
+        if gap < clearance - 1e-3:
+            error(where, "pad %s at (%g, %g) is %.3f mm from the courtyard, needs %g mm"
+                  % (name, px, py, gap, clearance))
 
 
 def exceptions(fp):
