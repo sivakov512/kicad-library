@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.6](https://github.com/sivakov512/kicad-library/compare/v3.1.5...v3.1.6) (2026-10-22)
+
+
+### Bug Fixes
+
+* courtyards follow the part outline with KLC F5.3 clearance ([27bde47](https://github.com/sivakov512/kicad-library/commit/27bde4787dd5aeb5e145ba70e187c6a909023587))
+
 ## [3.1.5](https://github.com/sivakov512/kicad-library/compare/v3.1.4...v3.1.5) (2026-10-21)
 
 
