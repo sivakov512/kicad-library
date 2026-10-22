@@ -37,7 +37,7 @@ Updates arrive through the same manager.
 
 - [Antenna](#antenna) — 4
 - [BatteryHolder](#batteryholder) — 1
-- [Button](#button) — 2
+- [Button](#button) — 1
 - [Buzzer](#buzzer) — 2
 - [Capacitor](#capacitor) — 1
 - [Connector Audio](#connector-audio) — 2
@@ -61,7 +61,7 @@ Updates arrive through the same manager.
 - [Regulator Linear](#regulator-linear) — 2
 - [Regulator Switching](#regulator-switching) — 1
 - [Relay](#relay) — 2
-- [Switch](#switch) — 1
+- [Switch](#switch) — 3
 - [Switch Power](#switch-power) — 1
 - [TerminalBlock](#terminalblock) — 1
 - [TestPoint](#testpoint) — 1
@@ -93,7 +93,6 @@ Legend:
 
 | Part | Description | Symbol | Footprint | 3D model | Datasheet |
 | --- | --- | --- | --- | --- | --- |
-| Omron B3FS-40xxP | Omron B3FS-4000 series SMD tactile switch, 12x12mm, land pattern per datasheet | KiCad | `SW_SPST_Omron_B3FS-40xxP` | ✅ | [PDF](datasheets/Button_SMD/Omron_B3FS-40xxP.pdf) |
 | SW_PUSH_6mm_2Pins | Generic 6mm SW tactile push button SPST | KiCad | `SW_PUSH_6mm_2Pins` | ✅ | — |
 
 ### Buzzer
@@ -248,6 +247,8 @@ Legend:
 
 | Part | Description | Symbol | Footprint | 3D model | Datasheet |
 | --- | --- | --- | --- | --- | --- |
+| Omron B3FS-4002P … B3FS-4005P | Tactile switch SPST-NO, 12x12mm SMD, flat plunger, 4.3mm height, 1.47N, pins 1-2 and 3-4 joined inside the switch, Omron B3FS-4000 series | `B3FS-4002P` … `B3FS-4005P` (2) | `SW_SPST_Omron_B3FS-400xP` | ❌ | [PDF](datasheets/Switch/Omron_B3FS-40xxP.pdf) |
+| Omron B3FS-4052P … B3FS-4055P | Tactile switch SPST-NO, 12x12mm SMD, projected plunger, 7.3mm height, 1.47N, pins 1-2 and 3-4 joined inside the switch, Omron B3FS-4000 series | `B3FS-4052P` … `B3FS-4055P` (2) | `SW_SPST_Omron_B3FS-405xP` | ✅ | [PDF](datasheets/Switch/Omron_B3FS-40xxP.pdf) |
 | SHOUHAN SS13D07VG4 | SP3T slide switch, common on pin 2, SHOUHAN SS13D07VG4 | `SW_SP3T_SS13D07VG4` | `SW_SP3T_SHOUHAN_SS13D07VG4` | ✅ | [PDF](datasheets/Switch/SHOUHAN_SS13D07VG4.pdf) |
 
 ### Switch Power
