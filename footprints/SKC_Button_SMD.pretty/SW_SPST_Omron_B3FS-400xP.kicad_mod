@@ -1,14 +1,14 @@
-(footprint "SW_SPST_Omron_B3FS-40xxP"
+(footprint "SW_SPST_Omron_B3FS-400xP"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Omron B3FS-4000 series SMD tactile switch, 12x12mm, land pattern per datasheet, ${KIPRJMOD}/datasheets/Button_SMD/Omron_B3FS-40xxP.pdf")
-	(tags "tactile switch SPST button Omron B3FS-4002P B3FS-4005P B3FS-4052P B3FS-4055P")
+	(descr "Omron B3FS-4002P/B3FS-4005P SMD tactile switch, 12x12mm, flat plunger, 4.3mm height, pads 1-2 and 3-4 joined inside the switch, ${KIPRJMOD}/datasheets/Switch/Omron_B3FS-40xxP.pdf")
+	(tags "tactile switch SPST button Omron B3FS-4002P B3FS-4005P")
 	(property "Reference" "REF**"
 		(at 0 -7.4 0)
 		(layer "F.SilkS")
-		(uuid "7bc74880-29b8-4e64-82fc-062f7b9db508")
+		(uuid "7edf05d6-9afc-43b6-a520-5036dfa8d033")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "SW_SPST_Omron_B3FS-40xxP"
+	(property "Value" "SW_SPST_Omron_B3FS-400xP"
 		(at 0 7.4 0)
 		(layer "F.Fab")
-		(uuid "17e27cb9-45de-4415-a32e-807cb37b44cf")
+		(uuid "9e6d13f4-a381-44e1-8c26-2665e361a189")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f6243e7c-c6e5-4da9-8658-e81abb20ddb3")
+		(uuid "ac0e6573-b1d4-427e-b74c-a93c41bd551b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,15 +42,32 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f94d8489-ad31-4070-8c29-542a3a06c6ac")
+		(uuid "4231148d-cb04-47a5-b00f-cc565686a9d3")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
+	(property "KLC_F9.3" "No 3D model of the flat plunger type: Omron (Aratas) shares CAD data only after login, and the LCSC/EasyEDA model of B3FS-4005P is the 7.3mm projected type"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de636243-01ad-473c-ad71-aa3c703a17d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
-	(duplicate_pad_numbers_are_jumpers yes)
+	(duplicate_pad_numbers_are_jumpers no)
+	(jumper_pad_groups
+		("1" "2")
+		("3" "4")
+	)
 	(fp_line
 		(start -6 -6)
 		(end 6 -6)
@@ -59,7 +76,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "13e64d61-ff1e-4099-97b7-85ce6349f6a3")
+		(uuid "fb7da91b-705e-4bb3-8ffe-493d6bb843d5")
 	)
 	(fp_line
 		(start -6 -4.5)
@@ -69,7 +86,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "fbe24d4d-8584-4930-ba98-4c7e6b1ab7e0")
+		(uuid "0da5535a-2dcf-4665-a40c-160261cf7c72")
 	)
 	(fp_line
 		(start -6 6)
@@ -79,7 +96,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "1c9ea813-91bc-4206-919e-9f26afb25f84")
+		(uuid "1fc1bb33-275d-4dbc-9635-1f5945c6a83e")
 	)
 	(fp_line
 		(start 6 -6)
@@ -89,7 +106,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "784f0414-de24-435a-ab21-be9e8eaf7df4")
+		(uuid "45fe558d-c3f4-45de-92d4-11440d6c8d05")
 	)
 	(fp_line
 		(start 6 4.5)
@@ -99,7 +116,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c5a30e3c-a42d-4c64-811c-459f0daf0378")
+		(uuid "824a3da8-378f-467d-a680-d9f171bedb84")
 	)
 	(fp_line
 		(start 6 6)
@@ -109,7 +126,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "218f7eea-63fe-4233-bd1c-2aed66e477f3")
+		(uuid "e1655ecf-9d1d-4997-9bc2-82170366179f")
 	)
 	(fp_circle
 		(center -4.813945 -4.808044)
@@ -120,7 +137,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "c388c5ef-f0a1-447f-8a9e-cc846e68a04f")
+		(uuid "9d4eecb2-b4d0-42e6-be4f-9ee7feb1f1da")
 	)
 	(fp_circle
 		(center 0 0)
@@ -131,7 +148,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "53dcf74e-beaf-4f08-b539-76a0967313f7")
+		(uuid "7dbbe1b9-7442-42f1-baa1-d107ab5df3af")
 	)
 	(fp_poly
 		(pts
@@ -144,7 +161,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "c530a56d-91ee-436e-80b9-5757c03380c0")
+		(uuid "f48ada2a-8df4-4769-890c-c32667fcfa4b")
 	)
 	(fp_poly
 		(pts
@@ -156,12 +173,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "61cc599d-5284-489d-8fe7-f90828213bd2")
+		(uuid "76a1be52-23ca-4234-8fdb-a6fc423523f2")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "7fb1984c-0594-4fed-8a53-c50cdd01d99a")
+		(uuid "e7e6300f-ca0d-470c-aafb-3867757442e6")
 		(effects
 			(font
 				(size 1 1)
@@ -170,43 +187,32 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -7.15 -2.5)
+		(at 7.15 2.5)
 		(size 2.3 2.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1042)
-		(uuid "e1e507b1-a358-468c-aa55-6114f1ab5942")
-	)
-	(pad "1" smd roundrect
-		(at 7.15 -2.5)
-		(size 2.3 2.4)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.1042)
-		(uuid "adafb1e6-22c9-48ca-83d7-3e77f191b7bc")
+		(uuid "f78eba14-c6dc-45cf-9a9f-0d4f924ee389")
 	)
 	(pad "2" smd roundrect
 		(at -7.15 2.5)
 		(size 2.3 2.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1042)
-		(uuid "3f980eb5-8c17-43f0-ada2-e2d536610445")
+		(uuid "20735601-ba48-4456-a78b-8f99395219c6")
 	)
-	(pad "2" smd roundrect
-		(at 7.15 2.5)
+	(pad "3" smd roundrect
+		(at 7.15 -2.5)
 		(size 2.3 2.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1042)
-		(uuid "3d80ede2-b0d2-439e-a569-7ac9ccf0ac4d")
+		(uuid "e37651a6-5932-4855-8589-1be637548b87")
+	)
+	(pad "4" smd roundrect
+		(at -7.15 -2.5)
+		(size 2.3 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1042)
+		(uuid "32d35845-9319-4fea-bbfc-bc6ab84504dd")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dmodels/SKC_Button_SMD.3dshapes/SW_SPST_Omron_B3FS-40xxP.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 )
